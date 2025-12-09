@@ -300,14 +300,12 @@
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000n" version="4">While not in combat, you may summon your Ranger Companion without consuming charges of &lt;LSTag Type="ActionResource" Tooltip="NaturalRecoveryPoint"&gt;Natural Focus&lt;/LSTag&gt;.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100009" version="4">Beastbond's Precision</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000i" version="4">Gain a +4 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made with &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt;. Additionally, your Ranger Companions receive a +4 bonus to their own Attack Rolls.</content>
+	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000i" version="4">Gain a +4 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made with &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt;.</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d1000z9" version="4">Beastbond's Precision</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d1000zi" version="4">Affected creature has a +4 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100010" version="4">Blood Bond</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000j" version="4">Your Ranger Companion becomes &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to all forms of physical damage.</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100z10" version="4">Blood Bond</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0dd1d1000zj" version="4">Affected creature has become &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to all forms of physical damage.</content>
+	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000j" version="4">Creatures that you summon become &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to all forms of physical damage.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100003" version="4">Close Quarters Shooter</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000c" version="4">While &lt;LSTag Type="Status" Tooltip="FLANKED"&gt;Threatened&lt;/LSTag&gt; by one enemy, you will not receive &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on ranged attacks when attacking them, and all &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; roll their damage with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; for as long as you remain Threatened. If Threatened by two or more enemies, standard rules will apply to your accuracy.</content>
@@ -331,14 +329,14 @@
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100012" version="4">Natural Huntsman</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000l" version="4">Making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; gives you a +2 bonus to additional Attack Rolls for the rest of your turn. This effect can stack.</content>
+	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100z12" version="4">Natural Huntsman</content>
+	<content contentuid="791a0319eeed4e25949847ad3a0dd1d1000zl" version="4">Affected creature has a +2 bonus to all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; for each stack of Natural Huntsman.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100013" version="4">Natural Opportunity</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000m" version="4">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;. In addition, &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt; that you make will attack with both weapons.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100005" version="4">Protective Bond</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000e" version="4">Your Ranger Companions receive a +2 bonus to their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0dd1d1000z5" version="4">Protective Bond</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0dd1d1000ze" version="4">Affected creature has a +2 bonus to their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
+	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000e" version="4">Creatures that you summon receive a +4 bonus to their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100016" version="4">Sniper</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000p" version="4">When dealing damage to another creature with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;, deal an additional instance of [1] for every [2] between you and your target, up to a maximum of [3].</content>
@@ -353,8 +351,8 @@
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000s" version="4">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage rolls made with your off-hand weapon are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100020" version="4">Wanton Synergy</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000t" version="4">Once per turn, upon landing a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, your Ranger Companion's next instance of damage will also be a Critical Hit. Your Ranger Companion must be within [1] of you to receive this effect.</content>
+	<content contentuid="791a0319eeed4e25949847ad3a0dd1d10000t" version="4">Once per turn, upon landing a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, your summoned creatures' next instance of damage will also be a Critical Hit. Your summoned creatures must be within [1] of you to receive this effect.</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1d100z20" version="4">Wanton Synergy</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0dd1d1000zt" version="4">Affected creature will land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; the next time that they deal damage.</content>
+	<content contentuid="791a0319eeed4e25949847ad3a0dd1d1000zt" version="4">Affected creature will land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; the next time that they make an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
 
 </contentList>

@@ -102,6 +102,7 @@ data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;cd5e5d4a-38e1-4
 data "VerbalIntent" "Buff"
 data "HitAnimationType" "None"
 data "Sheathing" "DontChange"
+data "SpellFlags" "IgnoreSilence;Stealth;Invisible"
 
 new entry "Projectile_BeastialExpertise_RangerDisengage"
 type "SpellData"
@@ -118,6 +119,7 @@ data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;cd5e5d4a-38e1-4
 data "VerbalIntent" "Buff"
 data "HitAnimationType" "None"
 data "Sheathing" "DontChange"
+data "SpellFlags" "IgnoreSilence;Stealth;Invisible"
 
 new entry "Projectile_CriticalBonds_TargetRanger"
 type "SpellData"
@@ -134,6 +136,7 @@ data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;cd5e5d4a-38e1-4
 data "VerbalIntent" "Buff"
 data "HitAnimationType" "None"
 data "Sheathing" "DontChange"
+data "SpellFlags" "IgnoreSilence;Stealth;Invisible"
 
 new entry "Projectile_BeastialExpertise_CompanionDash"
 type "SpellData"
@@ -150,6 +153,7 @@ data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;cd5e5d4a-38e1-4
 data "VerbalIntent" "Buff"
 data "HitAnimationType" "None"
 data "Sheathing" "DontChange"
+data "SpellFlags" "IgnoreSilence;Stealth;Invisible"
 
 new entry "Projectile_BeastialExpertise_CompanionDisengage"
 type "SpellData"
@@ -166,6 +170,7 @@ data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;cd5e5d4a-38e1-4
 data "VerbalIntent" "Buff"
 data "HitAnimationType" "None"
 data "Sheathing" "DontChange"
+data "SpellFlags" "IgnoreSilence;Stealth;Invisible"
 
 new entry "Projectile_CriticalBonds_TargetCompanion"
 type "SpellData"
@@ -182,6 +187,7 @@ data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;cd5e5d4a-38e1-4
 data "VerbalIntent" "Buff"
 data "HitAnimationType" "None"
 data "Sheathing" "DontChange"
+data "SpellFlags" "IgnoreSilence;Stealth;Invisible"
 
 <!--PASSIVES-->
 
@@ -223,6 +229,7 @@ data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;cd5e5d4a-38e1-4
 data "VerbalIntent" "Debuff"
 data "HitAnimationType" "None"
 data "Sheathing" "DontChange"
+data "SpellFlags" "IgnoreSilence;Stealth;Invisible"
 
 <!--ARROWS-->
 

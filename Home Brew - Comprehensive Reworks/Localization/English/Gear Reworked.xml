@@ -33,7 +33,7 @@
 	<content contentuid="h58d1b318g8c0eg4cf8g9785g4fd2dab88428" version="3">Fire an arrow which explodes in a spray of acid that deals an additional [2].</content>
 
 	<content contentuid="hfa474df3g6f0ag45e2gb8d7g706291929b90" version="2">Arrow of Arcane Interference</content>
-	<content contentuid="h55e4821ege0a7g470fg8d5dg8f45efbd49e5" version="3">Fire an arrow which breaks your target's &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Silences&lt;/LSTag&gt; them.</content>
+	<content contentuid="h55e4821ege0a7g470fg8d5dg8f45efbd49e5" version="3">Fire an arrow which breaks your target's &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Mutes&lt;/LSTag&gt; them.</content>
 
 	<content contentuid="ha50b0313g4be0g4db7gbbb1g44177dc9ebeb" version="1">Arrow of Beast Slaying</content>
 	<content contentuid="h75823bbcg4d0bg4d9agb192gfe8c20b23f8a" version="5">Fire an arrow which rolls an additional damage die against Beasts.</content>
@@ -112,7 +112,7 @@
 	<content contentuid="h568f6bb9g9b54g4c28g9909gba5598630258" version="2">Hurl a flask of liquid fire that explodes on impact, &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; the ground and all creatures.</content>
 
 	<content contentuid="ha2493cf0g0d68g4af6gaff9g7fff4d4f5221" version="1">Brilliant Retort</content>
-	<content contentuid="h568f6bb9g9b54g4c28g9909gbadsdf85d845" version="2">Hurl a bomb that explodes on impact, capable of breaking down barriers and releasing a harsh soundwave that &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Silences&lt;/LSTag&gt; all creatures.</content>
+	<content contentuid="h568f6bb9g9b54g4c28g9909gbadsdf85d845" version="2">Hurl a bomb that explodes on impact, capable of breaking down barriers and releasing a harsh soundwave that &lt;LSTag Type="Status" Tooltip="HEAVILY_SILENCED"&gt;Silences&lt;/LSTag&gt; all creatures.</content>
 	<content contentuid="h76bdf001g4bd3g4e8dgadc3g9922d2aa044c" version="1">All the bang and the boom of the original, but with an extra surprise.</content>
 
 	<content contentuid="he0b246f2g5db2g4fb3g9b00gc5f48a0f9bcc" version="1">Concussion Grenade</content>
@@ -234,7 +234,7 @@
 
 <!--ARGUMENT SOLVER-->
 	<content contentuid="171ffb649bb4483991awof9wufeodfoiufjfd" version="2">Argument Solved</content>
-	<content contentuid="171ffb649bb448399we5r4w64e98s4df65f58" version="3">When dealing damage, potentially &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Silence&lt;/LSTag&gt; your target.</content>
+	<content contentuid="171ffb649bb448399we5r4w64e98s4df65f58" version="3">When dealing damage, potentially &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Mute&lt;/LSTag&gt; your target.</content>
 
 <!--FLEETFINGERS-->
 	<content contentuid="h14cd10b2g11dag4739g9ca8g966c3e9ed2da" version="2">Running Jump</content>
@@ -319,7 +319,7 @@
 
 <!--BHAALIST GLOVES-->
 	<content contentuid="h637d25d5g33ddg41b2ga10cg08ca6b0a3ca6" version="1">Wrap a shadow rope around a Humanoid creature's throat to start &lt;LSTag Type="Status" Tooltip="MAG_GARROTE_TARGET"&gt;Garrotting&lt;/LSTag&gt; it.</content>
-	<content contentuid="h1e88c530ge710g465dgb3e0g5b3c4a81e356" version="15">Affected creature is being strangled by a garrotte. It is &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Silenced&lt;/LSTag&gt; and takes [1] per turn. If the entity and the garrotter move more than [2] apart, this condition ends.</content>
+	<content contentuid="h1e88c530ge710g465dgb3e0g5b3c4a81e356" version="15">Affected creature is being strangled by a garrotte. It is &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; and takes [1] per turn. If the entity and the garrotter move more than [2] apart, this condition ends.</content>
 
 <!--HALBERD OF VIGILANCE-->
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8sdf5sf8" version="2">Vigilant Defender</content>
@@ -2131,7 +2131,7 @@
 	<content contentuid="hd707b9d0g1aa7g4fd1g8089ga8eeadc9ef16" version="1">Skeleton Key</content>
 	<content contentuid="h70a5e031g4caag435eg89d7g7df5f456c4d5" version="1">Capable of changing its shape to fit any lock.</content>
 	<content contentuid="hd0061522ge5a4g4b6dg8edegd8d74eed220d" version="1">Weave Entwinement</content>
-	<content contentuid="h70a91b63g4d6cg4685gab9agb6f9544c4082" version="1">Strike a creature with the key, &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Silencing&lt;/LSTag&gt; them for 3 turns.</content>
+	<content contentuid="h70a91b63g4d6cg4685gab9agb6f9544c4082" version="1">Strike a creature with the key, &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muting&lt;/LSTag&gt; them for 3 turns.</content>
 
 	<content contentuid="ha89debd2g4961g46ebga995ga75f4ad8e34c" version="1">Dimensional Shackles</content>
 	<content contentuid="haf61664cg581eg4d1bga305g5bcb9cc2b04a" version="1">When activated these shackles link themselves to an immovable extradimensional space.</content>

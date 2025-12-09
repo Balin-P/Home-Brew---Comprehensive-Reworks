@@ -4010,7 +4010,7 @@
 					</children>
 				</node>
 				<node id="GameObjects">
-					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceVines" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceWater" />
 					<attribute id="BloodType" type="FixedString" value="Green" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="e54c5e83-1355-0421-7ff7-d437b53a17b2" />
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
@@ -4023,6 +4023,7 @@
 					<attribute id="Stats" type="FixedString" value="ConjureDryad_1" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144537400540922156" />
+					<attribute id="LevelOverride" type="int32" value="1" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<children>
 						<node id="EquipmentTypes">
@@ -4158,6 +4159,7 @@
 					<attribute id="Stats" type="FixedString" value="ConjureDryad_2" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<attribute id="LevelOverride" type="int32" value="2" />
 					<children>
 						<node id="LocomotionParams" />
 						<node id="SkillList">
@@ -4281,6 +4283,7 @@
 					<attribute id="Stats" type="FixedString" value="ConjureDryad_3" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<attribute id="LevelOverride" type="int32" value="3" />
 					<children>
 						<node id="LocomotionParams" />
 						<node id="SkillList">
@@ -4431,6 +4434,7 @@
 					<attribute id="Stats" type="FixedString" value="ConjureDryad_4" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<attribute id="LevelOverride" type="int32" value="4" />
 					<children>
 						<node id="LocomotionParams" />
 						<node id="SkillList">
@@ -4608,6 +4612,7 @@
 					<attribute id="Stats" type="FixedString" value="ConjureDryad_5" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<attribute id="LevelOverride" type="int32" value="5" />
 					<children>
 						<node id="LocomotionParams" />
 						<node id="SkillList">
@@ -4839,6 +4844,7 @@
 					<attribute id="Stats" type="FixedString" value="ConjureDryad_6" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<attribute id="LevelOverride" type="int32" value="6" />
 					<children>
 						<node id="LocomotionParams" />
 						<node id="SkillList">
@@ -5097,6 +5103,7 @@
 					<attribute id="Stats" type="FixedString" value="ConjureDryad_7" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<attribute id="LevelOverride" type="int32" value="7" />
 					<children>
 						<node id="LocomotionParams" />
 						<node id="SkillList">
@@ -5382,6 +5389,7 @@
 					<attribute id="Stats" type="FixedString" value="ConjureDryad_8" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<attribute id="LevelOverride" type="int32" value="8" />
 					<children>
 						<node id="LocomotionParams" />
 						<node id="SkillList">
@@ -5694,6 +5702,7 @@
 					<attribute id="Stats" type="FixedString" value="ConjureDryad_9" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<attribute id="LevelOverride" type="int32" value="9" />
 					<children>
 						<node id="LocomotionParams" />
 						<node id="SkillList">
@@ -6060,6 +6069,7 @@
 					<attribute id="Stats" type="FixedString" value="ConjureDryad_10" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<attribute id="LevelOverride" type="int32" value="10" />
 					<children>
 						<node id="LocomotionParams" />
 						<node id="SkillList">
@@ -6453,6 +6463,7 @@
 					<attribute id="Stats" type="FixedString" value="ConjureDryad_11" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<attribute id="LevelOverride" type="int32" value="11" />
 					<children>
 						<node id="LocomotionParams" />
 						<node id="SkillList">
@@ -6873,6 +6884,7 @@
 					<attribute id="Stats" type="FixedString" value="ConjureDryad_12" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<attribute id="LevelOverride" type="int32" value="12" />
 					<children>
 						<node id="LocomotionParams" />
 						<node id="SkillList">

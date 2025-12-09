@@ -57,7 +57,7 @@ data "InterruptContextScope" "Nearby"
 data "Container" "YesNoDecision"
 data "Conditions" "IsAbleToReact(context.Observer) and Ally(context.Target,context.Observer) and Enemy(context.Source,context.Observer) and not Self(context.Target,context.Observer) and CanSee(context.Source,context.Observer) and HasStatus('MAG_FIRE_HEAT',context.Observer) and not AnyEntityIsItem()"
 data "Properties" "UseSpell(OBSERVER_SOURCE,Projectile_PyrrhicFlare,true,true,true)"
-data "Cost" ""
+data "Cost" "CounterAction:1"
 data "InterruptDefaultValue" "Ask;Enabled"
 data "Stack" "OnAllyDamaged"
 

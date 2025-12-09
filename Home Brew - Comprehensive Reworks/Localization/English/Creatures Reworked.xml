@@ -412,7 +412,7 @@
 	<content contentuid="aa20553d362b4ff6b5d95c70e4e37ezenemyl" version="1">Affected creature is covered in magically hardened mud. The creatures &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increases by 4. Additionally, the creature cannot &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt;, and they become &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Fire damage.&lt;br&gt;&lt;br&gt;Removed if &lt;LSTag Type="Status" Tooltip="WET"&gt;Wet&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h4b7c2703ge1a8g4fb4g98c9g5a292a823ab7" version="3">Conductive Secretions</content>
-	<content contentuid="h67749803g166eg4d2bga330g5f647fc6e2b6" version="4">Upon starting it's turn, and upon being damaged, this frog will erupt in an electrical current, dealing [1] to two enemies within [2].</content>
+	<content contentuid="h67749803g166eg4d2bga330g5f647fc6e2b6" version="4">Upon starting it's turn, this little frog will erupt in an electrical current, dealing [1] to two enemies within [2].</content>
 
 	<content contentuid="h4b7c2703ge1a8g4fb4g98c92s6d5f12e5f12" version="3">Keen Awareness</content>
 	<content contentuid="h67749803g166eg4d2bga330g5f646sd8f956" version="4">This creature gains a +8 bonus to their Initiative.</content>

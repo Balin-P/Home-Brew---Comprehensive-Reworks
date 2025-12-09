@@ -884,7 +884,8 @@ data "Description" "5118b4641cdb4145a0fb4699faf1d3220000e;4"
 data "Icon" "Action_Mag_WrecklessWarCry"
 data "Properties" "Highlighted"
 data "StatsFunctorContext" "OnTurn"
-data "StatsFunctors" "IF(not HasStatus('GOBLINWARCRY') and not HasStatus('SILENCED')):UseSpell(Shout_GoblinWarcry,true,true,true);IF(not HasStatus('GOBLINWARCRY') and not HasStatus('SILENCED')):UseActionResource(BonusActionPoint,1,0)"
+data "Conditions" "not HasStatus('GOBLINWARCRY') and not HasStatus('HEAVILY_SILENCED') and not HasStatus('SILENCED')"
+data "StatsFunctors" "UseSpell(Shout_GoblinWarcry,true,true,true);UseActionResource(BonusActionPoint,1,0)"
 
 <!--------------------------------------------------GNOLLS--------------------------------------------------->
 
@@ -1029,9 +1030,8 @@ data "DisplayName" "h4b7c2703ge1a8g4fb4g98c9g5a292a823ab7;3"
 data "Description" "h67749803g166eg4d2bga330g5f647fc6e2b6;4"
 data "DescriptionParams" "DealDamage(2d6+8,Lightning);Distance(18)"
 data "Properties" "Highlighted;ForceShowInCC"
-data "StatsFunctorContext" "OnAttacked"
-data "Conditions" "HasDamageEffectFlag(DamageFlags.Hit)"
-data "StatsFunctors" "CreateExplosion(SWAP,Projectile_ChainLightning_Explosion_2)"
+data "StatsFunctorContext" "OnTurn"
+data "StatsFunctors" "SpawnExtraProjectiles(Projectile_ChainLightning_Explosion_2)"
 
 <!--------------------------------------------------OWLBEAR--------------------------------------------------->
 

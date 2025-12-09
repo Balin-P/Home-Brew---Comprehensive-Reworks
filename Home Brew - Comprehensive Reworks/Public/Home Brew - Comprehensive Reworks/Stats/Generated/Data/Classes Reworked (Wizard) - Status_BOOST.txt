@@ -318,7 +318,7 @@ data "StatusGroups" "SG_RemoveOnRespec"
 data "AuraRadius" "9"
 data "AuraStatuses" "IF(not HasStatus('SITOUT_ONCOMBATSTART_APPLIER_TECHNICAL',context.Source) and not HasStatus('SITOUT_ONCOMBATSTART_DOONCE_TECHNICAL',context.Source) and not HasStatus('BANISHED',context.Source) and not HasStatus('BANISHED_FINALSTAND',context.Source) and not HasStatus('BOON_OF_PLUMES',context.Target) and Ally() and not Self()):ApplyStatus(BOON_OF_PLUMES_ALLY,100,-1)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
-data "RemoveConditions" "not HasPassive('Boon_of_Plumes', context.Source) and not HasPassive('Boon_of_Plumes_Item', context.Source)"
+data "RemoveConditions" "not HasPassive('Boon_of_Plumes', context.Source) and not HasPassive('Boon_of_Plumes_Item', context.Source) and not HasPassive('Summon_Boon_of_Plumes', context.Source)"
 data "RemoveEvents" "OnTurn"
 data "StackPriority" "99"
 

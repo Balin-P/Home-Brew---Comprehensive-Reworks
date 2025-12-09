@@ -19,7 +19,7 @@ data "Icon" "PassiveFeature_Generic_Tactical"
 data "DisplayName" "h7c010d6bg743bg4afdgaa7cg1e225d222545;2"
 data "Description" "haec88c7bg018bg42afgbe89g4asd5f666858;6"
 data "StatsFunctorContext" "OnStatusApply"
-data "Conditions" "Combat() and StatusId('ENSNARED_VINES') or StatusId('ENSNARED_VINES_DRUID') or StatusId('ENSNARED_VINES')"
+data "Conditions" "Enemy() and Combat() and (StatusId('ENSNARED_VINES') or StatusId('ENSNARED_VINES_DRUID') or StatusId('ENSNARED_VINES'))"
 data "StatsFunctors" "IF(not HasStatus('VICIOUSSEED',context.Target)):ApplyStatus(VICIOUSSEED,100,3)"
 
 new entry "VICIOUSSEED"

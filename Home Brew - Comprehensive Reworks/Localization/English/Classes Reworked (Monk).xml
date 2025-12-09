@@ -228,7 +228,7 @@
 	<content contentuid="h9edc5297g58c0g4b7dg8e4as2dff31asdf25" version="3">Affected creature has had it's peripheral vision severely reduced.</content>
 
 	<content contentuid="h9edc5297g58c0g4b7dg8e45g5asdfasdf998" version="2">Silent Strikes</content>
-	<content contentuid="h9edc5297g58c0g4b7dg8e45gadfs3a2s1d3f" version="3">Dealing damage to another creature &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Silences&lt;/LSTag&gt; them for one turn.</content>
+	<content contentuid="h9edc5297g58c0g4b7dg8e45gadfs3a2s1d3f" version="3">Dealing damage to another creature &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Mutes&lt;/LSTag&gt; them for one turn.</content>
 
 	<content contentuid="h9edc5297g58c0g4b7dg8e45g5asdf2s3d5f5" version="2">See No Evil</content>
 	<content contentuid="h9edc5297g58c0g4b7dg8e45gadfs36s5d4f8" version="3">Dealing damage to another creature &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinds&lt;/LSTag&gt; them for one turn.</content>

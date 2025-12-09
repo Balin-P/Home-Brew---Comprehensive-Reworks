@@ -230,7 +230,7 @@
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000i" version="2">While enraged, gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all damage rolls.</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800001" version="1">Brutal Critical</content>
-	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000a" version="2">While enraged, if you roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, roll an additional damage die.</content>
+	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000a" version="2">Upon rolling a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, roll an additional damage die.</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800002" version="1">Danger Sense</content>
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000b" version="2">Gain the ability to forcibly succeed any &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; at the cost of one of your &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt;.</content>
@@ -283,9 +283,9 @@
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000o" version="2">At the beginning of any combat encounter, you enrage as a free action. At the end of any combat encounter, if still enraged, you regain one &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charge&lt;/LSTag&gt;.</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800016" version="1">Tempered Retaliation</content>
-	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000p" version="2">While enraged, gain the ability to immediately retaliate upon taking damage, spending your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to make a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against your aggressor.</content>
+	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000p" version="2">While enraged, gain the ability to immediately retaliate upon taking damage, spending your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to make an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against your aggressor.</content>
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800116" version="1">Tempered Retaliation</content>
-	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80011p" version="2">While enraged, immediately retaliate upon taking damage, making a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against your aggressor.</content>
+	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80011p" version="2">While enraged, immediately retaliate upon taking damage, making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against your aggressor.</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800017" version="1">Terrifying Bellow</content>
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000q" version="2">Upon becoming enraged, potentially &lt;LSTag Type="Status" Tooltip="INTIMIDATING_PRESENCE"&gt;Intimidate&lt;/LSTag&gt; all enemies within [1].</content>

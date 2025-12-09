@@ -355,7 +355,7 @@ data "HitAnimationType" "None"
 data "RemoveConditions" "Player(context.Source)"
 data "RemoveEvents" "OnTurn;OnMove"
 data "DisplayName" "h1a147cb174bc46c59e2a8a8997501d256223;1"
-data "Icon" "PassiveFeature_RakishAudacity"
+data "Icon" "PassiveFeature_RelentlessAvenger"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 
 new entry "THIEF_SUBCLASS"

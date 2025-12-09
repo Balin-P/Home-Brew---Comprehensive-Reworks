@@ -68,10 +68,10 @@
 <!--STANDARD WILD MAGIC EFFECTS-->
 
 	<content contentuid="9675816e2b2d450481089f09c7edb16b00001" version="2">Sweet Silence</content>
-	<content contentuid="9675816e2b2d450481089f09c7edb16b0000a" version="1">All enemies within [1] of you become &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Silenced&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="9675816e2b2d450481089f09c7edb16b0000a" version="1">All enemies within [1] of you become &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; for three turns.</content>
 
 	<content contentuid="9675816e2b2d450481089f09c7edb16b00002" version="2">Speak No Evil</content>
-	<content contentuid="9675816e2b2d450481089f09c7edb16b0000b" version="1">You and all allies within [1] of you become &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Silenced&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="9675816e2b2d450481089f09c7edb16b0000b" version="1">You and all allies within [1] of you become &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; for three turns.</content>
 
 	<content contentuid="9675816e2b2d450481089f09c7edb16b00003" version="2">You Can't See Me</content>
 	<content contentuid="9675816e2b2d450481089f09c7edb16b0000c" version="1">You and all allies within [1] of you gain &lt;LSTag Type="Status" Tooltip="GREATER_INVISIBILITY"&gt;Greater Invisibility&lt;/LSTag&gt; for three turns.</content>

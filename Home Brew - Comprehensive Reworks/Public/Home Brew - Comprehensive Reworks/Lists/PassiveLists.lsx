@@ -9,6 +9,10 @@
                     <attribute id="UUID" type="guid" value="bd718fc4-4e10-4e46-a07c-ea6b5e44a137" />
 					</node>
         <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="Personality_None,Personality_Barbarian,Personality_Bard,Personality_Cleric,Personality_Druid,Personality_Fighter,Personality_Monk,Personality_Ranger,Personality_Rogue,Personality_Sorcerer,Personality_Warlock,Personality_Wizard" />
+                    <attribute id="UUID" type="guid" value="cf44a7c1-3fcb-4fb6-8624-45dd433c11b1" />
+					</node>
+        <node id="PassiveList">
                     <attribute id="Passives" type="LSString" value="BarbarousAssault,BrutalCritical,DangerSense,DeathGlare,Faceoff,FuriousCriticals,LandsStride,OverwhelmingPower,PeakPhysicality,RageoftheMountain,RageoftheUndefeated,RagingVitality,RelentlessRage,RipandTear,RootedinAnger,TemperedRetaliation,TerrifyingBellow,UnrelentingRampage,UnarmouredBeast,UnstoppableForce" />
                     <attribute id="UUID" type="guid" value="d8183f3c-9c62-40b7-9418-e7ad07a8204e" />
 					</node>

@@ -109,7 +109,7 @@
 	<content contentuid="hba8f1eeeg12c1g43dag9a43g15d42b3000za" version="3">Deal an extra [1] damage to a creature. You must be wielding a &lt;LSTag Tooltip="Finesse"&gt;Finesse Weapon&lt;/LSTag&gt; in order to trigger Sneak Attack.</content>
 
 	<content contentuid="hc28be462g2fd3g4877g8cadg6sd8f745493c" version="1">Field Experience</content>
-	<content contentuid="hdd2d1cbbgaafdg4946gafdfgcdee5d845f1e" version="4">Gain &lt;LSTag Type="Spell" Tooltip="Target_DirtyTrick_Disarm"&gt;Disarming Feint&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_DirtyTrick_Blind"&gt;Blinding Powder&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_DirtyTrick_Vicious"&gt;Mocking Tone&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_DirtyTrick_Panache"&gt;Panache&lt;/LSTag&gt;.</content>
+	<content contentuid="hdd2d1cbbgaafdg4946gafdfgcdee5d845f1e" version="4">Gain &lt;LSTag Type="Spell" Tooltip="Target_DirtyTrick_Disarm"&gt;Disarming Feint&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_DirtyTrick_Blind"&gt;Blinding Powder&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_DirtyTrick_Vicious"&gt;Mocking Tone&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_DirtyTrick_Panache"&gt;Provocative Challenge&lt;/LSTag&gt;.</content>
 
 	<content contentuid="ha448fc01g646dg4ed0ga550g158422f51674" version="2">Blinding Powder</content>
 	<content contentuid="h6e2b835ag8a22g4de2ga90fg92ccd012c642" version="2">Toss a handful of powder at a target, dealing damage equal to your &lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; and possibly &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinding&lt;/LSTag&gt; them.</content>
@@ -174,7 +174,7 @@
 	<content contentuid="d3e15e63749c4b62b8e7760cc7074120000za" version="3">Throw a dagger at a target.</content>
 
 	<content contentuid="d3e15e63749c4b62b8e7760cc707412000002" version="1">Cutthroat</content>
-	<content contentuid="d3e15e63749c4b62b8e7760cc70741200000b" version="3">When you roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;, roll an additional damage die.</content>
+	<content contentuid="d3e15e63749c4b62b8e7760cc70741200000b" version="3">When you roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, roll an additional damage die.</content>
 
 	<content contentuid="d3e15e63749c4b62b8e7760cc707412000004" version="1">Elusive Retreat</content>
 	<content contentuid="d3e15e63749c4b62b8e7760cc70741200000d" version="3">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you immediately &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengage&lt;/LSTag&gt;.</content>
@@ -198,7 +198,7 @@
 	<content contentuid="d3e15e63749c4b62b8e7760cc707412000008" version="1">Illusory Advantage</content>
 	<content contentuid="d3e15e63749c4b62b8e7760cc70741200000h" version="3">Gain &lt;LSTag Type="Spell" Tooltip="Target_EnhancedIllusion"&gt;Enhanced Illusion&lt;/LSTag&gt;.</content>
 	<content contentuid="d3e15e63749c4b62b8e7760cc7074120000z8" version="1">Enhanced Illusion</content>
-	<content contentuid="d3e15e63749c4b62b8e7760cc7074120000zh" version="3">Summon an illusory decoy which erupts into fireworks upon vanishing, &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinding&lt;/LSTag&gt; any nearby creatures.&lt;Br&gt;&lt;br&gt;This &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; may be cast while &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Silenced&lt;/LSTag&gt; and will not break &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Stealth&lt;/LSTag&gt;.</content>
+	<content contentuid="d3e15e63749c4b62b8e7760cc7074120000zh" version="3">Summon an illusory decoy which erupts into fireworks upon vanishing, &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinding&lt;/LSTag&gt; any nearby creatures.&lt;Br&gt;&lt;br&gt;This &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; may be cast while &lt;LSTag Type="Status" Tooltip="HEAVILY_SILENCED"&gt;Silenced&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; and will not break &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Stealth&lt;/LSTag&gt;.</content>
 
 	<content contentuid="d3e15e63749c4b62b8e7760cc707412000009" version="1">Light Footwork</content>
 	<content contentuid="d3e15e63749c4b62b8e7760cc70741200000i" version="3">You permanently benefit from the effects of &lt;LSTag Type="Status" Tooltip="FREEDOM_OF_MOVEMENT_ROGUE"&gt;Freedom of Movement&lt;/LSTag&gt;.</content>

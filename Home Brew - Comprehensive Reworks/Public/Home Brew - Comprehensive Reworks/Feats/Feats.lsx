@@ -427,7 +427,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="RogueAssassin"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Assassinate;Assassinate_Resource;SneakAttack_Unlock;AssassinsFocus;AssassinsQuarry;AssassinsQuarry_Attack_Fixer;AssassinsQuarry_CombatEnd_Fixer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Assassinate;Assassinate_Resource;AssassinsFocus;AssassinsQuarry;AssassinsQuarry_Attack_Fixer;AssassinsQuarry_CombatEnd_Fixer"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Rogue&apos;)"/>
 					<attribute id="UUID" type="guid" value="f1d35a6c-9c64-4431-862b-972e1004b628"/>
                 </node>
@@ -439,7 +439,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="RogueThief"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Feat_Thief;EscapeArtist;SneakAttack_Unlock;Reflexive"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Feat_Thief;EscapeArtist;Reflexive"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Rogue&apos;)"/>
 					<attribute id="UUID" type="guid" value="3ae7b1ea-be32-4cd2-8a36-545e4a40a3b9"/>
                 </node>

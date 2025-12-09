@@ -258,7 +258,7 @@ the Tome</content>
 	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000d" version="3">You are capable of dividing your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; into three separate beams. Each beam will deal [1]. This can be toggled at any time.</content>
 
 	<content contentuid="ha9cadfc2g5dbcg4e6bgb410gb25e02e00003" version="1">Abyssal Desolation</content>
-	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000c" version="3">When you roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, you roll an additional damage die.</content>
+	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000c" version="3">When you roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you roll an additional damage die.</content>
 
 <!--PASSIVES-->
 
@@ -287,7 +287,7 @@ the Tome</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0af59661a654" version="1">Affected creature is taking [1] per turn. Whomever applied this status makes their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; when targeting the affected creature.</content>
 
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c74696a957" version="5">Dark Retaliation</content>
-	<content contentuid="h53277800gd3a4g4984gbff6g0af596693jjg" version="1">When an enemy fails an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you, you may spend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to create a [1] cloud of &lt;LSTag Type="Spell" Tooltip="Target_Darkness"&gt;Darkness&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;If bound to the Pact of the Chain, your &lt;LSTag Type="Spell" Tooltip="Target_PactOfTheChain_Container"&gt;Chained Companions&lt;/LSTag&gt; gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Attack Rolls while Heavily Obscured.</content>
+	<content contentuid="h53277800gd3a4g4984gbff6g0af596693jjg" version="1">When an enemy fails an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you, you may spend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to create a [1] cloud of &lt;LSTag Type="Spell" Tooltip="Target_Darkness"&gt;Darkness&lt;/LSTag&gt;.</content>
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c74696aoao" version="5">Dark Retaliation</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0af59669392i" version="1">When an enemy fails an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you, create a [1] cloud of &lt;LSTag Type="Spell" Tooltip="Target_Darkness"&gt;Darkness&lt;/LSTag&gt;.</content>
 
@@ -305,7 +305,7 @@ the Tome</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0af5689ed568" version="1">Channel your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; into your main-hand weapon and strike a target.&lt;br&gt;&lt;br&gt;Upon landing a blow with Eldritch Strike, you erupt with Eldritch energy, causing you to fire your Eldritch Blast at an enemy within [1].</content>
 
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c74696a699" version="5">Hellish Rebuttal</content>
-	<content contentuid="h53277800gd3a4g4984gbff6g0af59669333f" version="1">When an enemy fails an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you with a &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt;, you gain &lt;LSTag Type="Status" Tooltip="TRUE_STRIKE"&gt;True Strike&lt;/LSTag&gt; until your next instance of damage.&lt;br&gt;&lt;br&gt;If bound to the Pact of the Chain, your &lt;LSTag Type="Spell" Tooltip="Target_PactOfTheChain_Container"&gt;Chained Companions&lt;/LSTag&gt; ignore all forms of damage &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>
+	<content contentuid="h53277800gd3a4g4984gbff6g0af59669333f" version="1">When an enemy fails an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you with a &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt;, you gain &lt;LSTag Type="Status" Tooltip="TRUE_STRIKE"&gt;True Strike&lt;/LSTag&gt; until your next instance of damage. In addition, your summoned creatures ignore all forms of physical damage &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c746969149" version="5">Hellish Rebuttal</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0af59668d95f" version="1">When an enemy fails an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you with a &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt;, cast &lt;LSTag Type="Spell" Tooltip="Target_TrueStrike"&gt;True Strike&lt;/LSTag&gt; on yourself.</content>
 
@@ -319,7 +319,7 @@ the Tome</content>
 	<content contentuid="h4755962fg43abg48efg9e2fg3bcb1bc64982" version="2">When you make a successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; with your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, your target may potentially experience a negative surge of &lt;LSTag Type="Passive" Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;. If under the Pact of Penumbra, targeting an ally with your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast_Penumbral_Container"&gt;Radiant Eldritch Blast&lt;/LSTag&gt; will potentially trigger a positive surge.</content>
 
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c74696a959" version="5">One With Shadows</content>
-	<content contentuid="h53277800gd3a4g4984gbff6g0af596693jji" version="1">Upon killing a target or landing a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; for three turns.&lt;br&gt;&lt;br&gt;If bound to the Pact of the Chain, your &lt;LSTag Type="Spell" Tooltip="Target_PactOfTheChain_Container"&gt;Chained Companions&lt;/LSTag&gt; do so as well, if within [1] of you.</content>
+	<content contentuid="h53277800gd3a4g4984gbff6g0af596693jji" version="1">Upon killing a target or landing a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; for three turns. In addition, your summoned creatures will become Invisible alongside you, if within [1] of you.</content>
 
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c74696a911" version="5">Onus Hematic</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0af596693jjk" version="1">Using &lt;LSTag Type="Spell" Tooltip="Shout_HematicInvocation"&gt;Hematic Invocation&lt;/LSTag&gt; will restore two &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slots&lt;/LSTag&gt;, rather than one.</content>
@@ -331,7 +331,7 @@ the Tome</content>
 	<content contentuid="h37c1bb57g04fag4e45g8953gb5bec46f0c48" version="3">When you hit a creature with &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, you push the creature up to [1] away from you. This passive can be toggled at any time.</content>
 
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c74696a914" version="5">Resiliant Servitude</content>
-	<content contentuid="h53277800gd3a4g4984gbff6g0af596693jjn" version="1">Increase your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; by your level multiplied by two.&lt;br&gt;&lt;br&gt;If bound to the Pact of the Chain, your &lt;LSTag Type="Spell" Tooltip="Target_PactOfTheChain_Container"&gt;Chained Companions&lt;/LSTag&gt; gain an additional +4 bonus to their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
+	<content contentuid="h53277800gd3a4g4984gbff6g0af596693jjn" version="1">Increase your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; by your level multiplied by two. In addition, your summoned creatures gain this effect, as well as an additional +4 bonus to their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c74696a915" version="5">Shade Walker</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0af596693jjo" version="1">Gain the ability to teleport short distances by casting &lt;LSTag Type="Spell" Tooltip="Target_Shadewalker"&gt;Shade Walker&lt;/LSTag&gt;.</content>

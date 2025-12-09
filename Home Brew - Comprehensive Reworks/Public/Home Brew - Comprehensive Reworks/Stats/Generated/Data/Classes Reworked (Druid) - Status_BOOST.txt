@@ -177,6 +177,17 @@ data "StackId" "SPREADING_SPORES_AURA"
 
 <!--CIRCLE OF THE STARS-->
 
+new entry "STARRYFORM_FREE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h999cdd36g41f6g4d43g9dc3g3871b8600001;1"
+data "Description" "hd7d79c36geba5g4fe2ga789g3b4254e0000a;1"
+data "Icon" "PassiveFeature_StarMap"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead"
+data "Boosts" "UnlockSpellVariant(SpellId('Shout_Wildshape_Star_Archer'),ModifyUseCosts(Replace,BonusActionPoint,0,-1,BonusActionPoint));UnlockSpellVariant(SpellId('Shout_Wildshape_Star_Chalice'),ModifyUseCosts(Replace,BonusActionPoint,0,-1,BonusActionPoint));UnlockSpellVariant(SpellId('Shout_Wildshape_Star_Dragon'),ModifyUseCosts(Replace,BonusActionPoint,0,-1,BonusActionPoint))"
+data "RemoveConditions" "SpellId('Shout_Wildshape_Star_Archer') or SpellId('Shout_Wildshape_Star_Chalice') or SpellId('Shout_Wildshape_Star_Dragon')"
+data "RemoveEvents" "OnSpellCast;OnCombatEnded"
+
 new entry "SINGULARITY"
 type "StatusData"
 data "StatusType" "BOOST"

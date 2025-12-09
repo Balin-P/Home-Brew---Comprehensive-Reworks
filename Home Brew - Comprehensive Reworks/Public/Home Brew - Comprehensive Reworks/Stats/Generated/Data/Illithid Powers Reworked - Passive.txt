@@ -159,10 +159,10 @@ new entry "TAD_PsionicBacklash"
 type "PassiveData"
 data "DisplayName" "h065f97f5ga6ddg48bag9ba6gc090244742c5;2"
 data "Description" "h51459646g1974g4fefgbfd2g42294ebe1741;6"
-data "DescriptionParams" "Distance(18);DealDamage(1d12, Psychic)"
+data "DescriptionParams" "Distance(18);DealDamage(1d6, Psychic)"
 data "Icon" "TadpoleSuperPower_PsionicBacklash"
 data "Properties" "IsHidden"
-data "Boosts" "UnlockInterrupt(Interrupt_TAD_PsionicBacklash);ActionResource(Interrupt_PsionicBacklash_Charge,1,0)"
+data "Boosts" "UnlockInterrupt(Interrupt_TAD_PsionicBacklash)"
 
 <!--SHIELD OF THE THRALLS-->
 
