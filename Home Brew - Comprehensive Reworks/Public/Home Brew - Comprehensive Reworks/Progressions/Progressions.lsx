@@ -124,9 +124,9 @@
 										<node id="SubClass">
 											<attribute id="Object" type="guid" value="32eee7d8-1b2f-4de5-b9ee-78fbd286c6ef" />
 										</node>
-										<!--<node id="SubClass">
+										<node id="SubClass">
 											<attribute id="Object" type="guid" value="8dba1187-44aa-42e7-b9e4-9594781a3aa6"/>
-										</node>-->
+										</node>
 										<node id="SubClass">
 											<attribute id="Object" type="guid" value="07234f31-c239-4a57-aeb4-868f3e1a318e"/>
 										</node>
@@ -692,6 +692,7 @@
         <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Crushwoven"/>
+					<attribute id="PassivesAdded" type="LSString" value="FrigidOmen" />
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="bbd7bc0a-867a-4cdc-b3a6-d735509602d4"/>
                     <attribute id="UUID" type="guid" value="d6f25e38-2603-4093-98b0-e833c76e0103"/>
@@ -706,6 +707,7 @@
         <node id="Progression">
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="Crushwoven"/>
+					<attribute id="PassivesAdded" type="LSString" value="Frostfields" />
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="bbd7bc0a-867a-4cdc-b3a6-d735509602d4"/>
                     <attribute id="UUID" type="guid" value="d6f25e38-2603-4093-98b0-e833c76e0105"/>
@@ -720,6 +722,7 @@
         <node id="Progression">
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="Crushwoven"/>
+					<attribute id="PassivesAdded" type="LSString" value="GlacialBellow" />
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="bbd7bc0a-867a-4cdc-b3a6-d735509602d4"/>
                     <attribute id="UUID" type="guid" value="d6f25e38-2603-4093-98b0-e833c76e0107"/>
@@ -734,6 +737,7 @@
         <node id="Progression">
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="Crushwoven"/>
+					<attribute id="PassivesAdded" type="LSString" value="TundralStrike" />
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="bbd7bc0a-867a-4cdc-b3a6-d735509602d4"/>
                     <attribute id="UUID" type="guid" value="d6f25e38-2603-4093-98b0-e833c76e0109"/>
@@ -748,6 +752,7 @@
         <node id="Progression">
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="Crushwoven"/>
+					<attribute id="PassivesAdded" type="LSString" value="FrozenHellscape" />
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="bbd7bc0a-867a-4cdc-b3a6-d735509602d4"/>
                     <attribute id="UUID" type="guid" value="d6f25e38-2603-4093-98b0-e833c76e0111"/>

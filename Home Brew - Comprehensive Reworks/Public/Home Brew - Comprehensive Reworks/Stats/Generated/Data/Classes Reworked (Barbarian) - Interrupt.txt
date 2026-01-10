@@ -1,3 +1,22 @@
+<!--FROSTWEAVER-->
+
+new entry "Interrupt_TundralStrike"
+type "InterruptData"
+data "Icon" "Action_Barbarian_Rage_Bifrost"
+data "DisplayName" "h40aa7e41g978dg4da6as54df84sd55f45az5;2"
+data "Description" "hc526s54df84ef6s84d68f4s2e4f6s6d8faze;4"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "InterruptFlags" "InterruptWhileInvisible"
+data "Container" "YesNoDecision"
+data "Conditions" "IsAbleToReact(context.Observer) and Enemy(context.Source,context.Observer) and CanSee(context.Source,context.Observer) and not IsMiss() and not HasStatus('SG_Invisible',context.Source) and not AnyEntityIsItem() and HasLastAttackTriggered()"
+data "Properties" "UseSpell(SWAP,Rush_TundralStrike,true,true,true);ApplyStatus(OBSERVER_OBSERVER,INTERRUPT_RIPOSTE,100,0)"
+data "Cost" "ReactionActionPoint:1"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "EnableCondition" "not HasStatus('SG_Blinded')"
+data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+data "Stack" "OnDamaged"
+
 <!--PASSIVES-->
 
 new entry "Interrupt_DangerSense"

@@ -1131,7 +1131,7 @@ data "DescriptionParams" "3"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "AttackedWithPassiveSourceWeapon()"
-data "StatsFunctors" "ApplyStatus(MAG_FROST,100,3)"
+data "StatsFunctors" "ApplyStatus(MAG_FROST,100,3);ApplyStatus(MAG_FROST_DURATION_TECHNICAL, 100, 1)"
 
 new entry "Projectile_Solution_Oil_Frost_Destroy"
 type "SpellData"

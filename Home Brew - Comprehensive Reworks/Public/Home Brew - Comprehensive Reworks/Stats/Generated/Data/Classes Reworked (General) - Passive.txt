@@ -713,7 +713,7 @@ data "Description" "h8612a65dg446cg427bga712g6sd8f89000ah;4"
 data "DescriptionParams" "Distance(1)"
 data "Icon" "PassiveFeature_IronMind"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "StatusImmunity(BIBBERBANG_FUMES);Disadvantage(Ability, Charisma)"
+data "Boosts" "StatusImmunity(BIBBERBANG_FUMES);IgnoreSurfaceCover(SporeGreenCloud);Disadvantage(Ability, Charisma)"
 data "StatsFunctorContext" "OnMovedDistance;OnObscurityChanged;OnAbilityCheck;OnCastResolved;OnTurn"
 data "StatsFunctors" "ApplyStatus(SELF,CT_STINKY,100,0)"
 

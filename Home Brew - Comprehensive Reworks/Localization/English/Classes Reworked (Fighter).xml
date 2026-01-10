@@ -351,9 +351,9 @@
 	<content contentuid="h4a9ba909g2b60g43a5ga8c0g6489bab77f0f" version="1">Bait and Switch</content>
 	<content contentuid="h799e724bg96c6g4ee7gabdfg4734880cd2b1" version="1">Swap places with a nearby ally.</content>
 
-	<content contentuid="hdb9db212gc525g459fg9ce7g2ceab5f899dc" version="1">Brace</content>
+	<content contentuid="hdb9db212gc525g459fg9ce7g2ceab5f899dc" version="1">Bracing Strike</content>
 	<content contentuid="hc58760f8ga6afg4f5fg8d54gfd32677b7063" version="1">If an enemy you can see moves close to you, you can use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; and a &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt; in order to make a &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt; against that creature.</content>
-	<content contentuid="h4f9fd43eg1f44g41aegb9b8g517b17ba1d2a" version="1">Brace</content>
+	<content contentuid="h4f9fd43eg1f44g41aegb9b8g517b17ba1d2a" version="1">Bracing Strike</content>
 	<content contentuid="hc58760f8ga6afg4f5fg8d54gfd32677b7064" version="1">Make a &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt; against an enemy who enters your range.</content>
 
 	<content contentuid="ha78522a3g7f21g40b2g9557g2a02534f81ea" version="1">Charge</content>
