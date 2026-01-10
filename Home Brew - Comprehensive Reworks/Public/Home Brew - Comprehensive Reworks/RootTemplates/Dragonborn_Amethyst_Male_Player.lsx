@@ -12,7 +12,7 @@
 					<attribute id="ParentTemplateId" type="FixedString" value="87930b5f-a8bf-4fbf-ba7a-b1d37bd7deb0" />
 					<attribute id="Icon" type="FixedString" value="af057dec-6c50-930d-ba8c-3833f91af504-_(Icon_Dragonborn_Male)" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="4edaa16e-3f05-49da-97fd-21d7cf9aceee" />
-					<attribute id="Race" type="guid" value="4fe25c67-8198-4349-309d-97bb023f2122" />
+					<attribute id="Race" type="guid" value="4fe25c67-8198-4349-9d30-bb973f022221" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
