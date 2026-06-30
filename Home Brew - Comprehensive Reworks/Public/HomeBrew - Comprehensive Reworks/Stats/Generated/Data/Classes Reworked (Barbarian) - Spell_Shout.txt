@@ -314,6 +314,25 @@ data "TooltipStatusApply" "ApplyStatus(RAGE_GIANT,100,3)"
 data "RequirementConditions" "not HasStatus('SG_Rage') and not HasStatus('CALM_EMOTIONS') and not HasStatus('BUFF_BLOCKER')"
 data "CastEffect" "fa55e5e5-39a6-4f10-8776-9db62695ded6"
 
+<!--ROSEMOURN-->
+
+new entry "Shout_Rage_Rosemourn"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Rage"
+data "SpellProperties" "ApplyStatus(SELF,RAGE_ROSEMOURN,100,3);IF(HasPassive('BloodvineThicket', context.Source)):CreateSurface(9,3,SpikeGrowth,true);IF(not Player(context.Source)):ApplyStatus(SELF,BUFF_BLOCKER,100,1d4);AI_ONLY:ApplyStatus(AI_HELPER_RAGE,100,0)"
+data "TargetConditions" "Self()"
+data "Icon" "Action_Barbarian_Rage_Rosemourn"
+data "DisplayName" "e45b631605924e679e7ea6024bc4911f000z1;2"
+data "Description" "e45b631605924e679e7ea6024bc4911f000za;18"
+data "DescriptionParams" "DealDamage(LevelMapValue(EruptionofThorns), Piercing);Distance(18)"
+data "TooltipStatusApply" "ApplyStatus(RAGE_ROSEMOURN,100,3)"
+data "CastSound" "Action_Cast_Rage"
+data "TargetSound" "Action_Impact_Rage"
+data "RequirementConditions" "not HasStatus('RAGE_ROSEMOURN') and not HasStatus('CALM_EMOTIONS') and not HasStatus('BUFF_BLOCKER')"
+data "PrepareEffect" "e8109f4b-2439-4424-9bc8-743270220f47"
+data "CastEffect" "d314aed0-4fb5-44dc-98c4-614297017694"
+
 <!--WILD MAGIC-->
 
 new entry "Shout_Rage_WildMagic"

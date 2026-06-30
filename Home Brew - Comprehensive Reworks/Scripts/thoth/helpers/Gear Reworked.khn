@@ -19,6 +19,20 @@ function IsElementalDamage(damageType, entity)
     return ConditionResult(false)
 end
 
+function GeminiCheck()
+    return HasCantripSpellLevel() & 
+    HasSpellFlag(SpellFlags.Spell) & 
+    ~HasUseCosts('SpellSlot') & 
+    ~HasUseCosts('WarlockSpellSlot') & 
+	~MeleeCheck() & 
+	~AreaRadiusGreaterThan(0) & 
+	~NumberOfTargetsGreaterThan(1) & 
+	~SpellTypeIs(SpellType.Shout) & 
+	~SpellTypeIs(SpellType.Teleportation) & 
+	~SpellTypeIs(SpellType.Throw) & 
+	~SpellTypeIs(SpellType.Wall) & 
+	~SpellTypeIs(SpellType.Zone)
+end
 
 function HexSpellVariation()
     return SpellId('Target_Hex') 

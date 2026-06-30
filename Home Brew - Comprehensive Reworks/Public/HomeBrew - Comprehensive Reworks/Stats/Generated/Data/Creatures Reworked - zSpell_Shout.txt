@@ -220,6 +220,23 @@ data "CastEffect" "2b656a6d-9180-484f-8a75-c37afb857d97"
 data "Sheathing" "DontChange"
 data "RequirementConditions" "not HasStatus('BUFF_BLOCKER')"
 
+<!--DOPPELGANGER-->
+
+new entry "Shout_Shapechanger_Doppelganger_Dismiss_Urgent"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Shapechanger_Doppelganger_Dismiss"
+data "Cooldown" "OncePerCombat"
+data "SpellProperties" "AI_IGNORE:RemoveStatus(SELF,SG_Polymorph);AI_ONLY:ApplyStatus(SELF,AI_HELPER_BUFF_LARGE, 100, 0)"
+data "AreaRadius" "3"
+data "SpellRoll" "not SavingThrow(Ability.Wisdom, SourceSpellDC())"
+data "SpellSuccess" "ApplyStatus(SURPRISED,100,1)"
+data "TargetConditions" "not Self() and not Dead() and not Item() and not Ally() and Enemy()"
+data "DisplayName" "hb8556c58g922cg4db1gbdf3g00b8827ebaf5;2"
+data "Description" "ha75c380dg4646g4f13gac91g8cd2342e7411;2"
+data "RequirementConditions" "HasStatus('SG_Polymorph',context.Source)"
+data "RequirementEvents" "OnStatusApplied;OnStatusRemoved"
+
 <!--DRAGON-->
 
 new entry "Shout_FrightfulPresence_Dragon_Skeletal"
@@ -676,7 +693,7 @@ new entry "Shout_PackHowl_Wolf_Dire_NPC"
 type "SpellData"
 data "SpellType" "Shout"
 using "Shout_PackHowl_Wolf_Dire"
-data "SpellProperties" "AI_IGNORE:ApplyStatus(PACK_HOWL_WOLF_DIRE_NPC,100,3); AI_ONLY:ApplyStatus(AI_HELPER_BUFF_LARGE,100,2)"
+data "SpellProperties" "AI_IGNORE:ApplyStatus(PACK_HOWL_WOLF_DIRE_NPC,100,3); AI_ONLY:ApplyStatus(AI_HELPER_BUFF_LARGE,100,0)"
 data "TargetConditions" "Ally() and not HasStatus('PACK_HOWL_WOLF_DIRE_NPC')"
 data "DisplayName" "hdd9d510dgd356g4d16g9f7fg477520ebc92c;1"
 data "Description" "h5d825199g974bg43d3gb449g6c11dda65d21;1"

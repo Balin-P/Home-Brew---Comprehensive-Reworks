@@ -616,6 +616,15 @@ data "Icon" "Spell_2e_Boneshaker"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "OnApplyFunctors" "RestoreResource(SELF,BardicInspiration,1,0)"
 
+<!--COLLEGE OF NOSTALGIA-->
+
+new entry "NOSTALGIA_VFX"
+type "StatusData"
+data "StatusType" "BOOST"
+data "OnApplyFunctors" "CreateExplosion(Projectile_BoomingBlade)"
+data "TickType" "EndTurn"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
 <!--COLLEGE OF STEEL-->
 
 new entry "MELODIC_STEEL"

@@ -73,6 +73,23 @@
                     <attribute id="UUID" type="guid" value="774f0dc9-2d7a-419c-a72c-9e855c122d87"/>
 					</node>
         <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d6"/>
+                    <attribute id="Level2" type="LSString" value="1d6"/>
+                    <attribute id="Level3" type="LSString" value="2d6"/>
+                    <attribute id="Level4" type="LSString" value="2d6"/>
+                    <attribute id="Level5" type="LSString" value="3d6"/>
+                    <attribute id="Level6" type="LSString" value="3d6"/>
+                    <attribute id="Level7" type="LSString" value="4d6"/>
+                    <attribute id="Level8" type="LSString" value="4d6"/>
+                    <attribute id="Level9" type="LSString" value="5d6"/>
+                    <attribute id="Level10" type="LSString" value="5d6"/>
+                    <attribute id="Level11" type="LSString" value="6d6"/>
+                    <attribute id="Level12" type="LSString" value="6d6"/>
+                    <attribute id="Name" type="FixedString" value="EruptionofThorns"/>
+					<attribute id="PreferredClassUUID" type="guid" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399"/>
+                    <attribute id="UUID" type="guid" value="393ac0f9-2611-4a1d-9672-7f2f696a785d"/>
+					</node>
+        <node id="LevelMapSeries">
                     <attribute id="Level1" type="LSString" value="1d4"/>
                     <attribute id="Level2" type="LSString" value="1d4"/>
                     <attribute id="Level3" type="LSString" value="1d4"/>
@@ -190,22 +207,6 @@
                     <attribute id="Name" type="FixedString" value="TurnTheX"/>
                     <attribute id="PreferredClassUUID" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c"/>
                     <attribute id="UUID" type="guid" value="f5610a83-44a9-49a1-98cd-e845de105fd9"/>
-					</node>
-        <node id="LevelMapSeries">
-                    <attribute id="Level1" type="LSString" value="1"/>
-                    <attribute id="Level2" type="LSString" value="1"/>
-                    <attribute id="Level3" type="LSString" value="1"/>
-                    <attribute id="Level4" type="LSString" value="1"/>
-                    <attribute id="Level5" type="LSString" value="2"/>
-                    <attribute id="Level6" type="LSString" value="2"/>
-                    <attribute id="Level7" type="LSString" value="2"/>
-                    <attribute id="Level8" type="LSString" value="2"/>
-                    <attribute id="Level9" type="LSString" value="3"/>
-                    <attribute id="Level10" type="LSString" value="3"/>
-                    <attribute id="Level11" type="LSString" value="3"/>
-                    <attribute id="Level12" type="LSString" value="3"/>
-                    <attribute id="Name" type="FixedString" value="WandTargets"/>
-                    <attribute id="UUID" type="guid" value="afa2df84-0c7c-49ce-bc9b-83371a6765b1"/>
 					</node>
         <node id="LevelMapSeries">
                     <attribute id="Level1" type="LSString" value="1d8"/>

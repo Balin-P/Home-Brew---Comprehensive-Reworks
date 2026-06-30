@@ -429,7 +429,7 @@ data "Icon" "PassiveFeature_CheekyTipple"
 data "StackId" "PRONE_EIGHTHGATEREMOVAL"
 data "TickType" "EndTurn"
 data "Boosts" "CriticalDamageOnHit()"
-data "RemoveEvents" "OnAttack;OnCombatEnded"
+data "RemoveEvents" "OnCombatEnded"
 
 <!--WAY OF THE OPEN HAND-->
 

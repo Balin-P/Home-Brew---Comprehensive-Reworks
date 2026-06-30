@@ -440,6 +440,10 @@
 
 	<content contentuid="h3344d3e6gb749g4bd5ga9e9g75f0desd5f21" version="5">Displacement</content>
 	<content contentuid="h38d3f000g4a2eg4682g9wsefe845de868545" version="1">While unubscured, Displacer Beasts may cause their targets to go &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Mad&lt;/LSTag&gt; when dealing damage to them.</content>
+	<content contentuid="ha87e063cg90aag4085g94bbg77b7f89b339e" version="5">Illusory Copy</content>
+	<content contentuid="h50825fb4g9c1ag4146g9efeg7164023ebf01" version="1">Create an illusory Displacer Beast at a location you can see. It will then attack nearby enemies for three turns.</content>
+	<content contentuid="ha87e063cg90aag4085g94bbg77b7f2d5f6e2" version="5">Illusory Displacement</content>
+	<content contentuid="h50825fb4g9c1ag4146g9efeg716406s8e6f8" version="1">Teleport a creature to an area you can see, rending their mind in the process. Allies will take no damage from this action.</content>
 
 	<content contentuid="h3344d3e6gb749g4bd5ga9e9g75f2d5f3d542" version="5">Timmask Touch</content>
 	<content contentuid="h38d3f000g4a2eg4682g9wsefe845de5d8f7e" version="1">Upon dealing damage to a creature who is not a plant, Myconid potentially implant &lt;LSTag Type="Status" Tooltip="TIMMASK_SPORES"&gt;Timmask Spores&lt;/LSTag&gt; into their target, unless they or their target are &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt;.</content>
@@ -461,7 +465,7 @@
 	<content contentuid="ha0731de1g1891g4e13gbcc2g73a403bee003" version="2">Luring Song</content>
 	<content contentuid="h8de31c05gb5c0g4495g9bc7g16ef9a6fedb9" version="4">Affected creature must succeed a Wisdom based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; every turn or be &lt;LSTag Type="Status" Tooltip="LURING_SONG"&gt;Lured&lt;/LSTag&gt; by the nearby Harpy's song.</content>
 	<content contentuid="hde9698b9gf76eg4f75g9df2g1ce018012400" version="3">Lured</content>
-	<content contentuid="h3a9c3870g9491g4e8eg8f73ga1f4e720897b" version="5">Affected creature has been attracted to a nearby harpy's luring melody. &lt;br&gt;&lt;Br&gt;The affected creature will use their turn to move closer to the harpy, allowing her to make multiple attacks each turn!</content>
+	<content contentuid="h3a9c3870g9491g4e8eg8f73ga1f4e720897b" version="5">Affected creature has been attracted to a nearby melody. &lt;br&gt;&lt;Br&gt;The affected creature will use their turn to move closer to the source of this condition.</content>
 	<content contentuid="h1e0892f6g5a93g49e9g8b1agd2d9567213f5" version="2">Resisted the Song</content>
 	<content contentuid="hb02b136dg05a2g4dd6ga156gb7be1ba0fa3b" version="3">Affected creature has succeeded a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; against the nearby harpy's &lt;LSTag Type="Spell" Tooltip="Shout_LuringSong_Harpy"&gt;Luring Song&lt;/LSTag&gt; and is immune to its effects for [1] turns.</content>
 
@@ -588,5 +592,8 @@
 	<content contentuid="h5f65f460g37d6g40d2ga98bg9b85f8aea9ba" version="3">Affected creature will instantly recover [1] &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; when killed. In addition, it will begin &lt;LSTag Type="Status" Tooltip="DRAGON_SKELETAL_FLIGHTSTATE"&gt;Hoarding Energy&lt;/LSTag&gt;, gain [2] for [3] rounds, and lose all &lt;LSTag Tooltip="IncapacitatingCondition"&gt;Incapacitating Conditions&lt;/LSTag&gt;.</content>
 	<content contentuid="h1f934d12g982bg446ag9ac1gc96b23f742e7" version="2">Stormheart Resolve</content>
 	<content contentuid="h358a087cg3cb4g4e62g967bgfcd5ade476a0" version="3">Affected creature has begun &lt;LSTag Type="Status" Tooltip="DRAGON_SKELETAL_FLIGHTSTATE"&gt;Hoarding Energy&lt;/LSTag&gt;, gained [1] for [2] rounds, and lost all &lt;LSTag Tooltip="IncapacitatingConditions"&gt;Incapacitating Conditions&lt;/LSTag&gt;. Each turn, they will call down bolts of lightning within the area.</content>
+
+	<content contentuid="hb8556c58g922cg4db1gbdf3g00b8827ebaf5" version="2">Morphic Ambush</content>
+	<content contentuid="ha75c380dg4646g4f13gac91g8cd2342e7411" version="2">Undergo a shocking transformation and possibly &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprise&lt;/LSTag&gt; your foes.</content>
 
 </contentList>

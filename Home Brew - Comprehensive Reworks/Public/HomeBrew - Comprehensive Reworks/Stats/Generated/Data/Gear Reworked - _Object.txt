@@ -223,6 +223,13 @@ data "RootTemplate" "ee329627-dbee-405f-b9a6-b260de9ad34c"
 data "Weight" "0"
 data "Vitality" "-1"
 
+new entry "OBJ_Backpack_StartingGear"
+type "Object"
+using "OBJ_Backpack"
+data "RootTemplate" "5d6803ad-119e-44a7-ac6c-272e72a3195d"
+data "Weight" "0"
+data "Vitality" "-1"
+
 <!--BOMBS-->
 
 new entry "_Grenade"

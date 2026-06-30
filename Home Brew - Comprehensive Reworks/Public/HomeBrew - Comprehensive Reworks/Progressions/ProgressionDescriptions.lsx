@@ -197,6 +197,12 @@
 				<attribute id="UUID" type="guid" value="383a69a9-77ec-41f5-9825-06e9d5127901" />
 				</node>
         <node id="ProgressionDescription">
+				<attribute id="DisplayName" type="TranslatedString" handle="bff1c70c790147cfb7b815cd7810c1b200001" version="2" />
+				<attribute id="Description" type="TranslatedString" handle="bff1c70c790147cfb7b815cd7810c1b20000a" version="1" />
+				<attribute id="SelectorId" type="FixedString" value="StartingGear" />
+				<attribute id="UUID" type="guid" value="18671d69-87aa-4c52-82b7-f40d6004d64e" />
+				</node>
+        <node id="ProgressionDescription">
 				<attribute id="DisplayName" type="TranslatedString" handle="9b7b811b9c3043e189f945540bf5116e000z2" version="2" />
 				<attribute id="Description" type="TranslatedString" handle="9b7b811b9c3043e189f945540bf5116e000zb" version="1" />
 				<attribute id="SelectorId" type="FixedString" value="Steelforged" />

@@ -86,7 +86,7 @@ data "Icon" "TadpoleSuperPower_Displace"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnDamaged"
 data "Conditions" "Character() and not Self() and IsFallDamage() and not IsRedirectedDamage()"
-data "StatsFunctors" "DealDamage(1d12,Psychic,Magical);RemoveStatus(TAD_DISPLACE)"
+data "StatsFunctors" "DealDamage(1d12,Psychic,,,0,,true);RemoveStatus(TAD_DISPLACE)"
 
 <!--CULL THE WEAK-->
 
@@ -224,4 +224,4 @@ data "DescriptionParams" "DealDamage(1d12,Psychic)"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnAttack"
 data "Conditions" "(IsCriticalMiss() or IsMiss())"
-data "StatsFunctors" "DealDamage(SELF,1d12,Psychic,Magical);ApplyStatus(SELF,PASSIVE_STAGE_FRIGHT,100,0)"
+data "StatsFunctors" "DealDamage(SELF,1d12,Psychic,,,0,,true);ApplyStatus(SELF,PASSIVE_STAGE_FRIGHT,100,0)"

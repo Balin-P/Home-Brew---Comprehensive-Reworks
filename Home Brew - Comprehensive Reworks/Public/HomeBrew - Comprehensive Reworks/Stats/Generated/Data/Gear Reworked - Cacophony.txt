@@ -21,7 +21,7 @@ data "Icon" "PassiveFeature_Generic_Tactical"
 data "Properties" "OncePerTurn"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "Character() and not Self() and not Ally() and (HasStatus('PERFORM_POSITIVE_THEPOWER', context.Source) or HasStatus('PERFORM_POSITIVE_DOS2_1', context.Source) or HasStatus('PERFORM_POSITIVE_THEPOWER_MUTED', context.Source) or HasStatus('PERFORM_POSITIVE_DOS2_1_MUTED', context.Source))"
-data "StatsFunctors" "IF(not SavingThrow(Ability.Charisma, SourceSpellDC())):DealDamage(1d12, Thunder)"
+data "StatsFunctors" "IF(not SavingThrow(Ability.Charisma, SourceSpellDC())):DealDamage(1d12, Thunder,,,0,,true)"
 
 new entry "Cacaphonous_Performance_2"
 type "PassiveData"

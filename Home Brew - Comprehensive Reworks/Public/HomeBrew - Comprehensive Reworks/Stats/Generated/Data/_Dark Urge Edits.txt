@@ -87,7 +87,7 @@ data "Icon" "GenericIcon_Intent_Buff"
 data "StackId" "BHAALS_BOON_SLAYER"
 data "StackPriority" "10"
 data "TickType" "EndTurn"
-data "OnApplyFunctors" "RestoreResource(ActionPoint,100%,0)"
+data "OnApplyFunctors" "RestoreResource(ActionPoint,1,0)"
 data "StatusEffect" "78df3737-0405-43fc-8b6e-e702b8de7589"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 

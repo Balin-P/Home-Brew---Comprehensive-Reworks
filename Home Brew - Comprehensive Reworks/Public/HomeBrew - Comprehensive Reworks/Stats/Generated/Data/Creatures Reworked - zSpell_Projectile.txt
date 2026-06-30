@@ -270,6 +270,25 @@ data "DeathType" "KnockedDown"
 data "DamageType" "Bludgeoning"
 data "AIFlags" "CanNotUse"
 
+<!--GORTASH-->
+
+new entry "Projectile_WYR_CrushingFist_Gortash_FallingFist"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_WYR_GrenadeLauncher_Gortash_Explosion"
+data "SpellProperties" ""
+data "SpellSuccess" "IF (not Tagged('BANITE') and not Tagged('ACT3_WYR_GORTASH')):DealDamage(12d12,Force);IF (not Tagged('BANITE') and not Tagged('ACT3_WYR_GORTASH')):ApplyStatus(PRONE,100,1)"
+data "SpellFail" "IF (not Tagged('BANITE') and not Tagged('ACT3_WYR_GORTASH')):DealDamage((12d12)/2,Force)"
+data "TargetConditions" "not Dead()"
+data "Trajectories" "5ef2c935-7f77-4939-adb0-00456c70b1d2"
+data "Icon" "GenericIcon_DamageType_Force"
+data "DisplayName" "hbe5861f0gda5eg407cg966fgfaf065006642;2"
+data "Description" "h3854b4fbgc9e5g409bg91d7g9cda5aad63f9;2"
+data "DescriptionParams" "DealDamage(12d12,Force)"
+data "TooltipDamageList" "DealDamage(12d12,Force)"
+data "TooltipStatusApply" "ApplyStatus(PRONE,100,1)"
+data "TooltipOnSave" "0de381d4-6bb7-4963-b5c4-51d3f47801ca"
+
 <!--GRYM-->
 
 new entry "Projectile_UND_AdamantineForge_HammerImpact"

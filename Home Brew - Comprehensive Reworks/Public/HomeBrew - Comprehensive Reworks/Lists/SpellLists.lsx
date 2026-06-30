@@ -90,6 +90,11 @@
                     <attribute id="UUID" type="guid" value="0da96163-c4aa-40f9-baa8-4a23d55f8e90"/>
 					</node>
         <node id="SpellList">
+                    <attribute id="Comment" type="FixedString" value="Cleric - Level 1 (Illusory)"/>
+                    <attribute id="Spells" type="LSString" value="Shout_TurnUndead;Shout_DivineIntervention_Illusory"/>
+                    <attribute id="UUID" type="guid" value="b9f6f71d-2a87-4452-8357-4bac5cd2c16e"/>
+					</node>
+        <node id="SpellList">
                     <attribute id="Comment" type="FixedString" value="Cleric - Level 1 (Life)"/>
                     <attribute id="Spells" type="LSString" value="Shout_TurnUndead;Shout_DivineIntervention_Life"/>
                     <attribute id="UUID" type="guid" value="239cc7cc-f642-4ddc-b091-498d81612c52"/>
@@ -260,17 +265,17 @@
                     <attribute id="UUID" type="guid" value="9d3c921d-be46-4722-bf2c-5c6cfcb25367" />
 					</node>
         <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Paladin - Oath of Ancients (Level 1)" />
+                    <attribute id="Comment" type="LSString" value="Paladin - Ancient Warden (Level 1)" />
                     <attribute id="Spells" type="LSString" value="Shout_HealingRadiance;Target_NaturesWrath" />
                     <attribute id="UUID" type="guid" value="7e9cc2ca-e7dd-4e3f-9704-7aa97505061b" />
 					</node>
         <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Paladin - Oath of Ancients (Level 5)" />
+                    <attribute id="Comment" type="LSString" value="Paladin - Ancient Warden (Level 5)" />
                     <attribute id="Spells" type="LSString" value="Shout_TurnTheFaithless" />
                     <attribute id="UUID" type="guid" value="bd3770c9-1ac9-4af3-80f6-f555aeb696d1" />
 					</node>
         <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Paladin - Oath of Ancients (Level 9)" />
+                    <attribute id="Comment" type="LSString" value="Paladin - Ancient Warden (Level 9)" />
                     <attribute id="Spells" type="LSString" value="Shout_AuraOf_Protection" />
                     <attribute id="UUID" type="guid" value="94db914d-95d0-484e-8a02-c0faa9d575a7" />
 					</node>
@@ -290,17 +295,17 @@
                     <attribute id="UUID" type="guid" value="0e170ae3-56b4-487a-9690-830002d2555f" />
 					</node>
         <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Paladin - Oath of Devotion (Level 1)" />
+                    <attribute id="Comment" type="LSString" value="Paladin - Devout Paragon (Level 1)" />
                     <attribute id="Spells" type="LSString" value="Target_HolyRebuke;Shout_SacredWeapon" />
                     <attribute id="UUID" type="guid" value="8b056a0a-8405-4ffe-b4ba-5bb7d162b7f9" />
 					</node>
         <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Paladin - Oath of Devotion (Level 5)" />
+                    <attribute id="Comment" type="LSString" value="Paladin - Devout Paragon (Level 5)" />
                     <attribute id="Spells" type="LSString" value="Shout_TurnTheUnholy" />
                     <attribute id="UUID" type="guid" value="6c6e85c8-3eb5-4d18-a78b-914efb967288" />
 					</node>
         <node id="SpellList">
-                    <attribute id="Comment" type="LSString" value="Paladin - Oath of Devotion (Level 9)" />
+                    <attribute id="Comment" type="LSString" value="Paladin - Devout Paragon (Level 9)" />
                     <attribute id="Spells" type="LSString" value="Shout_AuraOf_Courage" />
                     <attribute id="UUID" type="guid" value="da27c6ae-15cf-4441-9115-82dcc282f8cc" />
 					</node>
@@ -333,6 +338,21 @@
                     <attribute id="Comment" type="LSString" value="Paladin - Oathbreaker (Level 9)" />
                     <attribute id="Spells" type="LSString" value="Shout_AuraOf_Hate" />
                     <attribute id="UUID" type="guid" value="20c3ac99-a937-464c-810d-d2f50ba44e6e" />
+					</node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Paladin - Tyrant (Level 1)" />
+                    <attribute id="Spells" type="LSString" value="Target_CommandingGrasp_Container;Shout_ReignofFear" />
+                    <attribute id="UUID" type="guid" value="b2ee622b-940a-4818-904a-082ef7ecb1a7" />
+					</node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Paladin - Tyrant (Level 5)" />
+                    <attribute id="Spells" type="LSString" value="Shout_TurnTheDefiant" />
+                    <attribute id="UUID" type="guid" value="1b5343b2-8f4e-4b60-83d3-ec5300ef3508" />
+					</node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Paladin - Tyrant (Level 9)" />
+                    <attribute id="Spells" type="LSString" value="Shout_AuraoftheConquerer" />
+                    <attribute id="UUID" type="guid" value="a9832d3e-4111-44b4-9ec7-378562335cf2" />
 					</node>
         <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Paladin - NPC Cantrips" />

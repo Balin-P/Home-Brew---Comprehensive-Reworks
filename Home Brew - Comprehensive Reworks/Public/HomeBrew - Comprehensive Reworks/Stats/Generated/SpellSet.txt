@@ -27,6 +27,11 @@ add spell "Shout_Dash"
 add spell "Shout_Disengage"
 add spell "Shout_Hide"
 
+new spellset "CommonSummonActions_Elementals"
+add spell "Shout_Dash"
+add spell "Shout_Disengage"
+add spell "Shout_Hide"
+
 new spellset "CommonSummonActions_Flying_Dragon"
 add spell "Target_Fly_Dragon_Skeletal_Player"
 

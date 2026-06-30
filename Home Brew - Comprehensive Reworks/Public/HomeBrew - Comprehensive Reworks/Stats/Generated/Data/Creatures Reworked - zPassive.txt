@@ -976,8 +976,20 @@ data "Description" "h38d3f000g4a2eg4682g9wsefe845de868545;2"
 data "Icon" "Action_Monster_Banite_AuraOfTerror"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "Character() and not Self() and not HasStatus('LOCKDOWN_CONDITION', context.Target) and not HasObscuredState(ObscuredState.Clear,context.Source)"
-data "StatsFunctors" "IF(not SavingThrow(Ability.Wisdom, SourceSpellDC())):ApplyStatus(MADNESS,100,3)"
+data "Conditions" "Character() and not Self() and not Ally() and not HasStatus('MADNESS', context.Target) and not HasStatus('LOCKDOWN_CONDITION', context.Target) and not HasObscuredState(ObscuredState.Clear,context.Source)"
+data "StatsFunctors" "IF(not SavingThrow(Ability.Wisdom, SourceSpellDC())):ApplyStatus(MADNESS,100,1)"
+
+<!--------------------------------------------------DOPPELGANGERS--------------------------------------------------->
+
+new entry "Multiattack_Doppelganger"
+type "PassiveData"
+data "DisplayName" "hc4eef74fg527fg4a60ga04egb2a849b02f9e;1"
+data "Description" "hfd2662f7gd9e7g48c3g9913g0a162e5b9e03;1"
+data "Icon" "PassiveFeature_Generic_MultiAttackInfo"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnTurn"
+data "Conditions" "HasHPPercentageWithoutTemporaryHPLessThan(25, context.Source) and HasStatus('SG_Polymorph',context.Source)"
+data "StatsFunctors" "UseSpell(Shout_Shapechanger_Doppelganger_Dismiss_Urgent,true,true,true)"
 
 <!--------------------------------------------------GREMISHKA--------------------------------------------------->
 

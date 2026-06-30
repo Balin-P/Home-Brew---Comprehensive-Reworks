@@ -18,6 +18,6 @@ type "PassiveData"
 data "Icon" "PassiveFeature_Generic_Tactical"
 data "DisplayName" "h4656c3a2gca8ag4669ga84fg5d2623dacedf;1"
 data "Description" "h41dd65fcgfe51g4c4cg9b57g9a7371842f99;2"
-data "DescriptionParams" "3"
-data "Boosts" "ReduceCriticalAttackThreshold(3)"
+data "DescriptionParams" "2"
+data "Boosts" "ReduceCriticalAttackThreshold(2)"
 

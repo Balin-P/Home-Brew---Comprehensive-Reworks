@@ -15,6 +15,7 @@ data "SpellAnimation" "d7745165-66e4-41c4-9e42-d09d95a29491,,;,,;fd5e6365-f314-4
 data "VerbalIntent" "Utility"
 data "HitAnimationType" "None"
 data "SpellFlags" "IsLinkedSpellContainer"
+data "Sheathing" "Melee"
 
 new entry "Shout_WildShape_Combat"
 type "SpellData"
@@ -183,6 +184,31 @@ data "MemoryCost" "1"
 data "PrepareEffect" "f4aab3ad-a4ad-48e1-9052-3808e2b65981"
 data "CastEffect" "5600d296-764d-43f8-b781-2bfcd6cf7312"
 data "TargetEffect" "7d30207d-4c3f-4f01-8e50-aaff803e1992"
+
+<!--CIRCLE OF THE SHADOWS-->
+
+<!--DISPLACER BEAST-->
+
+new entry "Shout_WildShape_DisplacerBeast"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_WildShape"
+data "SpellContainerID" "Shout_WildShape"
+data "ContainerSpells" ""
+data "SpellProperties" "AI_IGNORE:IF(ClassLevelHigherOrEqualThan(1,'Druid') and not ClassLevelHigherOrEqualThan(2,'Druid')):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_1,100,-1);IF(ClassLevelHigherOrEqualThan(2,'Druid') and not ClassLevelHigherOrEqualThan(3,'Druid')):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_2,100,-1);IF(ClassLevelHigherOrEqualThan(3,'Druid') and not ClassLevelHigherOrEqualThan(4,'Druid')):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_3,100,-1);IF(ClassLevelHigherOrEqualThan(4,'Druid') and not ClassLevelHigherOrEqualThan(5,'Druid')):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_4,100,-1);IF(ClassLevelHigherOrEqualThan(5,'Druid') and not ClassLevelHigherOrEqualThan(6,'Druid')):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_5,100,-1);IF(ClassLevelHigherOrEqualThan(6,'Druid') and not ClassLevelHigherOrEqualThan(7,'Druid')):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_6,100,-1);IF(ClassLevelHigherOrEqualThan(7,'Druid') and not ClassLevelHigherOrEqualThan(8,'Druid')):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_7,100,-1);IF(ClassLevelHigherOrEqualThan(8,'Druid') and not ClassLevelHigherOrEqualThan(9,'Druid')):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_8,100,-1);IF(ClassLevelHigherOrEqualThan(9,'Druid') and not ClassLevelHigherOrEqualThan(10,'Druid')):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_9,100,-1);IF(ClassLevelHigherOrEqualThan(10,'Druid') and not ClassLevelHigherOrEqualThan(11,'Druid')):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_10,100,-1);IF(ClassLevelHigherOrEqualThan(11,'Druid') and not ClassLevelHigherOrEqualThan(12,'Druid')):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_11,100,-1);IF(ClassLevelHigherOrEqualThan(12,'Druid')):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_12,100,-1);AI_ONLY:IF(not Player(context.Source) and not CharacterLevelGreaterThan(2)):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_1,100,-1);IF(CharacterLevelGreaterThan(1) and not Player(context.Source) and not CharacterLevelGreaterThan(2)):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_2,100,-1);IF(CharacterLevelGreaterThan(2) and not Player(context.Source) and not CharacterLevelGreaterThan(3)):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_3,100,-1);IF(CharacterLevelGreaterThan(3) and not Player(context.Source) and not CharacterLevelGreaterThan(4)):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_4,100,-1);IF(CharacterLevelGreaterThan(4) and not Player(context.Source) and not CharacterLevelGreaterThan(5)):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_5,100,-1);IF(CharacterLevelGreaterThan(5) and not Player(context.Source) and not CharacterLevelGreaterThan(6)):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_6,100,-1);IF(CharacterLevelGreaterThan(6) and not Player(context.Source) and not CharacterLevelGreaterThan(7)):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_7,100,-1);IF(CharacterLevelGreaterThan(7) and not Player(context.Source) and not CharacterLevelGreaterThan(8)):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_8,100,-1);IF(CharacterLevelGreaterThan(8) and not Player(context.Source) and not CharacterLevelGreaterThan(9)):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_9,100,-1);IF(CharacterLevelGreaterThan(9) and not Player(context.Source) and not CharacterLevelGreaterThan(10)):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_10,100,-1);IF(CharacterLevelGreaterThan(10) and not Player(context.Source) and not CharacterLevelGreaterThan(11)):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_11,100,-1);IF(CharacterLevelGreaterThan(11)):ApplyStatus(CWILDSHAPE_DISPLACERBEAST_PLAYER_12,100,-1)"
+data "Icon" "TadpoleSuperPower_DisplacerShape"
+data "DisplayName" "5126c10823d3434e8286ee66c19e5698000z1;1"
+data "Description" "5126c10823d3434e8286ee66c19e5698000za;8"
+data "DescriptionParams" "RegainHitPoints(12)"
+data "PrepareSound" "Spell_Prepare_Tadpole_Buff_Gen_L1to3"
+data "PrepareLoopSound" "Spell_Loop_Tadpole_Buff_Gen_L1to3"
+data "CastSound" "Spell_Cast_Tadpole_DisplacerShape_L1to3"
+data "VocalComponentSound" "Spell_Cast_TadpoleShape_Vocal"
+data "SpellAnimation" "62b4dc84-8233-4226-ae60-92eceeb9c673,,;,,;6fa555b6-9096-47b6-8ce1-d177c54fcba0,,;721abca5-2d52-4317-82a3-2a2e970a7a16,,;125b10d6-ffeb-4060-9076-8ac12a0b1921,,;,,;492b6fcb-6a30-4480-9843-462c7e5588ad,,;,,;,,"
+data "SpellFlags" "HasSomaticComponent;UnavailableInDialogs"
+data "PrepareEffect" "22330577-b4cb-49ea-ade9-7ff183aa9209"
+data "CastEffect" "db04e5ba-db29-43f3-be13-7a41aea4411e"
+data "RequirementConditions" "not HasStatus('WILDSHAPE_BLOCKER_DISPLACER')"
 
 <!--BADGER-->
 

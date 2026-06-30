@@ -4034,6 +4034,343 @@
 					</children>
 				</node>
 				<node id="GameObjects">
+					<attribute id="Archetype" type="FixedString" value="melee" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceBlood" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="917c29e5-16cb-409d-8a0e-76e52a3cef3b" />
+					<attribute id="Name" type="LSString" value="Displacer_Beast_PlayerWildshape_Illusion" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9c31aa4a-faad-40ef-9fd7-28d9b16f9451" />
+					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
+					<attribute id="Stats" type="FixedString" value="DisplacerBeast_Illusion_Player" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="VocalAlertResourceID" type="FixedString" value="4a498760-c771-2c3b-1f45-88aed2f78e02" />
+					<attribute id="VocalAngryResourceID" type="FixedString" value="348d31ab-6337-7f87-746c-c7a469d89cd1" />
+					<attribute id="VocalBoredResourceID" type="FixedString" value="228db6e2-6368-5123-7a1d-38666aa09f74" />
+					<attribute id="VocalExhaustedResourceID" type="FixedString" value="1464ced0-86fc-3743-0930-a4c301cce8fb" />
+					<attribute id="VocalRelaxedResourceID" type="FixedString" value="110b9791-6c4d-ecb3-3c0c-ee44a278be38" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="OnDeathActions" />
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Tentacle_DisplacerBeast" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Teleportation_Displacement_DisplacerBeast" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="dc860a81-f3c2-4c1a-ab90-e7583324845c" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="04ae77c4-f708-4ffa-8b8c-763b062a2e6e" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Archetype" type="FixedString" value="melee" />
+					<attribute id="DisplayName" type="TranslatedString" handle="5126c10823d3434e8286ee66c19e569800zz1" version="1" />
+					<attribute id="Icon" type="FixedString" value="67b2c584-4f08-71cb-ffd5-ba6084e461ce-_(Icon_Displacer_Beast)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="614a564f-73db-433e-0010-000000000001" />
+					<attribute id="Name" type="LSString" value="CDisplacerBeast_Wildshape_1" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9c31aa4a-faad-40ef-9fd7-28d9b16f9451" />
+					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
+					<attribute id="Stats" type="FixedString" value="CDisplacerBeast_Wildshape_1" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="VocalAlertResourceID" type="FixedString" value="4a498760-c771-2c3b-1f45-88aed2f78e02" />
+					<attribute id="VocalAngryResourceID" type="FixedString" value="348d31ab-6337-7f87-746c-c7a469d89cd1" />
+					<attribute id="VocalBoredResourceID" type="FixedString" value="228db6e2-6368-5123-7a1d-38666aa09f74" />
+					<attribute id="VocalExhaustedResourceID" type="FixedString" value="1464ced0-86fc-3743-0930-a4c301cce8fb" />
+					<attribute id="VocalRelaxedResourceID" type="FixedString" value="110b9791-6c4d-ecb3-3c0c-ee44a278be38" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Tentacle_DisplacerBeast" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_CreateIllusion_DisplacerBeast_Player" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Teleportation_Displacement_DisplacerBeast" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="dc860a81-f3c2-4c1a-ab90-e7583324845c" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="04ae77c4-f708-4ffa-8b8c-763b062a2e6e" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="614a564f-73db-433e-0010-000000000002" />
+					<attribute id="Name" type="LSString" value="CDisplacerBeast_Wildshape_2" />
+					<attribute id="ParentTemplateId" type="FixedString" value="614a564f-73db-433e-0010-000000000001" />
+					<attribute id="Stats" type="FixedString" value="CDisplacerBeast_Wildshape_2" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="614a564f-73db-433e-0010-000000000003" />
+					<attribute id="Name" type="LSString" value="CDisplacerBeast_Wildshape_3" />
+					<attribute id="ParentTemplateId" type="FixedString" value="614a564f-73db-433e-0010-000000000002" />
+					<attribute id="Stats" type="FixedString" value="CDisplacerBeast_Wildshape_3" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="614a564f-73db-433e-0010-000000000004" />
+					<attribute id="Name" type="LSString" value="CDisplacerBeast_Wildshape_4" />
+					<attribute id="ParentTemplateId" type="FixedString" value="614a564f-73db-433e-0010-000000000003" />
+					<attribute id="Stats" type="FixedString" value="CDisplacerBeast_Wildshape_4" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="614a564f-73db-433e-0010-000000000005" />
+					<attribute id="Name" type="LSString" value="CDisplacerBeast_Wildshape_5" />
+					<attribute id="ParentTemplateId" type="FixedString" value="614a564f-73db-433e-0010-000000000004" />
+					<attribute id="Stats" type="FixedString" value="CDisplacerBeast_Wildshape_5" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="614a564f-73db-433e-0010-000000000006" />
+					<attribute id="Name" type="LSString" value="CDisplacerBeast_Wildshape_6" />
+					<attribute id="ParentTemplateId" type="FixedString" value="614a564f-73db-433e-0010-000000000005" />
+					<attribute id="Stats" type="FixedString" value="CDisplacerBeast_Wildshape_6" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="614a564f-73db-433e-0010-000000000007" />
+					<attribute id="Name" type="LSString" value="CDisplacerBeast_Wildshape_7" />
+					<attribute id="ParentTemplateId" type="FixedString" value="614a564f-73db-433e-0010-000000000006" />
+					<attribute id="Stats" type="FixedString" value="CDisplacerBeast_Wildshape_7" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="614a564f-73db-433e-0010-000000000008" />
+					<attribute id="Name" type="LSString" value="CDisplacerBeast_Wildshape_8" />
+					<attribute id="ParentTemplateId" type="FixedString" value="614a564f-73db-433e-0010-000000000007" />
+					<attribute id="Stats" type="FixedString" value="CDisplacerBeast_Wildshape_8" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="614a564f-73db-433e-0010-000000000009" />
+					<attribute id="Name" type="LSString" value="CDisplacerBeast_Wildshape_9" />
+					<attribute id="ParentTemplateId" type="FixedString" value="614a564f-73db-433e-0010-000000000008" />
+					<attribute id="Stats" type="FixedString" value="CDisplacerBeast_Wildshape_9" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="614a564f-73db-433e-0010-000000000010" />
+					<attribute id="Name" type="LSString" value="CDisplacerBeast_Wildshape_10" />
+					<attribute id="ParentTemplateId" type="FixedString" value="614a564f-73db-433e-0010-000000000009" />
+					<attribute id="Stats" type="FixedString" value="CDisplacerBeast_Wildshape_10" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="614a564f-73db-433e-0010-000000000011" />
+					<attribute id="Name" type="LSString" value="CDisplacerBeast_Wildshape_11" />
+					<attribute id="ParentTemplateId" type="FixedString" value="614a564f-73db-433e-0010-000000000010" />
+					<attribute id="Stats" type="FixedString" value="CDisplacerBeast_Wildshape_11" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="614a564f-73db-433e-0010-000000000012" />
+					<attribute id="Name" type="LSString" value="CDisplacerBeast_Wildshape_12" />
+					<attribute id="ParentTemplateId" type="FixedString" value="614a564f-73db-433e-0010-000000000011" />
+					<attribute id="Stats" type="FixedString" value="CDisplacerBeast_Wildshape_12" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
 					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceWater" />
 					<attribute id="BloodType" type="FixedString" value="Green" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="e54c5e83-1355-0421-7ff7-d437b53a17b2" />

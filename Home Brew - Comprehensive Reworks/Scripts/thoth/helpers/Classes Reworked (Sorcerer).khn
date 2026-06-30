@@ -821,7 +821,7 @@ function TwinnedProjectileSpellCheck()
 end
 
 function CustomTwinnedProjectileSpellCheck()
-    return HasSpellFlag(SpellFlags.Spell) & ~NumberOfTargetsGreaterThan(1) & ~SpellTypeIs(SpellType.Shout) & ~SpellTypeIs(SpellType.Teleportation) & ~SpellTypeIs(SpellType.Throw) & ~SpellTypeIs(SpellType.Wall) & ~SpellTypeIs(SpellType.Zone) & ~TwinnedExclusionSpells()
+    return HasSpellFlag(SpellFlags.Spell) & ~AreaRadiusGreaterThan(0) & ~NumberOfTargetsGreaterThan(1) & ~SpellTypeIs(SpellType.Shout) & ~SpellTypeIs(SpellType.Teleportation) & ~HasFunctor(StatsFunctorType.Summon) & ~SpellTypeIs(SpellType.Throw) & ~SpellTypeIs(SpellType.Wall) & ~SpellTypeIs(SpellType.Zone) & ~TwinnedExclusionSpells()
 end
 
 function TwinnedExclusionSpells()

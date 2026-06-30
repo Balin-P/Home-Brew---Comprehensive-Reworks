@@ -81,7 +81,6 @@ data "RemoveConditions" "SavingThrow(Ability.Wisdom, SourceSpellDC())"
 data "RemoveEvents" "OnTurn"
 data "TooltipSave" "Wisdom"
 
-
 <!--OATH OF THE ANCIENTS-->
 
 new entry "HEALING_RADIANCE"
@@ -215,6 +214,7 @@ data "DisplayName" "hf8d923abg2aeeg446agac9dgbb27081000s6;2"
 data "Description" "hf8d923abg2aeeg446agac9dgbb27081000sf;5"
 data "Icon" "PassiveFeature_Tiefling_HellishResistance"
 data "TickType" "StartTurn"
+data "RemoveEvents" "OnCombatEnded"
 
 <!--OATH OF DEVOTION-->
 
@@ -236,7 +236,7 @@ data "Icon" "GenericIcon_DamageType_Radiant"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnDamaged"
 data "Conditions" "IsMeleeAttack() and Character() and not Self()"
-data "StatsFunctors" "ApplyStatus(SWAP,MAG_RADIANT_RADIATING_ORB,100,3);IF(HasPassive('Devotion_Upgrade2', context.Target)):DealDamage(SELF,1d12, Radiant)"
+data "StatsFunctors" "ApplyStatus(SWAP,MAG_RADIANT_RADIATING_ORB,100,3);IF(HasPassive('Devotion_Upgrade2', context.Target)):DealDamage(SELF,1d12, Radiant,,,0,,true)"
 
 new entry "SACRED_WEAPON"
 type "StatusData"
@@ -434,7 +434,7 @@ data "RemoveConditions" "TotalAttackDamageDoneGreaterThan(0) and HasDamageEffect
 data "RemoveEvents" "OnAttacked"
 data "StatusPropertyFlags" "LoseControl;InitiateCombat;BringIntoCombat"
 data "ManagedStatusEffectType" "Positive"
-data "StatusGroups" "SG_Cursed;SG_Dominated"
+data "StatusGroups" "SG_Magical;SG_Cursed;SG_Charmed;SG_Charmed_Subtle;SG_Dominated"
 data "StatusEffect" "61fe31f9-ae4b-4926-a033-e56ea67c7d92"
 data "ApplyEffect" "0a13ccc8-8a1f-4035-8d15-ab53a21cca0c"
 data "TickType" "EndTurn"
@@ -771,6 +771,22 @@ data "StatusGroups" "SG_RemoveOnRespec"
 data "ApplyEffect" "d21494e5-5c30-4a69-85ef-75a785e71105"
 data "EndEffect" "a5c11e94-efa3-4998-a76b-fc12502ea565"
 data "StackType" "Ignore"
+
+<!--TYRANT-->
+
+new entry "CAURAOFTHECONQUERER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "acb55f4f68334da6s574wdf96s87fee2000z5;2"
+data "Description" "acb55f4f68334da6s574wdf96s87fee2000ze;5"
+data "DescriptionParams" "Distance(3)"
+data "Icon" "Spell_2e_BloodVendetta"
+data "StackId" "CAURAOFTHECONQUERER"
+data "StackPriority" "10"
+data "AuraRadius" "3"
+data "AuraStatuses" "IF(not HasStatus('SITOUT_ONCOMBATSTART_APPLIER_TECHNICAL',context.Source) and not HasStatus('SITOUT_ONCOMBATSTART_DOONCE_TECHNICAL',context.Source) and not HasStatus('BANISHED',context.Source) and not HasStatus('BANISHED_FINALSTAND',context.Source) and Enemy()):ApplyStatus(FRIGHTENED)"
+data "RemoveEvents" "OnCombatEnded"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 <!--PASSIVES-->
 

@@ -9,7 +9,7 @@ data "DescriptionParams" "LevelMapValue(D12General)"
 data "StackId" "SECOND_WIND"
 data "StackType" "Overwrite"
 data "Icon" "Skill_Fighter_SecondWind"
-data "OnRemoveFunctors" "IF(not Dead() and RemoveCause(StatusRemoveCause.TimeOut)):RegainHitPoints(LevelMapValue(D12General))"
+data "OnRemoveFunctors" "IF(not Dead() and RemoveCause(StatusRemoveCause.TimeOut)):RegainHitPoints(LevelMapValue(D12General));IF(not Dead() and RemoveCause(StatusRemoveCause.TimeOut)):RestoreResource(SELF,SuperiorityDie,1,0)"
 data "TickType" "EndTurn"
 data "ManagedStatusEffectType" "Positive"
 data "ManagedStatusEffectGroup" "6435c10a-c67d-4f79-8813-b84b0762f92b"
@@ -23,7 +23,7 @@ data "Icon" "Skill_Fighter_ActionSurge"
 data "StackId" "ACTION_SURGE"
 data "StackType" "Overwrite"
 data "TickType" "EndTurn"
-data "OnRemoveFunctors" "RestoreResource(SELF,ActionPoint,1,0)"
+data "OnRemoveFunctors" "RestoreResource(SELF,ActionPoint,1,0);RestoreResource(SELF,SuperiorityDie,3,0)"
 data "StatusEffect" "5e6576d3-29c9-4c00-859b-1abcea010922"
 
 <!--ARCANE ARCHER-->
@@ -624,6 +624,36 @@ data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.Condition) and HasActi
 data "DisplayName" "hb5a027a4g2934g40bfga5e1g7cb9ad528a54;2"
 data "Description" "h87a4cfdbg2ba1g4a61gbbe7g5403a658a966;7"
 data "Icon" "PassiveFeature_MageSlayer_BreakConcentration"
+
+<!--PALISADE-->
+
+new entry "IRONAVALANCHE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "0e3d63a2603a455a9f70a7874a87c2b400004;1"
+data "Description" "0e3d63a2603a455a9f70a7874a87c2b40000d;1"
+data "DescriptionParams" "Distance(3)"
+data "Icon" "Spell_2e_Shield"
+data "StackId" "IRONAVALANCHE"
+data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.Death)):SwitchDeathType(Explode);IF(RemoveCause(StatusRemoveCause.Death)):ApplyStatus(CORPSE_USED,100,-1);IF(RemoveCause(StatusRemoveCause.Death) and not Summon()):CreateExplosion(Projectile_IronAvalanche)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StackType" "Overwrite"
+
+new entry "CASCADINGIRON_BLOCKER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "TickType" "EndTurn"
+data "Passives" "CascadingIron_Blocker_Remover"
+
+new entry "SUPERIORIMPACT"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "0e3d63a2603a455a9f70a7874a87c2b4000z6;1"
+data "StackId" "SUPERIORIMPACT"
+data "Boosts" "MinimumRollResult(Damage,20)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "Passives" "SuperiorImpact_Remover"
 
 <!--PASSIVES-->
 

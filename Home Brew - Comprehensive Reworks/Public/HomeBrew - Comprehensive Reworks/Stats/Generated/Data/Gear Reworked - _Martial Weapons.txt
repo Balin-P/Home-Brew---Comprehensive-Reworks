@@ -285,7 +285,7 @@ data "Boosts" "UnlockSpell(Target_PostureBreaker)"
 data "PassivesMainHand" "FreeHandling"
 data "PassivesOffHand" "Offhand_Dual_Wield"
 data "PassivesOnEquip" "WarHammered"
-data "Weapon Properties" "Melee;Dippable;Versatile;Versatile"
+data "Weapon Properties" "Melee;Dippable;Versatile"
 data "Weapon Group" "MartialMeleeWeapon"
 data "Proficiency Group" "MartialWeapons;Warhammers"
 

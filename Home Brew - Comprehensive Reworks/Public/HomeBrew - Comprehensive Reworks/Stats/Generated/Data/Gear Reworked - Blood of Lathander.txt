@@ -30,7 +30,7 @@ data "DisplayName" "h5bade051g2354g466dg98eag13ba92767f87;2"
 data "StackId" "MAG_LATHANDERS_BLESSING_RESURRECT_TECHNICAL"
 data "StatusPropertyFlags" "ApplyToDead;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "OnApplyFunctors" "Stabilize();IF(Dead()):Resurrect(100,1)"
-data "OnRemoveFunctors" "CreateExplosion(Projectile_CRE_LathandersBlessing_HealingExplosion);RegainHitPoints(12d12, Guaranteed);ResetCombatTurn();RestoreResource(Movement, 100%, 0);RestoreResource(BonusActionPoint, 100%, 0);RestoreResource(ActionPoint, 100%, 0);RestoreResource(ReactionActionPoint, 100%, 0)"
+data "OnRemoveFunctors" "CreateExplosion(Projectile_CRE_LathandersBlessing_HealingExplosion);RegainHitPoints(12d12, Guaranteed);ResetCombatTurn();RestoreResource(Movement, 100%, 0);RestoreResource(BonusActionPoint, 1, 0);RestoreResource(ActionPoint, 1, 0);RestoreResource(ReactionActionPoint, 1, 0)"
 
 new entry "Projectile_CRE_LathandersBlessing_HealingExplosion"
 type "SpellData"

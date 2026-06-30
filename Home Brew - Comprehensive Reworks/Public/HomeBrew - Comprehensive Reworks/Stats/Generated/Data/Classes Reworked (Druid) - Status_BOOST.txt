@@ -273,6 +273,36 @@ data "StackType" "Ignore"
 data "RemoveConditions" "SpellId('Shout_WildShape_Badger') or SpellId('Shout_WildShape_Bear_Polar') or SpellId('Shout_WildShape_Cat') or SpellId('Shout_WildShape_DeepRothe') or SpellId('Shout_WildShape_Dilophosaurus') or SpellId('Shout_WildShape_Dire_Raven') or SpellId('Shout_WildShape_Dire_Wolf') or SpellId('Shout_WildShape_Giant_Spider') or SpellId('Shout_Wildshape_SaberTooth_Tiger') or SpellId('Shout_Wildshape_Panther') or SpellId('Shout_WildShape_Owlbear') or SpellId('Shout_WildShape_Myrmidon_Air') or SpellId('Shout_WildShape_Myrmidon_Earth') or SpellId('Shout_WildShape_Myrmidon_Fire') or SpellId('Shout_WildShape_Myrmidon_Water')"
 data "RemoveEvents" "OnSpellCast"
 
+<!--CIRCLE OF THE SHADOWS-->
+
+new entry "NIGHTSPILL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "5126c10823d3434e8286ee66c19e569800001;1"
+data "Description" "5126c10823d3434e8286ee66c19e56980000a;7"
+data "DescriptionParams" "Distance(1.5)"
+data "Icon" "TadpoleSuperPower_DisplacerShape"
+data "StackId" "NIGHTSPILL"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "OnApplyFunctors" "CreateExplosion(Projectile_Nightspill)"
+
+new entry "HALLUCINATORYHORROR"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "5126c10823d3434e8286ee66c19e569800006;1"
+data "Description" "5126c10823d3434e8286ee66c19e56980000f;7"
+data "Icon" "TadpoleSuperPower_DisplacerShape"
+data "Boosts" "Resistance(Psychic, Vulnerable)"
+data "StackId" "HALLUCINATORYHORROR"
+data "StatusGroups" "SG_Mental"
+data "StatusPropertyFlags" "InitiateCombat"
+data "ApplyEffect" "05f69dd9-98e6-43b6-8143-b055e96a4f4d"
+data "StatusEffect" "87196e39-6cb8-4c73-9087-216b3e9b7af3"
+data "TickType" "EndTurn"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+data "RemoveConditions" "not HasStatus('MADNESS') and not HasStatus('CROWN_OF_MADNESS')"
+data "RemoveEvents" "OnStatusRemoved"
+
 <!--CIRCLE OF THE SPORES-->
 
 new entry "SYMBIOTIC_ENTITY"

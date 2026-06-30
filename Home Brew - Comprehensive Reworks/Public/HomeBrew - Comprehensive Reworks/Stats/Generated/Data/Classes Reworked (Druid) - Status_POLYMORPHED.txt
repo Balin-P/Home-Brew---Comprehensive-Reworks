@@ -889,6 +889,8 @@ data "StatusType" "POLYMORPHED"
 using "CWILDSHAPE_SABERTOOTH_TIGER_PLAYER_1"
 data "TemplateID" "6c82f01b-d201-444c-0009-000000000012"
 
+<!--CIRCLE OF THE MOON-->
+
 <!--PANTHER-->
 
 new entry "CWILDSHAPE_PANTHER_PLAYER_1"
@@ -1058,6 +1060,8 @@ type "StatusData"
 data "StatusType" "POLYMORPHED"
 using "CWILDSHAPE_OWLBEAR_PLAYER_1"
 data "TemplateID" "6c82f01b-d201-444c-0011-000000000012"
+
+<!--CIRCLE OF THE ELEMENTS-->
 
 <!--MYRMIDON AIR-->
 
@@ -1411,6 +1415,93 @@ data "StatusType" "POLYMORPHED"
 using "CWILDSHAPE_MYRMIDON_WATER_PLAYER_1"
 data "TemplateID" "6c82f01b-d201-444c-0015-000000000012"
 
+<!--CIRCLE OF THE SHADOWS-->
+
+<!--DISPLACERBEAST-->
+
+new entry "CWILDSHAPE_DISPLACERBEAST_PLAYER_1"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_BADGER_PLAYER"
+data "DisplayName" "5126c10823d3434e8286ee66c19e5698000z1;2"
+data "Icon" "TadpoleSuperPower_DisplacerShape"
+data "Boosts" "VoicebarkBlock();BlockSpellCast();UnlockSpell(Shout_WildShape_Dismiss);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);DarkvisionRangeMin(18);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989);AttackSpellOverride(Target_Tentacle_DisplacerBeast, Target_MainHandAttack);AttackSpellOverride(Target_Tentacle_DisplacerBeast, Projectile_MainHandAttack)"
+data "OnRemoveFunctors" "ApplyStatus(SELF,WILDSHAPE_PANTHER_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1)"
+data "TemplateID" "614a564f-73db-433e-0010-000000000001"
+data "Rules" "9c580a1d-dab9-4b17-b0da-b16c7d7360e0"
+data "Passives" "Wildshape_Swap;Wildshape_Swap_Applicator;SuperiorDarkvision;CreaturePassive_Displacer;CreaturePassive_Aware"
+data "StatusGroups" "SG_Polymorph_BeastShape;SG_DropForNonMutingDialog;SG_RemoveOnRespec"
+data "ApplyEffect" "f515b011-9b9d-462c-85e1-a79bc9055962"
+data "OnApplyFunctors" "RemoveStatus(LIGHTSENSITIVITY_BUFF);IF(not Player()):UseActionResource(BonusActionPoint,1,0);IF(not Player()):UseActionResource(WildShape,1,0);IF(not HasStatus('WILDSHAPE_SWAP', context.Source)):ApplyStatus(WILDSHAPE_SWAP,100,10);IF(Tagged('REALLY_KARLACH')):ApplyStatus(FIRE_VFX,100,-1)"
+data "StackId" "WILDSHAPE"
+data "StackType" "Ignore"
+
+new entry "CWILDSHAPE_DISPLACERBEAST_PLAYER_2"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_DISPLACERBEAST_PLAYER_1"
+data "TemplateID" "614a564f-73db-433e-0010-000000000002"
+
+new entry "CWILDSHAPE_DISPLACERBEAST_PLAYER_3"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_DISPLACERBEAST_PLAYER_1"
+data "TemplateID" "614a564f-73db-433e-0010-000000000003"
+
+new entry "CWILDSHAPE_DISPLACERBEAST_PLAYER_4"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_DISPLACERBEAST_PLAYER_1"
+data "TemplateID" "614a564f-73db-433e-0010-000000000004"
+
+new entry "CWILDSHAPE_DISPLACERBEAST_PLAYER_5"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_DISPLACERBEAST_PLAYER_1"
+data "TemplateID" "614a564f-73db-433e-0010-000000000005"
+
+new entry "CWILDSHAPE_DISPLACERBEAST_PLAYER_6"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_DISPLACERBEAST_PLAYER_1"
+data "TemplateID" "614a564f-73db-433e-0010-000000000006"
+
+new entry "CWILDSHAPE_DISPLACERBEAST_PLAYER_7"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_DISPLACERBEAST_PLAYER_1"
+data "TemplateID" "614a564f-73db-433e-0010-000000000007"
+
+new entry "CWILDSHAPE_DISPLACERBEAST_PLAYER_8"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_DISPLACERBEAST_PLAYER_1"
+data "TemplateID" "614a564f-73db-433e-0010-000000000008"
+
+new entry "CWILDSHAPE_DISPLACERBEAST_PLAYER_9"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_DISPLACERBEAST_PLAYER_1"
+data "TemplateID" "614a564f-73db-433e-0010-000000000009"
+
+new entry "CWILDSHAPE_DISPLACERBEAST_PLAYER_10"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_DISPLACERBEAST_PLAYER_1"
+data "TemplateID" "614a564f-73db-433e-0010-000000000010"
+
+new entry "CWILDSHAPE_DISPLACERBEAST_PLAYER_11"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_DISPLACERBEAST_PLAYER_1"
+data "TemplateID" "614a564f-73db-433e-0010-000000000011"
+
+new entry "CWILDSHAPE_DISPLACERBEAST_PLAYER_12"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_DISPLACERBEAST_PLAYER_1"
+data "TemplateID" "614a564f-73db-433e-0010-000000000012"
+
 <!--CIRCLE OF THE STARS-->
 
 new entry "WILDSHAPE_STARRY_ARCHER_PLAYER"
@@ -1476,9 +1567,9 @@ data "DisplayName" "hd34d046cg16c8g41fdg9956g90999922fd84;1"
 data "Icon" "Skill_Druid_WildShape_Rat"
 data "StackId" "WILDSHAPE"
 data "Boosts" "BlockSpellCast()"
-data "OnRemoveFunctors" "ApplyStatus(SELF,WILDSHAPE_CAT_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RegainHitPoints(Target.MaxHP);RegainHitPoints(Target.MaxHP);RegainHitPoints(Target.MaxHP);RegainHitPoints(Target.MaxHP)"
+data "OnRemoveFunctors" "ApplyStatus(SELF,WILDSHAPE_CAT_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RegainHitPoints(Target.MaxHP*100)"
 data "TemplateID" "c1ccd3e4-2864-469e-92d3-6b1d8d019fec"
-data "Rules" "9c580a1d-dab9-4b17-b0da-b16c7d7360e0"
+data "Rules" "3314c384-4be6-4c0e-b0cd-01b4c70b66ff"
 data "StatusGroups" "SG_Polymorph_BeastShape;SG_DropForNonMutingDialog;SG_RemoveOnRespec"
 data "ApplyEffect" "f515b011-9b9d-462c-85e1-a79bc9055962"
 
@@ -1489,8 +1580,40 @@ data "DisplayName" "hd34d046cg16c8g41fdg9956g90999922fd84;1"
 data "Icon" "Skill_Druid_WildShape_Rat"
 data "StackId" "WILDSHAPE"
 data "Boosts" "BlockSpellCast()"
-data "OnRemoveFunctors" "ApplyStatus(SELF,WILDSHAPE_CAT_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RegainHitPoints(Target.MaxHP);RegainHitPoints(Target.MaxHP);RegainHitPoints(Target.MaxHP);RegainHitPoints(Target.MaxHP)"
+data "OnRemoveFunctors" "ApplyStatus(SELF,WILDSHAPE_CAT_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RegainHitPoints(Target.MaxHP*100)"
 data "TemplateID" "c1ccd3e4-2864-469e-92d3-6b1d8d019fec"
-data "Rules" "9c580a1d-dab9-4b17-b0da-b16c7d7360e0"
+data "Rules" "3314c384-4be6-4c0e-b0cd-01b4c70b66ff"
 data "StatusGroups" "SG_Polymorph_BeastShape;SG_DropForNonMutingDialog;SG_Polymorph_BeastShape_NPC"
 data "ApplyEffect" "f515b011-9b9d-462c-85e1-a79bc9055962"
+
+new entry "HAV_PHASM_OX_DISGUISE"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+data "DisplayName" "hc0ac5488g2445g47daga288g8d056d3b523e;1"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "OnRemoveFunctors" "ApplyStatus(HAV_PHASM_OX_DISGUISE_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1);RegainHitPoints(Target.MaxHP*100)"
+data "TemplateID" "3f1dfd9b-fb57-49bd-81ee-6f9930eac709"
+data "Rules" "611cb034-0861-4b4a-b8ff-4ce2c37e3059"
+
+new entry "SHAPECHANGED_DOPPELGANGER_DEFAULT"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+data "DisplayName" "h3bbb71edgfe86g4b5cg994ag9088673e713c;1"
+data "Description" "h94ab33b8g503ag4813ga5e6g89f6b42cce74;2"
+data "Icon" "Spell_Illusion_DisguiseSelf_Human_Male"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "OnApplyFunctors" "RemoveStatus(DOPPELGANGER_DISARMED)"
+data "OnRemoveFunctors" "ApplyStatus(DOPPELGANGER_DISARMED,100,-1)"
+data "TemplateID" "fa4831e1-c8c9-440d-9678-8e16ae95673a"
+data "Rules" "a2ff752c-84da-442b-bee1-0e593c377a71"
+data "StatusGroups" "SG_Polymorph;SG_WeaponCoating;SG_Doppelganger"
+data "StatusEffect" "f6ec271c-54ef-4617-9514-612b48ce6a98"
+
+new entry "DOPPELGANGER_DISARMED"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DISARMED"
+data "DisplayName" "h0794c4a5gb33eg41e9g8a78g076b7fd00958;1"
+data "StatusPropertyFlags" "InitiateCombat;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "OnApplyFunctors" "RemoveStatus(DOPPELGANGER_DISARMED)"
+data "OnRemoveFunctors" "RegainHitPoints(Target.MaxHP)"

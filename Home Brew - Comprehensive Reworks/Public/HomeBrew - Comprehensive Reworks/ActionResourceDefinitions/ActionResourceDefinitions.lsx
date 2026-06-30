@@ -287,7 +287,6 @@
                     <attribute id="Description" type="TranslatedString" handle="hc3cb9a24g2714g46f1gb026g3cf7426738b5" version="2" />
                     <attribute id="DisplayName" type="TranslatedString" handle="hb4557cd6g4b5bg494fgbaeag88df26416060" version="3" />
                     <attribute id="MaxLevel" type="uint32" value="0" />
-                    <attribute id="MaxValue" type="uint32" value="24" />
                     <attribute id="Name" type="FixedString" value="SorceryPoint" />
                     <attribute id="ReplenishType" type="FixedString" value="ShortRest" />
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />

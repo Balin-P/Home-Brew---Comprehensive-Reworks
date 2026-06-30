@@ -1,3 +1,23 @@
+<!--WAY OF THE GENTLE FIST-->
+
+new entry "Interrupt_MercifulCounter"
+type "InterruptData"
+data "DisplayName" "acb55f4f68334d90acd68f5f37353d0b000z4;1"
+data "Description" "acb55f4f68334d90acd68f5f37353d0b000zd;2"
+data "DescriptionParams" "Distance(9)"
+data "Icon" "Spell_2e_ForcefulHand"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Nearby"
+data "InterruptFlags" "InterruptWhileInvisible"
+data "Container" "YesNoDecision"
+data "Conditions" "not Self(context.Target,context.Observer) and not Self(context.Source,context.Observer) and CanSee(context.Source,context.Observer) and Ally(context.Target, context.Observer) and Enemy(context.Source, context.Observer) and not HasStatus('SG_Charmed',context.Source) and not HasStatus('SG_Invisible',context.Source) and IsAbleToReact(context.Observer) and not HasHPPercentageWithoutTemporaryHPLessThan(51, context.Target) and not DistanceToEntityGreaterThan(9, context.ObserverPosition, context.Source) and not AnyEntityIsItem() and HasLastAttackTriggered()"
+data "Properties" "UseSpell(OBSERVER_TARGET,Target_MercifulCounter,true,true,true);ApplyStatus(OBSERVER_OBSERVER,COUNTERACTION_RESTORE,100,0)"
+data "Cost" "CounterAction:1"
+data "InterruptDefaultValue" "Enabled"
+data "EnableCondition" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('SG_Blinded')"
+data "EnableContext" "OnStatusRemoved;OnStatusApplied"
+data "Stack" "OnAllyDamaged"
+
 <!--PASSIVES-->
 
 new entry "Interrupt_Counterflow"
@@ -94,7 +114,7 @@ data "InterruptContext" "OnCastHit"
 data "InterruptContextScope" "Self"
 data "InterruptFlags" "InterruptWhileInvisible"
 data "Container" "YesNoDecision"
-data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Source,context.Observer) and (IsKillingBlow() or IsCritical()) and not AnyEntityIsItem() and not HasActionResource('BonusActionPoint',1,0,false,false,context.Source)"
+data "Conditions" "IsAbleToReact(context.Observer) and Self(context.Source,context.Observer) and IsKillingBlow() and not AnyEntityIsItem() and not HasActionResource('BonusActionPoint',1,0,false,false,context.Source)"
 data "Properties" "ApplyStatus(OBSERVER_OBSERVER,ZENACCURACY,100,0);ApplyStatus(OBSERVER_OBSERVER,COUNTERACTION_RESTORE,100,0)"
 data "Cost" "ReactionActionPoint:1;CounterAction:1"
 data "InterruptDefaultValue" "Ask;Enabled"

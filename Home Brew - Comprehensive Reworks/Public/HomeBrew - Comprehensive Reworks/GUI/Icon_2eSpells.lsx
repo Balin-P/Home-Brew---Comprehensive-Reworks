@@ -432,7 +432,7 @@
                     <attribute id="V2" type="float" value="0.2"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Spell_2e_InpeccableFlow"/>
+                    <attribute id="MapKey" type="FixedString" value="Spell_2e_ImpeccableFlow"/>
                     <attribute id="U1" type="float" value="0.05"/>
                     <attribute id="U2" type="float" value="0.1"/>
                     <attribute id="V1" type="float" value="0.15"/>

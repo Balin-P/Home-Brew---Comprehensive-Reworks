@@ -48,13 +48,13 @@ key "LearnSpellCostPerLevel","250"
 
 key "SavantLearnSpellCostPerLevel","250"
 
-key "PickpocketingMinimumDC","1"
+key "PickpocketingMinimumDC","6"
 
 key "FollowDistance","90"
 
 key "SneakFollowDistance","9"
 
-key "BaseSpellDifficultyCheck","10"
+key "BaseSpellDifficultyCheck","6"
 
 key "NPC max combat turn time","30"
 

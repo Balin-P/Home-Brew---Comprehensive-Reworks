@@ -21,7 +21,7 @@ data "DescriptionParams" "DealDamage(1d6,Necrotic)"
 data "TooltipConditionalDamage" "DealDamage(1d6,Necrotic)"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "AttackedWithPassiveSourceWeapon()"
-data "StatsFunctors" "IF(not IsInSunlight()):DealDamage(1d6,Necrotic,Magical)"
+data "StatsFunctors" "IF(not IsInSunlight()):DealDamage(1d6,Necrotic,,,0,,true)"
 
 new entry "DEN_Apprentice_DaggerOfShar_Passive"
 type "PassiveData"

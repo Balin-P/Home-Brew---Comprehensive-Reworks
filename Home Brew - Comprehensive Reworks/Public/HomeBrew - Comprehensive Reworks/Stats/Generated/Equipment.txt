@@ -7,12 +7,6 @@ add equipment entry "ARM_Padded_BGWatch"
 add equipmentgroup
 add equipment entry "ARM_Shoes_A"
 add equipmentgroup
-add equipment entry "OBJ_Bag_AlchemyPouch"
-add equipmentgroup
-add equipment entry "OBJ_Backpack_CampSupplies"
-add equipmentgroup
-add equipment entry "OBJ_Keychain"
-add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
@@ -24,6 +18,26 @@ add equipmentgroup
 add equipment entry "ARM_Camp_Body"
 add equipmentgroup
 add equipment entry "ARM_Camp_Shoes"
+add equipmentgroup
+add equipment entry "OBJ_Bag_AlchemyPouch"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_CoatingBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_CampSupplies"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_PotionBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_DyeBag"
+add equipmentgroup
+add equipment entry "OBJ_Keychain"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ScrollBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_GrenadeBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ArrowBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_StartingGear"
 
 new equipment "EQP_CC_Barbarian"
 add initialweaponset "Melee"
@@ -34,12 +48,6 @@ add equipment entry "ARM_Barbarian"
 add equipmentgroup
 add equipment entry "ARM_Shoes_Barbarian"
 add equipmentgroup
-add equipment entry "OBJ_Bag_AlchemyPouch"
-add equipmentgroup
-add equipment entry "OBJ_Backpack_CampSupplies"
-add equipmentgroup
-add equipment entry "OBJ_Keychain"
-add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
@@ -51,6 +59,26 @@ add equipmentgroup
 add equipment entry "ARM_Camp_Body"
 add equipmentgroup
 add equipment entry "ARM_Camp_Shoes"
+add equipmentgroup
+add equipment entry "OBJ_Bag_AlchemyPouch"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_CoatingBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_CampSupplies"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_PotionBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_DyeBag"
+add equipmentgroup
+add equipment entry "OBJ_Keychain"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ScrollBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_GrenadeBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ArrowBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_StartingGear"
 
 new equipment "EQP_CC_Bard"
 add initialweaponset "Melee"
@@ -61,12 +89,6 @@ add equipment entry "ARM_Bard"
 add equipmentgroup
 add equipment entry "ARM_Boots_Leather_D"
 add equipmentgroup
-add equipment entry "OBJ_Bag_AlchemyPouch"
-add equipmentgroup
-add equipment entry "OBJ_Backpack_CampSupplies"
-add equipmentgroup
-add equipment entry "OBJ_Keychain"
-add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
@@ -79,15 +101,25 @@ add equipment entry "ARM_Camp_Body"
 add equipmentgroup
 add equipment entry "ARM_Camp_Shoes"
 add equipmentgroup
-add equipment entry "ARM_Instrument_Lute"
+add equipment entry "OBJ_Bag_AlchemyPouch"
 add equipmentgroup
-add equipment entry "ARM_Instrument_Flute"
+add equipment entry "DOR_BagsReforged_CoatingBag"
 add equipmentgroup
-add equipment entry "ARM_Instrument_Drum"
+add equipment entry "OBJ_Backpack_CampSupplies"
 add equipmentgroup
-add equipment entry "ARM_Instrument_Lyre"
+add equipment entry "DOR_BagsReforged_PotionBag"
 add equipmentgroup
-add equipment entry "ARM_Instrument_Violin"
+add equipment entry "DOR_BagsReforged_DyeBag"
+add equipmentgroup
+add equipment entry "OBJ_Keychain"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ScrollBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_GrenadeBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ArrowBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_StartingGear"
 
 new equipment "EQP_CC_Cleric"
 add initialweaponset "Melee"
@@ -100,12 +132,6 @@ add equipment entry "ARM_ChainShirt_Body"
 add equipmentgroup
 add equipment entry "ARM_Shoes_E"
 add equipmentgroup
-add equipment entry "OBJ_Bag_AlchemyPouch"
-add equipmentgroup
-add equipment entry "OBJ_Backpack_CampSupplies"
-add equipmentgroup
-add equipment entry "OBJ_Keychain"
-add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
@@ -117,6 +143,26 @@ add equipmentgroup
 add equipment entry "ARM_Camp_Body"
 add equipmentgroup
 add equipment entry "ARM_Camp_Shoes"
+add equipmentgroup
+add equipment entry "OBJ_Bag_AlchemyPouch"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_CoatingBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_CampSupplies"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_PotionBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_DyeBag"
+add equipmentgroup
+add equipment entry "OBJ_Keychain"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ScrollBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_GrenadeBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ArrowBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_StartingGear"
 
 new equipment "EQP_CC_Druid"
 add initialweaponset "Melee"
@@ -127,12 +173,6 @@ add equipment entry "ARM_Leather_Body_Druid"
 add equipmentgroup
 add equipment entry "ARM_Boots_Leather_Druid"
 add equipmentgroup
-add equipment entry "OBJ_Bag_AlchemyPouch"
-add equipmentgroup
-add equipment entry "OBJ_Backpack_CampSupplies"
-add equipmentgroup
-add equipment entry "OBJ_Keychain"
-add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
@@ -144,6 +184,26 @@ add equipmentgroup
 add equipment entry "ARM_Camp_Body"
 add equipmentgroup
 add equipment entry "ARM_Camp_Shoes"
+add equipmentgroup
+add equipment entry "OBJ_Bag_AlchemyPouch"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_CoatingBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_CampSupplies"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_PotionBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_DyeBag"
+add equipmentgroup
+add equipment entry "OBJ_Keychain"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ScrollBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_GrenadeBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ArrowBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_StartingGear"
 
 new equipment "EQP_CC_Fighter"
 add initialweaponset "Melee"
@@ -156,12 +216,6 @@ add equipment entry "ARM_ScaleMail_Body"
 add equipmentgroup
 add equipment entry "ARM_Boots_Leather_A"
 add equipmentgroup
-add equipment entry "OBJ_Bag_AlchemyPouch"
-add equipmentgroup
-add equipment entry "OBJ_Backpack_CampSupplies"
-add equipmentgroup
-add equipment entry "OBJ_Keychain"
-add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
@@ -173,6 +227,26 @@ add equipmentgroup
 add equipment entry "ARM_Camp_Body"
 add equipmentgroup
 add equipment entry "ARM_Camp_Shoes"
+add equipmentgroup
+add equipment entry "OBJ_Bag_AlchemyPouch"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_CoatingBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_CampSupplies"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_PotionBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_DyeBag"
+add equipmentgroup
+add equipment entry "OBJ_Keychain"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ScrollBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_GrenadeBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ArrowBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_StartingGear"
 
 new equipment "EQP_CC_Monk"
 add initialweaponset "Melee"
@@ -183,12 +257,6 @@ add equipment entry "ARM_Monk"
 add equipmentgroup
 add equipment entry "ARM_Shoes_Monk"
 add equipmentgroup
-add equipment entry "OBJ_Bag_AlchemyPouch"
-add equipmentgroup
-add equipment entry "OBJ_Backpack_CampSupplies"
-add equipmentgroup
-add equipment entry "OBJ_Keychain"
-add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
@@ -200,6 +268,26 @@ add equipmentgroup
 add equipment entry "ARM_Camp_Body"
 add equipmentgroup
 add equipment entry "ARM_Camp_Shoes"
+add equipmentgroup
+add equipment entry "OBJ_Bag_AlchemyPouch"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_CoatingBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_CampSupplies"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_PotionBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_DyeBag"
+add equipmentgroup
+add equipment entry "OBJ_Keychain"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ScrollBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_GrenadeBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ArrowBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_StartingGear"
 
 new equipment "EQP_CC_Paladin"
 add initialweaponset "Melee"
@@ -210,12 +298,6 @@ add equipment entry "ARM_ScaleMail_Body_Paladin_Vengeance"
 add equipmentgroup
 add equipment entry "ARM_Shoes_G"
 add equipmentgroup
-add equipment entry "OBJ_Bag_AlchemyPouch"
-add equipmentgroup
-add equipment entry "OBJ_Backpack_CampSupplies"
-add equipmentgroup
-add equipment entry "OBJ_Keychain"
-add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
@@ -227,6 +309,26 @@ add equipmentgroup
 add equipment entry "ARM_Camp_Body"
 add equipmentgroup
 add equipment entry "ARM_Camp_Shoes"
+add equipmentgroup
+add equipment entry "OBJ_Bag_AlchemyPouch"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_CoatingBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_CampSupplies"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_PotionBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_DyeBag"
+add equipmentgroup
+add equipment entry "OBJ_Keychain"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ScrollBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_GrenadeBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ArrowBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_StartingGear"
 
 new equipment "EQP_CC_Ranger"
 add initialweaponset "Ranged"
@@ -239,12 +341,6 @@ add equipment entry "ARM_StuddedLeather_Body"
 add equipmentgroup
 add equipment entry "ARM_Boots_Leather_B"
 add equipmentgroup
-add equipment entry "OBJ_Bag_AlchemyPouch"
-add equipmentgroup
-add equipment entry "OBJ_Backpack_CampSupplies"
-add equipmentgroup
-add equipment entry "OBJ_Keychain"
-add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
@@ -256,6 +352,26 @@ add equipmentgroup
 add equipment entry "ARM_Camp_Body"
 add equipmentgroup
 add equipment entry "ARM_Camp_Shoes"
+add equipmentgroup
+add equipment entry "OBJ_Bag_AlchemyPouch"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_CoatingBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_CampSupplies"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_PotionBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_DyeBag"
+add equipmentgroup
+add equipment entry "OBJ_Keychain"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ScrollBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_GrenadeBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ArrowBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_StartingGear"
 
 new equipment "EQP_CC_Rogue"
 add initialweaponset "Melee"
@@ -268,12 +384,6 @@ add equipment entry "ARM_Leather_Body_Rogue"
 add equipmentgroup
 add equipment entry "ARM_Boots_Leather"
 add equipmentgroup
-add equipment entry "OBJ_Bag_AlchemyPouch"
-add equipmentgroup
-add equipment entry "OBJ_Backpack_CampSupplies"
-add equipmentgroup
-add equipment entry "OBJ_Keychain"
-add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
@@ -285,6 +395,26 @@ add equipmentgroup
 add equipment entry "ARM_Camp_Body"
 add equipmentgroup
 add equipment entry "ARM_Camp_Shoes"
+add equipmentgroup
+add equipment entry "OBJ_Bag_AlchemyPouch"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_CoatingBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_CampSupplies"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_PotionBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_DyeBag"
+add equipmentgroup
+add equipment entry "OBJ_Keychain"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ScrollBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_GrenadeBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ArrowBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_StartingGear"
 
 new equipment "EQP_CC_Sorcerer"
 add initialweaponset "Melee"
@@ -295,12 +425,6 @@ add equipment entry "ARM_Robe_Body_Sorcerer"
 add equipmentgroup
 add equipment entry "ARM_Boots_Leather_C"
 add equipmentgroup
-add equipment entry "OBJ_Bag_AlchemyPouch"
-add equipmentgroup
-add equipment entry "OBJ_Backpack_CampSupplies"
-add equipmentgroup
-add equipment entry "OBJ_Keychain"
-add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
@@ -312,6 +436,26 @@ add equipmentgroup
 add equipment entry "ARM_Camp_Body"
 add equipmentgroup
 add equipment entry "ARM_Camp_Shoes"
+add equipmentgroup
+add equipment entry "OBJ_Bag_AlchemyPouch"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_CoatingBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_CampSupplies"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_PotionBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_DyeBag"
+add equipmentgroup
+add equipment entry "OBJ_Keychain"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ScrollBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_GrenadeBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ArrowBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_StartingGear"
 
 new equipment "EQP_CC_Warlock"
 add initialweaponset "Melee"
@@ -322,12 +466,6 @@ add equipment entry "ARM_Padded_Body"
 add equipmentgroup
 add equipment entry "ARM_Shoes_F"
 add equipmentgroup
-add equipment entry "OBJ_Bag_AlchemyPouch"
-add equipmentgroup
-add equipment entry "OBJ_Backpack_CampSupplies"
-add equipmentgroup
-add equipment entry "OBJ_Keychain"
-add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
@@ -339,6 +477,26 @@ add equipmentgroup
 add equipment entry "ARM_Camp_Body"
 add equipmentgroup
 add equipment entry "ARM_Camp_Shoes"
+add equipmentgroup
+add equipment entry "OBJ_Bag_AlchemyPouch"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_CoatingBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_CampSupplies"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_PotionBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_DyeBag"
+add equipmentgroup
+add equipment entry "OBJ_Keychain"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ScrollBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_GrenadeBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ArrowBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_StartingGear"
 
 new equipment "EQP_CC_Wizard"
 add initialweaponset "Melee"
@@ -349,12 +507,6 @@ add equipment entry "ARM_Robe_Body"
 add equipmentgroup
 add equipment entry "ARM_Shoes_D"
 add equipmentgroup
-add equipment entry "OBJ_Bag_AlchemyPouch"
-add equipmentgroup
-add equipment entry "OBJ_Backpack_CampSupplies"
-add equipmentgroup
-add equipment entry "OBJ_Keychain"
-add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
 add equipmentgroup
 add equipment entry "OBJ_Potion_Healing"
@@ -366,6 +518,26 @@ add equipmentgroup
 add equipment entry "ARM_Camp_Body"
 add equipmentgroup
 add equipment entry "ARM_Camp_Shoes"
+add equipmentgroup
+add equipment entry "OBJ_Bag_AlchemyPouch"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_CoatingBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_CampSupplies"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_PotionBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_DyeBag"
+add equipmentgroup
+add equipment entry "OBJ_Keychain"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ScrollBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_GrenadeBag"
+add equipmentgroup
+add equipment entry "DOR_BagsReforged_ArrowBag"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_StartingGear"
 
 new equipment "EQ_Astarion"
 add initialweaponset "Melee"

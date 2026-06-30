@@ -385,6 +385,19 @@ data "ManagedStatusEffectType" "Positive"
 data "ManagedStatusEffectGroup" "6435c10a-c67d-4f79-8813-b84b0762f92b"
 data "TickType" "EndTurn"
 
+<!--GORTASH-->
+
+new entry "WYR_GORTASH_CRUSHINGFIST_HANGING"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hb2e1bdbagdec3g45d9gb1a9g69b472dd8d35;3"
+data "FormatColor" "White"
+data "TickType" "EndTurn"
+data "TickFunctors" "RemoveStatus(WYR_GORTASH_CRUSHINGFIST_HANGING)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;TickingWithSource;FreezeDuration"
+data "OnApplyFunctors" "IF(Character() and not Tagged('ACT3_WYR_GORTASH'))ApplyStatus(WYR_AI_HELPER_AVOIDAREA_EXCEPT_GORTASH,100,-1)"
+data "StatusEffect" "16afd8d3-be99-445c-bcab-dce474d521e0"
+
 <!--GREMISHKA-->
 
 new entry "GREMISHKA_MAGICALLERGY_AURA"
@@ -490,7 +503,7 @@ data "Boosts" "CannotHarmCauseEntity(CannotHarmCharmer);Advantage(SourceDialogue
 data "RemoveConditions" "SavingThrow(Ability.Wisdom, SourceSpellDC(), AdvantageOnCharmed()) and ((Tagged('ACT1_DEN_CHARMEDKID') and Combat()) or not Tagged('ACT1_DEN_CHARMEDKID'))"
 data "RemoveEvents" "OnDamage;OnTurn"
 data "TooltipSave" "Wisdom"
-data "StatusPropertyFlags" "BringIntoCombat;TickingWithSource;ForceOverhead;OverheadOnTurn;LoseControl"
+data "StatusPropertyFlags" "BringIntoCombat;ForceOverhead;OverheadOnTurn;LoseControl"
 data "StatusGroups" "SG_Charmed;SG_Approaching;SG_ScriptedPeaceBehaviour"
 data "StatusEffect" "5f2c07d0-4d7e-4d6a-848d-c69ba9c2d74c"
 

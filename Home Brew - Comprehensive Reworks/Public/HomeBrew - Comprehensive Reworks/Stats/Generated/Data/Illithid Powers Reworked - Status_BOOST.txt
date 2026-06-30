@@ -202,11 +202,10 @@ data "Description" "hbb769d0dg2061g433fga434gd0f9792a2950;2"
 data "Icon" "TadpoleSuperPower_PerilousStakes"
 data "SoundLoop" "Spell_Status_PerilousStakes_MO"
 data "SoundStop" "Spell_Status_PerilousStakes_MO_Stop"
-data "Boosts" "Resistance(All,Vulnerable)"
+data "Boosts" "Resistance(All,Vulnerable);Resistance(All,Resistant)"
 data "StatusPropertyFlags" ""
 data "ApplyEffect" "ab6d4ae6-32b4-4427-b020-9b142c75f753"
 data "StatusEffect" "8614fe74-668b-42af-86d1-76ab6889e330"
-data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.TimeOut)):RegainHitPoints(9999)"
 
 <!--IMPERIL-->
 

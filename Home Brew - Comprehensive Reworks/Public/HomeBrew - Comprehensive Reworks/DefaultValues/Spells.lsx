@@ -33,11 +33,18 @@
                     <attribute id="UUID" type="guid" value="6895d347-c51e-4c7b-a29a-464eea3f550a"/>
 					</node>
                 <node id="DefaultValue">
-                    <attribute id="Add" type="LSString" value="Target_Friends;Target_ViciousMockery;Target_AnimateDead;Target_Harm"/>
+                    <attribute id="Add" type="LSString" value="Target_Friends;Target_ViciousMockery;Target_AnimateDead"/>
                     <attribute id="Level" type="int32" value="1"/>
                     <attribute id="SelectorId" type="LSString" value="Bard - College of Moriendi"/>
                     <attribute id="TableUUID" type="guid" value="89818b42-0c0c-4c76-ade9-2148f37cd51d"/>
                     <attribute id="UUID" type="guid" value="4b48b6f5-3fb8-4e40-8510-65bf2df0926f"/>
+					</node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Target_Friends;Target_ViciousMockery;Zone_Thunderwave"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="Bard - College of Nostalgia"/>
+                    <attribute id="TableUUID" type="guid" value="af7af42c-81b2-4ce3-a5a5-2148f37cd51d"/>
+                    <attribute id="UUID" type="guid" value="5dbd4b62-0c09-4ba8-be7f-f31b7beb3234"/>
 					</node>
                 <node id="DefaultValue">
                     <attribute id="Add" type="LSString" value="Target_Friends;Target_ViciousMockery;Target_MagicWeapon"/>
@@ -86,6 +93,13 @@
                     <attribute id="SelectorId" type="LSString" value="Druid - Wildshape"/>
                     <attribute id="TableUUID" type="guid" value="ba1f14d6-d40b-47ce-b071-91b491d87b27"/>
                     <attribute id="UUID" type="guid" value="c7b06496-1166-491f-b93b-cd4c51175ea5"/>
+					</node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Shout_WildShape_Bear_Polar;Shout_WildShape_Cat;Shout_WildShape_Dire_Wolf"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="Druid - Wildshape"/>
+                    <attribute id="TableUUID" type="guid" value="a4b9c267-93b0-49b2-b2fe-da4f007c2dca"/>
+                    <attribute id="UUID" type="guid" value="9ea79cfd-8cf2-4371-b996-cd0a6c2dcec9"/>
 					</node>
                 <node id="DefaultValue">
                     <attribute id="Add" type="LSString" value="Shout_WildShape_Bear_Polar;Shout_WildShape_Cat;Shout_WildShape_Dire_Wolf"/>

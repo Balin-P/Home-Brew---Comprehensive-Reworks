@@ -20,7 +20,7 @@ data "Description" "h8ba465d0g1abag4dd6g802egb9222f98184b;3"
 data "DescriptionParams" "DealDamage(1d4,Force)"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "HasSpellFlag(SpellFlags.Spell) and not IsCantrip() and HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Source)"
-data "StatsFunctors" "DealDamage(1d4,Force,Magical)"
+data "StatsFunctors" "DealDamage(1d4,Force,,,0,,true)"
 
 new entry "MAG_LowHP_IncreasedSpellDamage_Passive"
 type "PassiveData"

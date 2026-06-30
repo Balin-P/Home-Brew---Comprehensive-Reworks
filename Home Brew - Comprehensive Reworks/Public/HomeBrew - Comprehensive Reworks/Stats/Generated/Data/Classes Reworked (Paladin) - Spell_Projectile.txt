@@ -36,6 +36,32 @@ data "CastEffect" "d5948b74-db79-4f8e-abd5-e1ec7ec8e9b3"
 data "HitEffect" "41de42e1-56d0-4336-8b44-99fc38281525"
 data "DamageType" "Fire"
 
+<!--TYRANT-->
+
+new entry "Projectile_GrovelBeneathMe"
+type "SpellData"
+data "SpellType" "Projectile"
+data "SpellRoll" "not SavingThrow(Ability.Wisdom, SourceSpellDC())"
+data "SpellSuccess" "ApplyStatus(COMMAND_GROVEL,100,1)"
+data "TargetRadius" "9"
+data "AreaRadius" "9"
+data "ExplodeRadius" "9"
+data "TargetConditions" "not Ally()"
+data "ProjectileCount" "1"
+data "Trajectories" "d3819702-d861-405c-8b5f-328155cf1a46,410de106-34e5-8249-ed32-33d31e1fd962,9b25a202-bd07-f211-e0bf-01daf9c8bc36"
+data "Icon" "Spell_2e_BloodVendetta"
+data "DisplayName" "acb55f4f68334da6s574wdf96s87fee200002;1"
+data "Description" "acb55f4f68334da6s574wdf96s87fee20000b;2"
+data "DescriptionParams" "Distance(9)"
+data "CastSound" "Action_Cast_Hordebreaker_Ranged"
+data "VerbalIntent" "Debuff"
+data "SpellStyleGroup" "Class"
+data "SpellFlags" "IgnoreSilence;Stealth;Invisible"
+data "PrepareEffect" "3e0e6a8a-6719-44b2-a259-5ec9b5ad8d94"
+data "CastEffect" "86d932a4-ff1b-410d-8f73-c5f5a2529862"
+data "PositionEffect" "e73e5a51-eb33-4db2-ade9-26f55e8a7b42"
+data "HitAnimationType" "None"
+
 <!--PASSIVES-->
 
 new entry "Projectile_ResplendentReverb"
