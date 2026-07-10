@@ -340,7 +340,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="BarbarianWildSoul"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Feat_SpellSlots;WildMagicRage;ChaoticRoar"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Feat_SpellSlots;WildMagicRage;ChaoticRoar;Unstable_Backlash"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(2bb484e2-1d3a-4177-84b4-2894f25ab2b1,2,0,Cantrips,,,AlwaysPrepared);SelectSpells(a3c79518-7d3b-416c-8c78-470fb1a23c28,2,0,Spells,Charisma,e9127b70-22b7-42a1-b172-d02f828f260a,AlwaysPrepared);SelectSpells(4f8a545f-2a42-490b-a008-7276d5186b0a,1,0,Spells,Spells,Charisma,e9127b70-22b7-42a1-b172-d02f828f260a,AlwaysPrepared)" />
 					<attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Barbarian&apos;)"/>
                     <attribute id="UUID" type="guid" value="ae844b62-4b26-413d-8fce-20ca687f789a"/>
@@ -498,7 +498,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="FighterPalisade"/>
-                    <attribute id="PassivesAdded" type="LSString" value="SentinelsRebuke;ProjectedBulwark"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ProjectedBulwark;SentinelsRebuke"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Fighter&apos;)"/>
                     <attribute id="UUID" type="guid" value="30498f77-3440-42dc-a61a-cb05ac49b248"/>
                 </node>
@@ -517,7 +517,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="MonkWayOfTheGentleFist"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Serenity;MercifulCounter"/>
+                    <attribute id="PassivesAdded" type="LSString" value="MendingBlows;MercifulCounter"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Monk&apos;)"/>
                     <attribute id="UUID" type="guid" value="1124cc40-5703-4516-8a5a-9ba3bdc52d45"/>
                 </node>

@@ -251,7 +251,7 @@
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400015" version="1">Optimization: Predictive Targeting Module</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000o" version="2">Grant allies &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400016" version="1">Optimization: Proactive Overload</content>
-	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000p" version="2">Grant allies an additional &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
+	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000p" version="2">Grant allies one turn of &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Haste&lt;/LSTag&gt; upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400017" version="1">Optimization: Resistance Override</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000q" version="2">Allies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; ignore all forms of damage &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400018" version="1">Optimization: Spell Calibration Sequence</content>
@@ -313,9 +313,9 @@
 	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e100001" version="1">First Strike</content>
 	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e10000a" version="2">You can no longer be &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;. In addition, you gain &lt;LSTag Type="Status" Tooltip="ALPHA_STRIKE"&gt;Alpha Strike&lt;/LSTag&gt; during your first turn of combat.</content>
 	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e1000z1" version="1">Alpha Strike</content>
-	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e1000za" version="2">Affected creature's &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; may target two creatures, rather than one. No effect on actions with an area of effect.</content>
+	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e1000za" version="2">Affected creature's &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; may select two targets, or the same target twice. No effect on actions with an area of effect.</content>
 	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e100zz1" version="1">Alpha Strike</content>
-	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e100zza" version="2">Target two creatures with your equipped ranged weapon.</content>
+	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e100zza" version="2">Select two targets, or the same target twice, with your equipped ranged weapon.</content>
 
 	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e100002" version="1">Controlled Tempo</content>
 	<content contentuid="862d4e8f8c41462d8a2a4a2cfd5b81e10000b" version="2">Gain the ability to &lt;LSTag Type="Status" Tooltip="EXPEDITE_TURN"&gt;Expedite&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="DELAY_TURN"&gt;Delay&lt;/LSTag&gt; a creature's turn.</content>

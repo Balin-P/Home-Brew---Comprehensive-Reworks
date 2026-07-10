@@ -85,7 +85,7 @@
                     <attribute id="UUID" type="guid" value="fed4c4e9-fbe0-41d6-abc1-ee3dc5b80302" />
 					</node>
         <node id="PassiveList">
-                    <attribute id="Passives" type="LSString" value="Arrow_AberrationSlaying,Arrow_Acid,Arrow_Antimagic,Arrow_BeastSlaying,Arrow_ConstructSlaying,Arrow_Darkness,Arrow_ElementalSlaying,Arrow_FiendSlaying,Arrow_Fire,Arrow_HumanoidSlaying,Arrow_Ice,Arrow_WraithsEmbrace,Arrow_Lightning,Arrow_Ricochet,Arrow_MonstrositySlaying,Arrow_Piercing,Arrow_Detonation,Arrow_Dispelling,Arrow_Teleportation,Arrow_UndeadSlaying" />
+                    <attribute id="Passives" type="LSString" value="Arrow_Acid,Arrow_FiendSlaying,Arrow_Antimagic,Arrow_HumanoidSlaying,Arrow_MonstrositySlaying,Arrow_Darkness,Arrow_Fire,Arrow_ConstructSlaying,Arrow_Ice,Arrow_WraithsEmbrace,Arrow_Lightning,Arrow_ElementalSlaying,Arrow_Ricochet,Arrow_Piercing,Arrow_Detonation,Arrow_Dispelling,Arrow_AberrationSlaying,Arrow_BeastSlaying,Arrow_Teleportation,Arrow_UndeadSlaying" />
                     <attribute id="UUID" type="guid" value="20a80074-ba3e-412d-8f2d-ca3ea234cb94" />
 					</node>
         <node id="PassiveList">

@@ -1945,7 +1945,7 @@
 					<attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1)" />
 					<attribute id="Level" type="uint8" value="3" />
 					<attribute id="Name" type="LSString" value="WildMagicPath" />
-					<attribute id="PassivesAdded" type="LSString" value="ChaoticRoar" />
+					<attribute id="PassivesAdded" type="LSString" value="ChaoticRoar;Unstable_Backlash" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="Selectors" type="LSString" value="SelectSpells(4f8a545f-2a42-490b-a008-7276d5186b0a,1,0,Spells)" />
 					<attribute id="TableUUID" type="guid" value="7d5237b0-9ac6-4344-8171-43fa2f553e2f" />
@@ -1963,7 +1963,7 @@
 					<attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,2)" />
 					<attribute id="Level" type="uint8" value="5" />
 					<attribute id="Name" type="LSString" value="WildMagicPath" />
-					<attribute id="PassivesAdded" type="LSString" value="Unstable_Backlash" />
+					<attribute id="PassivesAdded" type="LSString" value="Unstable_Recovery" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="Selectors" type="LSString" value="SelectSpells(2bb484e2-1d3a-4177-84b4-2894f25ab2b1,1,0,Cantrips);SelectSpells(a3c79518-7d3b-416c-8c78-470fb1a23c28,1,1,Spells)" />
 					<attribute id="TableUUID" type="guid" value="7d5237b0-9ac6-4344-8171-43fa2f553e2f" />
@@ -1981,7 +1981,7 @@
 					<attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,2)" />
 					<attribute id="Level" type="uint8" value="7" />
 					<attribute id="Name" type="LSString" value="WildMagicPath" />
-					<attribute id="PassivesAdded" type="LSString" value="ChanceSurge" />
+					<attribute id="PassivesAdded" type="LSString" value="ChanceSurge;ChanceSurge_Damaged" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="Selectors" type="LSString" value="SelectSpells(4f8a545f-2a42-490b-a008-7276d5186b0a,1,0,Spells)" />
 					<attribute id="TableUUID" type="guid" value="7d5237b0-9ac6-4344-8171-43fa2f553e2f" />
@@ -6092,7 +6092,7 @@
         <node id="Progression">
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Palisade"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ClassProgression_Palisade;SentinelsRebuke"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ClassProgression_Palisade;ProjectedBulwark"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="25fd980b-837d-4afc-a791-2ab12a2f9a6f"/>
                     <attribute id="UUID" type="guid" value="25fd980b-837d-4afc-a791-000000000001"/>
@@ -6107,7 +6107,7 @@
         <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Palisade"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ProjectedBulwark"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SentinelsRebuke"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="25fd980b-837d-4afc-a791-2ab12a2f9a6f"/>
                     <attribute id="UUID" type="guid" value="25fd980b-837d-4afc-a791-000000000003"/>
@@ -6777,7 +6777,7 @@
         <node id="Progression">
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="WayoftheGentleFist"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ClassProgression_WayoftheGentleFist;FlurryOfBlowsUnlock;Serenity"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ClassProgression_WayoftheGentleFist;FlurryOfBlowsUnlock;MendingBlows"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="5a32bdd4-5d75-4524-8db5-a67cf5af3948"/>
                     <attribute id="UUID" type="guid" value="5a32bdd4-5d75-4524-8db5-000000000001"/>
@@ -6822,7 +6822,7 @@
         <node id="Progression">
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="WayoftheGentleFist"/>
-                    <attribute id="PassivesAdded" type="LSString" value="MendingBlows"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Serenity"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="5a32bdd4-5d75-4524-8db5-a67cf5af3948"/>
                     <attribute id="UUID" type="guid" value="5a32bdd4-5d75-4524-8db5-000000000007"/>

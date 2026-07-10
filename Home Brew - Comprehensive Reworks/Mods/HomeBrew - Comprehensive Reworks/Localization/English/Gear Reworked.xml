@@ -2,23 +2,24 @@
 <contentList>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ARROWS</content>
-	<content contentuid="he2f3af0ag21d0g40efg833bg12f5032eba13" version="1">Arrow of Aberration Slaying</content>
-	<content contentuid="h2f9cb0f3ge068g493egafd3g3d752f9cc7d0" version="5">Fire an arrow which deals an additional [1] against Aberrations.</content>
 
 	<content contentuid="he7d3b067gf505g4895g93f4gd8a8856a8c3c" version="1">Arrow of Acid</content>
 	<content contentuid="h58d1b318g8c0eg4cf8g9785g4fd2dab88428" version="3">Fire an arrow which explodes in a spray of acid, coating the ground for three turns and dealing an additional [1] to all caught in the radius</content>
 
+	<content contentuid="hd49eb0b4gd15bg417dg98b2g7ead6584c533" version="1">Arrow of Aleviation</content>
+	<content contentuid="h94ea1db8g1360g4f3cgb557gfa35c161b3f2" version="5">Fire an arrow which restores a creature's &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
+
 	<content contentuid="hfa474df3g6f0ag45e2gb8d7g706291929b90" version="2">Arrow of Arcane Interference</content>
 	<content contentuid="h55e4821ege0a7g470fg8d5dg8f45efbd49e5" version="3">Fire an arrow which breaks your target's &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Mutes&lt;/LSTag&gt; them for one turn.</content>
 
-	<content contentuid="ha50b0313g4be0g4db7gbbb1g44177dc9ebeb" version="1">Arrow of Beast Slaying</content>
-	<content contentuid="h75823bbcg4d0bg4d9agb192gfe8c20b23f8a" version="5">Fire an arrow which deals an additional [1] against Beasts.</content>
+	<content contentuid="hc777b4f4g17c8g4e6dg92c1g19eda481f6bd" version="1">Arrow of Boxing</content>
+	<content contentuid="h62bb6b87g6a61g4a36gbc23g408f99395d93" version="5">Fire an arrow which deals additional bludgeoning damage and knocks your target &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h57cf9b12g090ag426ag8d70g115201c8c1ad" version="1">Arrow of Celestial Slaying</content>
 	<content contentuid="hfc0ba6eag3baeg41ecg98adgd82d4eece9d4" version="5">Fire an arrow which deals an additional [1] against Celestials.</content>
 
-	<content contentuid="ha881c553gff7cg464fgba45g3786ace1ff82" version="1">Arrow of Construct Slaying</content>
-	<content contentuid="he6550266g5b4cg45b1gb1f3ge9836262f386" version="5">Fire an arrow which deals an additional [1] against Constructs.</content>
+	<content contentuid="h26954623gd0bcg4a4agaed9g6e54bc6f3ffe" version="1">Arrow of Chaos</content>
+	<content contentuid="h0605539eg3494g4f6fg834dg51784944a2b0" version="5">Fire an arrow which forces your target to experience a negative surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h2ebcbfe2gd6b3g4befga0f4g60f0a38008f8" version="1">Arrow of Darkness</content>
 	<content contentuid="h3b28824bga635g4d77g920cg9bbdd03dbfda" version="3">Fire an arrow which spreads a cloud of magical darkness for three turns on impact.</content>
@@ -26,14 +27,8 @@
 	<content contentuid="h50f265d0g752dg44ffg80cfg2f45248639ba" version="1">Arrow of Dragon Slaying</content>
 	<content contentuid="h28af2aecg2986g4508g8046gb3c29104062a" version="5">ire an arrow which rolls an additional damage die against Dragons.</content>
 
-	<content contentuid="h3a223ba2g04d7g4f40g9223g2122e181880b" version="1">Arrow of Elemental Slaying</content>
-	<content contentuid="hb87cebf9gfce3g4a52g9dbbg2165ae0fde92" version="5">Fire an arrow which deals an additional [1] against Elementals.</content>
-
 	<content contentuid="h304d9cf2g3c3bg4ce8g9462g15592aa2a34e" version="1">Arrow of Fey Slaying</content>
 	<content contentuid="h3e474646g04c0g4414gb47bg8903176d6032" version="5">Fire an arrow which deals an additional [1] against Fey.</content>
-
-	<content contentuid="hd49eb0b4gd15bg417dg98b2g7ead6584c533" version="1">Arrow of Fiend Slaying</content>
-	<content contentuid="h94ea1db8g1360g4f3cgb557gfa35c161b3f2" version="5">Fire an arrow which deals an additional [1] against Fiends.</content>
 
 	<content contentuid="h0f9a7ae2gb3bbg480ag82b1gfcddc4f2c5d1" version="1">Arrow of Fire</content>
 	<content contentuid="h0710e5c7g3b91g4235g889egd516723b5e02" version="3">Fire an arrow which erupts in scorching fire, setting the ground ablaze for three turns and dealing an additional [1] to all caught in the radius.</content>
@@ -41,8 +36,8 @@
 	<content contentuid="h0b26054fgee27g4041gbb53g91e6e75534fb" version="1">Arrow of Giant Slaying</content>
 	<content contentuid="hd5332414geea8g431cg9901g0bcd3ee5d6f9" version="5">Fire an arrow which deals an additional [1] against Giants.</content>
 
-	<content contentuid="hc777b4f4g17c8g4e6dg92c1g19eda481f6bd" version="1">Arrow of Humanoid Slaying</content>
-	<content contentuid="h62bb6b87g6a61g4a36gbc23g408f99395d93" version="5">Fire an arrow which deals an additional [1] against Humanoids.</content>
+	<content contentuid="ha881c553gff7cg464fgba45g3786ace1ff82" version="1">Arrow of Horde Shuttling</content>
+	<content contentuid="he6550266g5b4cg45b1gb1f3ge9836262f386" version="5">Fire an arrow which pulls all enemies up to [1] closer toward your target.</content>
 
 	<content contentuid="h3fd8d9b6gc313g4c06gb554g38571ae4045b" version="1">Arrow of Ice</content>
 	<content contentuid="hee002a86gf31dg462dgba26g1e382714dc6e" version="3">Fire an arrow which shatters into ice, freezing the ground for three turns and dealing an additional [1] to all caught in the radius.</content>
@@ -53,11 +48,11 @@
 	<content contentuid="h4b7cd142g8888g46cegaec5ge3495314a9db" version="1">Arrow of Lightning</content>
 	<content contentuid="h73a1e466g9e27g4ca7g80b8g6cc90b7cb8f7" version="3">Fire an arrow which explodes in a bolt of lightning, electrifying water that it touches and dealing an additional [1] to all caught in the radius.</content>
 
+	<content contentuid="h3a223ba2g04d7g4f40g9223g2122e181880b" version="1">Arrow of Malediction</content>
+	<content contentuid="hb87cebf9gfce3g4a52g9dbbg2165ae0fde92" version="5">Fire an arrow which causes your target to &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt; indefinitely.</content>
+
 	<content contentuid="h0b80a0c0g7281g431egb624g3c496b59ce67" version="1">Arrow of Many Targets</content>
 	<content contentuid="hb7ad154eg6ce4g4da6g8f42ga9396530dcbe" version="4">Fire an arrow that can hit up to two targets if they are within [1] of each other.</content>
-
-	<content contentuid="h26954623gd0bcg4a4agaed9g6e54bc6f3ffe" version="1">Arrow of Monstrosity Slaying</content>
-	<content contentuid="h0605539eg3494g4f6fg834dg51784944a2b0" version="5">Fire an arrow which deals an additional [1] against Monstrosities.</content>
 
 	<content contentuid="ha6e72561g1607g4e83gb484g5352fd80c713" version="1">Arrow of Ooze Slaying</content>
 	<content contentuid="h38f5697dge0fbg42e1g8d8dgc70686483530" version="5">Fire an arrow which deals an additional [1] against Oozes.</content>
@@ -74,11 +69,17 @@
 	<content contentuid="h2d0e56f9gaf36g4f43g9a96g2a7ab6948eff" version="4">Arrow of Salving</content>
 	<content contentuid="hf93a1bdeg5b93g491ag9e4cgeafb8fd3e223" version="7">Fire an arrow which provides the effects of &lt;LSTag Type="Spell" Tooltip="Target_LesserRestoration"&gt;Latent Restoration&lt;/LSTag&gt;.</content>
 
+	<content contentuid="he2f3af0ag21d0g40efg833bg12f5032eba13" version="1">Arrow of Slaying</content>
+	<content contentuid="h2f9cb0f3ge068g493egafd3g3d752f9cc7d0" version="5">Fire an arrow which deals an additional [1] against non humanoid targets.</content>
+
+	<content contentuid="ha50b0313g4be0g4db7gbbb1g44177dc9ebeb" version="1">Arrow of Tracking</content>
+	<content contentuid="h75823bbcg4d0bg4d9agb192gfe8c20b23f8a" version="5">Fire an arrow which cannot miss and afflicts your target with &lt;LSTag Type="Status" Tooltip="FAERIE_FIRE"&gt;Faerie Fire&lt;/LSTag&gt;.</content>
+
 	<content contentuid="h338f3b2cged0bg4e4agb5d1g04a83fc4429e" version="2">Arrow of Transposition</content>
 	<content contentuid="hc305d493g4311g4071g9261gf845d467eb86" version="3">Fire an arrow which teleports you to wherever it lands.</content>
 
-	<content contentuid="hc8088769g3a9ag439fg906cg148133ad098c" version="1">Arrow of Undead Slaying</content>
-	<content contentuid="h85fe6bc7gf51cg4013g8340ge67827c71da0" version="5">Fire an arrow which deals an additional [1] against Undead.</content>
+	<content contentuid="hc8088769g3a9ag439fg906cg148133ad098c" version="1">Arrow of Weakening</content>
+	<content contentuid="h85fe6bc7gf51cg4013g8340ge67827c71da0" version="5">Fire an arrow which applies &lt;LSTag Type="Status" Tooltip="BANE"&gt;Bane&lt;/LSTag&gt; to your target for three turns.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">ATTUNEMENT</content>
 	<content contentuid="hd3a156cc7fbf4a5c985eef63f0c2b99b55g3" version="1">Attunement</content>

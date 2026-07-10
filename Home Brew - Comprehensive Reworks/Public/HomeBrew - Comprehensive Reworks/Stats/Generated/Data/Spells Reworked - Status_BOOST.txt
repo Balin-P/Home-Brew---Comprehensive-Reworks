@@ -120,7 +120,7 @@ data "StackId" "UNSUMMONABLE"
 data "TickType" "StartTurn"
 data "Boosts" "UnlockSpell(Shout_Dismiss_Self); Tag(SUMMON); EnableBasicItemInteractions()"
 data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator;IgnoreResting"
-data "Passives" "Summon_Cutthroat;Summon_Elusive_Retreat;Summon_Fatal_Manoeuvre;Summon_Light_Footwork;Summon_Quick_Reflexes;Summon_Reactive_Movement;Summon_DormantCharge;Summon_EnchantingInfluence;Summon_LatentAcuity;Summon_MysticEmpowerment;Summon_BoundCompulsion;Summon_CurseofHellfire;Summon_HellishRebuttal;Summon_OneWithShadows;Summon_PactStricken;Summon_ResiliantServitude;Summon_Arcane_Reverb;Summon_Boon_of_Plumes;Summon_Illusory_Phantasm;Summon_Mystic_Override;Summon_Potent_Cantrips;Summon_Potent_Spells;Summon_CWarMagic;Summon_Woven_Precision;Summon_AdaptivePlating;Summon_EmergencyPowerCell;Summon_FailsafeInjection;Summon_Overclocked;Summon_Safeguard;Summon_VitalAim;Summon_AT_EmpoweredSummons;Summon_Alert;Summon_Alert_Start;Summon_Dunesis;Summon_Athleticism;Summon_Durable;Summon_GreaterImpact;Summon_Lucky;Summon_MageSlayer_BreakConcentration;Summon_MageSlayer_Silence;Summon_CMartialAdept;Summon_MasonryofChaos;Summon_MasonryofChaos_Damage;Summon_MeleeExpertise;Summon_ReactiveAssault;Summon_Resilient;Summon_SavageAssault;Summon_Spellbreak;Summon_TavernBrawler;Summon_TogetherInTorment;Summon_Tough;Summon_VisageofReflection"
+data "Passives" "Summon_Cutthroat;Summon_Elusive_Retreat;Summon_Fatal_Manoeuvre;Summon_Light_Footwork;Summon_Quick_Reflexes;Summon_Reactive_Movement;Summon_DormantCharge;Summon_EnchantingInfluence;Summon_LatentAcuity;Summon_MysticEmpowerment;Summon_BoundCompulsion;Summon_CurseofHellfire;Summon_HellishRebuttal;Summon_OneWithShadows;Summon_PactStricken;Summon_ResiliantServitude;Summon_Arcane_Reverb;Summon_Boon_of_Plumes;Summon_Illusory_Phantasm;Summon_Mystic_Override;Summon_Potent_Cantrips;Summon_Potent_Spells;Summon_CWarMagic;Summon_Woven_Precision;Summon_AdaptivePlating;Summon_EmergencyPowerCell;Summon_FailsafeInjection;Summon_Overclocked;Summon_Safeguard;Summon_VitalAim;Summon_AT_EmpoweredSummons;Summon_Alert;Summon_Alert_Start;Summon_Dunesis;Summon_Athleticism;Summon_Durable;Summon_GreaterImpact;Summon_Lucky;Summon_MageSlayer_BreakConcentration;Summon_MageSlayer_Silence;Summon_CMartialAdept;Summon_MasonryofChaos;Summon_MasonryofChaos_Damage;Summon_MeleeExpertise;Summon_ReactiveAssault;Summon_Resilient;Summon_SavageAssault;Summon_Spellbreak;Summon_TavernBrawler;Summon_TogetherInTorment;Summon_Tough"
 
 new entry "SHADOWCURSE_SUMMON_CHECK_SPORES"
 type "StatusData"
@@ -1049,6 +1049,7 @@ data "Boosts" "ActionResourceBlock(ActionPoint); ActionResourceBlock(BonusAction
 data "StatusPropertyFlags" "LoseControl"
 data "StatusGroups" "SG_Magical;SG_Cursed;SG_Approaching"
 data "StatusEffect" "66787c98-d470-45a0-b82d-263de495d938"
+data "OnApplyFunctors" "IF(not HasPassive('AnchoredFocus')):BreakConcentration()"
 data "ManagedStatusEffectType" "Negative"
 
 new entry "COMMAND_DROP"
@@ -1080,6 +1081,7 @@ data "Boosts" "ActionResourceBlock(ActionPoint); ActionResourceBlock(BonusAction
 data "StatusGroups" "SG_Magical;SG_Cursed;SG_Fleeing"
 data "TickType" "EndTurn"
 data "StatusEffect" "66787c98-d470-45a0-b82d-263de495d938"
+data "OnApplyFunctors" "IF(not HasPassive('AnchoredFocus')):BreakConcentration()"
 data "TooltipSave" ""
 data "ManagedStatusEffectType" "Negative"
 
@@ -1095,7 +1097,7 @@ data "StillAnimationPriority" "KO_Fallen"
 data "TickType" "EndTurn"
 data "StatusEffect" "66787c98-d470-45a0-b82d-263de495d938"
 data "TooltipSave" ""
-data "StatusGroups" "SG_Magical;SG_Cursed"
+data "StatusGroups" "SG_Magical;SG_Cursed;SG_Prone"
 data "ManagedStatusEffectType" "Negative"
 
 new entry "COMMAND_HALT"

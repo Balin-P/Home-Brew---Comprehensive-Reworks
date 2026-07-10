@@ -278,35 +278,29 @@
 	<content contentuid="h8df46bbbg30b8g491ag835dg00ff2d5f4d64" version="4">Frontier Ballistics</content>
 	<content contentuid="hf44d4aedgce78g4700gb024gfcss6d9f7d87" version="4">Use your &lt;LSTag Type="ActionResource" Tooltip="NaturalRecoveryPoint"&gt;Natural Focus&lt;/LSTag&gt; to fire various types of unique arrows.</content>
 
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700019" version="4">Arrow of Aberration Slaying</content>
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000s" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfAberrationSlaying"&gt;Arrow of Aberration Slaying&lt;/LSTag&gt;.</content>
-
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700001" version="4">Arrow of Acid</content>
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000a" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfAcid"&gt;Arrow of Acid&lt;/LSTag&gt;.</content>
+
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700009" version="4">Arrow of Aleviation</content>
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000i" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfFiendSlaying"&gt;Arrow of Aleviation&lt;/LSTag&gt;.</content>
 
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700014" version="4">Arrow of Arcane Interference</content>
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000n" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfAntimagic"&gt;Arrow of Arcane Interference&lt;/LSTag&gt;.</content>
 
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700005" version="4">Arrow of Beast Slaying</content>
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000e" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfBeastSlaying"&gt;Arrow of Beast Slaying&lt;/LSTag&gt;.</content>
-
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700006" version="4">Arrow of Construct Slaying</content>
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000f" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfConstructSlaying"&gt;Arrow of Construct Slaying&lt;/LSTag&gt;.</content>
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700011" version="4">Arrow of Chaos</content>
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000k" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfMonstrositySlaying"&gt;Arrow of Chaos&lt;/LSTag&gt;.</content>
 
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700007" version="4">Arrow of Darkness</content>
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000g" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfDarkness"&gt;Arrow of Darkness&lt;/LSTag&gt;.</content>
 
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700008" version="4">Arrow of Elemental Slaying</content>
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000h" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfElementalSlaying"&gt;Arrow of Elemental Slaying&lt;/LSTag&gt;.</content>
-
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700009" version="4">Arrow of Fiend Slaying</content>
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000i" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfFiendSlaying"&gt;Arrow of Fiend Slaying&lt;/LSTag&gt;.</content>
-
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700002" version="4">Arrow of Fire</content>
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000b" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfFire"&gt;Arrow of Fire&lt;/LSTag&gt;.</content>
 
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700021" version="4">Arrow of Humanoid Slaying</content>
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000u" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfHumanoidSlaying"&gt;Arrow of Humanoid Slaying&lt;/LSTag&gt;.</content>
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700006" version="4">Arrow of Horde Shuttling</content>
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000f" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfConstructSlaying"&gt;Arrow of Horde Shuttling&lt;/LSTag&gt;.</content>
+
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700021" version="4">Arrow of Boxing</content>
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000u" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfHumanoidSlaying"&gt;Arrow of Boxing&lt;/LSTag&gt;.</content>
 
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700003" version="4">Arrow of Ice</content>
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000c" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfIce"&gt;Arrow of Ice&lt;/LSTag&gt;.</content>
@@ -317,11 +311,11 @@
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700004" version="4">Arrow of Lightning</content>
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000d" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfLightning"&gt;Arrow of Lightning&lt;/LSTag&gt;.</content>
 
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700008" version="4">Arrow of Malediction</content>
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000h" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfElementalSlaying"&gt;Arrow of Malediction&lt;/LSTag&gt;.</content>
+
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700015" version="4">Arrow of Many Targets</content>
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000o" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfRicochet"&gt;Arrow of Many Targets&lt;/LSTag&gt;.</content>
-
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700011" version="4">Arrow of Monstrosity Slaying</content>
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000k" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfMonstrositySlaying"&gt;Arrow of Monstrosity Slaying&lt;/LSTag&gt;.</content>
 
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700022" version="4">Arrow of Piercing</content>
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000v" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfPiercing"&gt;Arrow of Piercing&lt;/LSTag&gt;.</content>
@@ -332,11 +326,17 @@
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700016" version="4">Arrow of Salving</content>
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000p" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfDispelling"&gt;Arrow of Salving&lt;/LSTag&gt;.</content>
 
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700019" version="4">Arrow of Slaying</content>
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000s" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfAberrationSlaying"&gt;Arrow of Slaying&lt;/LSTag&gt;.</content>
+
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700005" version="4">Arrow of Tracking</content>
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000e" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfBeastSlaying"&gt;Arrow of Tracking&lt;/LSTag&gt;.</content>
+
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700017" version="4">Arrow of Teleportation</content>
 	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000q" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfTeleportation"&gt;Arrow of Teleportation&lt;/LSTag&gt;.</content>
 
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700013" version="4">Arrow of Undead Slaying</content>
-	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000m" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfUndeadSlaying"&gt;Arrow of Undead Slaying&lt;/LSTag&gt;.</content>
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca700013" version="4">Arrow of Weakening</content>
+	<content contentuid="6c50ea6af3944fc4a0bb9b1856990ca70000m" version="4">Gain the ability to fire an &lt;LSTag Type="Spell" Tooltip="Projectile_ArrowOfUndeadSlaying"&gt;Arrow of Weakening&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PASSIVES</content>
 

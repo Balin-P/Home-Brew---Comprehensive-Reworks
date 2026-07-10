@@ -237,7 +237,7 @@ Steel</content>
 	<content contentuid="hf3a82a90gedbdg47f9gbc05ga76dff48fcbf" version="4">Affected creature's &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; is increased by +[1].</content>
 
 	<content contentuid="9b7b811b9c3043e189f945540bf5116e000z2" version="1">Steelforged Flourishes</content>
-	<content contentuid="9b7b811b9c3043e189f945540bf5116e000zb" version="3">Gain access to Steelforged Flourishes, allowing you to specialize in melee and ranged combat.&lt;br&gt;&lt;br&gt;Upon reaching a state of &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_CHORUS"&gt;Performative Chorus&lt;/LSTag&gt;, you may gain an additional &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
+	<content contentuid="9b7b811b9c3043e189f945540bf5116e000zb" version="3">Gain access to Steelforged Flourishes, allowing you to specialize in melee and ranged combat.&lt;br&gt;&lt;br&gt;Upon reaching a state of &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_CHORUS"&gt;Performative Chorus&lt;/LSTag&gt;, you may &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hasten&lt;/LSTag&gt; yourself for one turn.</content>
 
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f59488d" version="1">Melodic Steel</content>
 	<content contentuid="439cb1c55ce44da8b8f3ccd2e23204f532lkd" version="3">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with a weapon, restore one charge of your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;. This effect can trigger once per turn.</content>

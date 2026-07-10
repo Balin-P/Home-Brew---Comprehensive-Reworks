@@ -158,8 +158,8 @@
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00000" version="1">Way of the Gentle Fist</content>
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0bzzzzz" version="1">Through harmony, your guiding hands provide relief. Through practiced inner peace, those around you are blessed with a calming sense of solidarity.</content>
 
-	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00001" version="1">Serenity</content>
-	<content contentuid="acb55f4f68334d90acd68f5f37353d0b0000a" version="1">You are considered to be a preferred target. Each turn, you heal for an amount equal to your unarmed dice. This can be toggled at any time.</content>
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00002" version="1">Mending Blows</content>
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0b0000b" version="1">Dealing damage to an enemy heals all allies within [1] for an amount equal to your unarmed dice.</content>
 
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00004" version="1">Merciful Counter</content>
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0b0000d" version="1">When an ally within [1] of you is damaged while above half of their total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you may heal them for an amount equal to your unarmed dice as a free &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
@@ -169,8 +169,8 @@
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00003" version="1">Fists of Equilibrium</content>
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0b0000c" version="1">Healing an ally &lt;LSTag Type="Status" Tooltip="CALM_EMOTIONS"&gt;Calms&lt;/LSTag&gt; them. No effect on enraged allies.</content>
 
-	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00002" version="1">Mending Blows</content>
-	<content contentuid="acb55f4f68334d90acd68f5f37353d0b0000b" version="1">Dealing damage to an enemy heals all allies within [1] for an amount equal to your unarmed dice.</content>
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00001" version="1">Serenity</content>
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0b0000a" version="1">You are considered to be a preferred target. Each turn, you heal for an amount equal to your unarmed dice. This can be toggled at any time.</content>
 
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00005" version="1">Cleansing Guidance</content>
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0b0000e" version="1">Healing an ally provides both &lt;LSTag Type="Spell" Tooltip="Target_LesserRestoration"&gt;Latent Restoration&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_GreaterRestoration"&gt;Great Cleanse&lt;/LSTag&gt;.</content>

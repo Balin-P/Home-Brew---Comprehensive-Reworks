@@ -74,7 +74,6 @@ data "Icon" "PassiveFeature_IronMind"
 data "DisplayName" "h6eb72b35g6633g4642gaf97gc5sd4fd00y35;1"
 data "Description" "h8612a65dg446cg427bga712g6sd8f8900yai;2"
 data "SpellFlags" "IsHarmful;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;Temporary"
-data "AmountOfTargets" "2"
 
 new entry "Projectile_CT_Stinky"
 type "SpellData"
