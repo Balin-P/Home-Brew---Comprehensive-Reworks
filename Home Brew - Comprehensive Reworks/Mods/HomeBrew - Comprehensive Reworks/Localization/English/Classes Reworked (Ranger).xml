@@ -3,8 +3,8 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">RANGER</content>
 
-	<content contentuid="h4c613264gb41123r6ega54wef6584s6e4f65" version="4">Natural Focus Charges: 3</content>
-	<content contentuid="h50416111g8a61g4293r87ys9df87983rofef" version="2">You gain three Natural Focus Charges per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, which allow you to either summon your Ranger Companion or fire various types of arrows.</content>
+	<content contentuid="h4c613264gb41123r6ega54wef6584s6e4f65" version="4">Natural Focus Charges: 1</content>
+	<content contentuid="h50416111g8a61g4293r87ys9df87983rofef" version="2">You gain a Natural Focus Charge, which recharges upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;. Natural Focus charges allow you to fire various types of unique arrows.</content>
 
 	<content contentuid="hffaccf0ag0569g4b24gb7bfg483838dkhdic" version="1">RANGERCOMPANION</content>
 	<content contentuid="hffaccf0ag0569g4b24gb7bfg483838d38ddd" version="1">RANGERCOMPANIONTAGFORRANGEROVERHAUL</content>
@@ -14,9 +14,9 @@
 	<content contentuid="hdea6e468g7f71g48f6gaf6fg36fce0dfa091" version="3">Ranger's Companion</content>
 	
 	<content contentuid="f3e644b1265f469bbb959e1a73bc2d6f00001" version="1">Conjure Rangers Companion</content>
-	<content contentuid="779eb310c0a341c8b24b0441abdecb0f0000a" version="2">Summon a beast companion of your choice. Your companion grows in strength alongside you as you level.</content>
+	<content contentuid="779eb310c0a341c8b24b0441abdecb0f0000a" version="2">Summon a beast companion of your choice. Your companion grows in strength alongside you as you level.&lt;br&gt;&lt;br&gt;In addition, when your companion lands a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you recover one charge of your &lt;LSTag Type="ActionResource" Tooltip="NaturalRecoveryPoint"&gt;Natural Focus&lt;/LSTag&gt;.</content>
 
-	<content contentuid="hf2d30149g1349g4008g9807g532569db7932" version="2">Affected creature's stats increase for every level of its summoning Ranger.&lt;br&gt;&lt;br&gt;In addition, it gains various passive effects depending on the passives that its Ranger possesses.</content>
+	<content contentuid="hf2d30149g1349g4008g9807g532569db7932" version="2">Affected creature's stats increase for every level of its summoning Ranger.&lt;br&gt;&lt;br&gt;In addition, when this creature lands a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, it's summoner recovers one charge of their &lt;LSTag Type="ActionResource" Tooltip="NaturalRecoveryPoint"&gt;Natural Focus&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hffaccf0ag0569g4b24gb7bfg470a9169ad4c" version="1">Natural Focus</content>
 	<content contentuid="h2ee6856age76eg452dga908g11fe6f0034f3" version="1">The number of times you can utilize your unique skills as a Ranger.</content>

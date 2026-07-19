@@ -463,7 +463,7 @@ data "DescriptionParams" "DealDamage(1d4,Psychic)"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsMeleeWeaponAttack() and Character() and not Self() and HasStatus('VICIOUS_CONDEMNATION_MELEE', context.Source)"
-data "StatsFunctors" "IF(not SavingThrow(Ability.Charisma, SourceSpellDC())):ApplyStatus(FRIGHTENED,100,3)"
+data "StatsFunctors" "IF(not SavingThrow(Ability.Charisma,CalculateSpellDC(context.PreferredCastingAbility, context.Source))):ApplyStatus(FRIGHTENED,100,3)"
 
 new entry "Vicious_Condemnation_Ranged_Technical"
 type "PassiveData"
@@ -474,7 +474,7 @@ data "DescriptionParams" "DealDamage(1d4,Psychic)"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsRangedWeaponAttack() and Character() and not Self() and HasStatus('VICIOUS_CONDEMNATION_RANGED', context.Source)"
-data "StatsFunctors" "IF(not SavingThrow(Ability.Charisma, SourceSpellDC())):ApplyStatus(FRIGHTENED,100,3)"
+data "StatsFunctors" "IF(not SavingThrow(Ability.Charisma,CalculateSpellDC(context.PreferredCastingAbility, context.Source))):ApplyStatus(FRIGHTENED,100,3)"
 
 new entry "Vicious_Recall"
 type "PassiveData"
@@ -540,7 +540,7 @@ data "Description" "acb55f4f68334da6s574wdf96s87fee20000d;2"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "Character() and not Self() and not Ally() and HasStatus('FRIGHTENED', context.Target) and not HasStatus('LOCKDOWN_CONDITION', context.Target)"
-data "StatsFunctors" "IF(not SavingThrow(Ability.Wisdom, SourceSpellDC())):ApplyStatus(FEARED,100,1)"
+data "StatsFunctors" "IF(not SavingThrow(Ability.Wisdom,CalculateSpellDC(context.PreferredCastingAbility, context.Source))):ApplyStatus(FEARED,100,1)"
 
 new entry "AuraoftheConquerer"
 type "PassiveData"
@@ -885,50 +885,25 @@ data "StatsFunctors" "IF(not HasStatus('CAURA_OF_HATE', context.Source)):ApplySt
 
 <!--NPC SPECIFIC-->
 
-new entry "Unlock_AncientSpells_1"
-type "PassiveData"
-data "Properties" "IsHidden"
-data "Boosts" "UnlockSpell(Shout_HealingRadiance);UnlockSpell(Target_NaturesWrath_NPC)"
-
 new entry "Unlock_AncientSpells_5"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "Boosts" "UnlockSpell(Shout_TurnTheFaithless)"
-
-new entry "Unlock_CrownSpells_1"
-type "PassiveData"
-data "Properties" "IsHidden"
-data "Boosts" "UnlockSpell(Target_PhoenixLanding)"
 
 new entry "Unlock_CrownSpells_5"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "Boosts" "UnlockSpell(Shout_TurnTheAberrant)"
 
-new entry "Unlock_DevotionSpells_1"
-type "PassiveData"
-data "Properties" "IsHidden"
-data "Boosts" "UnlockSpell(Target_HolyRebuke);UnlockSpell(Shout_SacredWeapon_NPC)"
-
 new entry "Unlock_DevotionSpells_5"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "Boosts" "UnlockSpell(Shout_TurnTheUnholy)"
 
-new entry "Unlock_VengeanceSpells_1"
-type "PassiveData"
-data "Properties" "IsHidden"
-data "Boosts" "UnlockSpell(Target_AbjureEnemy);UnlockSpell(Target_InquisitorsMight_NPC)"
-
 new entry "Unlock_VengeanceSpells_5"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "Boosts" "UnlockSpell(Shout_TurnTheDamned)"
-
-new entry "Unlock_OathbreakerSpells_1"
-type "PassiveData"
-data "Properties" "IsHidden"
-data "Boosts" "UnlockSpell(Target_Subjugate);UnlockSpell(Target_SpitefulSuffering_NPC)"
 
 new entry "Unlock_OathbreakerSpells_5"
 type "PassiveData"

@@ -444,6 +444,20 @@ data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Boosts" "AiArchetypeOverride(melee,1)"
 
+new entry "PALISADE_SUBCLASS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "HitAnimationType" "None"
+data "DisplayName" "5b9c6b9f8fb541f3839d6c3738507a9c00001;1"
+data "Icon" "Spell_2e_Shield"
+data "StackId" "APPLY_PALISADE_FIXED"
+data "StackType" "Ignore"
+data "TickType" "StartTurn"
+data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
+data "RemoveEvents" "OnApply;OnTurn;OnMove"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
+data "Boosts" "AiArchetypeOverride(melee,1)"
+
 <!--MONK-->
 
 new entry "ARCANEWAY_SUBCLASS"

@@ -19,7 +19,7 @@ data "Description" "hebaac134g72cdg42e0g87c4gcf560201edf4;4"
 data "DescriptionParams" "1d4"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsWeaponAttack()"
-data "StatsFunctors" "IF(not SavingThrow(Ability.Charisma, SourceSpellDC())):ApplyStatus(MAG_SPELLBLADE_SAVING_THROWS_PENALTY, 100, 3)"
+data "StatsFunctors" "IF(not SavingThrow(Ability.Charisma,CalculateSpellDC(context.PreferredCastingAbility, context.Source))):ApplyStatus(MAG_SPELLBLADE_SAVING_THROWS_PENALTY, 100, 3)"
 
 new entry "MAG_SPELLBLADE_SAVING_THROWS_PENALTY"
 type "StatusData"

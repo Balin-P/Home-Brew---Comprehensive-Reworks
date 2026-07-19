@@ -233,7 +233,7 @@ data "DisplayName" "h509b8e00gacb9g46a5sd6f456e4ef4f00001;4"
 data "Description" "h509b8e00gacb9g46a5sd6f456e4ef4f0000a;4"
 data "Icon" "Action_SummonFirearm"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "IF(Enemy() or Item()):IgnoreResistance(Piercing,Resistant);IF(Enemy() or Item()):IgnoreResistance(Piercing,Immune)"
+data "Boosts" "IF(not Ally()):IgnoreResistance(Piercing,Resistant);IF(not Ally()):IgnoreResistance(Piercing,Immune)"
 
 new entry "AntiMaterialExplosiveAmmunition"
 type "PassiveData"

@@ -36,7 +36,11 @@ function SteelCastCheck()
 end
 
 function ExtraAttackSpellCheck()
-    return HasStringInSpellRoll('WeaponAttack') & ~IsSpell() | HasStringInSpellRoll('UnarmedAttack') & ~IsSpell() | HasStringInSpellRoll('ThrowAttack') & ~IsSpell()
+    return HasStringInSpellRoll('WeaponAttack') & ~IsSpell() & (HasUseCosts('ActionPoint', true) or HasUseCosts('BonusActionPoint', true) or HasUseCosts('ReactionActionPoint', true)) | HasStringInSpellRoll('UnarmedAttack') & ~IsSpell() & (HasUseCosts('ActionPoint', true) or HasUseCosts('BonusActionPoint', true) or HasUseCosts('ReactionActionPoint', true)) | HasStringInSpellRoll('ThrowAttack') & ~IsSpell() & (HasUseCosts('ActionPoint', true) or HasUseCosts('BonusActionPoint', true) or HasUseCosts('ReactionActionPoint', true))
+end
+
+function ExtraAttackRemovalSpellCheck()
+    return HasStringInSpellRoll('WeaponAttack') & ~IsSpell() & ~(HasUseCosts('ActionPoint', true) or HasUseCosts('BonusActionPoint', true) or HasUseCosts('ReactionActionPoint', true)) | HasStringInSpellRoll('UnarmedAttack') & ~IsSpell() & ~(HasUseCosts('ActionPoint', true) or HasUseCosts('BonusActionPoint', true) or HasUseCosts('ReactionActionPoint', true)) | HasStringInSpellRoll('ThrowAttack') & ~IsSpell() & ~(HasUseCosts('ActionPoint', true) or HasUseCosts('BonusActionPoint', true) or HasUseCosts('ReactionActionPoint', true))
 end
 
 function ExtraAttackCheck()
@@ -317,7 +321,7 @@ function NoRangedWeaponEquipped(entity)
 end
 
 function PlayableRace(entity)
-    return Tagged('HUMAN',entity) | Tagged('ELF',entity) | Tagged('DROWELF',entity) | Tagged('DWARF',entity) | Tagged('HALFELF',entity) | Tagged('GNOME',entity) | Tagged('HALFLING',entity) | Tagged('TIEFLING',entity) | Tagged('GITHYANKI',entity) | Tagged('DRAGONBORN',entity) | Tagged('HALFORC',entity) | Tagged('DEVA',entity) | Tagged('CAMBION',entity) | Tagged('BUGBEAR',entity) | Tagged('GOBLIN',entity) | Tagged('HOBGOBLIN',entity) | Tagged('DARK_JUSTICIAR',entity) | Tagged('SKELETON',entity) | Tagged('VAMPIRE',entity) | Tagged('REALLY_DRYAD',entity)
+    return Tagged('HUMAN',entity) | Tagged('ELF',entity) | Tagged('DROWELF',entity) | Tagged('DWARF',entity) | Tagged('HALFELF',entity) | Tagged('GNOME',entity) | Tagged('HALFLING',entity) | Tagged('TIEFLING',entity) | Tagged('GITHYANKI',entity) | Tagged('DRAGONBORN',entity) | Tagged('HALFORC',entity) | Tagged('DEVA',entity) | Tagged('CAMBION',entity) | Tagged('BUGBEAR',entity) | Tagged('GOBLIN',entity) | Tagged('HOBGOBLIN',entity) | Tagged('DARK_JUSTICIAR',entity) | Tagged('SKELETON',entity) | Tagged('VAMPIRE',entity) | Tagged('REALLY_DRYAD',entity) | Tagged('SUMMON',entity)
 end
 
 function RangedWeaponCheck()

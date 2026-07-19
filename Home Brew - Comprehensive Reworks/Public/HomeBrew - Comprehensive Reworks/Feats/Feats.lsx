@@ -517,7 +517,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="MonkWayOfTheGentleFist"/>
-                    <attribute id="PassivesAdded" type="LSString" value="MendingBlows;MercifulCounter"/>
+                    <attribute id="PassivesAdded" type="LSString" value="MendingBlows;MendingBlows_Turn;MercifulCounter"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Monk&apos;)"/>
                     <attribute id="UUID" type="guid" value="1124cc40-5703-4516-8a5a-9ba3bdc52d45"/>
                 </node>

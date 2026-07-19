@@ -393,7 +393,13 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000l" version="3">When dealing damage, you deal an additional point of damage for every 10 gold pieces your target has in their inventory, consuming them in the process.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00013" version="3">Glass Cannon</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000m" version="3">Gain the ability to toggle between having an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. However, you also receive a -10 penalty to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;, your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are halved, and you are unable to utilize your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt; during combat.&lt;Br&gt;&lt;Br&gt;This can be toggled at any time outside of combat.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000m" version="3">Gain the ability to have an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. However, you also receive a -10 penalty to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;, your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are halved, and you are unable to utilize your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt; during combat.</content>
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00x13" version="3">Glass Cannon</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000xm" version="3">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00z13" version="3">Glass Cannon (Action)</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000zm" version="3">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;.</content>
+	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00y13" version="3">Glass Cannon (Bonus Action)</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000ym" version="3">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00014" version="3">Hands of Calamity</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000n" version="3">Upon killing an enemy with a melee-based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, everything within [1] of them will receive [2].</content>
@@ -702,10 +708,10 @@
 	<content contentuid="h988e7e8d83e64ee69e0cdced053127c8e7f2" version="1">Cleric: Tempest Domain</content>
 	<content contentuid="ha4f7ddc08e144bbd89108ce54da37ab1e8ee" version="1">Cleric: War Domain</content>
 
-	<content contentuid="hce77bbc6faab4af68df9778e8922d5f45d66" version="1">Druid: Circle of the Elements</content>
+	<content contentuid="hce77bbc6faab4af68df9778e8922d5f45d66" version="1">Druid: Circle of Elements</content>
 	<content contentuid="hce77bbc6faab4af68df9778e89b4b1c91e59" version="1">Druid: Circle of the Land</content>
 	<content contentuid="h937c303643d243128ee28e429ffc02fbdc89" version="1">Druid: Circle of the Moon</content>
-	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00000" version="1">Druid: Circle of the Shadows</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00000" version="1">Druid: Circle of Shadows</content>
 	<content contentuid="h4d4b577779a048fbb78cd244e0b84b17b85b" version="1">Druid: Circle of the Spores</content>
 	<content contentuid="ha82b54fa9f7949ce9a572079139362c3046d" version="1">Druid: Circle of the Stars</content>
 
@@ -747,12 +753,12 @@
 	<content contentuid="h74cb6d76f7084d1d9ccca5ba1622140f3c7d" version="1">Sorcerer: Draconic Bloodline</content>
 	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00008" version="1">Sorcerer: Radiant Bloom</content>
 	<content contentuid="h73a8aafef8874258bc6950b4c4d569b0842e" version="1">Sorcerer: Shade Walker</content>
-	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00007" version="1">Sorcerer: Soul of the Frenzied Tundra</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00007" version="1">Sorcerer: Soul of the Frenzied</content>
 	<content contentuid="h304a5e34541a42f098df489329c48ee49a00" version="1">Sorcerer: Volcanist</content>
 	<content contentuid="h0c1d71fc32044f7480d64ef77b978f2d1eea" version="1">Sorcerer: Wild Magic</content>
 
 	<content contentuid="hc3c6d414533e4e019f42a85c9ef4acc7020g" version="1">Warlock: Pact of the Blade</content>
-	<content contentuid="hb462d35d35dd41e5ad91cfea37e0429dbc0b" version="1">Warlock: Pact of the Chain</content>
+	<content contentuid="hb462d35d35dd41e5ad91cfea37e0429dbc0b" version="1">Warlock: Pact of the Chained</content>
 	<content contentuid="hfaac57ba1de244f3abc2cb0eeedea64c5931" version="1">Warlock: Pact of Penumbra</content>
 	<content contentuid="hfaac57ba1de244f3abc2c2s5ef56f5e8f454" version="1">Warlock: Pact of the Primordial</content>
 	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00009" version="1">Warlock: Pact of Severance</content>
@@ -853,7 +859,7 @@
 	<content contentuid="h441085efge3a5g4004gba8dgf2378e8986c8" version="1">Fortitude and resilience. Improves &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting&lt;/LSTag&gt; for Barbarians, Bards, Fighters, Paladins, Sorcerers, and Warlocks, as well as their ability to apply Conditions.&lt;Br&gt;&lt;Br&gt;Also reduces elemental damage taken when wearing Medium or Heavy Armour.</content>
 	<content contentuid="hb5a027a4g2934g40bfga5e1g7c00d2f5s698" version="1">Global Bonus</content>
 	<content contentuid="hb5a027a4g2934g40bfga5e1g7c225ds5f648" version="1">Full Metal</content>
-	<content contentuid="hb5a027a4g2934g40bfga5e1g7c225ds22564" version="1">While wearing Medium or Heavy Armour, physical damage is reduced by your &lt;LSTag Tooltip="AbilityModifier"&gt;Constitution Modifier&lt;/LSTag&gt;, and elemental damage is reduced by your Charisma Modifier. While wearing Medium Armour, your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are also increased by 2, multiplied by your level.</content>
+	<content contentuid="hb5a027a4g2934g40bfga5e1g7c225ds22564" version="1">While wearing Medium or Heavy Armour, physical damage taken by an attack is reduced by your &lt;LSTag Tooltip="AbilityModifier"&gt;Constitution Modifier&lt;/LSTag&gt;, and elemental damage is reduced by your Charisma Modifier. While wearing Medium Armour, your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are also increased by 2, multiplied by your level.</content>
 	<content contentuid="h4333422eg15d9g4c6egbfbeg9f06915940d1" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; bonus limited to +2.&lt;Br&gt;&lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt; limited to -2.</content>
 	<content contentuid="h24a49208g1912g4270g9d2dgc2986ab10ae0" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; is unaffected by your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;.&lt;Br&gt;&lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt; has no limit.</content>
 	<content contentuid="h0bdd92afge500g4484g820dgbb225d655458" version="1">Damage Reduction</content>
@@ -891,5 +897,15 @@ Fully resting requires &lt;LSTag Tooltip="CampSupplies"&gt;Camp Supplies&lt;/LST
 	<content contentuid="h446e0ad1gfd15g47a2gb144ge583b8svgale" version="1">Gale's Severed Mage Hand</content>
 	<content contentuid="hd0d5c5b6g213bg4a73g984espicytiefling" version="1">Spicy</content>
 	<content contentuid="h0749c679gda4bg4fc7gaf23spicytiefling" version="1">When damaged by a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, your aggressor takes [1].</content>
+
+
+<content contentuid="0000000000000000000000000000000000000" version="1">TRAPS</content>
+
+	<content contentuid="hd4bc7182g1c72g4663gbdb9g1e401f52a37f" version="1">Hammer Impact</content>
+	<content contentuid="h82fa9a5fgc12cg4eeegb458gc2253625e710" version="2">An immense weight slams down. Any creature large sized or smaller who is hit by this will instantly die.</content>
+
+	<content contentuid="h19381cb5gd0c4g451fg86b4ge10b7cda5110" version="1">Shattered Stalactite</content>
+	<content contentuid="h82fa9a5fgc12cg4eeegb458gcf8d3e25e710" version="2">Shards of stone shatter in all directions. Any creature medium sized or smaller who is hit by this will instantly die.</content>
+	<content contentuid="h67bf1ab2g0885g4c6aga3b4g8c8a2013bbda" version="5">The next time this stalactite takes damage, it will drop, &lt;LSTag Type="Spell" Tooltip="Projectile_Stalactite_Explosion"&gt;Shattering&lt;/LSTag&gt; on anything underneath. Any creature medium sized or smaller who is hit by this will instantly die.</content>
 
 </contentList>

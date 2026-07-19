@@ -327,7 +327,9 @@
 	<content contentuid="acb55f4f68334da6s574wdf96s87fee2000ze" version="4">Affected creature is emitting an aura, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; enemies within [1] of them.</content>
 
 	<content contentuid="acb55f4f68334da6s574wdf96s87fee200006" version="1">Fist of the Tyrant</content>
-	<content contentuid="acb55f4f68334da6s574wdf96s87fee20000f" version="1">Once per turn, upon dealing damage to another creature with your &lt;LSTag Type="Spell" Tooltip="CTarget_Smite_Tyrant"&gt;Tyrannical Smite&lt;/LSTag&gt;, you conjure a massive Fist of Bane. Upon ending your turn, the fist will then fall, dealing immense damage to any creatures beneath it.</content>
+	<content contentuid="acb55f4f68334da6s574wdf96s87fee20000f" version="1">Once per turn, upon dealing damage to another creature with your &lt;LSTag Type="Spell" Tooltip="CTarget_Smite_Tyrant"&gt;Tyrannical Smite&lt;/LSTag&gt;, you conjure a massive Fist of the Tyrant. Upon ending your turn, the fist will then fall, dealing immense damage to any creatures beneath it.</content>
+	<content contentuid="hbe5861f0gda5eg407cg966fgfaf065006642" version="2">Crush the Defiant</content>
+	<content contentuid="h3854b4fbgc9e5g409bg91d7g9cda5aad63f9" version="2">The Tyrant's mighty fist drops, crushing the will and body of all underneath it, knocking any survivors &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. </content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PASSIVES</content>
 

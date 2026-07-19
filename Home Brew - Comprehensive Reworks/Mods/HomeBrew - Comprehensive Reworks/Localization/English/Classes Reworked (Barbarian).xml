@@ -160,7 +160,7 @@
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf83a335" version="1">Let It Rip</content>
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf8asdf8" version="2">Once per turn, your &lt;LSTag Type="Spell" Tooltip="Target_FrenziedStrike"&gt;Frenzied Strike&lt;/LSTag&gt; will deal the maximum damage possible. This effect is reset upon triggering &lt;LSTag Type="Status" Tooltip="Tooltip_ThrilloftheKill"&gt;Thrill of the Kill&lt;/LSTag&gt;.</content>
 
-<content contentuid="0000000000000000000000000000000000000" version="1">Frostbreaker</content>
+<content contentuid="0000000000000000000000000000000000000" version="1">FROSTBREAKER</content>
 
 	<content contentuid="h40aa7e41g978dg4da6as54df84sd5f4ef803" version="1">Frostbreaker</content>
 	<content contentuid="hc526s54df84ef6s84d68f4s2e4f8d5f4880c" version="2">Amidst frigid hilltops and glacial peaks, you have honed your rage, now controlled and enduring.</content>
@@ -319,8 +319,8 @@
 	<content contentuid="heb6e4d12g04eag4dbcgba42gc1bc6b5e3ca0" version="4">Menace an enemy and attempt to instil a dreadful feeling of &lt;LSTag Type="Status" Tooltip="INTIMIDATING_PRESENCE"&gt;Intimidation&lt;/LSTag&gt; within them.</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800003" version="1">Faceoff</content>
-	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000c" version="2">If an enemy damages you, use one of your &lt;LSTag Type="ActionResource" Tooltip="Rage"&gt;Rage Charges&lt;/LSTag&gt; to potentially &lt;LSTag Type="Status" Tooltip="INTIMIDATING_PRESENCE"&gt;Intimidate&lt;/LSTag&gt; them.</content>
-	<content contentuid="heb6e4d12g04eag4dbcgba42gc1bc6b56a945" version="4">If an enemy damages you, attempt to instil a dreadful feeling of &lt;LSTag Type="Status" Tooltip="INTIMIDATING_PRESENCE"&gt;Intimidation&lt;/LSTag&gt; within them.</content>
+	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000c" version="2">If an enemy damages you, you may attempt to &lt;LSTag Type="Status" Tooltip="INTIMIDATING_PRESENCE"&gt;Intimidate&lt;/LSTag&gt; them as a free &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
+	<content contentuid="heb6e4d12g04eag4dbcgba42gc1bc6b56a945" version="4">If an enemy damages you, attempt to &lt;LSTag Type="Status" Tooltip="INTIMIDATING_PRESENCE"&gt;Intimidate&lt;/LSTag&gt; them.</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800005" version="1">Furious Criticals</content>
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000e" version="2">While enraged, the number you need to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by one.</content>

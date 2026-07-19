@@ -103,7 +103,6 @@
                     <attribute id="Level11" type="LSString" value="1d8"/>
                     <attribute id="Level12" type="LSString" value="1d8"/>
                     <attribute id="Name" type="FixedString" value="MartialArts"/>
-                    <attribute id="PreferredClassUUID" type="guid" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f"/>
                     <attribute id="UUID" type="guid" value="b4136c95-a4f9-4fc1-96bc-00310232d27a"/>
 					</node>
 		<node id="LevelMapSeries">

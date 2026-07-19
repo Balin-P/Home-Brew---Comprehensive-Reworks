@@ -33,7 +33,7 @@ data "StackId" "EXTRA_ATTACK"
 data "StackPriority" "10"
 data "TickType" "EndTurn"
 data "Boosts" "UnlockSpellVariant(ExtraAttackCheck(),ModifyUseCosts(Replace,ActionPoint,0,0,ActionPoint),ModifyUseCosts(Replace,BonusActionPoint,0,0,BonusActionPoint),ModifyUseCosts(Replace,ReactionActionPoint,0,0,ReactionActionPoint),ModifyIconGlow(),ModifyTooltipDescription())"
-data "RemoveConditions" "ExtraAttackSpellCheck()"
+data "RemoveConditions" "ExtraAttackRemovalSpellCheck()"
 data "RemoveEvents" "OnTurn;OnSpellCast"
 data "StatusPropertyFlags" "DisableCombatlog;DisablePortraitIndicator;DisableOverhead"
 

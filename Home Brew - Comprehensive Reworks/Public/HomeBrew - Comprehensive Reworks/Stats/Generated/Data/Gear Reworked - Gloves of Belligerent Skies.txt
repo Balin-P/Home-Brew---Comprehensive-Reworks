@@ -20,4 +20,4 @@ data "DescriptionParams" "DealDamage(,Thunder);DealDamage(,Lightning);DealDamage
 data "Properties" "OncePerAttack"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsDamageTypeLightning() or IsDamageTypeThunder()"
-data "StatsFunctors" "ApplyStatus(MAG_THUNDER_REVERBERATION, 100, 1);ApplyStatus(MAG_THUNDER_REVERBERATION_DURATION_TECHNICAL, 100, 1)"
+data "StatsFunctors" "ApplyStatus(MAG_THUNDER_REVERBERATION, 100, 1)"

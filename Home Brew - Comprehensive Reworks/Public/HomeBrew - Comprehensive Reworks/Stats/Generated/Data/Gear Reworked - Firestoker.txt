@@ -9,7 +9,7 @@ data "ValueOverride" "250"
 data "Rarity" "Uncommon"
 data "PassivesOnEquip" "ConcealedCarry;Concealed_Carry_Technical;MAG_Fire_IncreasePiercingDamageToBurning_Passive"
 data "Unique" "1"
-data "WeaponFunctors" "IF(not SavingThrow(Ability.Dexterity, SourceSpellDC())):ApplyStatus(BURNING,100,1)"
+data "WeaponFunctors" "IF(not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, context.Source))):ApplyStatus(BURNING,100,1)"
 data "UseCosts" "ReactionActionPoint:1;Attunement:1"
 data "StatusOnEquip" "ATTUNEMENT1"
 

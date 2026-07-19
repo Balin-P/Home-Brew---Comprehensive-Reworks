@@ -219,7 +219,7 @@ data "Description" "h1c1230d9g2e67g4f23gb171g00bd6286c2c6;2"
 data "Icon" "statIcons_MissingPets"
 data "SoundVocalStart" "WEAK"
 data "SoundVocalEnd" "AWAKE"
-data "RemoveConditions" "SavingThrow(Ability.Wisdom, SourceSpellDC())"
+data "RemoveConditions" "SavingThrow(Ability.Wisdom,CalculateSpellDC(context.PreferredCastingAbility, context.Source))"
 data "RemoveEvents" "None"
 
 new entry "HAG_STILLBORN"

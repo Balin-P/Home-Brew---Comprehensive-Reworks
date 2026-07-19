@@ -116,6 +116,23 @@ data "Conditions" "not HasSpellCastBlocked(context.Observer) and IsAbleToReact(c
 data "Roll" "TryCounterspellHigherLevelCheck(5)"
 data "Cost" "ReactionActionPoint:1;SpellSlotsGroup:1:1:6"
 
+<!--FLAMING ARROWS-->
+
+new entry "Interrupt_FlamingArrows"
+type "InterruptData"
+data "Icon" "Spell_Transmutation_FlameArrows"
+data "DisplayName" "39f1898f9sdfosdoifsodofsofd99494xyz6;1"
+data "Description" "39f1898f9sdfosdoifsodofsofd99494xyzf;1"
+data "DescriptionParams" "DealDamage(1d4,Fire)"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "Self(context.Source,context.Observer) and IsWeaponAttack() and not IsMeleeAttack() and not (IsMiss() or IsCriticalMiss()) and not IsKillingBlow()"
+data "Properties" "ApplyStatus(BURNING,100,1);DealDamage(1d4,Fire,,,0,,true)"
+data "Cost" "FlameArrows:1"
+data "InterruptDefaultValue" "Enabled;Ask"
+data "Stack" "OnDamage"
+
 <!--GUARDIAN OF FAITH-->
 
 new entry "Interrupt_GuardianOfFaith_Retaliate"

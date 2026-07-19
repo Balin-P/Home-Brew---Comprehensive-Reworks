@@ -874,3 +874,12 @@ add equipmentgroup
 add equipment entry "WPN_Greatsword_Gith"
 add equipmentgroup
 add equipment entry "ARM_HalfPlate_Body_Githyanki"
+
+new equipment "UND_KC_Nere"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "UND_Nere_Sword"
+add equipmentgroup
+add equipment entry "ARM_Shield"
+add equipmentgroup
+add equipment entry "ARM_Robe_Body"
