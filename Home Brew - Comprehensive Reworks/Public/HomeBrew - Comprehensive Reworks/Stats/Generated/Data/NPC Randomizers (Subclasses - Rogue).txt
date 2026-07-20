@@ -34,7 +34,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "OnApplyFunctors" "ApplyStatus(CASTER_UNLOCK_ARCANETRICKSTER,100,-1);IF(not CharacterLevelGreaterThan(2)):ApplyStatus(APPLY_ARCANETRICKSTER_1,100,-1);IF(CharacterLevelGreaterThan(2) and not CharacterLevelGreaterThan(4)):ApplyStatus(APPLY_ARCANETRICKSTER_3,100,-1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(6)):ApplyStatus(APPLY_ARCANETRICKSTER_5,100,-1);IF(CharacterLevelGreaterThan(6) and not CharacterLevelGreaterThan(8)):ApplyStatus(APPLY_ARCANETRICKSTER_7,100,-1);IF(CharacterLevelGreaterThan(8) and not CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_ARCANETRICKSTER_9,100,-1);IF(CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_ARCANETRICKSTER_11,100,-1)"
-data "Boosts" "AiArchetypeOverride(melee_magic,1)"
+data "Boosts" "AiArchetypeOverride(ranged,1)"
 
 new entry "ROGUE_SUBCLASS_ASSASSIN"
 type "StatusData"
@@ -47,7 +47,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "OnApplyFunctors" "ApplyStatus(CASTER_UNLOCK_ASSASSIN,100,-1);IF(not CharacterLevelGreaterThan(2)):ApplyStatus(APPLY_ASSASSIN_1,100,-1);IF(CharacterLevelGreaterThan(2) and not CharacterLevelGreaterThan(4)):ApplyStatus(APPLY_ASSASSIN_3,100,-1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(6)):ApplyStatus(APPLY_ASSASSIN_5,100,-1);IF(CharacterLevelGreaterThan(6) and not CharacterLevelGreaterThan(8)):ApplyStatus(APPLY_ASSASSIN_7,100,-1);IF(CharacterLevelGreaterThan(8) and not CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_ASSASSIN_9,100,-1);IF(CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_ASSASSIN_11,100,-1)"
-data "Boosts" "AiArchetypeOverride(melee,1)"
+data "Boosts" "AiArchetypeOverride(ranged,1)"
 
 new entry "ROGUE_SUBCLASS_HIDDENTOXICANT"
 type "StatusData"
@@ -60,7 +60,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "OnApplyFunctors" "ApplyStatus(CASTER_UNLOCK_HIDDENTOXICANT,100,-1);IF(not CharacterLevelGreaterThan(2)):ApplyStatus(APPLY_HIDDENTOXICANT_1,100,-1);IF(CharacterLevelGreaterThan(2) and not CharacterLevelGreaterThan(4)):ApplyStatus(APPLY_HIDDENTOXICANT_3,100,-1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(6)):ApplyStatus(APPLY_HIDDENTOXICANT_5,100,-1);IF(CharacterLevelGreaterThan(6) and not CharacterLevelGreaterThan(8)):ApplyStatus(APPLY_HIDDENTOXICANT_7,100,-1);IF(CharacterLevelGreaterThan(8) and not CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_HIDDENTOXICANT_9,100,-1);IF(CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_HIDDENTOXICANT_11,100,-1)"
-data "Boosts" "AiArchetypeOverride(melee,1)"
+data "Boosts" "AiArchetypeOverride(ranged,1)"
 
 new entry "ROGUE_SUBCLASS_SWASHBUCKLER"
 type "StatusData"
@@ -73,7 +73,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "OnApplyFunctors" "ApplyStatus(CASTER_UNLOCK_SWASHBUCKLER,100,-1);IF(not CharacterLevelGreaterThan(2)):ApplyStatus(APPLY_SWASHBUCKLER_1,100,-1);IF(CharacterLevelGreaterThan(2) and not CharacterLevelGreaterThan(4)):ApplyStatus(APPLY_SWASHBUCKLER_3,100,-1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(6)):ApplyStatus(APPLY_SWASHBUCKLER_5,100,-1);IF(CharacterLevelGreaterThan(6) and not CharacterLevelGreaterThan(8)):ApplyStatus(APPLY_SWASHBUCKLER_7,100,-1);IF(CharacterLevelGreaterThan(8) and not CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_SWASHBUCKLER_9,100,-1);IF(CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_SWASHBUCKLER_11,100,-1)"
-data "Boosts" "AiArchetypeOverride(melee,1)"
+data "Boosts" "AiArchetypeOverride(ranged,1)"
 
 new entry "ROGUE_SUBCLASS_THIEF"
 type "StatusData"
@@ -86,7 +86,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "OnApplyFunctors" "ApplyStatus(CASTER_UNLOCK_THIEF,100,-1);IF(not CharacterLevelGreaterThan(2)):ApplyStatus(APPLY_THIEF_1,100,-1);IF(CharacterLevelGreaterThan(2) and not CharacterLevelGreaterThan(4)):ApplyStatus(APPLY_THIEF_3,100,-1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(6)):ApplyStatus(APPLY_THIEF_5,100,-1);IF(CharacterLevelGreaterThan(6) and not CharacterLevelGreaterThan(8)):ApplyStatus(APPLY_THIEF_7,100,-1);IF(CharacterLevelGreaterThan(8) and not CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_THIEF_9,100,-1);IF(CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_THIEF_11,100,-1)"
-data "Boosts" "AiArchetypeOverride(melee,1)"
+data "Boosts" "AiArchetypeOverride(ranged,1)"
 
 new entry "ROGUE_SUBCLASS_VIRULENCE"
 type "StatusData"
@@ -99,7 +99,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "OnApplyFunctors" "ApplyStatus(CASTER_UNLOCK_VIRULENCE,100,-1);IF(not CharacterLevelGreaterThan(2)):ApplyStatus(APPLY_VIRULENCE_1,100,-1);IF(CharacterLevelGreaterThan(2) and not CharacterLevelGreaterThan(4)):ApplyStatus(APPLY_VIRULENCE_3,100,-1);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(6)):ApplyStatus(APPLY_VIRULENCE_5,100,-1);IF(CharacterLevelGreaterThan(6) and not CharacterLevelGreaterThan(8)):ApplyStatus(APPLY_VIRULENCE_7,100,-1);IF(CharacterLevelGreaterThan(8) and not CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_VIRULENCE_9,100,-1);IF(CharacterLevelGreaterThan(10)):ApplyStatus(APPLY_VIRULENCE_11,100,-1)"
-data "Boosts" "AiArchetypeOverride(melee,1)"
+data "Boosts" "AiArchetypeOverride(ranged,1)"
 
 <!----------------------------------------------------------------------------------------------------SUBCLASS 1---------------------------------------------------------------------------------------------------->
 
@@ -473,7 +473,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
-data "Passives" "Force_Hide_NPC;EscapeArtist;SneakAttack_Unlock;Reflexive"
+data "Passives" "Force_Hide_NPC;EscapeArtist;SneakAttack_Unlock;NaturalSmokebomb;NaturalSmokebomb_Boosts"
 
 new entry "APPLY_THIEF_5"
 type "StatusData"
@@ -487,7 +487,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
-data "Passives" "Force_Hide_NPC;EscapeArtist;SneakAttack_Unlock;Reflexive;NaturalSmokebomb"
+data "Passives" "Force_Hide_NPC;EscapeArtist;SneakAttack_Unlock;NaturalSmokebomb;NaturalSmokebomb_Boosts;Reflexive"
 
 new entry "APPLY_THIEF_7"
 type "StatusData"
@@ -501,7 +501,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
-data "Passives" "Force_Hide_NPC;EscapeArtist;SneakAttack_Unlock;Reflexive;NaturalSmokebomb;GetOutofJailFree;GetOutofJailFree_Miss"
+data "Passives" "Force_Hide_NPC;EscapeArtist;SneakAttack_Unlock;NaturalSmokebomb;NaturalSmokebomb_Boosts;Reflexive;GetOutofJailFree;GetOutofJailFree_Miss"
 
 new entry "APPLY_THIEF_9"
 type "StatusData"
@@ -515,7 +515,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
-data "Passives" "Force_Hide_NPC;EscapeArtist;SneakAttack_Unlock;Reflexive;NaturalSmokebomb;GetOutofJailFree;GetOutofJailFree_Miss;WhatGoesAround"
+data "Passives" "Force_Hide_NPC;EscapeArtist;SneakAttack_Unlock;NaturalSmokebomb;NaturalSmokebomb_Boosts;Reflexive;GetOutofJailFree;GetOutofJailFree_Miss;WhatGoesAround"
 
 new entry "APPLY_THIEF_11"
 type "StatusData"
@@ -529,7 +529,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
-data "Passives" "Force_Hide_NPC;EscapeArtist;SneakAttack_Unlock;Reflexive;NaturalSmokebomb;GetOutofJailFree;GetOutofJailFree_Miss;WhatGoesAround;NoHonorAmongUs"
+data "Passives" "Force_Hide_NPC;EscapeArtist;SneakAttack_Unlock;NaturalSmokebomb;NaturalSmokebomb_Boosts;Reflexive;GetOutofJailFree;GetOutofJailFree_Miss;WhatGoesAround;NoHonorAmongUs"
 
 <!----------------------------------------------------------------------------------------------------SUBCLASS 6---------------------------------------------------------------------------------------------------->
 

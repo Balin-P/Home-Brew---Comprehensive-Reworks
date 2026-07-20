@@ -27,7 +27,7 @@
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c7ss600001" version="5">Serrated Hematic Invocation</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0af5dd20000a" version="1">Sacrifice 10% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; to an Eldritch abomination in order to restore a &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slot&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;While abiding by the Pact of the Blade, you wreathe your equipped weapon in &lt;LSTag Type="Status" Tooltip="HELLFIRE"&gt;Hellfire&lt;/LSTag&gt; for three turns.</content>
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c7ss600002" version="5">Chained Hematic Invocation</content>
-	<content contentuid="h53277800gd3a4g4984gbff6g0af5dd20000b" version="1">Sacrifice 10% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; to an Eldritch abomination in order to restore a &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slot&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;While abiding by the Pact of the Chain, you recover one charge of your &lt;LSTag Type="ActionResource" Tooltip="ChainedBonds"&gt;Chained Bonds&lt;/LSTag&gt;.</content>
+	<content contentuid="h53277800gd3a4g4984gbff6g0af5dd20000b" version="1">Sacrifice 10% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; to an Eldritch abomination in order to restore a &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slot&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;While abiding by the Pact of the Chained, you recover one charge of your &lt;LSTag Type="ActionResource" Tooltip="ChainedBonds"&gt;Chained Bonds&lt;/LSTag&gt;.</content>
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c7ss600003" version="5">Penumbral Hematic Invocation</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0af5dd20000c" version="1">Sacrifice 10% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; to an Eldritch abomination in order to restore a &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slot&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;While abiding by the Pact of Penumbra, you extend your state of &lt;LSTag Type="Status" Tooltip="PENUMBRA_LIGHT"&gt;Penumbral Light&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="PENUMBRA_DARK"&gt;Penumbral Darkness&lt;/LSTag&gt; by one turn, as well as detonate nearby &lt;LSTag Type="Status" Tooltip="ELDRITCH_BOMB"&gt;Eldritch Bombs&lt;/LSTag&gt;.</content>
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c7ss600004" version="5">Eldritch Hematic Invocation</content>
@@ -59,8 +59,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PACT OF THE BLADE</content>
 
-	<content contentuid="h7fd64569g90e0g4b80g8709g57bc86f29fdf" version="1">Pact of
-the Blade</content>
+	<content contentuid="h7fd64569g90e0g4b80g8709g57bc86f29fdf" version="1">Pact of the Blade</content>
 	<content contentuid="hea96e5bfg6fabg48e3g81b0gc950ae10556f" version="1">Pact of the Blade</content>
 
 	<content contentuid="hdaab7880g17afg4e6bg92a2gefb96ec722ca" version="1">Your Pact manifests as raw power in way of a weapon of choice, bound to your very being.</content>
@@ -79,7 +78,7 @@ the Blade</content>
 	<content contentuid="hb5821feag2ff1g4781gbae9g883a6976a454" version="2">Affected creature's weapons have become wreathed in flame, and now deals additional damage.</content>
 
 	<content contentuid="hecba1ef0g88beg401bg869dg6de6ba5eba40" version="1">Dark One's Blessing</content>
-	<content contentuid="hf690b23dg039ag4befg90a1g18e279b05184" version="2">Once per turn, upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, your patron will grant you &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt; added to your level.</content>
+	<content contentuid="hf690b23dg039ag4befg90a1g18e279b05184" version="2">Once per turn, upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, your patron will grant you &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt; added to your level and remove one stack of &lt;LSTag Type="Spell" Tooltip="Shout_HematicInvocation"&gt;Hematic Invocation&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h2d527f55g3322g4492g9b6eg692418bac609" version="2">Hellblade Resonation</content>
 	<content contentuid="ha736d140g3d03g4279g8386g07f2a1cd07ad" version="2">When dealing damage to an enemy or item, you ignore all forms of Fire &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt;. In addition, while your weapons are coated in &lt;LSTag Type="Status" Tooltip="HELLFIRE"&gt;Hellfire&lt;/LSTag&gt;, dealing damage with your main-hand weapon causes all targets within [1] of you to take Fire damage equal to your levels in Warlock.</content>
@@ -89,7 +88,7 @@ the Blade</content>
 	<content contentuid="h0527734cgb2d7g4989ga2dfg779777465452" version="2">Eldritch Inferno</content>
 	<content contentuid="h41857a35g9f0fg44f6gadaagc1a4b7dfd885" version="3">Affected creature will erupt in an Eldritch Inferno upon the expiration of this condition, dealing [1] to all enemies within [2].</content>
 
-<content contentuid="0000000000000000000000000000000000000" version="1">PACT OF THE CHAIN</content>
+<content contentuid="0000000000000000000000000000000000000" version="1">PACT OF THE CHAINED</content>
 
 	<content contentuid="h77ad8d20g255bg475egbfcfgf3a5ea0dc4d0" version="1">Chained to something unknowable and fierce, your power now lies within your ability to summon and control hellish minions, from imps to undead dragons.</content>
 
@@ -97,7 +96,7 @@ the Blade</content>
 	<content contentuid="hffaccf0ag0569g4b24gb7bfg483838da6a88" version="1">WARLOCKCOMPANIONTAGFORWARLOCKOVERHAUL</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0d5s65d4fs5" version="4">Chained Bonds</content>
-	<content contentuid="791a0319eeed4e25949847ad3a0d9s8df879s" version="4">Utilized to summon &lt;LSTag Type="Spell" Tooltip="Target_PactOfTheChain_Container"&gt;Chained Companions&lt;/LSTag&gt;. Using &lt;LSTag Type="Spell" Tooltip="Shout_HematicInvocation"&gt;Hematic Invocation&lt;/LSTag&gt; will restore one charge and extend the duration that Greater Chained Companions can remain active by one turn.</content>
+	<content contentuid="791a0319eeed4e25949847ad3a0d9s8df879s" version="4">Utilized to summon &lt;LSTag Type="Spell" Tooltip="Target_PactOfTheChain_Container"&gt;Chained Companions&lt;/LSTag&gt;. Using &lt;LSTag Type="Spell" Tooltip="Shout_HematicInvocation"&gt;Hematic Invocation&lt;/LSTag&gt; will also restore one charge.</content>
 
 	<content contentuid="791a0319eeed4e25949847ad3a0dd16a95211" version="4">Chained Binding</content>
 	<content contentuid="791a0319eeed4e25949847ad3a0dd1aaa69a5" version="4">Affected creature is benefiting from one or more passives provided by its summoning Warlock.</content>
@@ -108,15 +107,14 @@ the Blade</content>
 	<content contentuid="h0caa271dg838fg43cfgbb0bg029e8f6a9522" version="1">Chained Bond</content>
 	<content contentuid="hf2d30149g1349g4008g9807g5325699a99ef" version="1">A binding pact links you and your &lt;LSTag Type="Spell" Tooltip="Target_PactOfTheChain_Container"&gt;Chained Companions&lt;/LSTag&gt;, preventing your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; from harming them. Their stats increase for each of your Warlock levels, and upon dying, they will restore [1] charge of your &lt;LSTag Type="ActionResource" Tooltip="ChainedBonds"&gt;Chained Bonds&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;In addition, your Chained Companions will gain various passive effects depending on the passives that you receive while leveling.</content>
 
-	<content contentuid="h226b878egbd1cg4ce3g8390g1dfe09e916bc" version="1">Pact of the Chain</content>
-	<content contentuid="h452aaefagda0eg4269gb4bbg773479ca789f" version="1">Pact of the Chain</content>
-	<content contentuid="h90e380a7g9f24g4ee6gb1a1g34eac5619afa" version="1">Pact of
-the Chain</content>
+	<content contentuid="h226b878egbd1cg4ce3g8390g1dfe09e916bc" version="1">Pact of the Chained</content>
+	<content contentuid="h452aaefagda0eg4269gb4bbg773479ca789f" version="1">Pact of the Chained</content>
+	<content contentuid="h90e380a7g9f24g4ee6gb1a1g34eac5619afa" version="1">Pact of the Chained</content>
 
 	<content contentuid="hb0fbe645ge1dbg4106g99bege9idkss97621" version="3">Chained Companion</content>
 
 	<content contentuid="hd5d7ec65g330cg4e29g9de6g8bdd40911245" version="1">Conjure Chained Companion</content>
-	<content contentuid="h1dafa968g4a9eg4b70g824cg440060e66d54" version="2">Summon a familiar, bound and chained to your will. Your familiars grow in strength alongside you as you level within the Pact of the Chain.</content>
+	<content contentuid="h1dafa968g4a9eg4b70g824cg440060e66d54" version="2">Summon a familiar, bound and chained to your will. Your familiars grow in strength alongside you as you level within the Pact of the Chained.</content>
 
 	<content contentuid="hd5d7ec65g330cg4e29g9de6g8bdd409318c2" version="1">Lesser Chained Companion: Imp</content>
 	<content contentuid="h1dafa968g4a9eg4b70g824cg440060efb16f" version="2">Summon a familiar with the form of an Imp.</content>
@@ -172,7 +170,7 @@ the Chain</content>
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb700000000a3" version="5">Pact Magic: Fireball</content>
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb700000000b3" version="5">Pact Magic: Inflict Wounds</content>
 
-	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c74696a910" version="5">Pact of the Chain</content>
+	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c74696a910" version="5">Pact of the Chained</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0af596693jjj" version="1">Gain the ability to summon &lt;LSTag Type="Spell" Tooltip="Target_PactOfTheChain_Container"&gt;Chained Companions&lt;/LSTag&gt;, Fiends and Abberations empowered by your Eldritch abilities and bound to your command. Chained Companions grow in strength alongside you. As your power grows, you will bind even more fearsome creatures to your will.</content>
 
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb70000000001" version="5">Fiendish Growth I</content>
@@ -196,8 +194,7 @@ the Chain</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PACT OF THE PRIMORDIAL</content>
 
-	<content contentuid="h7fd64569g909283ur9seud9fs8u3r9000000" version="1">Pact of
-the Primordial</content>
+	<content contentuid="h7fd64569g909283ur9seud9fs8u3r9000000" version="1">Pact of the Primordial</content>
 	<content contentuid="h7fd64569g90928320398r9se8fu09u300000" version="1">You've bound your soul to something eldritch and ancient for powers obscure. Within the corners of your mind, you feel it clawing, begging to be let out. And thus begins your journey to feed it...</content>
 
 	<content contentuid="h7fd64569g909283ur9seud9fs8u3r9000001" version="1">Pact of the Primordial</content>
@@ -234,8 +231,7 @@ the Primordial</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PACT OF PENUMBRA</content>
 
-	<content contentuid="hac0c681cg54a1g4a2egbeebgfa3a1adad49a" version="1">Pact of
-Penumbra</content>
+	<content contentuid="hac0c681cg54a1g4a2egbeebgfa3a1adad49a" version="1">Pact of Penumbra</content>
 	<content contentuid="h1d4478b3g7acdg450fg82d4g4854276893f2" version="1">You've pledged yourself to a maddened celestial to borrow their chaotic power. Bound to the concept itself, a penumbral blend of light and dark working as an affront in tandem.</content>
 
 	<content contentuid="hac0c681cg54a1g4a2egbeebgfa3a1ad00001" version="1">Pact of Penumbra</content>
@@ -291,7 +287,7 @@ Penumbra</content>
 	<content contentuid="041cd1a196fc4de4b58ab1f6e9c92d1e0zzza" version="1">Teleport to a space of your choosing within [1]. Your range is not limited by sight.</content>
 
 	<content contentuid="041cd1a196fc4de4b58ab1f6e9c92d1e00002" version="1">Curse of the Spectre</content>
-	<content contentuid="041cd1a196fc4de4b58ab1f6e9c92d1e0000b" version="1">Dealing Cold damage applies one stack of &lt;LSTag Type="Status" Tooltip="MAG_FROST"&gt;Encrusted With Frost&lt;/LSTag&gt;.</content>
+	<content contentuid="041cd1a196fc4de4b58ab1f6e9c92d1e0000b" version="1">Dealing Cold damage applies one stack of &lt;LSTag Type="Status" Tooltip="MAG_FROST"&gt;Encrusted With Frost&lt;/LSTag&gt;. Killing a creature who is Encrusted With Frost will remove one stack of &lt;LSTag Type="Spell" Tooltip="Shout_HematicInvocation"&gt;Hematic Invocation&lt;/LSTag&gt;.</content>
 
 	<content contentuid="041cd1a196fc4de4b58ab1f6e9c92d1e00003" version="1">Severed Resolve</content>
 	<content contentuid="041cd1a196fc4de4b58ab1f6e9c92d1e0000c" version="1">Upon using &lt;LSTag Type="Spell" Tooltip="Shout_HematicInvocation_Severing"&gt;Severing Hematic Invocation&lt;/LSTag&gt;, you restore your &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;.</content>
@@ -314,14 +310,13 @@ Penumbra</content>
 	<content contentuid="hf27dd66eg769fg465egbad7g7efebcd30e81" version="1">Erratic, eldritch power swirls within the palm of your hands, echoing out into an uncaring void, blast, after blast, after blast...</content>
 
 	<content contentuid="h0e551ff3ga6e6g41e5g8702g272bde8f58b0" version="1">Pact of the Tome</content>
-	<content contentuid="h1ddc9804g4d3eg450fgb46cg8c10926de1cd" version="1">Pact of
-the Tome</content>
+	<content contentuid="h1ddc9804g4d3eg450fgb46cg8c10926de1cd" version="1">Pact of the Tome</content>
 
 	<content contentuid="ha9cadfc2g5dbcg4e6bgb410gb25e02e77263" version="1">Pact of the Tome</content>
 	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd1ac1e" version="3">You add your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt; to the damage your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; deals, if positive and damaging an enemy. In addition, you are able to cast your Eldritch Blast with your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. This can be toggled at any time.</content>
 
 	<content contentuid="ha9cadfc2g5dbcg4e6bgb410gb25e02e00005" version="1">Projected Inertia</content>
-	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000e" version="3">Upon dealing damage with your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, you apply one stack of &lt;LSTag Type="Status" Tooltip="ELDRITCH_STRIKE"&gt;Eldritch Inertia&lt;/LSTag&gt;.</content>
+	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000e" version="3">Upon dealing damage with your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, you apply one stack of &lt;LSTag Type="Status" Tooltip="ELDRITCH_STRIKE"&gt;Eldritch Inertia&lt;/LSTag&gt;. In addition, killing a creature with your Eldritch Blast will remove one stack of &lt;LSTag Type="Spell" Tooltip="Shout_HematicInvocation"&gt;Hematic Invocation&lt;/LSTag&gt;.</content>
 
 	<content contentuid="ha9cadfc2g5dbcg4e6bgb410gb25e02e00002" version="1">Eldritch Overflow</content>
 	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000b" version="3">You are capable of dividing your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; into two separate beams. Each beam will deal 1d12 Force damage. This can be toggled at any time.</content>

@@ -608,7 +608,7 @@
                     <attribute id="Modifier" type="guid" value="743a3998-636a-4b39-951b-f742a56b07fc"/>
                     <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
                     <attribute id="UUID" type="guid" value="2c80f52b-7d4d-4e06-9a3a-57c8e6000005"/>
-                    <attribute id="Value" type="LSString" value="true"/>
+                    <attribute id="Value" type="LSString" value="false"/>
                 </node>
                 <node id="RulesetValue">
                     <attribute id="Modifier" type="guid" value="c8234320-35f5-44ff-85a2-4e4366de02f2"/>

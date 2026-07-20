@@ -167,6 +167,8 @@ data "Icon" "PassiveFeature_FavoredEnemy_MageBreaker"
 data "StackId" "DREAD_AMBUSHER"
 data "TickType" "EndTurn"
 data "Boosts" "CriticalDamageOnHit()"
+data "RemoveConditions" "IsCritical()"
+data "RemoveEvents" "OnAttack;OnCombatEnded"
 
 <!--HUNTER-->
 

@@ -769,7 +769,7 @@ data "Description" "259166d2-1d55-416e-82f8-20a96e4d4467;1"
 data "Icon" "Skill_Sorcerer_Passive_Metamagic_PiercingSpell"
 data "StackId" "METAMAGIC"
 data "StatusPropertyFlags" "DisableOverhead;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
-data "Boosts" "IF(Enemy() or Item()):IgnoreResistance(Acid,Resistant);IF(Enemy() or Item()):IgnoreResistance(Bludgeoning,Resistant);IF(Enemy() or Item()):IgnoreResistance(Cold,Resistant);IF(Enemy() or Item()):IgnoreResistance(Fire,Resistant);IF(Enemy() or Item()):IgnoreResistance(Force,Resistant);IF(Enemy() or Item()):IgnoreResistance(Lightning,Resistant);IF(Enemy() or Item()):IgnoreResistance(Necrotic,Resistant);IF(Enemy() or Item()):IgnoreResistance(Piercing,Resistant);IF(Enemy() or Item()):IgnoreResistance(Poison,Resistant);IF(Enemy() or Item()):IgnoreResistance(Psychic,Resistant);IF(Enemy() or Item()):IgnoreResistance(Radiant,Resistant);IF(Enemy() or Item()):IgnoreResistance(Slashing,Resistant);IF(Enemy() or Item()):IgnoreResistance(Thunder,Resistant)"
+data "Boosts" "IF(not Ally()):IgnoreResistance(Acid,Resistant);IF(not Ally()):IgnoreResistance(Bludgeoning,Resistant);IF(not Ally()):IgnoreResistance(Cold,Resistant);IF(not Ally()):IgnoreResistance(Fire,Resistant);IF(not Ally()):IgnoreResistance(Force,Resistant);IF(not Ally()):IgnoreResistance(Lightning,Resistant);IF(not Ally()):IgnoreResistance(Necrotic,Resistant);IF(not Ally()):IgnoreResistance(Piercing,Resistant);IF(not Ally()):IgnoreResistance(Poison,Resistant);IF(not Ally()):IgnoreResistance(Psychic,Resistant);IF(not Ally()):IgnoreResistance(Radiant,Resistant);IF(not Ally()):IgnoreResistance(Slashing,Resistant);IF(not Ally()):IgnoreResistance(Thunder,Resistant)"
 
 new entry "METAMAGIC_SEEKING"
 type "StatusData"

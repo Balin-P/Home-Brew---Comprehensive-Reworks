@@ -21,7 +21,7 @@ data "Description" "haec88c7bg018bg42afgbe89g4asd5f6d8584;6"
 data "Properties" "IsToggled;ToggledDefaultOn;Temporary"
 data "StatsFunctorContext" "OnHeal"
 data "Conditions" "not Self() and HealDoneGreaterThan(0) and HasActionResource('BonusActionPoint', 1, 0, true, true, context.Source) and HasUseCosts('ActionPoint', true)"
-data "StatsFunctors" "ApplyStatus(SELF,LIFEBLOOM_SELF,100,1);ApplyStatus(LIFEBLOOM,100,1)"
+data "StatsFunctors" "ApplyStatus(SELF,LIFEBLOOM_SELF,100,1);ApplyStatus(HASTE,100,1)"
 
 new entry "LIFEBLOOM_SELF"
 type "StatusData"

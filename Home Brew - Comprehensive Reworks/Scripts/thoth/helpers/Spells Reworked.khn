@@ -58,3 +58,7 @@ function IsTargetableCorpse(entity)
     result = Dead(entity) & ~Tagged('UNDEAD',entity) & ~Tagged('CONSTRUCT') & ~Tagged('ELEMENTAL') & ~Tagged('PLANT') & ~Tagged('OOZE')
     return ConditionResult(result.Result, {ConditionError("IsNotTargetableCorpse")})
 end
+
+function ManeuverSaveDC()
+    return 8 + context.Source.ProficiencyBonus + math.max(GetModifier(context.Source.Strength), GetModifier(context.Source.Dexterity))
+end

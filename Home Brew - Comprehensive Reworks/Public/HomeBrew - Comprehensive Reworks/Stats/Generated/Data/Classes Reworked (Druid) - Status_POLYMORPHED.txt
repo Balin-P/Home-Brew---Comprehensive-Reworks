@@ -989,7 +989,7 @@ data "OnApplyFunctors" "RemoveStatus(LIGHTSENSITIVITY_BUFF);IF(not Player()):Use
 data "OnRemoveFunctors" "ApplyStatus(SELF,WILDSHAPE_OWLBEAR_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1)"
 data "TemplateID" "6c82f01b-d201-444c-0011-000000000001"
 data "Rules" "9c580a1d-dab9-4b17-b0da-b16c7d7360e0"
-data "Passives" "Wildshape_Swap;Wildshape_Swap_Applicator;Wildshape_Owlbear_RageoftheOwl"
+data "Passives" "Wildshape_Swap;Wildshape_Swap_Applicator"
 data "StatusGroups" "SG_Polymorph_BeastShape;SG_DropForNonMutingDialog;SG_RemoveOnRespec"
 data "ApplyEffect" "f515b011-9b9d-462c-85e1-a79bc9055962"
 data "StackId" "WILDSHAPE"

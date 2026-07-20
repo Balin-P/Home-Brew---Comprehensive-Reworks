@@ -38,7 +38,7 @@
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="MAG_FIRE_ALWAYS_DIPPED_FIRE" />
+									<attribute id="Object" type="FixedString" value="MAG_FIRE_ALWAYS_DIPPED_FIRE_1D4" />
 								</node>
 								<node id="Status">
 									<attribute id="Object" type="FixedString" value="MAG_THROWING_RETURN_TO_OWNER" />
@@ -601,7 +601,7 @@
 						<node id="StatusList">
 							<children>
 								<node id="Status">
-									<attribute id="Object" type="FixedString" value="MAG_FIRE_ALWAYS_DIPPED_FIRE" />
+									<attribute id="Object" type="FixedString" value="MAG_FIRE_ALWAYS_DIPPED_FIRE_1D4" />
 								</node>
 							</children>
 						</node>
@@ -11421,6 +11421,52 @@
 											<attribute id="PlayOnHUD" type="bool" value="False" />
 										</node>
 									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="he5e86aa5ga35eg4579g8073gdad88b3b5499" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h2a6b956cg82e9g4333g845ag5ac1f276e03d" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="660483f6-8eb3-45be-88a4-327f9d417026" />
+					<attribute id="Name" type="LSString" value="MAG_Fire_AlwaysDippedInFire_Greatsword" />
+					<attribute id="ParentTemplateId" type="FixedString" value="81a83529-5bb6-4c72-b1af-6fc8f45c5706" />
+					<attribute id="Stats" type="FixedString" value="MAG_Fire_AlwaysDippedInFire_Greatsword" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="06346da5-2ed5-4af1-b803-4066a505e662" />
+											<attribute id="Conditions" type="LSString" value="Tagged('REALLY_GALE', context.Source) and not Tagged('ORI_GALE_DONEWITHITEMS', context.Source)" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="StatsId" type="FixedString" value="ORI_GALE_AVATAR_CONSUMEITEM" />
+											<attribute id="StatusDuration" type="int32" value="0" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="MAG_FIRE_ALWAYS_DIPPED_FIRE_1D6" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="7b96246c-54ba-43ea-b01d-4e0b20ad35f1" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
 								</node>
 							</children>
 						</node>

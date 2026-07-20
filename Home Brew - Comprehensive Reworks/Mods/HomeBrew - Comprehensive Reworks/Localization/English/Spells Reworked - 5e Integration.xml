@@ -322,7 +322,7 @@
 	<content contentuid="39f1898f9sdfosdoifsodofsofd99494xxx6" version="1">Flame Arrows</content>
 	<content contentuid="39f1898f9sdfosdoifsodofsofd99494xxxf" version="1">The amount of Flame Arrows you have remaining. &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; targeting a creature or object will consume one Flame Arrow.</content>
 	<content contentuid="39f1898f9sdfosdoifsodofsofd99494xyz6" version="1">Flame Arrows</content>
-	<content contentuid="39f1898f9sdfosdoifsodofsofd99494xyzf" version="1">While active, your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; will fire flaming arrows that deal an additional [1] and cause your targets to &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt; for one turn. This can be toggled at any time.</content>
+	<content contentuid="39f1898f9sdfosdoifsodofsofd99494xyzf" version="1">Deal an additional [1] and cause your targets to &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt; for one turn when making a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;.</content>
 
 	<content contentuid="39f1898f9sdfosdoifsodofsofd994940007" version="1">Internal Fortress</content>
 	<content contentuid="39f1898f9sdfosdoifsodofsofd99494000g" version="1">Protect a creature, reducing all physical damage they take by [1] until the end of their next combat encounter.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Rogues&lt;br&gt;Sorcerers&lt;br&gt;Wizards</content>

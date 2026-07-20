@@ -55,8 +55,8 @@
 
 	<content contentuid="h94981fe3g720cg4a5dga655g1191bf400001" version="1">The Approaching Storm</content>
 	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad90000a" version="1">Gain &lt;LSTag Type="Spell" Tooltip="Shout_SteelWindStorm"&gt;Steel-Wind Storm&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Projectile_SteelWindBeam"&gt;Steel-Wind Burst&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Projectile_SteelWindStrike"&gt;Steel-Wind Strike&lt;/LSTag&gt;.</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9zzzzz" version="1">This action utilizes a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while also functioning as a Spell. If a Spell innately deals both physical and elemental damage, the physical damage cannot be increased.</content>
-	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9yyyyy" version="1">This action utilizes a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while also functioning as a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;. If a Cantrip innately deals both physical and elemental damage, the physical damage cannot be increased.</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9zzzzz" version="1">This action utilizes a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while also functioning as a Spell. If a Spell innately deals both physical and elemental damage, the elemental damage cannot be increased.</content>
+	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9yyyyy" version="1">This action utilizes a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while also functioning as a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;. If a Cantrip innately deals both physical and elemental damage, the elemental damage cannot be increased.</content>
 
 	<content contentuid="h94981fe3g720cg4a5dga655g1191bf4000z1" version="1">Steel-Wind Storm</content>
 	<content contentuid="hf318c6dcg5444g4c2ag86b7g55b8ad9000za" version="1">Invoke the Arcane winds which guide you, granting a +1 bonus to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; and &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
@@ -150,7 +150,7 @@
 	<content contentuid="he03bcffeg9447g47cfgbe07g4ef50cb2606d" version="1">As an evoker, you stride unharmed through the unfettered chaos you call, a storm of mysicism contained only by the flick of your wrist.</content>
 
 	<content contentuid="h445d84b5g0c9bg4349g8c4bg54f039bb4054" version="2">Sculpt Spells</content>
-	<content contentuid="h41e528e7gd77ag42b1g883bgc9b31037c8bd" version="3">Create pockets of safety within damaging Spells that you directly cast. Allies will take no damage from them.</content>
+	<content contentuid="h41e528e7gd77ag42b1g883bgc9b31037c8bd" version="3">Create pockets of safety within damaging, area of effect Spells that you directly cast. Allies will take no damage from them.</content>
 
 	<content contentuid="h9aee3403g58c0g4c53g8ca6g38914f493837" version="6">Eruptive Casting</content>
 	<content contentuid="hcbb5a5cfg7df0g412cga4a4g3c5b855adf87" version="6">When casting a Spell that makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you roll with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>

@@ -431,6 +431,20 @@ data "TickType" "EndTurn"
 data "Boosts" "CriticalDamageOnHit()"
 data "RemoveEvents" "OnCombatEnded"
 
+<!--WAY OF THE GENTLE FIST-->
+
+new entry "SERENITY"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "acb55f4f68334d90acd68f5f37353d0b00001;1"
+data "Description" "acb55f4f68334d90acd68f5f37353d0b0000a;2"
+data "Icon" "Spell_2e_ForcefulHand"
+data "StackId" "SERENITY"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StackType" "Ignore"
+data "TickType" "EndTurn"
+data "TickFunctors" "IF(HasPassive('MendingBlows', context.Source)):CreateExplosion(SELF,Projectile_MendingBlows)"
+
 <!--WAY OF THE OPEN HAND-->
 
 new entry "MANIFESTATION"

@@ -20,11 +20,11 @@ function AbilityIsExactly(ability, value, entity)
 end
 
 function ConcealedCarryCheck()
-	return HasStringInSpellRoll('RangedWeaponAttack') & ~HasUseCosts('ReactionActionPoint')
+	return HasStringInSpellRoll('RangedWeaponAttack') & ~HasUseCosts('ReactionActionPoint') & ~NumberOfTargetsGreaterThan(1) & ~AreaRadiusGreaterThan(0) & SpellId('Projectile_MainHandAttack')
 end
 
 function CT_WeaponAttackCheck()
-	return HasStringInSpellRoll('MeleeWeaponAttack') & ~NumberOfTargetsGreaterThan(1) | HasStringInSpellRoll('RangedWeaponAttack') & ~NumberOfTargetsGreaterThan(1)
+	return HasStringInSpellRoll('MeleeWeaponAttack') & ~NumberOfTargetsGreaterThan(1) & ~AreaRadiusGreaterThan(0) | HasStringInSpellRoll('RangedWeaponAttack') & ~NumberOfTargetsGreaterThan(1) & ~AreaRadiusGreaterThan(0)
 end
 
 function SteelCastSpellCheck()
@@ -36,7 +36,11 @@ function SteelCastCheck()
 end
 
 function ExtraAttackSpellCheck()
-    return HasStringInSpellRoll('WeaponAttack') & ~IsSpell() | HasStringInSpellRoll('UnarmedAttack') & ~IsSpell() | HasStringInSpellRoll('ThrowAttack') & ~IsSpell()
+    return HasStringInSpellRoll('WeaponAttack') & ~IsSpell() & (HasUseCosts('ActionPoint', true) or HasUseCosts('BonusActionPoint', true) or HasUseCosts('ReactionActionPoint', true)) | HasStringInSpellRoll('UnarmedAttack') & ~IsSpell() & (HasUseCosts('ActionPoint', true) or HasUseCosts('BonusActionPoint', true) or HasUseCosts('ReactionActionPoint', true)) | HasStringInSpellRoll('ThrowAttack') & ~IsSpell() & (HasUseCosts('ActionPoint', true) or HasUseCosts('BonusActionPoint', true) or HasUseCosts('ReactionActionPoint', true))
+end
+
+function ExtraAttackRemovalSpellCheck()
+    return HasStringInSpellRoll('WeaponAttack') & ~IsSpell() & ~(HasUseCosts('ActionPoint', true) or HasUseCosts('BonusActionPoint', true) or HasUseCosts('ReactionActionPoint', true)) | HasStringInSpellRoll('UnarmedAttack') & ~IsSpell() & ~(HasUseCosts('ActionPoint', true) or HasUseCosts('BonusActionPoint', true) or HasUseCosts('ReactionActionPoint', true)) | HasStringInSpellRoll('ThrowAttack') & ~IsSpell() & ~(HasUseCosts('ActionPoint', true) or HasUseCosts('BonusActionPoint', true) or HasUseCosts('ReactionActionPoint', true))
 end
 
 function ExtraAttackCheck()
@@ -44,7 +48,7 @@ function ExtraAttackCheck()
 end
 
 function FlurryofArrowsCheck()
-	return HasStringInSpellRoll('RangedWeaponAttack') & ~HasUseCosts('BonusActionPoint')
+	return HasStringInSpellRoll('RangedWeaponAttack') & ~HasUseCosts('BonusActionPoint') & ~NumberOfTargetsGreaterThan(1) & ~AreaRadiusGreaterThan(0) & SpellId('Projectile_MainHandAttack')
 end
 
 function HasDRNegationStatusElementalSource(entity)
@@ -214,7 +218,47 @@ function HealingPrevented(entity)
 end
 
 function HiddenStrikesCheck()
-	return HasStringInSpellRoll('MeleeWeaponAttack') & ~HasUseCosts('ReactionActionPoint')
+	return HasStringInSpellRoll('MeleeWeaponAttack') & ~HasUseCosts('ReactionActionPoint') & ~NumberOfTargetsGreaterThan(1) & ~AreaRadiusGreaterThan(0) & SpellId('Target_MainHandAttack')
+end
+
+function IsAbilityInterruptInteresting(ability, entity)
+    local entity = entity or context.Target
+
+    if context.InterruptedRoll.RollCritical ~= RollCritical.None then
+        return ConditionResult(false, {ConditionError("IsCriticalFailSuccess")})
+    end
+
+    local score = 10
+
+    if ability == "Strength" then
+        score = context.Observer.Strength
+    elseif ability == "Dexterity" then
+        score = context.Observer.Dexterity
+    elseif ability == "Constitution" then
+        score = context.Observer.Constitution
+    elseif ability == "Intelligence" then
+        score = context.Observer.Intelligence
+    elseif ability == "Wisdom" then
+        score = context.Observer.Wisdom
+    elseif ability == "Charisma" then
+        score = context.Observer.Charisma
+    end
+
+    local modifier = math.floor((score - 10) / 2)
+
+    local rollSuccess = context.InterruptedRoll.Total >= context.InterruptedRoll.Difficulty
+
+    if Enemy(context.Observer, entity).Result then
+        return ConditionResult(
+            rollSuccess and
+            ((context.InterruptedRoll.Total - context.InterruptedRoll.Difficulty) < modifier)
+        )
+    end
+
+    return ConditionResult(
+        not rollSuccess and
+        ((context.InterruptedRoll.Difficulty - context.InterruptedRoll.Total) <= modifier)
+    )
 end
 
 function IsAetherSuspended(entity)
@@ -235,7 +279,7 @@ function IsRangedWeaponAttackCheck()
 end
 
 function IsRangedWeaponAttackCheckNoMultihit()
-    return HasStringInSpellRoll('RangedWeaponAttack') & ~NumberOfTargetsGreaterThan(1)
+    return HasStringInSpellRoll('RangedWeaponAttack') & ~NumberOfTargetsGreaterThan(1) & ~AreaRadiusGreaterThan(0)
 end
 
 function IsStrengthModifierPositive()
@@ -264,7 +308,7 @@ function NoMeleeWeaponEquipped(entity)
 end
 
 function NecromancyCheck()
-    return IsSpellOfSchool(SpellSchool.Necromancy)
+    return IsSpellOfSchool(SpellSchool.Necromancy) & ~NumberOfTargetsGreaterThan(1) & ~AreaRadiusGreaterThan(0)
 end
 
 function NoRangedWeaponEquipped(entity)
@@ -274,6 +318,10 @@ function NoRangedWeaponEquipped(entity)
     end
 
     return ConditionResult(true)
+end
+
+function PlayableRace(entity)
+    return Tagged('HUMAN',entity) | Tagged('ELF',entity) | Tagged('DROWELF',entity) | Tagged('DWARF',entity) | Tagged('HALFELF',entity) | Tagged('GNOME',entity) | Tagged('HALFLING',entity) | Tagged('TIEFLING',entity) | Tagged('GITHYANKI',entity) | Tagged('DRAGONBORN',entity) | Tagged('HALFORC',entity) | Tagged('DEVA',entity) | Tagged('CAMBION',entity) | Tagged('BUGBEAR',entity) | Tagged('GOBLIN',entity) | Tagged('HOBGOBLIN',entity) | Tagged('DARK_JUSTICIAR',entity) | Tagged('SKELETON',entity) | Tagged('VAMPIRE',entity) | Tagged('REALLY_DRYAD',entity) | Tagged('SUMMON',entity)
 end
 
 function RangedWeaponCheck()

@@ -139,9 +139,9 @@
 	<content contentuid="1532e50122e94186bab1a621b059dbed0000a" version="1">If they are not currently &lt;LSTag Type="Status" Tooltip="INVISIBILITY_BLOCKER"&gt;Revealed&lt;/LSTag&gt;, directly targeting an ally with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; will cause them to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; for three turns.&lt;br&gt;&lt;br&gt;Additionally, upon causing a creature to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; through Veilcasting, all enemies within [1] of them receive [2].</content>
 
 	<content contentuid="1532e50122e94186bab1a621b059dbed00002" version="1">Mirror Force</content>
-	<content contentuid="1532e50122e94186bab1a621b059dbed0000b" version="1">When an ally is damaged by an enemy, use a &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charge to deal [1] to their aggeressor. In addition, you cause your ally to regain [2].</content>
+	<content contentuid="1532e50122e94186bab1a621b059dbed0000b" version="1">When an ally is damaged by an enemy, use a &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charge to reflect the damage back to their aggeressor. In addition, you cause your ally to regain [2].</content>
 	<content contentuid="1532e50122e94186bab1a621b059dbed000z2" version="1">Mirror Force</content>
-	<content contentuid="1532e50122e94186bab1a621b059dbed000zb" version="1">When an ally is damaged by an enemy, deal [1] to their aggeressor. In addition, you cause your ally to regain [2].</content>
+	<content contentuid="1532e50122e94186bab1a621b059dbed000zb" version="1">When an ally is damaged by an enemy, reflect the damage back to their aggeressor. In addition, you cause your ally to regain [2].</content>
 
 	<content contentuid="1532e50122e94186bab1a621b059dbed00003" version="1">Phantom Communion</content>
 	<content contentuid="1532e50122e94186bab1a621b059dbed0000c" version="1">If you are not currently &lt;LSTag Type="Status" Tooltip="INVISIBILITY_BLOCKER"&gt;Revealed&lt;/LSTag&gt;, targeting an ally with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; will cause you to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; as well.</content>

@@ -14,11 +14,3 @@ data "InterruptDefaultValue" "Ask;Enabled"
 data "TooltipDamageList" "DealDamage(6d12,Psychic)"
 data "TooltipAttackSave" "Intelligence"
 data "TooltipStatusApply" "ApplyStatus(SILENCED,100,3)"
-
-<!--OWLBEAR-->
-
-new entry "Interrupt_FOR_Owlbear_Daddy_Rage_Health"
-type "InterruptData"
-using "Interrupt_FOR_Owlbear_Daddy_Rage"
-data "InterruptContextScope" "Self"
-data "Conditions" "IsAbleToReact(context.Observer) and Enemy(context.Source,context.Observer) and HasFunctor(StatsFunctorType.DealDamage) and IsHit() and not AnyEntityIsItem() and HasLastAttackTriggered() and not HasStatus('FOR_OWLBEAR_ENRAGE_HARDCORE') and not HasStatus('HEAVILY_SILENCED') and not HasStatus('SILENCED') and HasHPPercentageLessThan(75, context.Observer)"
