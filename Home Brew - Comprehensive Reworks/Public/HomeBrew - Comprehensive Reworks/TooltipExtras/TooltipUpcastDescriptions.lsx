@@ -264,6 +264,11 @@
                     <attribute id="Text" type="TranslatedString" handle="h8d71539dg47bfg49b7g85e8g9b29bac83d90" version="1"/>
                     <attribute id="UUID" type="guid" value="7e5b0be4-be6b-40fe-be96-27a3861e6fa8"/>
                 </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Mantra of Restoration"/>
+                    <attribute id="Text" type="TranslatedString" handle="2ef5c74c3ef74b958689b8cf3cefcbee00000" version="1"/>
+                    <attribute id="UUID" type="guid" value="2ef5c74c-3ef7-4b95-8689-b8cf3cefcbee"/>
+                </node>
             </children>
         </node>
     </region>

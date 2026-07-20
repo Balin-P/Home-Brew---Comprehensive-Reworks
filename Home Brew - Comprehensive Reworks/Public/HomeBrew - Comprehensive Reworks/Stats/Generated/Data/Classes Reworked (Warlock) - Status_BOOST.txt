@@ -33,7 +33,7 @@ data "StatusGroups" "SG_Cursed"
 data "ApplyEffect" "54d3e1a2-7513-4f46-bb46-53dec4e83b8d"
 data "StatusEffect" "372f12fd-d95c-43ca-9cc6-096ecf421704"
 data "StackType" "Additive"
-data "RemoveConditions" "not SavingThrow(Ability.Charisma, SourceSpellDC())"
+data "RemoveConditions" "not SavingThrow(Ability.Charisma,CalculateSpellDC(context.PreferredCastingAbility, context.Source))"
 data "RemoveEvents" "OnTurn"
 
 <!--PACT OF THE BLADE-->

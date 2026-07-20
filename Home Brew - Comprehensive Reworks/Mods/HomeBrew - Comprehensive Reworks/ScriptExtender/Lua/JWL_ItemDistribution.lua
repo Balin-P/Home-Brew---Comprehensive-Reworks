@@ -32,7 +32,7 @@ local function OnSessionLoaded()
 			npcMapKey = "67770922-5e0a-40c5-b3f0-67e8eb50493a",
 			itemName = "Empowered Guardian Emblem",
 			itemUUID = "68ae2a78-57fc-4a10-9271-afe10dcc50c0",
-			addEquip = true
+			addEquip = false
 		},
 		{
 			npcName = "Astral Prism Potion Pouch",
@@ -459,7 +459,7 @@ local function OnSessionLoaded()
 			npcMapKey = "1dc8091d-2af6-4d33-9268-998ef266d19c",
 			itemName = "Silver Lycan Charm",
 			itemUUID = "c4d45206-9201-4eca-b835-628ad31a8941",
-			addEquip = true
+			addEquip = false
 		},
 		{
 			npcName = "Zrell",

@@ -752,7 +752,7 @@ data "Icon" "PassiveFeature_NaturallyStealthy"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsWeaponAttack() and not HasStatus('ALCH_TOXIN_WYVERN_CONDITION', context.Target)"
-data "StatsFunctors" "IF(not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(ALCH_TOXIN_WYVERN_CONDITION,100,1, AdvantageOnPoisoned())"
+data "StatsFunctors" "IF(not SavingThrow(Ability.Constitution,CalculateSpellDC(context.PreferredCastingAbility, context.Source))):ApplyStatus(ALCH_TOXIN_WYVERN_CONDITION,100,1, AdvantageOnPoisoned())"
 
 <!--PASSIVE SUMMONS-->
 

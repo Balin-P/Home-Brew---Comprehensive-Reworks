@@ -101,7 +101,6 @@ data "Icon" "PassiveFeature_IronMind"
 data "DisplayName" "h6eb72b35g6633g4642gaf97gc5sd4fd00z35;1"
 data "Description" "h8612a65dg446cg427bga712g6sd8f8900zai;2"
 data "SpellFlags" "IsMelee;IsHarmful;Temporary"
-data "AmountOfTargets" "2"
 
 <!--PARTY AI CONTROL-->
 
