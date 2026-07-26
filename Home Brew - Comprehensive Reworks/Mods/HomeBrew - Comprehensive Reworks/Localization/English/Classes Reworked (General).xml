@@ -867,6 +867,8 @@
 
 	<content contentuid="hcf90a672g10deg4b3egad4fg9094c6ac6224" version="1">Extra Attack</content>
 	<content contentuid="he37249cfg5d71g499cg82d9gc369133f2066" version="2">Once per turn, after having made an unarmed or weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you may make an additional attack as a free action.&lt;Br&gt;&lt;Br&gt;Your Extra Attack cannot be a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;.</content>
+	<content contentuid="h322e38eeg690eg4d35gb9a7g511b9e42428e" version="1">Extra Attack</content>
+	<content contentuid="h5131f06bgff9ag4245g954dgcfa50b927031" version="2">Affected creature may make an additional weapon attack as a free action.</content>
 
 	<content contentuid="h3e6c622egb059g47e7gb925g7e82eae32521" version="2">Extra Attack: Martial Surge</content>
 	<content contentuid="h36aba2dbg6f37g4343ga32egcab0fd7d5f68" version="1">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Bonus Action&lt;/LSTag&gt; at all times. This can be toggled at any time outside of combat.&lt;Br&gt;&lt;Br&gt;This passive acts as a replacement of &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt;.</content>

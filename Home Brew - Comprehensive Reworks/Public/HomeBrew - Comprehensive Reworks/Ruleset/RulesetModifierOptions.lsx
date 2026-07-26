@@ -87,7 +87,7 @@
                     <attribute id="DisplayName" type="TranslatedString" handle="hb80200a7g8e69g4f66gbc18gs6d84f96s8e4" version="2"/>
                     <attribute id="Modifier" type="guid" value="7d788f28-1df5-474b-b106-4f8d0b6de928"/>
                     <attribute id="Name" type="LSString" value="STATUS_MYTHIC"/>
-                    <attribute id="ShowInCustom" type="bool" value="true"/>
+                    <attribute id="ShowInCustom" type="bool" value="false"/>
                     <attribute id="UUID" type="guid" value="98b48807-333c-426b-bdd7-78e503a07a4a"/>
                     <attribute id="Value" type="LSString" value="STATUS_MYTHIC"/>
                 </node>

@@ -27,6 +27,10 @@ function CT_WeaponAttackCheck()
 	return HasStringInSpellRoll('MeleeWeaponAttack') & ~NumberOfTargetsGreaterThan(1) & ~AreaRadiusGreaterThan(0) | HasStringInSpellRoll('RangedWeaponAttack') & ~NumberOfTargetsGreaterThan(1) & ~AreaRadiusGreaterThan(0)
 end
 
+function DamageCheck()
+    return HasFunctor(StatsFunctorType.DealDamage)
+end
+
 function SteelCastSpellCheck()
     return HasStringInSpellRoll('WeaponAttack') | HasStringInSpellRoll('UnarmedAttack') | HasStringInSpellRoll('ThrowAttack') | IsSpell() & IsCantrip()
 end

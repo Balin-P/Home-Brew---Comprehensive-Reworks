@@ -236,7 +236,7 @@
                     <attribute id="Modifier" type="guid" value="f52ca62e-e7ee-435a-853f-454b2303c278"/>
                     <attribute id="Ruleset" type="guid" value="d6522dc4-1d76-462e-9959-e8a0fd76f4ed"/>
                     <attribute id="UUID" type="guid" value="6f0e13b0-2a5d-4dc6-84c3-9f6d56000002"/>
-                    <attribute id="Value" type="LSString" value="3.0"/>
+                    <attribute id="Value" type="LSString" value="2.0"/>
                 </node>
                 <node id="RulesetValue">
                     <attribute id="Modifier" type="guid" value="6b8b28a3-52cf-41e5-817e-0d3226135a7d"/>
@@ -398,7 +398,7 @@
                     <attribute id="Modifier" type="guid" value="f52ca62e-e7ee-435a-853f-454b2303c278"/>
                     <attribute id="Ruleset" type="guid" value="3f777143-d1de-4035-b9e5-23763148b1fd"/>
                     <attribute id="UUID" type="guid" value="6f0e13b0-2a5d-4dc6-84c3-9f6d56000003"/>
-                    <attribute id="Value" type="LSString" value="4.0"/>
+                    <attribute id="Value" type="LSString" value="2.0"/>
                 </node>
                 <node id="RulesetValue">
                     <attribute id="Modifier" type="guid" value="6b8b28a3-52cf-41e5-817e-0d3226135a7d"/>
@@ -566,7 +566,7 @@
                     <attribute id="Modifier" type="guid" value="f52ca62e-e7ee-435a-853f-454b2303c278"/>
                     <attribute id="Ruleset" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
                     <attribute id="UUID" type="guid" value="6f0e13b0-2a5d-4dc6-84c3-9f6d56000005"/>
-                    <attribute id="Value" type="LSString" value="5.0"/>
+                    <attribute id="Value" type="LSString" value="2.0"/>
                 </node>
                 <node id="RulesetValue">
                     <attribute id="Modifier" type="guid" value="6b8b28a3-52cf-41e5-817e-0d3226135a7d"/>

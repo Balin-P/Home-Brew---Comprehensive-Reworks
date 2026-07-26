@@ -66,11 +66,11 @@
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c00zz2" version="1">Curse of Rot</content>
 	<content contentuid="heec87dfbg454fg4550g8622gb200a6700zzb" version="2">Affected creature takes [1] at the end of each of their turns for each stack of Curse of Rot they have. At the end of each of their turns, they receive one additional stack. In addition, they are unable to utilize their armours physical &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;.</content>
 
-	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c00002" version="2">Channel Divinity: Curse of Undeath</content>
-	<content contentuid="heec87dfbg454fg4550g8622gb200a670000b" version="2">Gain the ability to use a &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charge to place a &lt;LSTag Type="Status" Tooltip="CURSEOFUNDEATH"&gt;Curse of Undeath&lt;/LSTag&gt; upon a creature.</content>
-	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c000z2" version="1">Channel Divinity: Curse of Undeath</content>
-	<content contentuid="heec87dfbg454fg4550g8622gb200a67000zb" version="2">Place a &lt;LSTag Type="Status" Tooltip="CURSEOFUNDEATH"&gt;Curse of Undeath&lt;/LSTag&gt; upon a creature. They are then considered to be Undead, gaining &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Necrotic and Poison damage.</content>
-	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c00ss2" version="1">Curse of Undeath</content>
+	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c00002" version="2">Channel Divinity: Proclaim Undeath</content>
+	<content contentuid="heec87dfbg454fg4550g8622gb200a670000b" version="2">Gain the ability to use a &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charge to &lt;LSTag Type="Status" Tooltip="CURSEOFUNDEATH"&gt;Proclaim&lt;/LSTag&gt; a creature as Undead.</content>
+	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c000z2" version="1">Channel Divinity: Proclaim Undeath</content>
+	<content contentuid="heec87dfbg454fg4550g8622gb200a67000zb" version="2">&lt;LSTag Type="Status" Tooltip="CURSEOFUNDEATH"&gt;Proclaim&lt;/LSTag&gt; a creature as Undead, granting them &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to both Necrotic and Poison damage.</content>
+	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c00ss2" version="1">Proclaimed Undeath</content>
 	<content contentuid="heec87dfbg454fg4550g8622gb200a6700ssb" version="2">Affected creature is considered to be Undead. In addition, they have &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Necrotic and Poison damage.</content>
 
 	<content contentuid="h6cc498f5g13a0g4dc1g8c91gff3580c00003" version="1">Harvest</content>
@@ -252,9 +252,9 @@
 	<content contentuid="h5846ba7cg19b5g475cg88dbg2ea9d37ss6f9" version="3">Make an additional &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt; or &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h994500d0g1703g421bg8028g0f3a3101a644" version="2">War God's Vessel</content>
-	<content contentuid="hf729263eg37dcg43fbg923cg24cc642ieood" version="2">When you utilize your War God's Blessing to succeed an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, the bonus to your Attack Rolls remains active for three turns.</content>
+	<content contentuid="hf729263eg37dcg43fbg923cg24cc642ieood" version="2">When you utilize your War God's Blessing to succeed an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, the bonus to your Attack Rolls remains active for three turns and provides your ally with the effects of &lt;LSTag Type="Status" Tooltip="Tooltip_Radiant_Strikes"&gt;Radiant Strikes&lt;/LSTag&gt;.</content>
 	<content contentuid="h994500d0g1703g421bg8028g0f3a3101a645" version="2">War God's Vessel</content>
-	<content contentuid="hf729263eg37dcg43fbg923cg24cc642ieoo5" version="2">Affected character has a +10 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+	<content contentuid="hf729263eg37dcg43fbg923cg24cc642ieoo5" version="2">Affected character has a +10 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. In addition, they benefit from &lt;LSTag Type="Status" Tooltip="Tooltip_Radiant_Strikes"&gt;Radiant Strikes&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h994500d0g1703g421bg8028g0f3a3109a888" version="2">Deific</content>
 	<content contentuid="hf729263eg37dcg43fbg923cg24cc64212aa5" version="2">Once per turn, after using one of your Miracles, your next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; will always roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>

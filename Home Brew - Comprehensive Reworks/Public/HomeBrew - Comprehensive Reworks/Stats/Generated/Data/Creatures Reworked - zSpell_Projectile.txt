@@ -365,6 +365,33 @@ data "DeathType" "KnockedDown"
 data "DamageType" "Bludgeoning"
 data "AIFlags" "CanNotUse"
 
+<!--GLUT-->
+
+new entry "Projectile_WhiteSporeCloud"
+type "SpellData"
+data "SpellType" "Projectile"
+data "SpellProperties" "GROUND:CreateSurface(3,3,SporeWhiteCloud);ApplyStatus(HASTE_SURFACE,100,1);"
+data "TargetRadius" "18"
+data "AreaRadius" "3"
+data "ExplodeRadius" "3"
+data "ProjectileCount" "1"
+data "Trajectories" "12026f65-39c5-40d8-9f05-37b5f276e471"
+data "Icon" "Action_Glut_WhiteSporeCloud"
+data "DisplayName" "h8823b098ge8aag4c91g865bg8f62e310d54f;2"
+data "Description" "hf4c7f6cbg0390g45dfg885cg47565041b2bb;2"
+data "TooltipStatusApply" "ApplyStatus(HASTE_SURFACE,100,1)"
+data "CastSound" "CrSpell_Cast_SporeCloud"
+data "CastTextEvent" "Cast"
+data "UseCosts" "BonusActionPoint:1"
+data "SpellAnimation" "f029cc32-9718-4e88-9426-d960265b9aa5,,;71602dce-e7a9-4785-98cb-c4d0f68c626d,,;a67886cc-8458-48bf-bd98-3d1541232fe7,,;ce9e9d06-8e08-48dc-8ead-644d6da197e8,,;e53fb7fd-d5cc-4bc7-8956-89af694604b5,,;,,;,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellFlags" "IsEnemySpell;HasSomaticComponent;HasHighGroundRangeExtension"
+data "HitAnimationType" "None"
+data "SpellAnimationIntentType" "Aggressive"
+data "RechargeValues" "3-6"
+data "CastEffect" "f79f88c8-0f66-4972-b9fb-76296f55a6fa"
+data "Sheathing" "DontChange"
+
 <!--GORTASH-->
 
 new entry "Projectile_WYR_CrushingFist_Gortash_FallingFist"

@@ -523,6 +523,13 @@ data "StatsFunctorContext" "OnAttack"
 data "Conditions" "IsWeaponAttack() and not SpellId('Target_GreatWeaponMaster_ReactionAttack_Cleric_Melee') and not SpellId('Projectile_GreatWeaponMaster_ReactionAttack_Cleric_Ranged')"
 data "StatsFunctors" "ApplyStatus(SELF,GREAT_WEAPON_MASTER_REACTION_ATTACK_CLERIC,100,1)"
 
+new entry "War_Gods_Vessel"
+type "PassiveData"
+data "DisplayName" "h994500d0g1703g421bg8028g0f3a3101a644;2"
+data "Description" "hf729263eg37dcg43fbg923cg24cc642ieood;2"
+data "Icon" "Action_DivineStrike_Radiant_Melee"
+data "Properties" "Highlighted;ForceShowInCC"
+
 new entry "Deific"
 type "PassiveData"
 data "DisplayName" "h994500d0g1703g421bg8028g0f3a3109a888;2"
@@ -533,13 +540,6 @@ data "Properties" "Highlighted;ForceShowInCC;OncePerTurn"
 data "StatsFunctorContext" "OnCast"
 data "Conditions" "SpellId('Shout_DivineIntervention_Bounty') or SpellId('Shout_DivineIntervention_DamageWar') or SpellId('Shout_DivineIntervention_Healing') or SpellId('Shout_DivineIntervention_Buff')"
 data "StatsFunctors" "ApplyStatus(SELF,DEIFIC,100,1)"
-
-new entry "War_Gods_Vessel"
-type "PassiveData"
-data "DisplayName" "h994500d0g1703g421bg8028g0f3a3101a644;2"
-data "Description" "hf729263eg37dcg43fbg923cg24cc642ieood;2"
-data "Icon" "Action_DivineStrike_Radiant_Melee"
-data "Properties" "Highlighted;ForceShowInCC"
 
 <!--PASSIVES-->
 
