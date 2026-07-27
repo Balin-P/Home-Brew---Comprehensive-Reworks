@@ -42,17 +42,17 @@
 	<content contentuid="h60dd4652gfc75g4a9dg8256gbc9bbeb1395b" version="1">Fangs of the Fire Snake</content>
 	<content contentuid="h742a06dcg1814g432eg945dg7ccf3f55fb26" version="3">Affected creature's fists are flickering with flame. Its melee attacks deal an additional [1].</content>
 	<content contentuid="h133847b1gabedg4325gae61g968ab733a058" version="2">Fist of Unbroken Air</content>
-	<content contentuid="hb580f508g6b4cg463ega722g7b92469c17e5" version="7">Conjure a gale in the shape of a fist which crashes into targets, forcing them back by [1] should they fail a Strength based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+	<content contentuid="hb580f508g6b4cg463ega722g7b92469c17e5" version="7">Conjure a gale in the shape of a fist which crashes into targets, forcing them back by [1].</content>
 
 	<content contentuid="h577c9c4eg7abbg40b5g825eg54e9b436c4f7" version="4">Ice Block</content>
-	<content contentuid="hac166b0dg75d6g44a8ga360g8ccb37bb7bd7" version="4">Conjure a climbable block of ice which you can use to block paths and traverse your surroundings. Enemies starting their turn within [1] of the block will potentially lose 50% of their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; and take [2].</content>
+	<content contentuid="hac166b0dg75d6g44a8ga360g8ccb37bb7bd7" version="4">Conjure a climbable block of ice which you can use to block paths and traverse your surroundings.&lt;br&gt;&lt;br&gt;Enemies starting their turn within [1] of the block will potentially lose 50% of their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; and take [2].</content>
 	<content contentuid="h577c9c4eg7abbg40b5g825eg54e9b436s5d8" version="4">Ice Block: Freezing</content>
 	<content contentuid="hac166b0dg75d6g44a8ga360g8ccb37b2e565" version="4">Affected creature potentially takes [1] while starting their turn within [2] of the nearby &lt;LSTag Type="Spell" Tooltip="Target_ShapeTheFlowingRiver_IceBlock"&gt;Ice Block&lt;/LSTag&gt;. Upon taking damage by the Ice Block, they will lose 50% of their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; for the rest of their turn.</content>
 	<content contentuid="h577c9c4eg7abbg40b5g825eg54e9b4326533" version="4">Ice Block: Frozen</content>
 	<content contentuid="hac166b0dg75d6g44a8ga360g8ccb37b68944" version="4">Affected creature has lost 50% of their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; for the rest of their turn.</content>
 
 	<content contentuid="h7067326fg983fg480egb39cg7e48c4ecb0a9" version="2">Water Whip</content>
-	<content contentuid="h7e38ea30g1795g4b98gaca8gf6278ebb561d" version="2">Conjure a current of water with which to pull a target toward you by [1] should they fail a Strength based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+	<content contentuid="h7e38ea30g1795g4b98gaca8gf6278ebb561d" version="2">Conjure a current of water with which to pull a target [1] closer to you.</content>
 	<content contentuid="hf318c6dcg5444g4c2ag86b7g55225d458688" version="1">This action utilizes an unarmed based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while also functioning as a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h5dbeb57bg6089g4fccgb4b1ga71c31400003" version="2">Martial Elements</content>
@@ -124,26 +124,6 @@
 	<content contentuid="h392ca1c2g2438g40c6ga3e6ge2b15b83f947" version="1">Way of the Drunken Fist</content>
 	<content contentuid="hf8c35f5fg841eg4cbegaec6gf45dc0ad011e" version="1">With the unpredictable lurches of a tippler, you sway through every battle, frustrating foes with carefully executed movements concealed beneath a façade of incompetence.</content>
 
-	<content contentuid="h3beda6c5g0a7bg4b59g8451g60811c200001" version="1">Binge Drinker</content>
-	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee590000a" version="1">You are immune to the negative effects of being &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="TIPSY"&gt;Tipsy&lt;/LSTag&gt;, and all positive effects are doubled. Upon consuming alcohol, you recover one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt;.</content>
-
-	<content contentuid="h3beda6c5g0a7bg4b59g8451g60811c200002" version="1">Leaf Hurricane</content>
-	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee590000b" version="1">Upon drinking alcohol, you immediately &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt;. While &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="TIPSY"&gt;Tipsy&lt;/LSTag&gt;, you will not provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;, and all damage you deal is rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
-
-	<content contentuid="h3beda6c5g0a7bg4b59g8451g60811c200003" version="1">Contact Buzz</content>
-	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee590000c" version="1">Dealing damage causes your target to become &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt; for three turns.</content>
-
-	<content contentuid="h3beda6c5g0a7bg4b59g8451g60811c200004" version="1">Luck of the Drunkard</content>
-	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee590000d" version="1">While &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="TIPSY"&gt;Tipsy&lt;/LSTag&gt;, you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
-
-	<content contentuid="h3beda6c5g0a7bg4b59g8451g60811c200005" version="1">Drunken Awareness</content>
-	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee590000e" version="1">While &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="TIPSY"&gt;Tipsy&lt;/LSTag&gt;, all enemies make &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against you with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
-
-	<content contentuid="h3beda6c5g0a7bg4b59g8451g60811c200006" version="1">Eighth Gate of Saké</content>
-	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee590000f" version="1">Upon taking damage by a melee attack while &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="TIPSY"&gt;Tipsy&lt;/LSTag&gt;, you immediately fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. Enemies have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; when targeting you while Prone, and standing up requires no &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt;. Upon standing back up, all damage you deal will always roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; for the rest of your turn.</content>
-	<content contentuid="h3beda6c5g0a7bg4b59g8451g60811c2000z6" version="1">Eighth Gate of Saké</content>
-	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee59000zf" version="1">Affected creature will roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; when dealing damage.</content>
-
 	<content contentuid="h3beda6c5g0a7bg4b59g8451g6as5d4f00001" version="1">Flurry of Blows: Intoxicating</content>
 	<content contentuid="h3beda6c5g0a7bg4b59g8451g6as5d4f0000a" version="1">While &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt;, deliver two hits in rapid succession. If your target is Inebriated, this action will potentially knock them &lt;LSTag Type="Status" Tooltip="UNCONSCIOUS"&gt;Unconscious&lt;/LSTag&gt; for one turn, removing the condition.</content>
 
@@ -153,13 +133,33 @@
 	<content contentuid="h3beda6c5g0a7bg4b59g8451g6as5d4f00003" version="1">Breath of the Brewery</content>
 	<content contentuid="h3beda6c5g0a7bg4b59g8451g6as5d4f0000c" version="1">While &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt;, belch a breathtakingly pungent scent so debilitating that it may rob those affected of their senses, driving them &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Mad&lt;/LSTag&gt;.</content>
 
+	<content contentuid="h3beda6c5g0a7bg4b59g8451g60811c200001" version="1">Binge Drinker</content>
+	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee590000a" version="1">You are immune to the negative effects of being &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="TIPSY"&gt;Tipsy&lt;/LSTag&gt;, and all positive effects are doubled. Upon consuming alcohol, you recover one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h3beda6c5g0a7bg4b59g8451g60811c200002" version="1">Leaf Hurricane</content>
+	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee590000b" version="1">While &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="TIPSY"&gt;Tipsy&lt;/LSTag&gt;, dealing damage with melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; will deal additional damage to all enemies within [1] of your target, equal to your levels in Monk.</content>
+
+	<content contentuid="h3beda6c5g0a7bg4b59g8451g60811c200003" version="1">Contact Buzz</content>
+	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee590000c" version="1">Dealing damage causes your target to become &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt; for three turns.</content>
+
+	<content contentuid="h3beda6c5g0a7bg4b59g8451g60811c200004" version="1">Luck of the Drunkard</content>
+	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee590000d" version="1">While &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="TIPSY"&gt;Tipsy&lt;/LSTag&gt;, you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on both &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage rolls.</content>
+
+	<content contentuid="h3beda6c5g0a7bg4b59g8451g60811c200005" version="1">Drunken Awareness</content>
+	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee590000e" version="1">While &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="TIPSY"&gt;Tipsy&lt;/LSTag&gt;, all enemies make &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against you with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h3beda6c5g0a7bg4b59g8451g60811c200006" version="1">Eighth Gate of Saké</content>
+	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee590000f" version="1">Upon taking damage by a melee attack while &lt;LSTag Type="Status" Tooltip="DRUNK"&gt;Inebriated&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="TIPSY"&gt;Tipsy&lt;/LSTag&gt;, you immediately fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. Enemies have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; when targeting you while Prone, and standing up requires no &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt;. Upon standing back up, all damage you deal will always roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; for the rest of your turn.&lt;br&gt;&lt;br&gt;In addition, when targeting an Innebraited or Tipsy creature, the number you need in order to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by 2.</content>
+	<content contentuid="h3beda6c5g0a7bg4b59g8451g60811c2000z6" version="1">Eighth Gate of Saké</content>
+	<content contentuid="h380fd620g031cg4b8bg9e8cgf7cee59000zf" version="1">Affected creature will roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; when dealing damage.</content>
+
 <content contentuid="0000000000000000000000000000000000000" version="1">WAY OF THE GENTLE FIST</content>
 
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00000" version="1">Way of the Gentle Fist</content>
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0bzzzzz" version="1">Through harmony, your guiding hands provide relief. Through practiced inner peace, those around you are blessed with a calming sense of solidarity.</content>
 
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00002" version="1">Mending Blows</content>
-	<content contentuid="acb55f4f68334d90acd68f5f37353d0b0000b" version="1">You are considered to be a priority target. Each turn, and when dealing damage to an enemy, you heal yourself and all allies within [1] of you for an amount equal to your base unarmed dice.</content>
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0b0000b" version="1">You are considered to be a priority target. This can be toggled at any time.&lt;br&gt;&lt;br&gt;In addition, each turn, and when dealing melee damage to an enemy, you heal yourself and all allies within [1] of your target for an amount equal to your base unarmed dice, so long as they are not &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt;.</content>
 
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00004" version="1">Merciful Counter</content>
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0b0000d" version="1">When an ally within [1] of you is damaged, you may expend one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt; in order to heal them, and all allies within [2] of them, for an amount equal to your unarmed dice.</content>
@@ -176,7 +176,7 @@
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0b0000e" version="1">Healing an ally provides the effects of &lt;LSTag Type="Spell" Tooltip="Target_GreaterRestoration"&gt;Great Cleanse&lt;/LSTag&gt;.</content>
 
 	<content contentuid="acb55f4f68334d90acd68f5f37353d0b00006" version="1">Flow of Compassion</content>
-	<content contentuid="acb55f4f68334d90acd68f5f37353d0b0000f" version="1">When dodging an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you restore &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; to yourself and all allies within [1] equal to your unarmed dice.</content>
+	<content contentuid="acb55f4f68334d90acd68f5f37353d0b0000f" version="1">When dodging an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you restore &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; to yourself and all allies within [1] equal to your unarmed dice, so long as they are not &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">WAY OF THE OPEN HAND</content>
 
@@ -201,7 +201,7 @@
 	<content contentuid="he3cec886g72b1g43ffg93cag3afdd7c6e9db" version="4">Deliver a debilitating blow to your target, possibly &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunning&lt;/LSTag&gt; them.</content>
 
 	<content contentuid="h451f9a42gca5ag40d5ga31ag3024casdfsdf" version="2">Manifestation of Self</content>
-	<content contentuid="h4dc41c23g84a5g459dg80e3g0e22fsdfsd66" version="5">The natural attunement you hold over your Mind, Body, and Soul strengthens your unarmed abilities. Depending on which paradigm you choose to attune to, you deal additional Psychic, Necrotic, or Radiant damage. These can be toggled at any time.</content>
+	<content contentuid="h4dc41c23g84a5g459dg80e3g0e22fsdfsd66" version="5">The natural attunement you hold over your Mind, Body, and Soul strengthens your unarmed abilities. Depending on which paradigm you choose to attune to, you deal additional Psychic, Necrotic, or Radiant damage, equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Wisdom Modifier&lt;/LSTag&gt;. These can be toggled at any time.</content>
 	<content contentuid="h8f86f472gfaeeg4773g9998ga47a693c83c6" version="2">Manifestation of Mind</content>
 	<content contentuid="h0149ca95gcdfag44e1g9d01gbb0011e2d10e" version="5">Your hands interrupt the flow of Ki to your enemies' minds. Your unarmed attacks deal an additional [1].</content>
 	<content contentuid="h451f9a42gca5ag40d5ga31ag3024c66fff76" version="2">Manifestation of Body</content>
@@ -302,7 +302,7 @@
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000d" version="1">When dealing damage to an enemy or item with a weapon, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt;.</content>
 
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500005" version="1">Concentration</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000e" version="1">Ending your turn without moving will restore one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt;.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000e" version="1">At the start of each turn, you restore one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt;. In addition, ending your turn without moving will restore an additional Ki Point.</content>
 
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500006" version="1">Strike of the Yamato</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000f" version="1">When targeting a creature with all of their &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_JudgementCut"&gt;Judgement Cut&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_MirageBlade"&gt;Mirage Blade&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_TemperedStrike"&gt;Tempered Strike&lt;/LSTag&gt; will always trigger a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
@@ -321,7 +321,7 @@
 	<content contentuid="4512454c8e254628bd4dc62ea243a2a00000b" version="6">When you successfully roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against an enemy, restore one of your &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Points&lt;/LSTag&gt;. This effect can trigger once per turn.</content>
 
 	<content contentuid="4512454c8e254628bd4dc62ea243a2a000003" version="6">Dance of Flowing Water</content>
-	<content contentuid="4512454c8e254628bd4dc62ea243a2a00000c" version="6">On any successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an enemy, gain a +1 bonus to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; until you successfully avoid an attack. This effect can stack and will reset at the beginning of each of your turns.</content>
+	<content contentuid="4512454c8e254628bd4dc62ea243a2a00000c" version="6">On any successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an enemy, gain a +1 bonus to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;, up to a maximum of +20, until you successfully avoid an attack. This effect can stack and will reset at the beginning of each of your turns.</content>
 	<content contentuid="4512454c8e254628bd4dc62ea243a2a0000z3" version="6">Dance of Flowing Water</content>
 	<content contentuid="4512454c8e254628bd4dc62ea243a2a0000zc" version="6">Affected creature will avoid damage more easily. Their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increases by 1 for each stack of Dance of Flowing Water. This effect will reset at the beginning of each of their turns.</content>
 

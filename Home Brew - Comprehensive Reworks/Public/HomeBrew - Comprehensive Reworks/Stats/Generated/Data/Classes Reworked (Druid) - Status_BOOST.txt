@@ -238,10 +238,10 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "b84b364eea3d414a8c9b99e2be628575000a6;3"
 data "Description" "b84b364eea3d414a8c9b99e2be628575000af;3"
-data "DescriptionParams" "Distance(9)"
+data "DescriptionParams" "Distance(18)"
 data "Icon" "PassiveFeature_Land_Coast"
 data "StackId" "BLESSING_OF_THE_OAK_FATHER_ENEMY_AURA"
-data "AuraRadius" "9"
+data "AuraRadius" "18"
 data "AuraStatuses" "IF(not HasStatus('SITOUT_ONCOMBATSTART_APPLIER_TECHNICAL',context.Source) and not HasStatus('SITOUT_ONCOMBATSTART_DOONCE_TECHNICAL',context.Source) and not HasStatus('BANISHED',context.Source) and not HasStatus('BANISHED_FINALSTAND',context.Source) and Enemy()):ApplyStatus(BLESS,100,-1)"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StackType" "Ignore"
@@ -277,7 +277,7 @@ data "Boosts" "UnlockSpellVariant(SpellSlotCheck(),ModifyTooltipDescription(),Mo
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StackType" "Ignore"
 data "RemoveConditions" "IsSpell() and not IsCantrip()"
-data "RemoveEvents" "OnSpellCast"
+data "RemoveEvents" "OnSpellCast;OnCombatEnded"
 
 new entry "LUNAR_SHIFT_WILDSHAPE"
 type "StatusData"
@@ -290,7 +290,7 @@ data "Boosts" "UnlockSpellVariant(SpellId('Shout_WildShape'),ModifyUseCosts(Repl
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StackType" "Ignore"
 data "RemoveConditions" "SpellId('Shout_WildShape_Badger') or SpellId('Shout_WildShape_Bear_Polar') or SpellId('Shout_WildShape_Cat') or SpellId('Shout_WildShape_DeepRothe') or SpellId('Shout_WildShape_Dilophosaurus') or SpellId('Shout_WildShape_Dire_Raven') or SpellId('Shout_WildShape_Dire_Wolf') or SpellId('Shout_WildShape_Giant_Spider') or SpellId('Shout_Wildshape_SaberTooth_Tiger') or SpellId('Shout_Wildshape_Panther') or SpellId('Shout_WildShape_Owlbear') or SpellId('Shout_WildShape_Myrmidon_Air') or SpellId('Shout_WildShape_Myrmidon_Earth') or SpellId('Shout_WildShape_Myrmidon_Fire') or SpellId('Shout_WildShape_Myrmidon_Water')"
-data "RemoveEvents" "OnSpellCast"
+data "RemoveEvents" "OnSpellCast;OnCombatEnded"
 
 <!--CIRCLE OF THE SHADOWS-->
 

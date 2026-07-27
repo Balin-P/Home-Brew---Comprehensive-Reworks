@@ -211,9 +211,9 @@
 	<content contentuid="h098941cc6a654g49f2gb22agabed0b02e844" version="3">Gain status immunity to all physical effects which would impede your &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; or sight. Upon &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or becoming &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;, you create a small &lt;LSTag Type="Spell" Tooltip="Target_FogCloud"&gt;Fog Cloud&lt;/LSTag&gt; around yourself. This can be toggled at any time.</content>
 
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b394a6a8" version="1">Lucky Draw</content>
-	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b02e844" version="3">When you roll a Critical Miss against an enemy, or when an enemy rolls a Critical Miss against you, all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; you make during your next turn will be a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b02e844" version="3">When you roll a Critical Miss against an enemy, or when an enemy rolls a Critical Miss against you, all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; you make until ending your turn will be rolled as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b39zzza8" version="1">Lucky Draw</content>
-	<content contentuid="h098941ccgc4ecg49f2gb22agabed0bzzz844" version="3">Affected creature's &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; will all be &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt; until the end of their next turn.</content>
+	<content contentuid="h098941ccgc4ecg49f2gb22agabed0bzzz844" version="3">Affected creature's &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; will all be &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt; until the end of their turn.</content>
 
 	<content contentuid="h098941ccgc4ecg49f2gb27a855ed0b02e844" version="3">Two-Headed Coins</content>
 	<content contentuid="hc4558204g2c77g4b58gaf999a8a6b394a6a8" version="1">&lt;LSTag Type="Passive" Tooltip="LuckyToss"&gt;Lucky Toss&lt;/LSTag&gt; now restores a &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Point&lt;/LSTag&gt; every turn.</content>

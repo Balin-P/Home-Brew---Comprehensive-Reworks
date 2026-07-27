@@ -1475,7 +1475,7 @@
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="3" />
 					<attribute id="Name" type="LSString" value="TotemWarriorPath" />
-					<attribute id="PassivesAdded" type="LSString" value="BeastialDominance" />
+					<attribute id="PassivesAdded" type="LSString" value="BeastialDominance;BeastialDominance_Swap" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="TableUUID" type="guid" value="48f1760f-86e7-401c-ad52-633fffbae49e" />
 					<attribute id="UUID" type="guid" value="42329ce3-0fb3-43a3-a0b4-79584c6877e7" />
@@ -1785,7 +1785,7 @@
         <node id="Progression">
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="GiantPath"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Frontline_Backbreaker"/>
+                    <attribute id="PassivesAdded" type="LSString" value="TitanicStrength"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="bdd02775-b9ee-480c-a260-d844580453b4"/>
                     <attribute id="UUID" type="guid" value="3507eb9f-c13b-470a-8117-b321f7f5e285"/>
@@ -1815,7 +1815,7 @@
         <node id="Progression">
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="GiantPath"/>
-                    <attribute id="PassivesAdded" type="LSString" value="TitanicStrength"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Frontline_Backbreaker"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="bdd02775-b9ee-480c-a260-d844580453b4"/>
                     <attribute id="UUID" type="guid" value="1b32b24b-38e3-4b2d-a87e-7779b6b4f83b"/>
@@ -6780,7 +6780,7 @@
         <node id="Progression">
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="WayoftheGentleFist"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ClassProgression_WayoftheGentleFist;FlurryOfBlowsUnlock;MendingBlows;MendingBlows_Turn"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ClassProgression_WayoftheGentleFist;FlurryOfBlowsUnlock;MendingBlows;MendingBlows_Turn;MendingBlows_Damage"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="5a32bdd4-5d75-4524-8db5-a67cf5af3948"/>
                     <attribute id="UUID" type="guid" value="5a32bdd4-5d75-4524-8db5-000000000001"/>
@@ -13098,7 +13098,7 @@
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="5" />
 					<attribute id="Name" type="LSString" value="NecromancySchool" />
-					<attribute id="PassivesAdded" type="LSString" value="PreemptiveAtrocity" />
+					<attribute id="PassivesAdded" type="LSString" value="RaiseHell" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="TableUUID" type="guid" value="47c4579c-ea2c-474d-9667-62edec24e8eb" />
 					<attribute id="UUID" type="guid" value="07771ec1-a4e9-4197-ac83-442c82972252" />
@@ -13113,7 +13113,7 @@
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="7" />
 					<attribute id="Name" type="LSString" value="NecromancySchool" />
-					<attribute id="PassivesAdded" type="LSString" value="RaiseHell" />
+					<attribute id="PassivesAdded" type="LSString" value="PreemptiveAtrocity" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="TableUUID" type="guid" value="47c4579c-ea2c-474d-9667-62edec24e8eb" />
 					<attribute id="UUID" type="guid" value="2c2f169b-d23d-4a9d-a75e-18ec0587e56d" />

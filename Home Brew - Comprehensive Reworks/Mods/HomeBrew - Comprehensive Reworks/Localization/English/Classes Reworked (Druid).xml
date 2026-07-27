@@ -326,7 +326,7 @@
 	<content contentuid="h129b7931g57b1g4463g8eb0gabe7e7266495" version="7">Assume the shape of a bear that can &lt;LSTag Type="Spell" Tooltip="Shout_GoadingRoar_Bear_Summon"&gt;Goad&lt;/LSTag&gt; enemies into attacking it.</content>
 	<content contentuid="h04ebfb42g0d14g4271g8bc0g894b38ccbc0d" version="2">Assume the shape of a bear that can &lt;LSTag Type="Spell" Tooltip="Shout_GoadingRoar_Bear_Summon"&gt;Goad&lt;/LSTag&gt; enemies into attacking it.</content>
 	<content contentuid="hd0467b10g17c5g47b5g959bg3a765850133c" version="1">Goading Roar</content>
-	<content contentuid="h2d645859g28fbg43ecgb562g68a88fc9ed5b" version="2">Roar at nearby enemies to &lt;LSTag Type="Status" Tooltip="TAUNTED"&gt;Goad&lt;/LSTag&gt; them into attacking you.</content>
+	<content contentuid="h2d645859g28fbg43ecgb562g68a88fc9ed5b" version="2">Roar at nearby enemies to potentially &lt;LSTag Type="Status" Tooltip="TAUNTED"&gt;Goad&lt;/LSTag&gt; them into attacking you.</content>
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d93939eooos" version="1">Ursine Protection</content>
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d939didkkjj" version="2">As a bear, you are resistant to even the harshest attacks. You have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all physical damage.</content>
 	<content contentuid="h8769c117g1dd3g4db9ga60eg4aa45s65d4f2" version="2">Ursine Shielding</content>

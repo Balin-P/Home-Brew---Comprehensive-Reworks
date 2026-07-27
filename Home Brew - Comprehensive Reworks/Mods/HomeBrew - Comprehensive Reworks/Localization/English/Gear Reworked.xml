@@ -583,7 +583,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">MOURNING FROST</content>
 	<content contentuid="he93a29eag81eeg443ag9c1cgf090434954be" version="2">Heart of Ice</content>
-	<content contentuid="h65727509g07b2g4c4bg8f32g6c7e48b8c476" version="2">When dealing Cold as your primary source of damage, the wielder deals an additional [1]. All Cold based damage rolls are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
+	<content contentuid="h65727509g07b2g4c4bg8f32g6c7e48b8c476" version="2">When dealing Cold as your primary source of damage, the wielder deals an additional [1]. All Cold based damage rolls from this weapon are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; and ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">MAGICAL HAND CROSSBOW</content>
 	<content contentuid="h409a130eg0873g41b9gbee5g1142c6cc85a5" version="1">Cunning Combo</content>
@@ -779,7 +779,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">CIRCLET OF MENTAL ANGUISH</content>
 	<content contentuid="hc53d2398ga5eag4000g97fbg3e924cdfee75" version="2">Psychic Leech</content>
-	<content contentuid="h7664542ag459dg496bgb71fgef11c1df0270" version="6">When an enemy fails a Intelligence, Wisdom, or Charisma based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; against one of your Spells or &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt;, you regain [1]. No effect on Spells and Cantrips which deal damage thorugh making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+	<content contentuid="h7664542ag459dg496bgb71fgef11c1df0270" version="6">When an enemy fails a Intelligence, Wisdom, or Charisma based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; against one of your Spells or &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt;, you regain [1]. No effect on Spells and Cantrips which deal damage through making an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">BRAINDRAIN GLOVES</content>
 	<content contentuid="h88f19151g080fg4fabgbd15g14dad3782bba" version="2">Mental Interference</content>
@@ -865,9 +865,9 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">CLOAK OF ELEMENTAL ABSORBTION</content>
 	<content contentuid="h867c957ag5de7g4ae9gbaf3g443e3cfffd6e" version="2">Absorb Elements</content>
-	<content contentuid="h2de0dccag2991g4e2fg8c14g852929b0d62e" version="4">Spend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to take half the damage from the next elemental attack targetting you.</content>
+	<content contentuid="h2de0dccag2991g4e2fg8c14g852929b0d62e" version="4">Spend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to halve the damage of the next elemental attack that damages you.</content>
 	<content contentuid="h867c957ag5de7g4ae9gbaf3g443e3cf22d54" version="2">Absorb Elements</content>
-	<content contentuid="h2de0dccag2991g4e2fg8c14g852929bdd6d9" version="4">Take half the damage from the next elemental attack targetting you.</content>
+	<content contentuid="h2de0dccag2991g4e2fg8c14g852929bdd6d9" version="4">Halve the damage of the next elemental attack that damages you.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">CORUSCATION RING</content>
 	<content contentuid="h1008416cg7796g48ccgb1fagfcc3c31cd6f7" version="2">Arcane Radiance</content>
@@ -1146,7 +1146,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">SPELLMIGHT</content>
 	<content contentuid="h84fdac7ag5a95g4353g89afga173c248e384" version="2">Spellmight</content>
-	<content contentuid="h868f2019ga9c6g45dfgba27gd7a4a396e1e8" version="4">Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; you cast that require an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; suffer a -[1] penalty to the roll. However, Spells requiring an Attack Roll also deal an additional +[2] damage. This can be toggled at any time.</content>
+	<content contentuid="h868f2019ga9c6g45dfgba27gd7a4a396e1e8" version="4">Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; you cast that require an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; suffer a -[1] penalty to the roll. However, Spells and Cantrips requiring an Attack Roll also deal an additional +[2] damage. This can be toggled at any time.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">HOLLOW'S STAFF</content>
 	<content contentuid="h84fdac7ag5a95g4353g89afga173c2486a98" version="2">Necrotic Roots</content>
@@ -1531,6 +1531,10 @@
 	<content contentuid="h38132b22g92d2g43dbg8b48g28e716fb28d7" version="4">Affected creature's size has increased. Its weapon attacks deal an additional +[1] damage. It has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Strength based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="h2c50b3f2g2db0g460agb631gb53efe35d454" version="2">Giantslayer</content>
 	<content contentuid="h669cb72eg4f88g491fgbb79gd0b57bb22545" version="3">You gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against Large, Huge, or Gargantuan creatures.</content>
+
+<content contentuid="0000000000000000000000000000000000000" version="1">BLOODTHIRST</content>
+	<content contentuid="hcef43fa4gdfb7g4779g848ag2fcf75c16918" version="1">Exploit Weakness</content>
+	<content contentuid="ha4f04b76gd89fg4110g860egf3375acb74e6" version="1">Creatures hit with this weapon are stripped of their &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">BLADE OF THE FIRST BLOOD</content>
 	<content contentuid="h4656c3a2gca8ag4669ga84fg5d2623dacedf" version="1">Critical Bloodthirst</content>

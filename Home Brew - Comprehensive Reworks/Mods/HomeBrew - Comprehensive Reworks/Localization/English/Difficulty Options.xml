@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentList>
 
-	<content contentuid="0d725d8aae6a4d4fba9768e69b7difficulty" version="1">Difficulty</content>
+	<content contentuid="0d725d8aae6a4d4fba9768e69b7difficulty" version="1">MCM</content>
 
 	<content contentuid="h18609575g480eg4ffagaf6agd9108901b307" version="1">The set of rules used in this campaign.</content>
 	<content contentuid="h478b1265gbd06g4447g95d3ge9e29717ffd2" version="2">The standard HomeBrew experience.</content>
@@ -98,6 +98,7 @@ Honoured Adventurers:
 - Meop
 - Nighthoundz
 - Mysh
+- Chickenman
 
 	</content>
 
@@ -439,5 +440,13 @@ See the tutorial menu for info on Mythic changes.</content>
 
 	<content contentuid="h6376a4a4g7cd7g4768g9d01thunder06" version="1">Voice Left Shattered</content>
 	<content contentuid="h6376a4a4g7cd7g4768g9d01thunder0f" version="1">Affected creature has suffered a perilous wound! Their Charisma has been reduced by 1.</content>
+
+<content contentuid="0000000000000000000000000000000000000" version="1">STRAIN</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gffatiguedd06" version="1">Strained</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gffatiguedd0f" version="1">Affected creature is unable to take further damaging actions until the end of their current turn.</content>
+
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gffatiguedd00" version="1">Strain</content>
+	<content contentuid="h6376a4a4g7cd7g4768g9d01gffatigueddzz" version="1">You are too strained to take further damaging actions until the end of your current turn.</content>
 
 </contentList>

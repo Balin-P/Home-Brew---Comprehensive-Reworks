@@ -3,79 +3,33 @@
   "ModName": "HomeBrew",
   "Tabs": [
     {
-      "TabId": "npc_hit_points",
-      "TabName": "NPC Hit Points",
+      "TabId": "home",
+      "TabName": "Home",
       "Sections": [
         {
-          "SectionId": "npc_hp_normal_encounters",
-          "SectionName": "Normal Encounters",
-          "IsCollapsible": true,
-          "IsCollapsedByDefault": true,
+          "SectionId": "difficulty_preset",
+          "SectionName": "Difficulty Preset",
           "Settings": [
             {
-              "Id": "hb_hp_mode_normal",
-              "Name": "Difficulty",
+              "Id": "hb_difficulty_preset",
+              "Name": "Preset",
               "Type": "enum",
-              "Default": "Normal",
-              "Tooltip": "Select the Hit Point scaling curve for normal NPCs.",
-              "Description": "Hit Point Scaling:\nEasy: (Level*6-6) + (Level*CON*2) + 2d4\nNormal: (Level*12-12) + (Level*CON*3) + 3d6\nHard: (Level*18-18) + (Level*CON*4) + 4d8\nVery Hard: (Level*24-24) + (Level*CON*5) + 5d10\nNightmare: (Level*30-30) + (Level*CON*6) + 6d12",
+              "Default": "Balanced",
+              "Tooltip": "Select a difficulty preset.",
+              "Description": "Automatically configures Hit Points, Resources, and Stats to match the selected preset.\n\nPreset Overview:\nExplorer: Story-focused with greatly reduced enemy durability.\nBalanced: A lighter challenge recommended for players new to HomeBrew.\nTactician: The standard difficulty level that HomeBrew is balanced around.\nHonour: Combat-focused with greatly increased enemy durability.\nMythic: The real HomeBrew starts here.\nExpanded Party Size (Easy): Designed for parties larger than four.\nExpanded Party Size (Normal): Designed to challenge parties larger than four.\nExpanded Party Size (Hard): Designed to greatly challenge parties larger than four.\nMaximum Difficulty: You will not survive.\nEndurance: Longer battles with dramatically increased resources on both sides.\nCustom: Configure every option manually.",
               "Options": {
                 "Choices": [
-                  "Easy",
-                  "Normal",
-                  "Hard",
-                  "Very Hard",
-                  "Nightmare"
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "SectionId": "npc_hp_dangerous_encounters",
-          "SectionName": "Dangerous Encounters",
-          "IsCollapsible": true,
-          "IsCollapsedByDefault": true,
-          "Settings": [
-            {
-              "Id": "hb_hp_mode_dangerous",
-              "Name": "Difficulty",
-              "Type": "enum",
-              "Default": "Normal",
-              "Tooltip": "Select the Hit Point scaling curve for Dangerous NPCs.",
-              "Description": "Hit Point Scaling:\nEasy: (Level*12-12) + (Level*CON*4) + 4d4\nNormal: (Level*24-24) + (Level*CON*5) + 6d6\nHard: (Level*36-36) + (Level*CON*6) + 8d8\nVery Hard: (Level*48-48) + (Level*CON*7) + 10d10\nNightmare: (Level*60-60) + (Level*CON*8) + 12d12",
-              "Options": {
-                "Choices": [
-                  "Easy",
-                  "Normal",
-                  "Hard",
-                  "Very Hard",
-                  "Nightmare"
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "SectionId": "npc_hp_fatal_encounters",
-          "SectionName": "Fatal Encounters",
-          "IsCollapsible": true,
-          "IsCollapsedByDefault": true,
-          "Settings": [
-            {
-              "Id": "hb_hp_mode_fatal",
-              "Name": "Difficulty",
-              "Type": "enum",
-              "Default": "Normal",
-              "Tooltip": "Select the Hit Point scaling curve for Fatal NPCs.",
-              "Description": "Hit Point Scaling:\nEasy: (Level*24-24) + (Level*CON*8) + 8d4\nNormal: (Level*48-48) + (Level*CON*9) + 12d6\nHard: (Level*72-72) + (Level*CON*10) + 16d8\nVery Hard: (Level*96-96) + (Level*CON*11) + 20d10\nNightmare: (Level*120-120) + (Level*CON*12) + 24d12",
-              "Options": {
-                "Choices": [
-                  "Easy",
-                  "Normal",
-                  "Hard",
-                  "Very Hard",
-                  "Nightmare"
+                  "Explorer",
+                  "Balanced",
+                  "Tactician",
+                  "Honour",
+                  "Mythic",
+                  "Expanded Party Size (Easy)",
+                  "Expanded Party Size (Normal)",
+                  "Expanded Party Size (Hard)",
+                  "Maximum Difficulty",
+                  "Endurance",
+                  "Custom"
                 ]
               }
             }
@@ -84,128 +38,101 @@
       ]
     },
     {
-      "TabId": "npc_rolls",
-      "TabName": "NPC Stats",
+      "TabId": "npc_hit_points",
+      "TabName": "NPC Hit Points",
       "Sections": [
         {
-          "SectionId": "npc_rolls_normal_encounters",
+          "SectionId": "npc_hp_normal_encounters",
           "SectionName": "Normal Encounters",
-          "IsCollapsible": true,
-          "IsCollapsedByDefault": true,
           "Settings": [
             {
-              "Id": "hb_stats_AC",
-              "Name": "Armour Class",
-              "Type": "checkbox",
-              "Default": false,
-              "Tooltip": "Enable Normal Encounter Armour Class Scaling",
-              "Description": "Normal NPCs will gain a bonus to their Armour Class equal to their Proficiency Bonus."
-            },
-            {
-              "Id": "hb_stats_Attack",
-              "Name": "Attack Rolls",
-              "Type": "checkbox",
-              "Default": false,
-              "Tooltip": "Enable Normal Encounter Attack Roll Scaling",
-              "Description": "Normal NPCs will gain a bonus to their Attack Rolls equal to their Proficiency Bonus."
-            },
-            {
-              "Id": "hb_stats_Saves",
-              "Name": "Saving Throws",
-              "Type": "checkbox",
-              "Default": false,
-              "Tooltip": "Enable Normal Encounter Saving Throw Scaling",
-              "Description": "Normal NPCs will gain a bonus to their Saving Throws equal to their Proficiency Bonus."
-            },
-            {
-              "Id": "hb_stats_SaveDC",
-              "Name": "Spell Save DC",
-              "Type": "checkbox",
-              "Default": false,
-              "Tooltip": "Enable Normal Encounter Spell Save DC Scaling",
-              "Description": "Normal NPCs will gain a bonus to their Spell Save DC equal to their Proficiency Bonus."
+              "Id": "hb_hp_mode_normal",
+              "Name": "Difficulty",
+              "Type": "enum",
+              "Default": "Normal",
+              "Tooltip": "Select the Hit Point scaling curve for Normal NPCs.",
+              "Description": "Changes the Hit Point scaling curve for normal NPCs.",
+              "Options": {
+                "Choices": [
+                  "Very Easy",
+                  "Easy",
+                  "Normal",
+                  "Hard",
+                  "Very Hard",
+                  "Nightmare",
+                  "Infernal",
+                  "Legendary",
+                  "Ascendant",
+                  "Impossible"
+                ]
+              }
             }
-          ]
+          ],
+          "Options": {
+            "IsCollapsible": true
+          }
         },
         {
-          "SectionId": "npc_rolls_dangerous_encounters",
+          "SectionId": "npc_hp_dangerous_encounters",
           "SectionName": "Dangerous Encounters",
-          "IsCollapsible": true,
-          "IsCollapsedByDefault": true,
           "Settings": [
             {
-              "Id": "hb_stats_dangerous_AC",
-              "Name": "Armour Class",
-              "Type": "checkbox",
-              "Default": false,
-              "Tooltip": "Enable Dangerous Encounter Armour Class Scaling",
-              "Description": "Dangerous NPCs will gain a bonus to their Armour Class equal to their Proficiency Bonus."
-            },
-            {
-              "Id": "hb_stats_dangerous_Attack",
-              "Name": "Attack Rolls",
-              "Type": "checkbox",
-              "Default": false,
-              "Tooltip": "Enable Dangerous Encounter Attack Roll Scaling",
-              "Description": "Dangerous NPCs will gain a bonus to their Attack Rolls equal to their Proficiency Bonus."
-            },
-            {
-              "Id": "hb_stats_dangerous_Saves",
-              "Name": "Saving Throws",
-              "Type": "checkbox",
-              "Default": false,
-              "Tooltip": "Enable Dangerous Encounter Saving Throw Scaling",
-              "Description": "Dangerous NPCs will gain a bonus to their Saving Throws equal to their Proficiency Bonus."
-            },
-            {
-              "Id": "hb_stats_dangerous_SaveDC",
-              "Name": "Spell Save DC",
-              "Type": "checkbox",
-              "Default": false,
-              "Tooltip": "Enable Dangerous Encounter Spell Save DC Scaling",
-              "Description": "Dangerous NPCs will gain a bonus to their Spell Save DC equal to their Proficiency Bonus."
+              "Id": "hb_hp_mode_dangerous",
+              "Name": "Difficulty",
+              "Type": "enum",
+              "Default": "Normal",
+              "Tooltip": "Select the Hit Point scaling curve for Dangerous NPCs.",
+              "Description": "Changes the Hit Point scaling curve for Dangerous NPCs.",
+              "Options": {
+                "Choices": [
+                  "Very Easy",
+                  "Easy",
+                  "Normal",
+                  "Hard",
+                  "Very Hard",
+                  "Nightmare",
+                  "Infernal",
+                  "Legendary",
+                  "Ascendant",
+                  "Impossible"
+                ]
+              }
             }
-          ]
+          ],
+          "Options": {
+            "IsCollapsible": true
+          }
         },
         {
-          "SectionId": "npc_rolls_fatal_encounters",
+          "SectionId": "npc_hp_fatal_encounters",
           "SectionName": "Fatal Encounters",
-          "IsCollapsible": true,
-          "IsCollapsedByDefault": true,
           "Settings": [
             {
-              "Id": "hb_stats_fatal_AC",
-              "Name": "Armour Class",
-              "Type": "checkbox",
-              "Default": false,
-              "Tooltip": "Enable Fatal Encounter Armour Class Scaling",
-              "Description": "Fatal NPCs will gain a bonus to their Armour Class equal to their Proficiency Bonus."
-            },
-            {
-              "Id": "hb_stats_fatal_Attack",
-              "Name": "Attack Rolls",
-              "Type": "checkbox",
-              "Default": false,
-              "Tooltip": "Enable Fatal Encounter Attack Roll Scaling",
-              "Description": "Fatal NPCs will gain a bonus to their Attack Rolls equal to their Proficiency Bonus."
-            },
-            {
-              "Id": "hb_stats_fatal_Saves",
-              "Name": "Saving Throws",
-              "Type": "checkbox",
-              "Default": false,
-              "Tooltip": "Enable Fatal Encounter Saving Throw Scaling",
-              "Description": "Fatal NPCs will gain a bonus to their Saving Throws equal to their Proficiency Bonus."
-            },
-            {
-              "Id": "hb_stats_fatal_SaveDC",
-              "Name": "Spell Save DC",
-              "Type": "checkbox",
-              "Default": false,
-              "Tooltip": "Enable Fatal Encounter Spell Save DC Scaling",
-              "Description": "Fatal NPCs will gain a bonus to their Spell Save DC equal to their Proficiency Bonus."
+              "Id": "hb_hp_mode_fatal",
+              "Name": "Difficulty",
+              "Type": "enum",
+              "Default": "Normal",
+              "Tooltip": "Select the Hit Point scaling curve for Fatal NPCs.",
+              "Description": "Changes the Hit Point scaling curve for Fatal NPCs.",
+              "Options": {
+                "Choices": [
+                  "Very Easy",
+                  "Easy",
+                  "Normal",
+                  "Hard",
+                  "Very Hard",
+                  "Nightmare",
+                  "Infernal",
+                  "Legendary",
+                  "Ascendant",
+                  "Impossible"
+                ]
+              }
             }
-          ]
+          ],
+          "Options": {
+            "IsCollapsible": true
+          }
         }
       ]
     },
@@ -222,30 +149,41 @@
               "Name": "Action Points",
               "Type": "slider_int",
               "Default": 0,
-              "Tooltip": "Set how many additional Actions normal NPCs have.",
-              "Description": "Higher values grant additional Actions to normal NPCs.",
-              "Options": { "Min": 0, "Max": 3 }
+              "Tooltip": "Set how many additional Actions Normal NPCs have.",
+              "Description": "Normal NPCs gain an additional Action per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 3
+              }
             },
             {
               "Id": "hb_res_normal_bonusactions",
               "Name": "Bonus Action Points",
               "Type": "slider_int",
               "Default": 0,
-              "Tooltip": "Set how many additional Bonus Actions normal NPCs have.",
-              "Description": "Higher values grant additional Bonus Actions to normal NPCs.",
-              "Options": { "Min": 0, "Max": 3 }
+              "Tooltip": "Set how many additional Bonus Actions Normal NPCs have.",
+              "Description": "Normal NPCs gain an additional Bonus Action per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 3
+              }
             },
             {
               "Id": "hb_res_normal_reactions",
               "Name": "Reaction Points",
               "Type": "slider_int",
               "Default": 0,
-              "Tooltip": "Set how many additional Reactions normal NPCs have.",
-              "Description": "Higher values grant additional Reactions to normal NPCs.",
-              "Options": { "Min": 0, "Max": 3 }
+              "Tooltip": "Set how many additional Reactions Normal NPCs have.",
+              "Description": "Normal NPCs gain an additional Reaction per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 3
+              }
             }
           ],
-          "Options": { "IsCollapsible": true }
+          "Options": {
+            "IsCollapsible": true
+          }
         },
         {
           "SectionId": "npc_resources_dangerous_encounters",
@@ -257,8 +195,11 @@
               "Type": "slider_int",
               "Default": 0,
               "Tooltip": "Set how many additional Actions Dangerous NPCs have.",
-              "Description": "Higher values grant additional Actions to Dangerous NPCs.",
-              "Options": { "Min": 0, "Max": 3 }
+              "Description": "Dangerous NPCs gain an additional Action per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 3
+              }
             },
             {
               "Id": "hb_res_dangerous_bonusactions",
@@ -266,8 +207,11 @@
               "Type": "slider_int",
               "Default": 0,
               "Tooltip": "Set how many additional Bonus Actions Dangerous NPCs have.",
-              "Description": "Higher values grant additional Bonus Actions to Dangerous NPCs.",
-              "Options": { "Min": 0, "Max": 3 }
+              "Description": "Dangerous NPCs gain an additional Bonus Action per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 3
+              }
             },
             {
               "Id": "hb_res_dangerous_reactions",
@@ -275,11 +219,16 @@
               "Type": "slider_int",
               "Default": 0,
               "Tooltip": "Set how many additional Reactions Dangerous NPCs have.",
-              "Description": "Higher values grant additional Reactions to Dangerous NPCs.",
-              "Options": { "Min": 0, "Max": 3 }
+              "Description": "Dangerous NPCs gain an additional Reaction per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 3
+              }
             }
           ],
-          "Options": { "IsCollapsible": true }
+          "Options": {
+            "IsCollapsible": true
+          }
         },
         {
           "SectionId": "npc_resources_fatal_encounters",
@@ -291,8 +240,11 @@
               "Type": "slider_int",
               "Default": 0,
               "Tooltip": "Set how many additional Actions Fatal NPCs have.",
-              "Description": "Higher values grant additional Actions to Fatal NPCs.",
-              "Options": { "Min": 0, "Max": 3 }
+              "Description": "Fatal NPCs gain an additional Action per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 3
+              }
             },
             {
               "Id": "hb_res_fatal_bonusactions",
@@ -300,8 +252,11 @@
               "Type": "slider_int",
               "Default": 0,
               "Tooltip": "Set how many additional Bonus Actions Fatal NPCs have.",
-              "Description": "Higher values grant additional Bonus Actions to Fatal NPCs.",
-              "Options": { "Min": 0, "Max": 3 }
+              "Description": "Fatal NPCs gain an additional Bonus Action per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 3
+              }
             },
             {
               "Id": "hb_res_fatal_reactions",
@@ -309,11 +264,618 @@
               "Type": "slider_int",
               "Default": 0,
               "Tooltip": "Set how many additional Reactions Fatal NPCs have.",
-              "Description": "Higher values grant additional Reactions to Fatal NPCs.",
-              "Options": { "Min": 0, "Max": 3 }
+              "Description": "Fatal NPCs gain an additional Reaction per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 3
+              }
             }
           ],
-          "Options": { "IsCollapsible": true }
+          "Options": {
+            "IsCollapsible": true
+          }
+        }
+      ]
+    },
+    {
+      "TabId": "npc_stats",
+      "TabName": "NPC Stats",
+      "Sections": [
+        {
+          "SectionId": "npc_rolls_normal_encounters",
+          "SectionName": "Normal Encounters",
+          "Settings": [
+            {
+              "Id": "hb_stats_prof_AC",
+              "Name": "Use Proficiency Bonus for Armour Class",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Armour Class bonus.",
+              "Description": "When enabled, Normal NPCs gain a bonus to their Armour Class equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_stats_AC",
+              "Name": "Armour Class",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Normal Encounter Armour Class bonus.",
+              "Description": "Normal NPCs gain a +1 bonus to their Armour Class per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            },
+            {
+              "Id": "hb_stats_prof_Attack",
+              "Name": "Use Proficiency Bonus for Attack Rolls",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Attack Roll bonus.",
+              "Description": "When enabled, Normal NPCs gain a bonus to their Attack Rolls equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_stats_Attack",
+              "Name": "Attack Rolls",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Normal Encounter Attack Rolls bonus.",
+              "Description": "Normal NPCs gain a +1 bonus to their Attack Rolls per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            },
+            {
+              "Id": "hb_stats_prof_Damage",
+              "Name": "Use Proficiency Bonus for Damage",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Damage Roll bonus.",
+              "Description": "When enabled, Normal NPCs gain a bonus to their Damage Rolls equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_stats_Damage",
+              "Name": "Damage",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Normal Encounter Damage bonus.",
+              "Description": "Normal NPCs gain a +1 bonus to their Damage Rolls per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            },
+            {
+              "Id": "hb_stats_prof_DamageResistance",
+              "Name": "Use Proficiency Bonus for Damage Resistance",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Damage Resistance bonus.",
+              "Description": "When enabled, Normal NPCs gain a bonus to their Damage Resistance equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_stats_DamageResistance",
+              "Name": "Damage Resistance",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Normal Encounter Damage Resistance bonus.",
+              "Description": "Normal NPCs gain a +1 bonus to their Damage Resistance per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            },
+            {
+              "Id": "hb_stats_prof_Saves",
+              "Name": "Use Proficiency Bonus for Saving Throws",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Saving Throw bonus.",
+              "Description": "When enabled, Normal NPCs gain a bonus to their Saving Throws equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_stats_Saves",
+              "Name": "Saving Throws",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Normal Encounter Saving Throws bonus.",
+              "Description": "Normal NPCs gain a +1 bonus to their Saving Throws per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            },
+            {
+              "Id": "hb_stats_prof_SaveDC",
+              "Name": "Use Proficiency Bonus for Spell Save DC",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Spell Save DC bonus.",
+              "Description": "When enabled, Normal NPCs gain a bonus to their Spell Save DC equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_stats_SaveDC",
+              "Name": "Spell Save DC",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Normal Encounter Spell Save DC bonus.",
+              "Description": "Normal NPCs gain a +1 bonus to their Spell Save DC per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            }
+          ],
+          "Options": {
+            "IsCollapsible": true
+          }
+        },
+        {
+          "SectionId": "npc_rolls_dangerous_encounters",
+          "SectionName": "Dangerous Encounters",
+          "Settings": [
+            {
+              "Id": "hb_stats_prof_dangerous_AC",
+              "Name": "Use Proficiency Bonus for Armour Class",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Armour Class bonus.",
+              "Description": "When enabled, Dangerous NPCs gain a bonus to their Armour Class equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_stats_dangerous_AC",
+              "Name": "Armour Class",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Dangerous Encounter Armour Class bonus.",
+              "Description": "Dangerous NPCs gain a +1 bonus to their Armour Class per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            },
+            {
+              "Id": "hb_stats_prof_dangerous_Attack",
+              "Name": "Use Proficiency Bonus for Attack Rolls",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Attack Roll bonus.",
+              "Description": "When enabled, Dangerous NPCs gain a bonus to their Attack Rolls equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_stats_dangerous_Attack",
+              "Name": "Attack Rolls",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Dangerous Encounter Attack Rolls bonus.",
+              "Description": "Dangerous NPCs gain a +1 bonus to their Attack Rolls per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            },
+            {
+              "Id": "hb_stats_prof_dangerous_Damage",
+              "Name": "Use Proficiency Bonus for Damage",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Damage Roll bonus.",
+              "Description": "When enabled, Dangerous NPCs gain a bonus to their Damage Rolls equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_stats_dangerous_Damage",
+              "Name": "Damage",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Dangerous Encounter Damage bonus.",
+              "Description": "Dangerous NPCs gain a +1 bonus to their Damage Rolls per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            },
+            {
+              "Id": "hb_stats_prof_dangerous_DamageResistance",
+              "Name": "Use Proficiency Bonus for Damage Resistance",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Damage Resistance bonus.",
+              "Description": "When enabled, Dangerous NPCs gain a bonus to their Damage Resistance equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_stats_dangerous_DamageResistance",
+              "Name": "Damage Resistance",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Dangerous Encounter Damage Resistance bonus.",
+              "Description": "Dangerous NPCs gain a +1 bonus to their Damage Resistance per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            },
+            {
+              "Id": "hb_stats_prof_dangerous_Saves",
+              "Name": "Use Proficiency Bonus for Saving Throws",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Saving Throw bonus.",
+              "Description": "When enabled, Dangerous NPCs gain a bonus to their Saving Throws equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_stats_dangerous_Saves",
+              "Name": "Saving Throws",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Dangerous Encounter Saving Throws bonus.",
+              "Description": "Dangerous NPCs gain a +1 bonus to their Saving Throws per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            },
+            {
+              "Id": "hb_stats_prof_dangerous_SaveDC",
+              "Name": "Use Proficiency Bonus for Spell Save DC",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Spell Save DC bonus.",
+              "Description": "When enabled, Dangerous NPCs gain a bonus to their Spell Save DC equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_stats_dangerous_SaveDC",
+              "Name": "Spell Save DC",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Dangerous Encounter Spell Save DC bonus.",
+              "Description": "Dangerous NPCs gain a +1 bonus to their Spell Save DC per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            }
+          ],
+          "Options": {
+            "IsCollapsible": true
+          }
+        },
+        {
+          "SectionId": "npc_rolls_fatal_encounters",
+          "SectionName": "Fatal Encounters",
+          "Settings": [
+            {
+              "Id": "hb_stats_prof_fatal_AC",
+              "Name": "Use Proficiency Bonus for Armour Class",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Armour Class bonus.",
+              "Description": "When enabled, Fatal NPCs gain a bonus to their Armour Class equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_stats_fatal_AC",
+              "Name": "Armour Class",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Fatal Encounter Armour Class bonus.",
+              "Description": "Fatal NPCs gain a +1 bonus to their Armour Class per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            },
+            {
+              "Id": "hb_stats_prof_fatal_Attack",
+              "Name": "Use Proficiency Bonus for Attack Rolls",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Attack Roll bonus.",
+              "Description": "When enabled, Fatal NPCs gain a bonus to their Attack Rolls equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_stats_fatal_Attack",
+              "Name": "Attack Rolls",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Fatal Encounter Attack Rolls bonus.",
+              "Description": "Fatal NPCs gain a +1 bonus to their Attack Rolls per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            },
+            {
+              "Id": "hb_stats_prof_fatal_Damage",
+              "Name": "Use Proficiency Bonus for Damage",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Damage Roll bonus.",
+              "Description": "When enabled, Fatal NPCs gain a bonus to their Damage Rolls equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_stats_fatal_Damage",
+              "Name": "Damage",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Fatal Encounter Damage bonus.",
+              "Description": "Fatal NPCs gain a +1 bonus to their Damage Rolls per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            },
+            {
+              "Id": "hb_stats_prof_fatal_DamageResistance",
+              "Name": "Use Proficiency Bonus for Damage Resistance",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Damage Resistance bonus.",
+              "Description": "When enabled, Fatal NPCs gain a bonus to their Damage Resistance equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_stats_fatal_DamageResistance",
+              "Name": "Damage Resistance",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Fatal Encounter Damage Resistance bonus.",
+              "Description": "Fatal NPCs gain a +1 bonus to their Damage Resistance per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            },
+            {
+              "Id": "hb_stats_prof_fatal_Saves",
+              "Name": "Use Proficiency Bonus for Saving Throws",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Saving Throw bonus.",
+              "Description": "When enabled, Fatal NPCs gain a bonus to their Saving Throws equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_stats_fatal_Saves",
+              "Name": "Saving Throws",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Fatal Encounter Saving Throws bonus.",
+              "Description": "Fatal NPCs gain a +1 bonus to their Saving Throws per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            },
+            {
+              "Id": "hb_stats_prof_fatal_SaveDC",
+              "Name": "Use Proficiency Bonus for Spell Save DC",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Spell Save DC bonus.",
+              "Description": "When enabled, Fatal NPCs gain a bonus to their Spell Save DC equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_stats_fatal_SaveDC",
+              "Name": "Spell Save DC",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Fatal Encounter Spell Save DC bonus.",
+              "Description": "Fatal NPCs gain a +1 bonus to their Spell Save DC per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            }
+          ],
+          "Options": {
+            "IsCollapsible": true
+          }
+        }
+      ]
+    },
+    {
+      "TabId": "player_hit_points",
+      "TabName": "Player Hit Points",
+      "Sections": [
+        {
+          "SectionId": "player_hit_points_settings",
+          "SectionName": "Settings",
+          "Settings": [
+            {
+              "Id": "hb_player_hp_mode",
+              "Name": "Multiplier",
+              "Type": "enum",
+              "Default": "Normal",
+              "Tooltip": "Select the Hit Point multiplier for players.",
+              "Description": "Multiplies player Hit Points by a set value.",
+              "Options": {
+                "Choices": [
+                  "Normal",
+                  "Doubled",
+                  "Tripled",
+                  "Quadrupled",
+                  "Quintupled"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "TabId": "player_resources",
+      "TabName": "Player Resources",
+      "Sections": [
+        {
+          "SectionId": "player_resources_settings",
+          "SectionName": "Settings",
+          "Settings": [
+            {
+              "Id": "hb_player_res_actions",
+              "Name": "Action Points",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set how many additional Actions players have.",
+              "Description": "Players gain an additional Action per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 3
+              }
+            },
+            {
+              "Id": "hb_player_res_bonusactions",
+              "Name": "Bonus Action Points",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set how many additional Bonus Actions players have.",
+              "Description": "Players gain an additional Bonus Action per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 3
+              }
+            },
+            {
+              "Id": "hb_player_res_reactions",
+              "Name": "Reaction Points",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set how many additional Reactions players have.",
+              "Description": "Players gain an additional Reaction per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "TabId": "player_stats",
+      "TabName": "Player Stats",
+      "Sections": [
+        {
+          "SectionId": "player_stats_settings",
+          "SectionName": "Settings",
+          "Settings": [
+            {
+              "Id": "hb_player_stats_prof_AC",
+              "Name": "Use Proficiency Bonus for Armour Class",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Armour Class bonus.",
+              "Description": "When enabled, players gain a bonus to their Armour Class equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_player_stats_AC",
+              "Name": "Armour Class",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Player Armour Class bonus.",
+              "Description": "Players gain a +1 bonus to their Armour Class per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            },
+            {
+              "Id": "hb_player_stats_prof_Attack",
+              "Name": "Use Proficiency Bonus for Attack Rolls",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Attack Roll bonus.",
+              "Description": "When enabled, players gain a bonus to their Attack Rolls equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_player_stats_Attack",
+              "Name": "Attack Rolls",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Player Attack Rolls bonus.",
+              "Description": "Players gain a +1 bonus to their Attack Rolls per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            },
+            {
+              "Id": "hb_player_stats_prof_Damage",
+              "Name": "Use Proficiency Bonus for Damage",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Damage Roll bonus.",
+              "Description": "When enabled, players gain a bonus to their Damage Rolls equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_player_stats_Damage",
+              "Name": "Damage",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Player Damage bonus.",
+              "Description": "Players gain a +1 bonus to their Damage Rolls per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            },
+            {
+              "Id": "hb_player_stats_prof_DamageResistance",
+              "Name": "Use Proficiency Bonus for Damage Resistance",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Damage Resistance bonus.",
+              "Description": "When enabled, players gain a bonus to their Damage Resistance equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_player_stats_DamageResistance",
+              "Name": "Damage Resistance",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Player Damage Resistance bonus.",
+              "Description": "Players gain a +1 bonus to their Damage Resistance per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            },
+            {
+              "Id": "hb_player_stats_prof_Saves",
+              "Name": "Use Proficiency Bonus for Saving Throws",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Saving Throw bonus.",
+              "Description": "When enabled, players gain a bonus to their Saving Throws equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_player_stats_Saves",
+              "Name": "Saving Throws",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Player Saving Throws bonus.",
+              "Description": "Players gain a +1 bonus to their Saving Throws per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            },
+            {
+              "Id": "hb_player_stats_prof_SaveDC",
+              "Name": "Use Proficiency Bonus for Spell Save DC",
+              "Type": "checkbox",
+              "Default": false,
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Spell Save DC bonus.",
+              "Description": "When enabled, players gain a bonus to their Spell Save DC equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+            },
+            {
+              "Id": "hb_player_stats_SaveDC",
+              "Name": "Spell Save DC",
+              "Type": "slider_int",
+              "Default": 0,
+              "Tooltip": "Set the Player Spell Save DC bonus.",
+              "Description": "Players gain a +1 bonus to their Spell Save DC per point.",
+              "Options": {
+                "Min": 0,
+                "Max": 10
+              }
+            }
+          ]
         }
       ]
     }

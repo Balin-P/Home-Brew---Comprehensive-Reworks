@@ -519,6 +519,11 @@ data "SpellProperties" "GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamage
 data "SpellSuccess" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);ApplyStatus(INTERRUPT_SMITE_DIVINE_VFX,100,0);DealDamage(LevelMapValue(D12General), Radiant);ApplyStatus(DIVINE_JUDGEMENT,100,1)"
 data "CombatAIOverrideSpell" ""
 
+new entry "Target_Smite_Divine"
+type "SpellData"
+data "SpellType" "Target"
+using "CTarget_Smite_Divine"
+
 new entry "CTarget_Smite_Oathbroken"
 type "SpellData"
 data "SpellType" "Target"
@@ -631,6 +636,11 @@ data "SpellProperties" "GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamage
 data "SpellSuccess" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);ApplyStatus(INTERRUPT_SMITE_DIVINE_VFX,100,0);DealDamage(LevelMapValue(D12General), Radiant);ApplyStatus(BLINDING_SMITE_BLINDED,100,3)"
 data "CombatAIOverrideSpell" ""
 
+new entry "Target_Smite_Blinding"
+type "SpellData"
+data "SpellType" "Target"
+using "CTarget_Smite_Blinding"
+
 new entry "CTarget_Smite_Branding"
 type "SpellData"
 data "SpellType" "Target"
@@ -665,6 +675,11 @@ data "SpellType" "Target"
 using "CTarget_Smite_Branding"
 data "SpellSuccess" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);ApplyStatus(INTERRUPT_SMITE_DIVINE_VFX,100,0);DealDamage(LevelMapValue(D12General), Radiant);ApplyStatus(BRANDING_SMITE, 100, 3)"
 data "CombatAIOverrideSpell" ""
+
+new entry "Target_Smite_Branding"
+type "SpellData"
+data "SpellType" "Target"
+using "CTarget_Smite_Branding"
 
 new entry "CTarget_Smite_Searing"
 type "SpellData"
@@ -707,6 +722,11 @@ using "CTarget_Smite_Searing"
 data "SpellSuccess" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);ApplyStatus(INTERRUPT_SMITE_DIVINE_VFX,100,0);DealDamage(LevelMapValue(D12General), Fire);ApplyStatus(SEARING_SMITE, 100, 3)"
 data "CombatAIOverrideSpell" ""
 
+new entry "Target_Smite_Searing"
+type "SpellData"
+data "SpellType" "Target"
+using "CTarget_Smite_Searing"
+
 new entry "CTarget_StaggeringSmite"
 type "SpellData"
 data "SpellType" "Target"
@@ -742,6 +762,11 @@ data "SpellType" "Target"
 using "CTarget_StaggeringSmite"
 data "SpellSuccess" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);ApplyStatus(INTERRUPT_SMITE_DIVINE_VFX,100,0);DealDamage(LevelMapValue(D12General), Psychic);ApplyStatus(STAGGERING_SMITE,100,3)"
 data "CombatAIOverrideSpell" ""
+
+new entry "Target_StaggeringSmite"
+type "SpellData"
+data "SpellType" "Target"
+using "CTarget_StaggeringSmite"
 
 new entry "CTarget_Smite_Thunderous"
 type "SpellData"
@@ -781,6 +806,11 @@ data "SpellProperties" "GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamage
 data "SpellSuccess" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);ApplyStatus(INTERRUPT_SMITE_DIVINE_VFX,100,0);DealDamage(LevelMapValue(D12General), Thunder);ApplyStatus(PRONE_THUNDEROUS_SMITE, 100, 1)"
 data "CombatAIOverrideSpell" ""
 
+new entry "Target_Smite_Thunderous"
+type "SpellData"
+data "SpellType" "Target"
+using "CTarget_Smite_Thunderous"
+
 new entry "CTarget_Smite_Wrathful"
 type "SpellData"
 data "SpellType" "Target"
@@ -816,3 +846,13 @@ data "SpellType" "Target"
 using "CTarget_Smite_Wrathful"
 data "SpellSuccess" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);ApplyStatus(INTERRUPT_SMITE_DIVINE_VFX,100,0);DealDamage(LevelMapValue(D12General), Psychic);ApplyStatus(FRIGHTENED,100,1)"
 data "CombatAIOverrideSpell" ""
+
+new entry "Target_Smite_Wrathful"
+type "SpellData"
+data "SpellType" "Target"
+using "CTarget_Smite_Wrathful"
+
+new entry "Target_Smite_Banishing"
+type "SpellData"
+data "SpellType" "Target"
+using "CTarget_Smite_Divine"

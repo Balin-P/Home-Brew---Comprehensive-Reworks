@@ -418,7 +418,7 @@ type "PassiveData"
 data "Icon" "Action_Legendary_Offensive"
 data "DisplayName" "h298b9a29g5657g4aa9gaad6gad3a822d3f45;1"
 data "Description" "hb2400634gf3e4g46f1gb93dg1330e4ss6d85;2"
-data "DescriptionParams" "DealDamage(12,Radiant)"
+data "DescriptionParams" "DealDamage(20,Radiant)"
 data "Properties" "Highlighted;ForceShowInCC"
 data "Boosts" "UnlockSpell(Shout_VisageofVengeance)"
 

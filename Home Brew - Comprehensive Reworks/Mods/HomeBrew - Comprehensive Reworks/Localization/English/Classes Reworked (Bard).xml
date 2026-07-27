@@ -62,7 +62,7 @@
 	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5fz000" version="1">Climax</content>
 	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5fz00z" version="2">End your performance in climactic triumph! Summon three dancing skeletons, causing enemies within [1] of them to become &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
 	<content contentuid="h17df6462g1bf8g454dg87aeg3d80fs5d5e6f" version="1">Curse of Moriendi</content>
-	<content contentuid="h79198be7g46c4g4c7bgb6aegb16s8e5f8e54" version="1">Affected creature is forced to dance for all eternity. Creatures within [1] of them will become &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; for one turn.</content>
+	<content contentuid="h79198be7g46c4g4c7bgb6aegb16s8e5f8e54" version="1">Affected creature is forced to dance for all eternity. They are considered to be a preferred target, and creatures within [1] of them will become &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; for one turn.</content>
 
 	<content contentuid="hc9735187g68cag427ag8ff9d8f8dff800008" version="1">Climax</content>
 	<content contentuid="h843e9f50g1485g4d5dgb338f8df33d90000h" version="2">End your performance in climactic triumph! Deal Thunder damage to all enemies within [1].</content>
@@ -154,7 +154,7 @@
 	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f000z" version="1">Death knells drum rhythmic your approach, commanding the grave to falter. Your song is one of savage necromancy, a metallic warning to those who dare to listen closely.</content>
 
 	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f0001" version="1">Requiescat in Pace</content>
-	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f000a" version="1">When you deal damage to an enemy, you deal additional Necrotic damage equal to your levels in Bard. This bonus does not apply to damage dealt with an off-hand weapon.&lt;br&gt;&lt;br&gt;Upon reaching a state of &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_CHORUS"&gt;Performative Chorus&lt;/LSTag&gt;, you may summon three skeletons, eternally cursed to dance to your rhythm, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; nearby enemies.</content>
+	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f000a" version="1">When you deal damage to an enemy, you deal additional Necrotic damage equal to your levels in Bard. This bonus does not apply to damage dealt with an off-hand weapon.&lt;br&gt;&lt;br&gt;Upon reaching a state of &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_CHORUS"&gt;Performative Chorus&lt;/LSTag&gt;, you may summon three skeletons, eternally cursed to dance to your rhythm, &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightening&lt;/LSTag&gt; nearby enemies and afflicting them with &lt;LSTag Type="Status" Tooltip="CHILL_TOUCH"&gt;Bone Chill&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f0002" version="1">Grave Chill</content>
 	<content contentuid="h279a572b5d5e5f6e8f5e3g62e52f2e5f000b" version="1">Enemies in range of your &lt;LSTag Type="Spell" Tooltip="Shout_Bard_Perform_Whistle"&gt;Performance&lt;/LSTag&gt; are afflicted with &lt;LSTag Type="Status" Tooltip="CHILL_TOUCH"&gt;Bone Chill&lt;/LSTag&gt;.</content>
@@ -318,7 +318,7 @@
 	<content contentuid="171ffb649bb448399193ed1c0d6896dd0000d" version="1">Improve your own &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; by up to an amount equal to that of your Bardic Inspiration.</content>
 
 	<content contentuid="171ffb649bb448399193ed1c0d6896dd00005" version="1">Echoes of Fortitude</content>
-	<content contentuid="171ffb649bb448399193ed1c0d6896dd0000e" version="1">Once per turn, upon granting another creature &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;, both you and your target recovers +1d6 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; multiplied by your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+	<content contentuid="171ffb649bb448399193ed1c0d6896dd0000e" version="1">Once per turn, upon granting another creature &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;, both you and your target recover +1d6 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; multiplied by your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
 	<content contentuid="171ffb649bb448399193ed1c0d6896dd000z5" version="1">Echoes of Fortitude</content>
 	<content contentuid="171ffb649bb448399193ed1c0d6896dd000ze" version="1">Affected creature has recovered +1d6 &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; multiplied by the casters &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; due to &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;.</content>
 

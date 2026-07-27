@@ -122,6 +122,7 @@ data "PrepareEffect" "3e655f13-f121-432d-bafe-fbe6b1ae70f1"
 data "CastEffect" "7593a35a-1e1b-4760-9548-107502dd00d8"
 data "UseCosts" "ActionPoint:1;ChannelDivinity:1"
 data "AIFlags" "CanNotUse"
+data "RequirementConditions" "not HasStatus('DIVINE_INTERVENTION')"
 data "Requirements" "Combat"
 
 new entry "Shout_DivineIntervention_Bounty"

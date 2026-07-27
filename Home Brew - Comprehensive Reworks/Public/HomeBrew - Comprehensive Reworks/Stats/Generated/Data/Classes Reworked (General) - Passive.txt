@@ -612,7 +612,7 @@ data "Icon" "PassiveFeature_IronMind"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnCombatStarted;OnTurn"
 data "StatsFunctors" "IF(not HasStatus('CT_SPLITFOCUS', context.Source)):ApplyStatus(SELF,CT_SPLITFOCUS,100,-1)"
-data "Boosts" "UnlockSpellVariant(SpellId('Target_SplitFocus_BonusAttack'),ModifyNumberOfTargets(AdditiveBase,2,false));UnlockSpellVariant(SpellId('Projectile_SplitFocus_BonusAttack'),ModifyNumberOfTargets(AdditiveBase,2,false));HalveWeaponDamage(Strength);HalveWeaponDamage(Dexterity);HalveWeaponDamage(Constitution);HalveWeaponDamage(Intelligence);HalveWeaponDamage(Wisdom);HalveWeaponDamage(Charisma)"
+data "Boosts" "HalveWeaponDamage(Strength);HalveWeaponDamage(Dexterity);HalveWeaponDamage(Constitution);HalveWeaponDamage(Intelligence);HalveWeaponDamage(Wisdom);HalveWeaponDamage(Charisma)"
 
 new entry "CT_SunlightAversion"
 type "PassiveData"

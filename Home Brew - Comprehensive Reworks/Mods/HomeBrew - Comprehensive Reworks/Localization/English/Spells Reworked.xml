@@ -67,6 +67,7 @@
 
 	<content contentuid="h3a4e58abg7bfbg4a85gbfd3g113a5a8282b6" version="2">Caustic Brine</content>
 	<content contentuid="h89303a06g9c64g49cag9476ga7a4f2013009" version="3">Affected creature takes [1] at the beginning of each of their turns. Removed if &lt;LSTag Type="Status" Tooltip="WET"&gt;Wet&lt;/LSTag&gt;.</content>
+	<content contentuid="hf3615064g7261g42d4gb71egde11b931c139" version="2">A pungent odour and acidic heat rise from this peculiar liquid. Deals 1d12 Acid damage per turn.</content>
 
 	<content contentuid="hb5e71444gca06g4beag9b6cg24a0f935cbfb" version="2">Bodily Trauma</content>
 	<content contentuid="hf9e6c0e9g3661g4178ga9c4g116019b3bab0" version="2">Affected creature loses one &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; on their next turn.&lt;br&gt;&lt;br&gt;Removed by healing.</content>
