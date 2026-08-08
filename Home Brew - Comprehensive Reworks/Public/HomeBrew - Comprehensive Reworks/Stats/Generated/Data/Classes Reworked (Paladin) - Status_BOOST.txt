@@ -65,7 +65,7 @@ new entry "PRONE_THUNDEROUS_SMITE"
 type "StatusData"
 data "StatusType" "KNOCKED_DOWN"
 using "PRONE"
-data "OnApplyFunctors" "RemoveStatus(SNEAKING);RemoveStatus(SLEEP);RemoveStatus(SLEEPING);Force(9);RemoveStatus(SG_Sleeping)"
+data "OnApplyFunctors" "RemoveStatus(SNEAKING);RemoveStatus(SLEEP);RemoveStatus(SLEEPING);IF(not Grounded()):Force(9);RemoveStatus(SG_Sleeping)"
 
 new entry "STAGGERING_SMITE"
 type "StatusData"
@@ -334,14 +334,6 @@ data "EndEffect" "a5c11e94-efa3-4998-a76b-fc12502ea565"
 data "StackType" "Ignore"
 
 <!--OATH OF VENGEANCE-->
-
-new entry "VENGEANCE_UPGRADE_DISABLER"
-type "StatusData"
-data "StatusType" "BOOST"
-data "TickType" "EndTurn"
-data "StackType" "Ignore"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-data "RemoveEvents" "OnCombatEnded"
 
 new entry "INQUISITORS_MIGHT"
 type "StatusData"

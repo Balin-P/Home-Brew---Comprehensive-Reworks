@@ -180,7 +180,7 @@
 	<content contentuid="e334c34320a546bea6b4e7636363749b0000a" version="1">When you deal damage to an enemy, you deal additional [1]. This bonus does not apply to damage dealt with an off-hand weapon.&lt;br&gt;&lt;br&gt;Upon reaching a state of &lt;LSTag Type="Status" Tooltip="PERFORMATIVE_CHORUS"&gt;Performative Chorus&lt;/LSTag&gt;, you may deal [2] to all enemies within [3], potentially &lt;LSTag Type="Status" Tooltip="MAG_THUNDER_REVERBERATION"&gt;Reverberating&lt;/LSTag&gt; them.</content>
 
 	<content contentuid="e334c34320a546bea6b4e7636363749b00002" version="1">Lateralus</content>
-	<content contentuid="e334c34320a546bea6b4e7636363749b0000b" version="1">When dealing Thunder damage, you inflict one stack of &lt;LSTag Type="Status" Tooltip="MAG_THUNDER_REVERBERATION"&gt;Reverberation&lt;/LSTag&gt;.</content>
+	<content contentuid="e334c34320a546bea6b4e7636363749b0000b" version="1">When dealing Thunder damage to an enemy, you inflict one stack of &lt;LSTag Type="Status" Tooltip="MAG_THUNDER_REVERBERATION"&gt;Reverberation&lt;/LSTag&gt;.</content>
 
 	<content contentuid="e334c34320a546bea6b4e7636363749b00003" version="1">Meteora</content>
 	<content contentuid="e334c34320a546bea6b4e7636363749b0000c" version="1">You ignore all Thunder based &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt;.</content>
@@ -192,7 +192,7 @@
 	<content contentuid="e334c34320a546bea6b4e7636363749b0000e" version="1">Upon knocking an enemy &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, all allies within [1] of your target receive the effects of your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt;.</content>
 
 	<content contentuid="e334c34320a546bea6b4e7636363749b00006" version="1">The Black Parade</content>
-	<content contentuid="e334c34320a546bea6b4e7636363749b0000f" version="1">Upon dealing Thunder damage, you potentially &lt;LSTag Type="Status" Tooltip="LURING_SONG"&gt;Lure&lt;/LSTag&gt; your target for one turn.</content>
+	<content contentuid="e334c34320a546bea6b4e7636363749b0000f" version="1">Upon dealing Thunder damage to an enemy, you potentially &lt;LSTag Type="Status" Tooltip="LURING_SONG"&gt;Lure&lt;/LSTag&gt; your target for one turn.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">STEEL</content>
 

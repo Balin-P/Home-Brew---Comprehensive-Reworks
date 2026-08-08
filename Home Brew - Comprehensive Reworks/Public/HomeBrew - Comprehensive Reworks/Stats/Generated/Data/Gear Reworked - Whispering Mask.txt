@@ -46,7 +46,7 @@ data "Icon" "PassiveFeature_Generic_Tactical"
 data "HitAnimationType" "None"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "AuraRadius" "9"
-data "AuraStatuses" "TARGET:IF(HasStatus('HAG_DOUBLES')):ApplyStatus(HAGMASK_DISPEL_ILLUSION_DAMAGE);TARGET:IF(HasStatus('INVISIBLE_ETHEL')):ApplyStatus(HAGMASK_DISPEL_ILLUSION_DAMAGE)"
+data "AuraStatuses" "TARGET:IF(HasStatus('HAG_DOUBLES')):ApplyStatus(HAGMASK_DISPEL_ILLUSION_DAMAGE);TARGET:IF(HasStatus('INVISIBLE_ETHEL') and not Ally()):ApplyStatus(HAGMASK_DISPEL_ILLUSION_DAMAGE)"
 
 new entry "HAGMASK_DISPEL_ILLUSION_DAMAGE"
 type "StatusData"

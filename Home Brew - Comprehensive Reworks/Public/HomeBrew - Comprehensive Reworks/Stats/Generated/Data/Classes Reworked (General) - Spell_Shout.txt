@@ -1,3 +1,28 @@
+<!--AETHER SUSPENSION-->
+
+new entry "Shout_CombatParticipant"
+type "SpellData"
+data "SpellType" "Shout"
+data "AIFlags" "CanNotUse"
+data "SpellProperties" "IF(HasStatus('COMBATPARTICIPANT_SPELL', context.Source)):RemoveStatus(SELF,COMBATPARTICIPANT_SPELL);IF(not HasStatus('COMBATPARTICIPANT_SPELL', context.Source)):ApplyStatus(SELF,COMBATPARTICIPANT_SPELL,100,-1)"
+data "TargetConditions" "Self()"
+data "Icon" "Action_WildMagic_Swap"
+data "DisplayName" "h9426bff1g05d0gd470g372dgbbf7cfcspell;2"
+data "Description" "h4e31b13dgba1dg3215g0412g31583b8spell;1"
+data "CastSound" "Action_Cast_Surge"
+data "TargetSound" "Action_Impact_Surge"
+data "PreviewCursor" "Cast"
+data "CastTextEvent" "Cast"
+data "SpellAnimation" "5e57443f-284e-47b2-915e-5b6417db269c,,;925779e7-8bf6-4d56-8c4d-42c3bc01c60c,,;50398f4e-dd82-4d6a-ad43-aedd578543d9,,;1c343e00-7e6c-4f53-b588-074a3cdb9c7d,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,,"
+data "VerbalIntent" "Buff"
+data "SpellStyleGroup" "Class"
+data "SpellAnimationIntentType" "Aggressive"
+data "PrepareEffect" "2fa6b127-6f8a-4150-8be6-6f62b7a85911"
+data "CastEffect" "40f543cf-7aac-4da5-bc97-b11bb693d297"
+data "TargetEffect" "91ef374a-8917-4b10-a4dc-89ba36ec60b4"
+data "PositionEffect" "69cd378b-2fa5-466b-bbf4-2c2ccb165717"
+data "Sheathing" "DontChange"
+
 <!--CHARACTER TRAITS-->
 
 new entry "Shout_CTBreatheDeep"

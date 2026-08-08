@@ -687,7 +687,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">HUMAN</content>
 
 	<content contentuid="h84f58e64gb19cg40fdg940cg2698f8041190" version="1">Ethereal Escape</content>
-	<content contentuid="hd6a22528g779cg47b5gb337gda5b959fa2a3" version="3">When damaged, this creature may expend their &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to escape to the Ethereal plane. They return to the battlefield at the start of their next turn.</content>
+	<content contentuid="hd6a22528g779cg47b5gb337gda5b959fa2a3" version="3">When damaged, this creature will escape to the Ethereal plane. They return to the battlefield at the start of their next turn.</content>
 	<content contentuid="h23097a99g1be1g4449g90b7g27dd421608fb" version="1">Ethereal Escape</content>
 	<content contentuid="h356f45c3g6e77g44e4g87feg4b436c9c00c2" version="3">Affected creature has travelled to the Ethereal Plane.</content>
 
@@ -827,5 +827,10 @@
 
 	<content contentuid="h4d7f1eviconiaa4d80ga24bg135c80phases" version="1">Into the Dark</content>
 	<content contentuid="hcd35aviconiaaa4c0fgad2fg2c330ephases" version="1">When dealing damage, this creature potentially &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinds&lt;/LSTag&gt; their targets.</content>
+
+<content contentuid="0000000000000000000000000000000000000" version="1">WITHERS</content>
+
+	<content contentuid="h4d7f1eviconiaa4d80ga24bg135cjergalzz" version="1">From the Cradle, to the Grave</content>
+	<content contentuid="hcd35aviconiaaa4c0fgad2fg2c33jergalzz" version="1">This creature immediately kills any mortal who would dare attempt to damage him.</content>
 
 </contentList>

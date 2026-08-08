@@ -3,6 +3,8 @@
 new entry "Zone_Ferocious_Slash_Wolf"
 type "SpellData"
 data "SpellType" "Zone"
+data "Level" "0"
+data "SpellSchool" "Evocation"
 data "SurfaceType" "Sentinel"
 data "SurfaceLifetime" "0"
 data "SurfaceGrowStep" "100"

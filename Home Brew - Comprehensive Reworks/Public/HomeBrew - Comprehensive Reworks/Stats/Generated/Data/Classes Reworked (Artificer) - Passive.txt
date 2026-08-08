@@ -77,7 +77,7 @@ data "DisplayName" "h509b8e00gacb9g46e8d5f4e5fee8d5f000z1;1"
 data "Description" "h509b8e00gacb9g46e8d5f4e5fee8d5f000za;1"
 data "Icon" "Passive_ArcaneFirearm"
 data "Properties" "IsHidden"
-data "Boosts" "IF(not IsKillingBlow() and Character() and not Self() and not Ally() and (IsRangedWeaponAttack() or SpellId('Zone_Blunderbuss_ScatterShot')) and HasStatus('DOUBLEBARREL', context.Target)):CriticalDamageOnHit()"
+data "Boosts" "IF(not IsKillingBlow() and Character() and not Self() and not Ally() and (IsRangedWeaponAttack() or SpellId('Zone_Blunderbuss_ScatterShot')) and HasStatus('DOUBLEBARREL', context.Target)):CriticalHit(AttackRoll,Success,Always)"
 
 <!--FLINTLOCK-->
 
@@ -148,7 +148,7 @@ data "DisplayName" "h509b8e00gacb9g46e8d5f4e5fee8d5f000z3;1"
 data "Description" "h509b8e00gacb9g46e8d5f4e5fee8d5f000zc;1"
 data "Icon" "Passive_ArcaneFirearm"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "IF(HasHPPercentageWithoutTemporaryHPLessThan(34, context.Target)):CriticalDamageOnHit()"
+data "Boosts" "IF(HasHPPercentageWithoutTemporaryHPLessThan(34, context.Target)):CriticalHit(AttackRoll,Success,Always)"
 
 <!--MISFIRE MECHANIC-->
 
@@ -626,7 +626,7 @@ data "DescriptionParams" "Distance(9)"
 data "Icon" "GenericIcon_Intent_Buff"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnDamage"
-data "StatsFunctors" "Force(9)"
+data "StatsFunctors" "IF(not Grounded()):Force(9)"
 
 new entry "MaximumYield"
 type "PassiveData"
@@ -884,7 +884,7 @@ data "DisplayName" "862d4e8f8c41462d8a2a4a2cfd5b81e100006;4"
 data "Description" "862d4e8f8c41462d8a2a4a2cfd5b81e10000f;4"
 data "Icon" "DT_CalledShot"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "IF(HasStatus('ALPHA_STRIKE', context.Source)):CriticalDamageOnHit()"
+data "Boosts" "IF(HasStatus('ALPHA_STRIKE', context.Source)):CriticalHit(AttackRoll,Success,Always)"
 
 <!--PASSIVES-->
 

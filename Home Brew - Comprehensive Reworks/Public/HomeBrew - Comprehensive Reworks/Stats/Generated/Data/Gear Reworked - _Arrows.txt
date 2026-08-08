@@ -36,7 +36,7 @@ data "DamageType" "Acid"
 data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 <!--ARROW OF ARCANE INTERFERENCE-->
 
@@ -75,7 +75,7 @@ data "HitAnimationType" "PhysicalDamage"
 data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 <!--ARROW OF DARKNESS-->
 
@@ -109,7 +109,7 @@ data "HitAnimationType" "PhysicalDamage"
 data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 <!--ARROW OF FIRE-->
 
@@ -148,7 +148,7 @@ data "DamageType" "Fire"
 data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 <!--ARROW OF ICE-->
 
@@ -187,7 +187,7 @@ data "DamageType" "Cold"
 data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 <!--ARROW OF ILMATER-->
 
@@ -224,7 +224,7 @@ data "HitAnimationType" "PhysicalDamage"
 data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 new entry "WRAITHS_EMBRACE"
 type "StatusData"
@@ -279,7 +279,7 @@ data "DamageType" "Lightning"
 data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 <!--ARROW OF MANY TARGETS-->
 
@@ -318,7 +318,7 @@ data "HitAnimationType" "PhysicalDamage"
 data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 new entry "Projectile_ArrowOfRicochet_Ricochet"
 type "SpellData"
@@ -334,7 +334,7 @@ data "TargetRadius" "9"
 new entry "Projectile_ArrowOfDetonation"
 type "SpellData"
 data "SpellType" "Projectile"
-data "SpellProperties" "GROUND:DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);IF(not SavingThrow(Ability.Strength,CalculateSpellDC(context.PreferredCastingAbility, context.Source))):Force(9, TargetToEntity)"
+data "SpellProperties" "GROUND:DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);TARGET:IF(not Grounded() and not SavingThrow(Ability.Strength,CalculateSpellDC(context.PreferredCastingAbility, context.Source))):Force(9, TargetToEntity)"
 data "TargetFloor" "-1"
 data "TargetRadius" "RangedMainWeaponRange"
 data "AreaRadius" "3"
@@ -365,7 +365,7 @@ data "HitAnimationType" "PhysicalDamage"
 data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 <!--ARROW OF SALVING-->
 
@@ -398,7 +398,7 @@ data "HitEffect" "5d225e4c-50f6-4f7b-9621-64ae3ace8ddc"
 data "HitAnimationType" "None"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 <!--ARROW OF TRANSPOSITION-->
 
@@ -430,7 +430,7 @@ data "HitAnimationType" "PhysicalDamage"
 data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 data "Requirements" "!Immobile"
 
 <!--ARROW OF SMOKEPOWDER-->
@@ -438,7 +438,7 @@ data "Requirements" "!Immobile"
 new entry "Projectile_ArrowOfSmokepowder"
 type "SpellData"
 data "SpellType" "Projectile"
-data "SpellProperties" "GROUND:SurfaceChange(Ignite); GROUND:SurfaceChange(Melt);IF(not SavingThrow(Ability.Strength,CalculateSpellDC(context.PreferredCastingAbility, context.Source))):Force(9, TargetToEntity)"
+data "SpellProperties" "GROUND:SurfaceChange(Ignite); GROUND:SurfaceChange(Melt);TARGET:IF(not Grounded() and not SavingThrow(Ability.Strength, ManeuverSaveDC())):Force(9, TargetToEntity)"
 data "TargetFloor" "-1"
 data "TargetRadius" "RangedMainWeaponRange"
 data "AreaRadius" "3"
@@ -473,7 +473,7 @@ data "HitAnimationType" "PhysicalDamage"
 data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 <!--ARROW OF PIERCING-->
 
@@ -517,7 +517,7 @@ data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
 data "DamageType" "Piercing"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 <!--ARROW OF BARBBED THORNS-->
 
@@ -556,7 +556,7 @@ data "HitAnimationType" "PhysicalDamage"
 data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 new entry "BARBED_ARROW"
 type "StatusData"
@@ -625,7 +625,7 @@ data "HitAnimationType" "PhysicalDamage"
 data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 <!--Arrow of Slaying-->
 
@@ -664,7 +664,7 @@ data "HitAnimationType" "PhysicalDamage"
 data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 <!--Arrow of Tracking-->
 
@@ -702,7 +702,7 @@ data "HitAnimationType" "MagicalDamage_External"
 data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "Big"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 <!--Arrow of Horde Shuttling-->
 
@@ -744,7 +744,7 @@ data "HitAnimationType" "PhysicalDamage"
 data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 new entry "Projectile_ArrowOfConstructSlaying_Pull"
 type "SpellData"
@@ -754,7 +754,7 @@ data "TargetRadius" "18"
 data "AreaRadius" "9"
 data "ExplodeRadius" "9"
 data "SpellSuccess" "Force(-9,TargetToEntity)"
-data "TargetConditions" "Enemy() and not Dead()"
+data "TargetConditions" "Enemy() and not Dead() and not Grounded()"
 data "ProjectileCount" "1"
 data "Trajectories" "64046453-9e1f-4f1d-a86d-f4dc4acff457,50f2bac9-61a4-489c-c70f-c3881062f2a2,d9e4cf4d-3a9a-d3d5-8ee3-afcf139aa3dc"
 data "Icon" "PassiveFeature_MagicInitiateSorcerer"
@@ -814,7 +814,7 @@ data "HitAnimationType" "PhysicalDamage"
 data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 <!--Arrow of X-->
 
@@ -851,7 +851,7 @@ data "HitAnimationType" "None"
 data "SpellAnimationIntentType" "Peaceful"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 <!--Arrow of X-->
 
@@ -892,7 +892,7 @@ data "HitAnimationType" "PhysicalDamage"
 data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 <!--Arrow of X-->
 
@@ -931,7 +931,7 @@ data "HitAnimationType" "PhysicalDamage"
 data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 <!--Arrow of X-->
 
@@ -972,4 +972,4 @@ data "HitAnimationType" "PhysicalDamage"
 data "SpellAnimationIntentType" "Aggressive"
 data "SpellSoundMagnitude" "None"
 data "Sheathing" "Ranged"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"

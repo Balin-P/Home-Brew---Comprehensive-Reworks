@@ -250,6 +250,15 @@ data "RemoveEvents" "OnStatusRemoved"
 
 <!--CIRCLE OF THE MOON-->
 
+new entry "MOON_SWAP_CONCENTRATION_PROTECTION"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "HitAnimationType" "None"
+data "Boosts" "ConcentrationIgnoreDamage(Abjuration);ConcentrationIgnoreDamage(Conjuration);ConcentrationIgnoreDamage(Divination);ConcentrationIgnoreDamage(Enchantment);ConcentrationIgnoreDamage(Evocation);ConcentrationIgnoreDamage(Illusion);ConcentrationIgnoreDamage(Necromancy);ConcentrationIgnoreDamage(Transmutation);StatusImmunity(SG_Prone)"
+data "RemoveEvents" "OnDamage;OnMove;OnSpellCast"
+data "TickType" "EndTurn"
+
 new entry "DASH_DRUID"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -612,7 +621,7 @@ data "RemoveConditions" "not HasStatus('VORTEX_AURA')"
 data "TooltipDamage" "DealDamage(1d12,Thunder)"
 data "TickFunctors" "DealDamage(1d12,Thunder)"
 data "StatusEffectOnTurn" "582b6023-0295-4227-bf46-89755e238183"
-data "OnRemoveFunctors" "IF(not SavingThrow(Ability.Strength, CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))):Force(-6, OriginToEntity, Neutral, false, true)"
+data "OnRemoveFunctors" "IF(not SavingThrow(Ability.Strength, CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))) and not Grounded()):Force(-6, OriginToEntity, Neutral, false, true)"
 
 <!--PASSIVES-->
 

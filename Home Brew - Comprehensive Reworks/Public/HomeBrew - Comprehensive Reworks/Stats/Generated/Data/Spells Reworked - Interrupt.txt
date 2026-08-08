@@ -132,6 +132,8 @@ data "Properties" "ApplyStatus(BURNING,100,1);DealDamage(1d4,Fire,,,0,,true)"
 data "Cost" "FlameArrows:1"
 data "InterruptDefaultValue" "Enabled;Ask"
 data "Stack" "OnDamage"
+data "EnableCondition" "not HasStatus('FIREARM_EQUIPPED')"
+data "EnableContext" "OnStatusRemoved;OnStatusApplied"
 
 <!--GUARDIAN OF FAITH-->
 

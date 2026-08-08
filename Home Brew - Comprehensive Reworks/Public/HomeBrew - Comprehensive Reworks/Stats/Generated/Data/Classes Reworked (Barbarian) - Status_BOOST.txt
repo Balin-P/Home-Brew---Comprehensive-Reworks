@@ -481,7 +481,7 @@ data "Icon" "PassiveFeature_RelentlessRage"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead"
 data "Boosts" "UnlockSpellVariant(SpellId('Shout_Rage_Totem_Bear'),ModifyUseCosts(Replace,BonusActionPoint,0,-1,BonusActionPoint),ModifyUseCosts(Replace,Rage,0,-1,Rage));UnlockSpellVariant(SpellId('Shout_Rage_Totem_Eagle'),ModifyUseCosts(Replace,BonusActionPoint,0,-1,BonusActionPoint),ModifyUseCosts(Replace,Rage,0,-1,Rage));UnlockSpellVariant(SpellId('Shout_Rage_Totem_Elk'),ModifyUseCosts(Replace,BonusActionPoint,0,-1,BonusActionPoint),ModifyUseCosts(Replace,Rage,0,-1,Rage));UnlockSpellVariant(SpellId('Shout_Rage_Totem_Tiger'),ModifyUseCosts(Replace,BonusActionPoint,0,-1,BonusActionPoint),ModifyUseCosts(Replace,Rage,0,-1,Rage));UnlockSpellVariant(SpellId('Shout_Rage_Totem_Wolf'),ModifyUseCosts(Replace,BonusActionPoint,0,-1,BonusActionPoint),ModifyUseCosts(Replace,Rage,0,-1,Rage))"
 data "RemoveConditions" "SpellId('Shout_Rage_Totem_Eagle') or SpellId('Shout_Rage_Totem_Elk') or SpellId('Shout_Rage_Totem_Tiger') or SpellId('Shout_Rage_Totem_Wolf')"
-data "RemoveEvents" "OnCombatEnded;OnSpellCast"
+data "RemoveEvents" "OnSpellCast;OnCombatEnded"
 data "TickType" "EndTurn"
 
 new entry "BEASTIALDOMINANCE_SWAP"
@@ -494,7 +494,7 @@ data "Icon" "Action_Barbarian_MagicAwareness"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "Boosts" "UnlockSpellVariant(SpellId('Shout_Rage_Totem_Bear'),ModifyUseCosts(Replace,Rage,0,-1,Rage));UnlockSpellVariant(SpellId('Shout_Rage_Totem_Eagle'),ModifyUseCosts(Replace,Rage,0,-1,Rage));UnlockSpellVariant(SpellId('Shout_Rage_Totem_Elk'),ModifyUseCosts(Replace,Rage,0,-1,Rage));UnlockSpellVariant(SpellId('Shout_Rage_Totem_Tiger'),ModifyUseCosts(Replace,Rage,0,-1,Rage));UnlockSpellVariant(SpellId('Shout_Rage_Totem_Wolf'),ModifyUseCosts(Replace,Rage,0,-1,Rage))"
 data "RemoveConditions" "SpellId('Shout_Rage_Totem_Bear') or SpellId('Shout_Rage_Totem_Eagle') or SpellId('Shout_Rage_Totem_Elk') or SpellId('Shout_Rage_Totem_Tiger') or SpellId('Shout_Rage_Totem_Wolf')"
-data "RemoveEvents" "OnCombatEnded;OnSpellCast"
+data "RemoveEvents" "OnSpellCast;OnCombatEnded"
 data "TickType" "EndTurn"
 
 <!--BERSERKER-->

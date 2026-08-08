@@ -166,7 +166,7 @@
 					</node>
         <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Druid - Wildshape Selection" />
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Bear_Polar;Shout_WildShape_Cat;Shout_WildShape_Dire_Wolf" />
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Badger;Shout_WildShape_Bear_Polar;Shout_WildShape_Cat;Shout_WildShape_DeepRothe;Shout_WildShape_Dilophosaurus;Shout_WildShape_Dire_Raven;Shout_WildShape_Dire_Wolf;Shout_Wildshape_Giant_Eagle;Shout_WildShape_Giant_Spider;Shout_WildShape_Owlbear;Shout_Wildshape_Panther" />
                     <attribute id="UUID" type="guid" value="048d3543-1ac4-4eb9-b6a8-1713d8ff5f91" />
 					</node>
         <node id="SpellList">

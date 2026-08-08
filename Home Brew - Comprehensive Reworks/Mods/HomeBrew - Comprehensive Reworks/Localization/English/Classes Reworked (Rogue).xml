@@ -84,7 +84,7 @@
 	<content contentuid="h098941ccgc4ecg49f2gb22agab6d9d6e8558" version="3">While &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;, jump down onto a target from above, dealing significantly more damage.</content>
 
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b394a584" version="1">Assassin's Focus</content>
-	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b093kff" version="3">Every three turns while in combat, you gain an &lt;LSTag Type="ActionResource" Tooltip="AssassinsMark"&gt;Assassin's Mark&lt;/LSTag&gt;. You may use these to trigger &lt;LSTag Type="Status" Tooltip="Tooltip_Assassinate"&gt;Assassinate&lt;/LSTag&gt; when dealing damage to an enemy while in combat. Killing an enemy with this passive active will not expend your Assassin's Mark. This effect can be toggled at any time.</content>
+	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b093kff" version="3">Every three turns while in combat, you gain an &lt;LSTag Type="ActionResource" Tooltip="AssassinsMark"&gt;Assassin's Mark&lt;/LSTag&gt;. You may use these to trigger &lt;LSTag Type="Status" Tooltip="Tooltip_Assassinate"&gt;Assassinate&lt;/LSTag&gt; when dealing damage to an enemy while in combat. This effect can be toggled at any time.</content>
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b3922d54" version="1">Assassin's Focus</content>
 	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b066d45" version="3">Affected creature will gain an &lt;LSTag Type="ActionResource" Tooltip="AssassinsMark"&gt;Assassin's Mark&lt;/LSTag&gt; upon accruing three stacks of this condition.</content>
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b3922d64" version="1">Assassination</content>
@@ -95,16 +95,16 @@
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b3966d54" version="1">Assassin's Mark</content>
 	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b0dd5f8" version="3">Used to trigger &lt;LSTag Type="Status" Tooltip="Tooltip_Assassinate"&gt;Assassinate&lt;/LSTag&gt; when dealing damage.</content>
 
-	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b3948a22" version="1">Hidden Implement</content>
-	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b06a977" version="3">While &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;, you have a chance to &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralyze&lt;/LSTag&gt; your target upon dealing damage in combat. If your target is not currently in combat, they are immediately Paralyzed.</content>
-
-	<content contentuid="hc4558204g2c77g4b58ga69870ba6b394a584" version="1">Critical Shock</content>
-	<content contentuid="h098941ccgc4ecg49f2dfsd68abed0b093kff" version="3">All successful &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; outside of combat are considered to be &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt;.</content>
-
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b399a654" version="1">Marked for Blood</content>
 	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b05a225" version="3">While &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;, dealing damage to a target leaves it unable to be &lt;LSTag Type="Status" Tooltip="ALERTED"&gt;Alerted&lt;/LSTag&gt; until the end of your turn.</content>
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6aa685654" version="1">Marked for Blood</content>
 	<content contentuid="h098941ccgc4ecg49f2gb22agabed99a84225" version="3">Affected creature is unable to be &lt;LSTag Type="Status" Tooltip="ALERTED"&gt;Alerted&lt;/LSTag&gt;.</content>
+
+	<content contentuid="hc4558204g2c77g4b58ga69870ba6b394a584" version="1">Critical Shock</content>
+	<content contentuid="h098941ccgc4ecg49f2dfsd68abed0b093kff" version="3">All &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; outside of combat are considered to be &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt;.</content>
+
+	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b3948a22" version="1">Hidden Implement</content>
+	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b06a977" version="3">While &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Sneaking&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;, you have a chance to &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralyze&lt;/LSTag&gt; your target upon dealing damage in combat. If your target is not currently in combat, they are immediately Paralyzed.</content>
 
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b39adsdf" version="1">Execute</content>
 	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b0ewrff" version="3">Dealing damage to a target with less than 20% of its total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; instantly kills them.</content>

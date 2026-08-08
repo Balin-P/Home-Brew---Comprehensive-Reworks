@@ -1379,6 +1379,18 @@ data "Passives" "Fatal_Encounter_Raphael"
 data "StackId" "FATAL_ENCOUNTER_RAPHAEL"
 data "StackType" "Ignore"
 
+<!--ROTHE-->
+
+new entry "UND_FEARFULROTHE_AGITATED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hd0e7b197g08a7g43f0ga290g8b469c4984f2;2"
+data "Description" "haa35729dg5e28g437ag9769gb70e9ce59ce1;2"
+data "Icon" "statIcons_Agitated"
+data "FormatColor" "Red"
+data "Boosts" "Advantage(AttackRoll)"
+data "StatusGroups" "SG_Mental;SG_Rage"
+
 <!--SAVARSH KETHK-->
 
 new entry "CRE_COMBAT_INSTRUCTION"
@@ -1578,6 +1590,20 @@ data "DisplayName" "hcd546155gd37dg4fefg9deeg71d2f0198287;1"
 data "Description" "h2527cab9gb2c6g4756g9667g468826a1c89e;1"
 data "DescriptionParams" "Distance(9); GainTemporaryHitPoints(100)"
 data "Boosts" "ActionResource(Movement,9,0); TemporaryHP(100)"
+
+<!--WITHERS-->
+
+new entry "KILL_WITHERS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h4d7f1eviconiaa4d80ga24bg135cjergalzz;3"
+data "Description" "hcd35aviconiaaa4c0fgad2fg2c33jergalzz;2"
+data "Icon" "Action_Monster_Banite_AuraOfTerror"
+data "StackId" "KILL_WITHERS"
+data "OnApplyFunctors" "Kill()"
+data "OnRemoveFunctors" "SwitchDeathType(Explode);ApplyStatus(CORPSE_USED,100,-1)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StackType" "Overwrite"
 
 <!--WOOD WOAD-->
 

@@ -49,7 +49,7 @@ data "SpellSoundMagnitude" "Big"
 data "Sheathing" "Ranged"
 data "DamageType" "Lightning"
 data "SpellContainerID" "Shout_ElementalFletching"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 new entry "Zone_ElementalFletching_Psychic_Focused"
 type "SpellData"
@@ -94,7 +94,7 @@ data "SpellSoundMagnitude" "Big"
 data "Sheathing" "Ranged"
 data "DamageType" "Psychic"
 data "SpellContainerID" "Shout_ElementalFletching"
-data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape') and not HasStatus('FIREARM_EQUIPPED')"
 
 <!--MANEUVERS-->
 

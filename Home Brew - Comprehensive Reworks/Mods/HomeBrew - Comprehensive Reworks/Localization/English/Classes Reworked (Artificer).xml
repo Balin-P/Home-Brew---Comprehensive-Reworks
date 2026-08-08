@@ -8,6 +8,9 @@
 	<content contentuid="66523fb3deaa14de1766304e0918494800003" version="1">Musket</content>
 	<content contentuid="66523fb3deaa14de1766304e091849480000a" version="2">The player's currently equipped firearm.</content>
 
+	<content contentuid="5aeec0c004874dac95d8170c2054769500000" version="1">Firearm Equipped</content>
+	<content contentuid="5aeec0c004874dac95d8170c20547695zzzzz" version="1">Affected creature has a firearm equipped.</content>
+
 	<content contentuid="66523fb3deaa14de1766304e096s5d4f68e54" version="1">Ammunition: 3</content>
 	<content contentuid="77523fb3deaa14de1766304e09s56ef956e84" version="2">Gain three shots of ammunition to fire your currently equipped firearms unique actions. You may restore your supply of Ammunition by &lt;LSTag Type="Spell" Tooltip="Shout_Reload_Firearm"&gt;Reloading&lt;/LSTag&gt;, or by finishing a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;. Ammunition is also reloaded automatically at the end of each combat encounter.</content>
 
@@ -257,7 +260,7 @@
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400018" version="1">Optimization: Spell Calibration Sequence</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000r" version="2">Grant allies a +1 bonus to their &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt; upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400019" version="1">Optimization: Spell Slot Bypass</content>
-	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000s" version="2">Allies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; may cast one Spell without expending a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; No extended effect when Infusing the same ally multiple times.</content>
+	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000s" version="2">Allies you &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infuse&lt;/LSTag&gt; regain a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; equal to half your levels in Artificer, rounded up.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; No extended effect when Infusing the same ally multiple times.</content>
 	<content contentuid="88523fb3deaa2d5f5ef6304e0911fbc400020" version="1">Optimization: Stability Matrix</content>
 	<content contentuid="99523fb3deaasdf5e8f6304e0911fbc40000t" version="2">Grant allies &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; upon &lt;LSTag Type="Status" Tooltip="INFUSION"&gt;Infusing&lt;/LSTag&gt; them.</content>
 

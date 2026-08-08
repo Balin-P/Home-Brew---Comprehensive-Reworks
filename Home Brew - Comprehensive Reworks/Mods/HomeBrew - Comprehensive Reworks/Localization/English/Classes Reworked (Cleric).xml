@@ -30,7 +30,7 @@
 	<content contentuid="he513824dg20e8g477cg8189g49s6e9f5e885" version="11">The flame of your god seeps out from within you, forming a divine barrier over all nearby allies and granting them the effects of &lt;LSTag Type="Spell" Tooltip="Shout_FireShield"&gt;Fire Shield&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h58ed0f65g01d6g4f03a21s5ef6s55e4f6501" version="1">Divine Miracles: Psychic Rift</content>
-	<content contentuid="h58ed0f65g01d6g4f03a21s5ef6s55e4f650a" version="11">The secrets of your god spill out from reality itself, damaging the minds of all nearby enemies.</content>
+	<content contentuid="h58ed0f65g01d6g4f03a21s5ef6s55e4f650a" version="11">The secrets of your god spill out from reality itself, damaging the minds of all nearby enemies and potentially afflicting them with &lt;LSTag Type="Status" Tooltip="MIND_SLIVER"&gt;Mind Sliver&lt;/LSTag&gt; for three turns.</content>
 
 	<content contentuid="h58ed0f65g01d6g4f03gbca7g9be2bf7f22d5" version="1">Divine Miracles: Deific Recovery</content>
 	<content contentuid="he513824dg20e8g477cg8189g49da00b6ff6d" version="11">The mercy of your god overflows from within you, soothing all nearby allies and granting them the effects of both &lt;LSTag Type="Spell" Tooltip="Target_LesserRestoration"&gt;Latent Restoration&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_GreaterRestoration"&gt;Great Cleanse&lt;/LSTag&gt;.</content>
@@ -119,7 +119,7 @@
 	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f2yb" version="1">Affected creature has been stricken with divine flame. All incoming &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against them are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f89803" version="1">Furnace Core</content>
-	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f20c" version="1">While wearing armour, you gain one of three unique effects, dependent on the type of armour worn.&lt;br&gt;&lt;br&gt;Light armour grants the ability to ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; when dealing Fire damage an enemy or item.&lt;br&gt;&lt;br&gt;Medium armour grants the ability to potentially experience an instance of &lt;LSTag Type="ActionResource" Tooltip="DivineIntervention"&gt;Divine Intervention&lt;/LSTag&gt; the first time that you deal Fire damage to an enemy each turn.&lt;br&gt;&lt;br&gt;Heavy armour grants you the ability to generate one stack of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt; upon being damaged, simultaneously dealing Fire damage to your aggressors equal to your levels in Cleric.</content>
+	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f20c" version="1">While wearing armour, you gain one of three unique effects, dependent on the type of armour worn.&lt;br&gt;&lt;br&gt;Light armour grants the ability to ignore &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; when dealing Fire damage to an enemy or item.&lt;br&gt;&lt;br&gt;Medium armour grants the ability to potentially experience an instance of &lt;LSTag Type="ActionResource" Tooltip="DivineIntervention"&gt;Divine Intervention&lt;/LSTag&gt; the first time that you deal Fire damage to an enemy each turn.&lt;br&gt;&lt;br&gt;Heavy armour grants you the ability to generate one stack of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt; upon being damaged by an enemy, simultaneously dealing Fire damage to your aggressors equal to your levels in Cleric.</content>
 
 	<content contentuid="h695df0c5g7b1eg47a16se8f5e6f5e8f89804" version="1">Brazen Embers</content>
 	<content contentuid="h3063c312g64f5g471a6sd5f2ef5d4fe5f20d" version="1">&lt;LSTag Type="Passive" Tooltip="StrikingIron"&gt;Striking Iron&lt;/LSTag&gt; now causes enemies affected to be attacked with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; for three turns.</content>
@@ -147,7 +147,7 @@
 	<content contentuid="1532e50122e94186bab1a621b059dbed0000c" version="1">If you are not currently &lt;LSTag Type="Status" Tooltip="INVISIBILITY_BLOCKER"&gt;Revealed&lt;/LSTag&gt;, targeting an ally with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; will cause you to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; as well.</content>
 
 	<content contentuid="1532e50122e94186bab1a621b059dbed00004" version="1">Dreamfracture</content>
-	<content contentuid="1532e50122e94186bab1a621b059dbed0000d" version="1">Upon dealing Psychic damage, you potentially &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprise&lt;/LSTag&gt; your target for one turn.</content>
+	<content contentuid="1532e50122e94186bab1a621b059dbed0000d" version="1">Upon dealing Psychic damage to an enemy, you potentially &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprise&lt;/LSTag&gt; your target for one turn.</content>
 
 	<content contentuid="1532e50122e94186bab1a621b059dbed00005" version="1">Phantom Exchange</content>
 	<content contentuid="1532e50122e94186bab1a621b059dbed0000e" version="1">Gain the ability to swap places with an &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; ally as a free action.</content>
@@ -241,15 +241,11 @@
 	<content contentuid="hf729263eg37dcg43fbg923cg24cc642ss699" version="2">Affected creature has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage for the rest of their turn.</content>
 
 	<content contentuid="h4c1f2f2dg8a14g4391gaf11g78e249692115" version="2">War Priest</content>
-	<content contentuid="h5846ba7cg19b5g475cg88dbg2ea9d3793ea6" version="3">When you make a weapon based attack against a target, you can make an additional attack as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
-	<content contentuid="h4c1f2f2dg8a14g4391gaf11g78e249692116" version="2">War Priest</content>
-	<content contentuid="h5846ba7cg19b5g475cg88dbg2ea9d3793ea7" version="3">Affected creature may make an additional attack as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
+	<content contentuid="h5846ba7cg19b5g475cg88dbg2ea9d3793ea6" version="3">Gain the ability to make a weapon based attack against a target as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 	<content contentuid="h4c1f2f2dg8a14g4391gaf11g78e249692117" version="2">War Priest (Melee)</content>
-	<content contentuid="h5846ba7cg19b5g475cg88dbg2ea9d3793ea8" version="3">Make an additional &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
+	<content contentuid="h5846ba7cg19b5g475cg88dbg2ea9d3793ea8" version="3">Make a &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 	<content contentuid="h4c1f2f2dg8a14g4391gaf11g78e249622d64" version="2">War Priest (Ranged)</content>
-	<content contentuid="h5846ba7cg19b5g475cg88dbg2ea9d37dd2f5" version="3">Make an additional &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
-	<content contentuid="h4c1f2f2dg8a14g4391gaf11g78e2496dd2f5" version="2">War Priest</content>
-	<content contentuid="h5846ba7cg19b5g475cg88dbg2ea9d37ss6f9" version="3">Make an additional &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt; or &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
+	<content contentuid="h5846ba7cg19b5g475cg88dbg2ea9d37dd2f5" version="3">Make a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h994500d0g1703g421bg8028g0f3a3101a644" version="2">War God's Vessel</content>
 	<content contentuid="hf729263eg37dcg43fbg923cg24cc642ieood" version="2">When you utilize your War God's Blessing to succeed an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, the bonus to your Attack Rolls remains active for three turns and provides your ally with the effects of &lt;LSTag Type="Status" Tooltip="Tooltip_Radiant_Strikes"&gt;Radiant Strikes&lt;/LSTag&gt;.</content>

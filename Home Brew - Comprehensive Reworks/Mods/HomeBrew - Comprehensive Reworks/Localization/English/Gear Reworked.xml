@@ -220,6 +220,10 @@
 	<content contentuid="hbd8d961agb45bg4299gac7fg348e75c17c72" version="1">Death Drinker</content>
 	<content contentuid="hdea5e00eg55ffg49dbg9e22g7cdedd89af8e" version="1">Upon landing a killing blow, you gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt;.</content>
 
+<content contentuid="0000000000000000000000000000000000000" version="1">VAMPIRIC GLOVES</content>
+	<content contentuid="h7252fd5cg95aag434eg9e5bgc11bvampiric" version="1">Vampiric Siphoning</content>
+	<content contentuid="h6be48113g8fe0g4703gbaf1g5aa9vampiric" version="1">When dealing damage, you regain &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; equal to 10% of the damage you deal.</content>
+
 <content contentuid="0000000000000000000000000000000000000" version="1">ARGUMENT SOLVER</content>
 	<content contentuid="171ffb649bb4483991awof9wufeodfoiufjfd" version="2">Argument Solved</content>
 	<content contentuid="171ffb649bb448399we5r4w64e98s4df65f58" version="3">When dealing damage, potentially &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Mute&lt;/LSTag&gt; your target.</content>
@@ -617,7 +621,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">IRONVINE SHIELD</content>
 	<content contentuid="h7c010d6bg743bg4afdgaa7cg1eb49c929cc1" version="2">Ironvine</content>
-	<content contentuid="haec88c7bg018bg42afgbe89g4aee76389a35" version="6">Upon successfully retaliating against an enemy with a &lt;LSTag Type="Spell" Tooltip="Target_ShieldBlow_Riposte"&gt;Shield Bash&lt;/LSTag&gt;, they become &lt;LSTag Type="Status" Tooltip="ENSNARED_VINES"&gt;Ensnared&lt;/LSTag&gt; for one turn.</content>
+	<content contentuid="haec88c7bg018bg42afgbe89g4aee76389a35" version="6">Upon damaging an enemy with a &lt;LSTag Type="Spell" Tooltip="Target_ShieldBlow_Daze"&gt;Shield Bash&lt;/LSTag&gt;, they potentially become &lt;LSTag Type="Status" Tooltip="ENSNARED_VINES"&gt;Ensnared&lt;/LSTag&gt; for one turn.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">HELMET OF ARCANE ACUITY</content>
 	<content contentuid="he07ba98dgc5f3g479cg831fg55efe9aa49eb" version="3">Battle Acuity</content>
@@ -1016,7 +1020,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">EVERBURN BLADE</content>
 	<content contentuid="h6d7bd506g0399g40d8g9ccbgf2cbb41ff5d6" version="2">Everburn</content>
-	<content contentuid="h000d4a79ge387g43d7ga7eeg22c52d2ss6f9" version="4">Dealing damage with this weapon potentially causes your target to &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt; for one turn.</content>
+	<content contentuid="h000d4a79ge387g43d7ga7eeg22c52d2ss6f9" version="4">Dealing damage with this weapon potentially causes your target to suffer from a &lt;LSTag Type="Status" Tooltip="CURSEOFHELLFIRE"&gt;Curse of Hellfire&lt;/LSTag&gt; for one turn.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">GLOWING SHIELD</content>
 	<content contentuid="h6f526c99g8a05g4600gbc11g5b2b154981bc" version="2">Loving Protection</content>

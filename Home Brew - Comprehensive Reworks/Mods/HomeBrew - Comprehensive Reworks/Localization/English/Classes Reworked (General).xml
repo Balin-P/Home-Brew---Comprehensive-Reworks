@@ -475,7 +475,7 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f8900yai" version="3">Target three different creatures with your equipped ranged weapon.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00034" version="3">Stinky</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000ah" version="3">You gain status-based immunity to &lt;LSTag Type="Status" Tooltip="BIBBERBANG_FUMES"&gt;Noxious Fumes&lt;/LSTag&gt;. However, while moving you will create a [1] cloud of Noxious Gas, and you make all Charisma-based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000ah" version="3">You gain status-based immunity to &lt;LSTag Type="Status" Tooltip="BIBBERBANG_FUMES"&gt;Noxious Fumes&lt;/LSTag&gt;. However, while moving in combat you will create a [1] cloud of Noxious Gas, and you make all Charisma-based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00036" version="3">Sunlight Aversion</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000aj" version="3">While in an obscured area, you gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;. However, while unobscured, you roll with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; instead.</content>
@@ -536,7 +536,7 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0e" version="3">When dealing damage to an enemy or item, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety14" version="3">Iron Fists</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0n" version="3">Gain a +4 bonus to your physical Unarmed damage.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0n" version="3">Gain a +4 bonus to your physical Unarmed damage when damaging an enemy.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety18" version="3">Martial Balance</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0r" version="3">You add your global &lt;LSTag Tooltip="AbilityModifier"&gt;Strength Modifier&lt;/LSTag&gt; to melee damage dealt while dual-wielding.</content>
@@ -575,21 +575,21 @@
 	<content contentuid="ha90cb8b6g3aa7g4b94ga7e3gfa0823672af1" version="1">Stay fit. Perform physical stunts.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; doubles your &lt;LSTag Tooltip="CarryWeight"&gt;Carrying Capacity&lt;/LSTag&gt;.</content>
 	<content contentuid="h241bfb0fgffa2g4ccega96fgb26da384ecf8" version="1">Keep your balance. Land on your feet.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants a 50% reduction to damage taken from falling.</content>
 	<content contentuid="ha18e79b2g111ag441egb532g3ff79d4ba842" version="1">Wield nimble fingers. Steal stuff.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants a 50% reduction to damage taken from traps.</content>
-	<content contentuid="hb2487d1bga7a8g4a2dgb6a8g447842179f6d" version="1">Stay out of sight. Melt into the shadows.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants the ability to be walked and shot through.</content>
+	<content contentuid="hb2487d1bga7a8g4a2dgb6a8g447842179f6d" version="1">Stay out of sight. Melt into the shadows.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; causes nearby enemies to be able to be walked through.</content>
 	<content contentuid="hda75bbd8g5613g4f40g8b8dgb8d3f4f6855d" version="1">Recognise magic. Interact with enchanted items.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants the ability to passively &lt;LSTag Type="Spell" Tooltip="Shout_DetectThoughts"&gt;Detect the Thoughts&lt;/LSTag&gt; of other creatures.</content>
 	<content contentuid="ha31089eegb95fg44d8gb191g302341c0b57a" version="1">Remember the past - of the world and its people.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants a +1 bonus to all &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SkillCheck"&gt;Skill Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h2a7019efgfaf7g455fg8fd9g4b7c275fbbfa" version="1">Analyse clues. Solve mysteries.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants status immunity to being &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.</content>
-	<content contentuid="h94f2954eg8a71g49c9ga9bdg66b65a04a23c" version="1">Recognise plants. Hug trees.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; when resisting the effects of poison based conditions.</content>
+	<content contentuid="h94f2954eg8a71g49c9ga9bdg66b65a04a23c" version="1">Recognise plants. Hug trees.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants a +1 bonus to &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 	<content contentuid="h3adc18e5gc8c3g459dgbe82gb27aca09da54" version="1">Recognise deities. Understand holy rites.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants the ability to &lt;LSTag Type="Spell" Tooltip="Target_SpeakWithDead"&gt;Speak With the Dead&lt;/LSTag&gt;.</content>
-	<content contentuid="hfa186a8cg869cg4ecdgadf3gb7326ab444c4" version="1">Influence animals. Pet all of the dogs.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants the ability to &lt;LSTag Type="Spell" Tooltip="Shout_SpeakWithAnimals"&gt;Speak With Animals&lt;/LSTag&gt;.</content>
+	<content contentuid="hfa186a8cg869cg4ecdgadf3gb7326ab444c4" version="1">Influence animals. Be one with the beast.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants basic &lt;LSTag Type="Passive" Tooltip="Darkvision"&gt;Darkvision&lt;/LSTag&gt;.</content>
 	<content contentuid="h2eb576b5gc088g40e6gad9ag52751e1f9be7" version="1">Read people and situations. Detect lies.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; causes enemies to make their &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt; against you with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
 	<content contentuid="h0eb7380bg4477g4d04ga797ge577e24aa856" version="1">Recognise symptoms. Diagnose disease.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants a chance to brew two alchemical solutions instead of one when combining extracts.</content>
 	<content contentuid="h7896bd12g83b9g4058gbc2cg477ba13c728a" version="1">Observe your environment. Spot hidden details.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against falling &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; when walking on slippery surfaces.</content>
 	<content contentuid="had65a34cg53b1g4d6ag86d2g04258e4ed338" version="1">Stay alive in the wilds. Track prey.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants the ability to automatically succeed &lt;LSTag Tooltip="SavingThrow"&gt;Death Saving Throws&lt;/LSTag&gt; while &lt;LSTag Tooltip="Downed"&gt;Downed&lt;/LSTag&gt;.</content>
 	<content contentuid="h5febcaf6g13f4g4662g9c68ge24ec3c2d80a" version="1">Lie and cheat. Manipulate the truth.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants the ability to join combat late without losing your first turn.</content>
-	<content contentuid="h5e849499g23bfg4e5dga9f3gb6ce36f9abc2" version="1">Be a bully. Threaten and induce fear.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; when resisting the effects of fear based conditions.</content>
+	<content contentuid="h5e849499g23bfg4e5dga9f3gb6ce36f9abc2" version="1">Be a bully. Threaten and induce fear.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants a +1 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 	<content contentuid="ha6c0ffb0g73ccg4435g9d7ag8a24ee90a849" version="1">Entertain audiences. Command the stage.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants the ability to play instruments and a chance to survive when falling to your death within chasms.</content>
-	<content contentuid="h3d5ecb16g20f8g4febgba03g41ae11b9ddf2" version="1">Turn on the charm. Coax and cajole.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; when resisting the effects of charm based conditions.</content>
+	<content contentuid="h3d5ecb16g20f8g4febgba03g41ae11b9ddf2" version="1">Turn on the charm. Coax and cajole.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants cheaper prices when trading with vendors.</content>
 
 	<content contentuid="h7b5cbdbfg05acg4158ga1eeg382c44ff18b0" version="1">Summoned</content>
 	<content contentuid="hefa4f2d8g4c9cg4d67gbb72g918e773ed491" version="1">Affected creature is a summoned entity. All summoned creatures use your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; as their own, and add it to their...&lt;Br&gt;- &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;&lt;Br&gt;- &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;&lt;Br&gt;- Damage Rolls&lt;Br&gt;- &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;&lt;Br&gt;- &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;&lt;Br&gt;- Initiative&lt;Br&gt;- &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;</content>
@@ -677,6 +677,8 @@
 	<content contentuid="hc809783ag7ad4gd6e1ge509g97c25f6s9d58" version="1">Affected creature is unable to act, and will remain &lt;LSTag Type="Status" Tooltip="DOWNED"&gt;Downed&lt;/LSTag&gt; until the end of the current combat encounter.</content>
 	<content contentuid="h356abfd1g783eg3926g8f93g93731f566968" version="1">Left for Dead</content>
 	<content contentuid="hc809783ag7ad4gd6e1ge509g97c25f65d6f8" version="1">Affected creature will die if combat has not ended when this condition expires.</content>
+	<content contentuid="h9426bff1g05d0gd470g372dgbbf7cfcspell" version="1">Aether Suspension</content>
+	<content contentuid="h4e31b13dgba1dg3215g0412g31583b8spell" version="1">Gain or remove two toggleable passives which allow you to become a non-participant in combat.</content>
 
 	<content contentuid="hb6964c304cb94ecfbf9e855a44188a1ede99" version="1">Subclass Randomizer</content>
 
@@ -881,8 +883,8 @@
 	<content contentuid="h3e6c622egb059g47e7gb925g7e82eae1bfda" version="2">Lunar Instinct</content>
 	<content contentuid="h36aba2dbg6f37g4343ga32egcab0fd7edcb3" version="1">While assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, you gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;.</content>
 
-	<content contentuid="h3e6c622egb059g47e7gb925g7e82eae12525" version="2">Beastial Instinct</content>
-	<content contentuid="h36aba2dbg6f37g4343ga32egcab0fd766684" version="1">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;.</content>
+	<content contentuid="h3e6c622egb059g47e7gb925g7e82eae12525" version="2">Bestial Instinct</content>
+	<content contentuid="h36aba2dbg6f37g4343ga32egcab0fd766684" version="1">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;.&lt;Br&gt;&lt;Br&gt;This passive acts as a replacement of &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h631e68c7g95f2g4437ga8cfg13e7449d375f" version="1">Ends the day and restores all &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; and resources.
 

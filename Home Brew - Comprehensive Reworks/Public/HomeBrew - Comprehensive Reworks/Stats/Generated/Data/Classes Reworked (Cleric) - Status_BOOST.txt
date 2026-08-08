@@ -593,7 +593,7 @@ data "Description" "6593b492919e49e9b6dffa5d2a42cb6e000zt;2"
 data "Icon" "PassiveFeature_PactOfTheBlade"
 data "StackId" "VENERATION"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-data "OnApplyFunctors" "IF(not HasPassive('ClassProgression_Death', context.Source) and not HasPassive('ClassProgression_Tempest', context.Source)):ApplyEquipmentStatus(MainHand,VENERATION_EQUIPMENT,100,3);IF(HasPassive('ClassProgression_Death', context.Source)):ApplyEquipmentStatus(MainHand,VENERATION_EQUIPMENT_DEATH,100,3);IF(HasPassive('ClassProgression_Tempest', context.Source)):ApplyEquipmentStatus(MainHand,VENERATION_EQUIPMENT_TEMPEST,100,3);IF(HasPassive('ClassProgression_Illusory', context.Source)):ApplyEquipmentStatus(MainHand,VENERATION_EQUIPMENT_ILLUSORY,100,3)"
+data "OnApplyFunctors" "IF(not HasPassive('ClassProgression_Death', context.Source) and not HasPassive('ClassProgression_Tempest', context.Source) and not HasPassive('ClassProgression_Illusory', context.Source)):ApplyEquipmentStatus(MainHand,VENERATION_EQUIPMENT,100,3);IF(HasPassive('ClassProgression_Death', context.Source)):ApplyEquipmentStatus(MainHand,VENERATION_EQUIPMENT_DEATH,100,3);IF(HasPassive('ClassProgression_Tempest', context.Source)):ApplyEquipmentStatus(MainHand,VENERATION_EQUIPMENT_TEMPEST,100,3);IF(HasPassive('ClassProgression_Illusory', context.Source)):ApplyEquipmentStatus(MainHand,VENERATION_EQUIPMENT_ILLUSORY,100,3)"
 
 new entry "VENERATION_EQUIPMENT"
 type "StatusData"

@@ -3,6 +3,8 @@
 new entry "Zone_WintersBreath_Elemental_Water"
 type "SpellData"
 data "SpellType" "Zone"
+data "Level" "0"
+data "SpellSchool" "Evocation"
 data "SurfaceType" "WaterFrozen"
 data "SurfaceLifetime" "2"
 data "SurfaceGrowStep" "5"

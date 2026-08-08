@@ -168,6 +168,7 @@ data "CastEffect" "c32a08dc-ebfa-4d8c-bd4b-e21cd1f5f256"
 data "TargetEffect" "4075547d-197f-4cb3-94ff-b40a7fd113d4"
 data "SpellStyleGroup" "Class"
 data "Requirements" "Combat"
+data "HitAnimationType" "None"
 
 new entry "Target_Infusion_Visual"
 type "SpellData"
@@ -191,6 +192,7 @@ data "PrepareEffect" "f8e1f2b3-7539-49f4-b9e8-4f76c0f3bcf5"
 data "CastEffect" "c32a08dc-ebfa-4d8c-bd4b-e21cd1f5f256"
 data "TargetEffect" "4075547d-197f-4cb3-94ff-b40a7fd113d4"
 data "SpellStyleGroup" "Class"
+data "HitAnimationType" "None"
 
 new entry "Target_AdaptiveIntervention"
 type "SpellData"
@@ -216,6 +218,7 @@ data "CastEffect" "c32a08dc-ebfa-4d8c-bd4b-e21cd1f5f256"
 data "TargetEffect" "4075547d-197f-4cb3-94ff-b40a7fd113d4"
 data "RequirementConditions" "not HasStatus('BUFF_BLOCKER')"
 data "AIFlags" "CanNotUse"
+data "HitAnimationType" "None"
 
 <!--STRIKER-->
 
