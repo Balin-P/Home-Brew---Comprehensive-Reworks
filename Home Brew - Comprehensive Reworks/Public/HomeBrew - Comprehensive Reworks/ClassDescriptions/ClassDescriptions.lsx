@@ -903,6 +903,21 @@
 				</node>
         <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+                    <attribute id="Description" type="TranslatedString" handle="h130df7e8eb2d41ce90c97835520d4924917a" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="hadb7e84644854b8b9a46f5e4586197e53c25" version="1" />
+                    <attribute id="LearningStrategy" type="uint8" value="1" />
+                    <attribute id="MustPrepareSpells" type="bool" value="false" />
+                    <attribute id="Name" type="FixedString" value="RunicMystflame" />
+                    <attribute id="ParentGuid" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c" />
+                    <attribute id="PrimaryAbility" type="uint8" value="6" />
+                    <attribute id="ProgressionTableUUID" type="guid" value="516f676f-2a01-46b7-a715-a04bbdd79b23" />
+                    <attribute id="SoundClassType" type="FixedString" value="Paladin" />
+                    <attribute id="SpellCastingAbility" type="uint8" value="6" /> 
+                    <attribute id="SpellList" type="guid" value="3bcdea33-af00-4a43-9f77-279a49982924" />
+                    <attribute id="UUID" type="guid" value="48680c65-9286-4f0b-be5b-6a3c8e39d1e1" />
+					</node>
+        <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="Description" type="TranslatedString" handle="05ba80fa2f9c43a3b2da424d8e82080bzzzzz" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="05ba80fa2f9c43a3b2da424d8e82080b00000" version="1" />
                     <attribute id="LearningStrategy" type="uint8" value="1" />

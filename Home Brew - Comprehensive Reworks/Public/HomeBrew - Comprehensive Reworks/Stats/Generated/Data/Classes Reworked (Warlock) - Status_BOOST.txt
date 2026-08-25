@@ -274,6 +274,25 @@ data "RemoveEvents" "OnCombatEnded"
 
 <!--PACT OF THE CHAIN-->
 
+new entry "CHAIN_SUMMON_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "HitAnimationType" "None"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+data "OnApplyFunctors" "ApplyStatus(OWNER,CHAIN_SUMMON_BLOCKER,100,1);ApplyStatus(OWNER,SMART_COOLDOWN_FIX,100,0)"
+data "OnRemoveFunctors" "SetStatusDuration(OWNER,CHAIN_SUMMON_BLOCKER,-1,Add);ApplyStatus(OWNER,SMART_COOLDOWN_FIX,100,0)"
+
+new entry "CHAIN_SUMMON_BLOCKER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hd5d7ec65g330cg4e29g9de6g8bdd409block;1"
+data "Description" "h1dafa968g4a9eg4b70g824cg440060eblock;2"
+data "Icon" "PactoftheTome_Container"
+data "StatusPropertyFlags" "FreezeDuration"
+data "StackId" "CHAIN_SUMMON_BLOCKER"
+data "StackType" "Additive"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
+
 new entry "CHAINEDCOMPANIONSHIP_LESSER"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -708,13 +727,3 @@ data "StatusType" "EFFECT"
 using "_PASSIVES"
 data "StatusEffect" "a1458242-11d1-417d-b342-68eb552886e6"
 data "ApplyEffect" "54d3e1a2-7513-4f46-bb46-53dec4e83b8d"
-
-<!--NPC SPECIFIC-->
-
-new entry "CHAIN_SUMMON_TECHNICAL"
-type "StatusData"
-data "StatusType" "BOOST"
-data "HitAnimationType" "None"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
-data "OnApplyFunctors" "ApplyStatus(OWNER,CHAIN_SUMMON_BLOCKER,100,-1)"
-data "OnRemoveFunctors" "RemoveStatus(OWNER,CHAIN_SUMMON_BLOCKER)"

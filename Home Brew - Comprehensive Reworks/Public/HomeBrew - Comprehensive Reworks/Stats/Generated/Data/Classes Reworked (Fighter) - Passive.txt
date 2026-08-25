@@ -172,6 +172,19 @@ data "Boosts" "Resistance(Bludgeoning, Resistant);Resistance(Slashing, Resistant
 data "ToggleOnFunctors" "ApplyStatus(CHALLENGER_TOGGLE,100,-1)"
 data "ToggleOffFunctors" "RemoveStatus(CHALLENGER_TOGGLE)"
 
+new entry "Challenger_Yokebreaker"
+type "PassiveData"
+data "DisplayName" "439cb1c55ce44da8b8f3ccd2e23209a69a454;1"
+data "Description" "439cb1c55ce44da8b8f3ccd2e23204a99a787;2"
+data "Icon" "Passive_CommandingPresence"
+data "Properties" "Highlighted;IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "not HasPassive('Challenger', context.Source) and Enemy() and not HasStatus('CHALLENGERS_CALL',context.Target) and not HasStatus('CHALLENGERS_CALL_FAILURE',context.Target)"
+data "StatsFunctors" "IF(not SavingThrow(Ability.Wisdom,CalculateSpellDC(context.PreferredCastingAbility, context.Source))):ApplyStatus(CHALLENGERS_CALL,100,3)"
+data "Boosts" "Resistance(Bludgeoning, Resistant);Resistance(Slashing, Resistant);Resistance(Piercing, Resistant);Advantage(AttackTarget);Tag(AI_PREFERRED_TARGET)"
+data "ToggleOnFunctors" "ApplyStatus(CHALLENGER_TOGGLE,100,-1)"
+data "ToggleOffFunctors" "RemoveStatus(CHALLENGER_TOGGLE)"
+
 new entry "ChampionsRepertoire"
 type "PassiveData"
 data "DisplayName" "439cb1c55ce44da8b8f3ccd2e23209a6a9965;1"
@@ -279,6 +292,13 @@ data "BoostContext" "OnCreate;OnLongRest"
 data "BoostConditions" "not ClassLevelHigherOrEqualThan(1,'Warlock')"
 data "Boosts" "ActionResource(WarlockSpellSlot,2,1)"
 
+new entry "Warlock_SpellSlots_Yokebreaker"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "BoostContext" "OnCreate;OnLongRest"
+data "BoostConditions" "not ClassLevelHigherOrEqualThan(1,'Warlock')"
+data "Boosts" "IF(not HasPassive('Warlock_SpellSlots', context.Source)):ActionResource(WarlockSpellSlot,2,1)"
+
 new entry "Warlock_SpellSlots_2"
 type "PassiveData"
 data "Properties" "IsHidden"
@@ -300,6 +320,14 @@ data "Description" "439cb1c55ce44da8b8f3ccd2e23204a9288rd;2"
 data "Icon" "PassiveFeature_WarMagic"
 data "Properties" "Highlighted;ForceShowInCC"
 data "Boosts" "IF(MeleeCheck()):DamageBonus(CharismaModifier)"
+
+new entry "Call_of_the_Old_One_Yokebreaker"
+type "PassiveData"
+data "DisplayName" "439cb1c55ce44da8b8f3ccd2e23209a69asd9;1"
+data "Description" "439cb1c55ce44da8b8f3ccd2e23204a9288rd;2"
+data "Icon" "PassiveFeature_WarMagic"
+data "Properties" "Highlighted;ForceShowInCC"
+data "Boosts" "IF(not HasPassive('Call_of_the_Old_One', context.Source) and MeleeCheck()):DamageBonus(CharismaModifier)"
 
 new entry "From_Beyond"
 type "PassiveData"
@@ -647,7 +675,7 @@ data "DisplayName" "58ff3f1bd299431ab58216d6d566548400006;1"
 data "Description" "58ff3f1bd299431ab58216d6d56654840000f;1"
 data "Icon" "PassiveFeature_MartialAdept"
 data "Properties" "Highlighted;IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar"
-data "Boosts" "UnlockSpellVariant(SpellId('Target_PostureBreaker_Frontier'),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));UnlockSpellVariant(SpellId('Zone_Cleave_Frontier'),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));UnlockSpellVariant(SpellId('Target_ConcussiveSmash_Frontier'),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));UnlockSpellVariant(SpellId('Target_CripplingStrike_Frontier'),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));UnlockSpellVariant(SpellId('Target_DisarmingStrike_Frontier'),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));UnlockSpellVariant(SpellId('Target_HeartStopper_Frontier'),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));UnlockSpellVariant(SpellId('Target_Slash_New_Frontier'),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));UnlockSpellVariant(SpellId('Target_PiercingThrust_Frontier'),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));UnlockSpellVariant(SpellId('Rush_SpringAttack_Frontier'),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));UnlockSpellVariant(SpellId('Target_HinderingSmash_Frontier'),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));UnlockSpellVariant(SpellId('Projectile_HamstringShot_Frontier'),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));UnlockSpellVariant(SpellId('Projectile_MobileShooting_Frontier'),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));UnlockSpellVariant(SpellId('Projectile_PiercingShot_Frontier'),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint));
+data "Boosts" "UnlockSpellVariant(FrontierMastery(),ModifyUseCosts(Replace,BonusActionPoint,1,0,ActionPoint))"
 
 <!--PALISADE-->
 

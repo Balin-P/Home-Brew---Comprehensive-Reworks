@@ -48,7 +48,7 @@ data "Icon" "statIcons_CrawlingGnawInfection"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCreate;OnCombatStarted;OnTurn"
 data "Conditions" "not IsAetherSuspended(context.Source)"
-data "StatsFunctors" "IF(not HasStatus('ZOMBIE_DECAY_ACTUAL', context.Source))ApplyStatus(SELF,ZOMBIE_DECAY_ACTUAL,100,-1)"
+data "StatsFunctors" "IF(not HasStatus('ZOMBIE_DECAY_ACTUAL', context.Source)):ApplyStatus(SELF,ZOMBIE_DECAY_ACTUAL,100,-1)"
 
 <!--DRUNK-->
 

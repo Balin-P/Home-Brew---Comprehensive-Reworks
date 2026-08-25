@@ -487,7 +487,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">GEMINI GLOVES</content>
 	<content contentuid="h6d630a54ga98bg416fgacf7g3cce6e3dd2f5" version="2">Seeing Double</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6cf99e8fff" version="4">Your single target ranged &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; may target an additional creature.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6cf99e8fff" version="4">Your single target ranged &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; may target an additional, separate creature.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">RING OF ARCANE SYNERGY</content>
 	<content contentuid="h185bc51dg0ee2g44d4g8eecgaa34a6f98ba2" version="3">Synergetic Cantrips</content>
@@ -2212,7 +2212,7 @@
 	<content contentuid="hb38b0f7bgee0dg410aga666g43c07ebc4955" version="1">Tome of Ethereal Currents</content>
 	<content contentuid="hf836a685g21eag4cb9ga9fegbb68f8c26b10" version="1">Arcane slivers of the weave emanate from the pages within.</content>
 	<content contentuid="h7e18c6e6g7fb5g433cg96ccg01f7dbe46f29" version="1">Eldritch Cultivation</content>
-	<content contentuid="h99447434ga47dg41a1g8c22ge46eb37f8600" version="1">&lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; may fire an additional projectile.</content>
+	<content contentuid="h99447434ga47dg41a1g8c22ge46eb37f8600" version="1">When casting &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, you fire an additional beam.</content>
 
 	<content contentuid="h1dbb03f8g4e1fg4124g821ag263d5fbee261" version="1">Dragonscale Leather Frog</content>
 	<content contentuid="hecbf2ba5g2932g429dgbe53gf64882290a11" version="1">When making an unarmed attack, deal additional bludgeoning damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
@@ -2231,7 +2231,7 @@
 	<content contentuid="h55a5b521g64d7g4043g9517g4edfcc4355fd" version="1">Cerberus Whistle</content>
 	<content contentuid="ha772e4e1g77c9g4bfeg84ebgce7bf99c847a" version="1">This whistle releases a terrible tone that drives creatures into a frenzy.</content>
 	<content contentuid="ha4e22634g9128g4dddga41cge55c88a6b5d0" version="1">Droning Buzz</content>
-	<content contentuid="h4e389111g119bg46aeg9333gebe4b8e6ac4f" version="1">The wielder's summoned creatures within [1] receive &lt;LSTag Type="Status" Tooltip="JWL_Status_WhistleCerberusBuff"&gt;Frenzied&lt;/LSTag&gt;, granting them an &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt;.</content>
+	<content contentuid="h4e389111g119bg46aeg9333gebe4b8e6ac4f" version="1">The wielder's summoned creatures within [1] receive &lt;LSTag Type="Status" Tooltip="JWL_Status_WhistleCerberusBuff"&gt;Frenzied&lt;/LSTag&gt;, granting them &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Actions&lt;/LSTag&gt;.</content>
 
 	<content contentuid="he2146d72g3d2eg4389g8222g3e236e5d39a1" version="1">Gibbering Bell</content>
 	<content contentuid="h514b9a04g2741g4db6gb6d8gb49d83eb57ca" version="1">A sentient bell that can telepathically communicate with nearby undead.</content>
@@ -2290,7 +2290,7 @@
 	<content contentuid="h6f918201g54f0g4fc8g9e9fg8cf53338b703" version="1">Dragon Bloodwell Vial: Depleted</content>
 	<content contentuid="h3ad30dfeg74a5g43e1gaed3g0a2bab8e257a" version="1">The &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; granted from the bloodwell vial are depleted. A &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt; will restore them.</content>
 	<content contentuid="h56548455g57b5g4339ga161g7005fc45e869" version="1">Frenzied</content>
-	<content contentuid="hbd51fc39g5a09g4b1dgbfdcg85482ebf3e24" version="1">Affected creature has gained an &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt;.</content>
+	<content contentuid="hbd51fc39g5a09g4b1dgbfdcg85482ebf3e24" version="1">Affected creature has gained &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Actions&lt;/LSTag&gt;.</content>
 	<content contentuid="h5861773dg99b0g4cd9gb3e6g4b9739fbe6a5" version="1">Grave Touch</content>
 	<content contentuid="haca3a816gc467g4376g829bgf7b568bbd766" version="1">Affected creature's attacks deal an additional [1]. This effect scales with their summoners &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
 	<content contentuid="h6d3375acgb5c5g447ag98c4g0c67e3f905f1" version="1">Affected creature does an additional [1] with attacks.</content>

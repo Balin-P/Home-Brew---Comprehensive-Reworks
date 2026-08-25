@@ -257,7 +257,7 @@
                 <node id="TooltipUpcastDescriptions">
                     <attribute id="Name" type="FixedString" value="Cloudkill"/>
                     <attribute id="Text" type="TranslatedString" handle="h197f62bbgd1ddg4436g90df5s5d4f6d54ef8" version="1"/>
-                    <attribute id="UUID" type="guid" value="9be63378-034b-4532-a282-91fa3a5sf4df"/>
+                    <attribute id="UUID" type="guid" value="69e576bd-9cec-41a5-9efe-52f6c71a6b76"/>
                 </node>
                 <node id="TooltipUpcastDescriptions">
                     <attribute id="Name" type="FixedString" value="Oath Channeling"/>
@@ -268,6 +268,11 @@
                     <attribute id="Name" type="FixedString" value="Mantra of Restoration"/>
                     <attribute id="Text" type="TranslatedString" handle="2ef5c74c3ef74b958689b8cf3cefcbee00000" version="1"/>
                     <attribute id="UUID" type="guid" value="2ef5c74c-3ef7-4b95-8689-b8cf3cefcbee"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Additional Damage, Silence and area radius"/>
+                    <attribute id="Text" type="TranslatedString" handle="h919809878f174212aa565b4b869e224c7g03" version="3"/>
+                    <attribute id="UUID" type="guid" value="e610b8cb-8fa5-475e-88af-117b59ff49df"/>
                 </node>
             </children>
         </node>

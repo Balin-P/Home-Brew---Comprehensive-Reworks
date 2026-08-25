@@ -327,7 +327,7 @@ object category "I_MAG_Illithid_CharmPerson_Ring",1,0,0,0,0,0,0,0
 new treasuretable "DEN_Entrance_Trade"
 CanMerge 1
 new subtable "1,1"
-object category "T_ST_JWL_Trade_CommonTrinkets",1,0,0,0,0,0,0,0
+object category "I_JWL_DiscordantInstruments_FaerunMap",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_JWL_DiscordantInstruments_SymbolSylvanus",1,0,0,0,0,0,0,0
 new subtable "1,1"
@@ -344,7 +344,7 @@ object category "I_MAG_WPN_ApprenticeWand",1,0,0,0,0,0,0,0
 new treasuretable "DEN_Thieflings_Pickpocket_Trade"
 CanMerge 1
 new subtable "1,1"
-object category "T_ST_JWL_Trade_CommonTrinkets",1,0,0,0,0,0,0,0
+object category "I_JWL_DiscordantInstruments_Crowbar",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_JWL_DiscordantInstruments_EndlessMead",1,0,0,0,0,0,0,0
 new subtable "1,1"
@@ -386,7 +386,7 @@ object category "I_MAG_WPN_ArcWand",1,0,0,0,0,0,0,0
 new treasuretable "DEN_Weaponsmith_Trade"
 CanMerge 1
 new subtable "1,1"
-object category "T_ST_JWL_Trade_CommonTrinkets",1,0,0,0,0,0,0,0
+object category "I_JWL_DiscordantInstruments_ComfyBackpack",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_JWL_DiscordantInstruments_WeaponStrap",1,0,0,0,0,0,0,0
 new subtable "1,1"

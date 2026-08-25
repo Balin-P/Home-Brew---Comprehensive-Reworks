@@ -3,7 +3,7 @@
 new entry "Wizard_Arcblade_Weapon_Add_NPC"
 type "PassiveData"
 data "Properties" "IsHidden;IsToggled;ToggledDefaultOn"
-data "ToggleOnFunctors" "ApplyStatus(WIZARD_ARCBLADE_WEAPON_DICE_ROLL,100,1d100)"
+data "ToggleOnFunctors" "IF(not HasMeleeWeaponEquipped()):ApplyStatus(WIZARD_ARCBLADE_WEAPON_DICE_ROLL,100,1d100)"
 
 new entry "WIZARD_ARCBLADE_WEAPON_DICE_ROLL"
 type "StatusData"

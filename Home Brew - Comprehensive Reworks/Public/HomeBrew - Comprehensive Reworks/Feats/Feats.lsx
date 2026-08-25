@@ -291,56 +291,56 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="ArtificerGrenadier"/>
-                    <attribute id="PassivesAdded" type="LSString" value="TheAnarchistsCookbook;ShockwaveTheory"/>
+                    <attribute id="PassivesAdded" type="LSString" value="TheAnarchistsCookbook_Yokebreaker;ShockwaveTheory"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Artificer&apos;)"/>
                     <attribute id="UUID" type="guid" value="8dfca7e9-16a1-419c-bb92-faae1eed1bff"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="ArtificerInfusedArcsmith"/>
-                    <attribute id="PassivesAdded" type="LSString" value="InfusionMatrix;AdaptiveIntervention"/>
+                    <attribute id="PassivesAdded" type="LSString" value="InfusionMatrix_Yokebreaker;AdaptiveIntervention"/>
 					<attribute id="Selectors" type="LSString" value="SelectPassives(3069a836-a0fd-467d-afaf-555ab1192d24,2,OptimizationMatrix);SelectPassives(842b6948-adb0-4ce1-a55e-436eacd8693c,2,SabotageMatrix)" />
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Artificer&apos;)"/>
                     <attribute id="UUID" type="guid" value="35e99c06-63f9-429c-8064-25bc2e22e730"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="ArtificerStriker"/>
-                    <attribute id="PassivesAdded" type="LSString" value="FirstStrike;ControlledTempo"/>
+                    <attribute id="PassivesAdded" type="LSString" value="FirstStrike_Yokebreaker;ControlledTempo"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Artificer&apos;)"/>
                     <attribute id="UUID" type="guid" value="c531fa20-17f2-4943-89e0-adf4f7a120b4"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="BarbarianBeastheart"/>
-                    <attribute id="PassivesAdded" type="LSString" value="TotemSpirit_Rage;CalloftheWild;BeastialDominance"/>
+                    <attribute id="PassivesAdded" type="LSString" value="TotemSpirit_Rage_Yokebreaker;CalloftheWild;BeastialDominance"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Barbarian&apos;)"/>
                     <attribute id="UUID" type="guid" value="4ffa557b-2ad4-4a8c-abe6-1d1965c07dd3"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="BarbarianBerserker"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Frenzy_Rage;FrenziedStrike"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Frenzy_Rage_Yokebreaker;FrenziedStrike"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Barbarian&apos;)"/>
                     <attribute id="UUID" type="guid" value="75ce4c3a-884b-4c57-bec4-3e1cd0308523"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="BarbarianFrostbreaker"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Bifrost_Rage;FrigidOmen"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Bifrost_Rage_Yokebreaker;FrigidOmen_Yokebreaker"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Barbarian&apos;)"/>
                     <attribute id="UUID" type="guid" value="f9fa2010-40ff-4d31-91cc-d72b150967fb"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="BarbarianGiantsBlood"/>
-                    <attribute id="PassivesAdded" type="LSString" value="RageGiantUnlock;Cloudreach"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RageGiantUnlock_Yokebreaker;Cloudreach"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Barbarian&apos;)"/>
                     <attribute id="UUID" type="guid" value="de609f5b-bd4a-4155-b113-3e55093fc533"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="BarbarianRosemourn"/>
-                    <attribute id="PassivesAdded" type="LSString" value="BriarBlood;BloodvineGrasp"/>
+                    <attribute id="PassivesAdded" type="LSString" value="BriarBlood_Yokebreaker;BloodvineGrasp"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Barbarian&apos;)"/>
                     <attribute id="UUID" type="guid" value="6919302f-f2b9-44f5-8562-ec4315527292"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="BarbarianWildSoul"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Feat_SpellSlots;WildMagicRage;ChaoticRoar;Unstable_Backlash"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Feat_SpellSlots;WildMagicRage_Yokebreaker;ChaoticRoar_Yokebreaker;Unstable_Backlash_Yokebreaker"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(2bb484e2-1d3a-4177-84b4-2894f25ab2b1,2,0,Cantrips,,,AlwaysPrepared);SelectSpells(a3c79518-7d3b-416c-8c78-470fb1a23c28,2,0,Spells,Charisma,e9127b70-22b7-42a1-b172-d02f828f260a,AlwaysPrepared);SelectSpells(4f8a545f-2a42-490b-a008-7276d5186b0a,1,0,Spells,Spells,Charisma,e9127b70-22b7-42a1-b172-d02f828f260a,AlwaysPrepared)" />
 					<attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Barbarian&apos;)"/>
                     <attribute id="UUID" type="guid" value="ae844b62-4b26-413d-8fce-20ca687f789a"/>
@@ -360,19 +360,19 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="BardCollegeofMoriendi"/>
-                    <attribute id="PassivesAdded" type="LSString" value="RequiescatinPace;Moriendi_PerformanceRemover;FuneralMarch"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RequiescatinPace_Yokebreaker;Moriendi_PerformanceRemover;FuneralMarch_Yokebreaker"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Bard&apos;)"/>
                     <attribute id="UUID" type="guid" value="b296fca6-a2ad-4687-ac54-a359a65aed86"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="BardCollegeofNostalgia"/>
-                    <attribute id="PassivesAdded" type="LSString" value="TheSuffererandtheWitness;Lateralus"/>
+                    <attribute id="PassivesAdded" type="LSString" value="TheSuffererandtheWitness_Yokebreaker;Lateralus_Yokebreaker"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Bard&apos;)"/>
                     <attribute id="UUID" type="guid" value="3ce91e99-57d9-4c44-b80f-80e4c4952866"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="BardCollegeOfSteel"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Steelforged_Actions;Melodic_Steel"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Steelforged_Actions;Melodic_Steel_Yokebreaker"/>
 					<attribute id="Selectors" type="LSString" value="SelectPassives(9355b0df-9229-4a33-8d4b-30d1918388cf,1,Steelforged)" />
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Bard&apos;)"/>
                     <attribute id="UUID" type="guid" value="e1b012c1-051a-4202-84cd-b037fc2ac6f8"/>
@@ -386,14 +386,14 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="ClericDeathDomain"/>
-                    <attribute id="PassivesAdded" type="LSString" value="CorpseParty;CorpseParty_Technical;PlagueTouch"/>
+                    <attribute id="PassivesAdded" type="LSString" value="CorpseParty;CorpseParty_Technical_Yokebreaker;PlagueTouch"/>
 					<attribute id="Selectors" type="LSString" value="AddSpells(239cc7cc-f642-4ddc-b091-498d81612c55)" />
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Cleric&apos;)"/>
                     <attribute id="UUID" type="guid" value="2544f577-59ed-47ae-868c-22ab0eab59a1"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="ClericForgeDomain"/>
-                    <attribute id="PassivesAdded" type="LSString" value="DivineEmbers;StrikingIron"/>
+                    <attribute id="PassivesAdded" type="LSString" value="DivineEmbers_Yokebreaker;StrikingIron"/>
 					<attribute id="Selectors" type="LSString" value="AddSpells(0da96163-c4aa-40f9-baa8-4a23d55f8e90)" />
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Cleric&apos;)"/>
                     <attribute id="UUID" type="guid" value="038aa39c-d4ca-41f0-8b25-8ca7b4356bc4"/>
@@ -407,7 +407,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="ClericLifeDomain"/>
-                    <attribute id="PassivesAdded" type="LSString" value="VirtuousTouch;PreserveLife"/>
+                    <attribute id="PassivesAdded" type="LSString" value="VirtuousTouch_Yokebreaker;PreserveLife"/>
 					<attribute id="Selectors" type="LSString" value="AddSpells(239cc7cc-f642-4ddc-b091-498d81612c52)" />
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Cleric&apos;)"/>
                     <attribute id="UUID" type="guid" value="abcb215a-f411-4b10-a804-f511467b956e"/>
@@ -421,7 +421,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="ClericWarDomain"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Radiant_Strikes;WarGodsBlessing"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Radiant_Strikes_Yokebreaker;WarGodsBlessing"/>
 					<attribute id="Selectors" type="LSString" value="AddSpells(239cc7cc-f642-4ddc-b091-498d81612c54)" />
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Cleric&apos;)"/>
                     <attribute id="UUID" type="guid" value="ca55540b-9bf0-461d-936f-f4660b505775"/>
@@ -447,19 +447,19 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="DruidCircleOfTheShadows"/>
-                    <attribute id="PassivesAdded" type="LSString" value="DisplacedNature;Veilstalker"/>
+                    <attribute id="PassivesAdded" type="LSString" value="DisplacedNature;Veilstalker_Yokebreaker"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Druids&apos;)"/>
                     <attribute id="UUID" type="guid" value="9c6edc2f-24ab-42a6-acdf-0879efc5f41f"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="DruidCircleOfTheSpores"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Feat_SporeDruid;Spore_Unlock;AnimatingSpores"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Spore_Unlock_Yokebreaker;AnimatingSpores"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Druids&apos;)"/>
                     <attribute id="UUID" type="guid" value="15f43f0e-f065-4307-b50c-247005a293da"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="DruidCircleOfTheStars"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Feat_StarDruid;StarryForm;Singularity"/>
+                    <attribute id="PassivesAdded" type="LSString" value="StarryForm_Yokebreaker;Singularity_Turn_Yokebreaker;Singularity_Attacks_Yokebreaker"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Druids&apos;)"/>
                     <attribute id="UUID" type="guid" value="e139d9a4-1bd9-4dd4-8db8-7cedf707ee13"/>
                 </node>
@@ -472,7 +472,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="FighterChampion"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Challenger;ChampionsRepertoire"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Challenger_Yokebreaker;ChampionsRepertoire"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Fighter&apos;)"/>
                     <attribute id="UUID" type="guid" value="415dc709-9944-4f49-ac97-d63081a338ac"/>
                 </node>
@@ -484,7 +484,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="FighterEldritchKnight"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Call_of_the_Old_One;Warlock_SpellSlots;From_Beyond"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Call_of_the_Old_One_Yokebreaker;Warlock_SpellSlots_Yokebreaker;From_Beyond"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(2db3752d-c3da-435a-aaea-a3b2ceafeb44,2,0,Cantrips,,,AlwaysPrepared);SelectSpells(f33b1b19-43c6-4f61-a001-cd55e516791c,2,0,Spells,Charisma,e9127b70-22b7-42a1-b172-d02f828f260a,AlwaysPrepared);SelectSpells(4f8a545f-2a42-490b-a008-7276d5186b0a,1,0,Spells,Charisma,e9127b70-22b7-42a1-b172-d02f828f260a,AlwaysPrepared)" />
 					<attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Fighter&apos;)"/>
                     <attribute id="UUID" type="guid" value="9715353b-13b3-4cbc-ae1d-db99b7f6cc67"/>
@@ -511,13 +511,13 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="MonkWayOfTheDrunkenFist"/>
-                    <attribute id="PassivesAdded" type="LSString" value="BingeDrinker;IntoxicatingBlows;LeafHurricane"/>
+                    <attribute id="PassivesAdded" type="LSString" value="BingeDrinker_Yokebreaker;IntoxicatingBlows_Yokebreaker;LeafHurricane_Yokebreaker"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Monk&apos;)"/>
 					<attribute id="UUID" type="guid" value="c4b9ac83-eccc-4118-b851-302ceea16584"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="MonkWayOfTheGentleFist"/>
-                    <attribute id="PassivesAdded" type="LSString" value="MendingBlows;MendingBlows_Turn;MendingBlows_Damage;MercifulCounter"/>
+                    <attribute id="PassivesAdded" type="LSString" value="MendingBlows;FlurryOfBlowsUnlock;MendingBlows_Turn_Yokebreaker;MendingBlows_Damage_Yokebreaker;MercifulCounter"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Monk&apos;)"/>
                     <attribute id="UUID" type="guid" value="1124cc40-5703-4516-8a5a-9ba3bdc52d45"/>
                 </node>
@@ -529,50 +529,56 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="MonkWayOfTheShadowArts"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Shadow_Unlock;FlurryOfBlowsUnlock;Shadowstrike_Technical;Shadowstrike_Technical_2;Void_Stalker;Void_Stalker_Vision" />
+                    <attribute id="PassivesAdded" type="LSString" value="Shadow_Unlock;FlurryOfBlowsUnlock;Shadowstrike_Technical_Yokebreaker;Shadowstrike_Technical_2_Yokebreaker;Void_Stalker_Yokebreaker;Void_Stalker_Turn_Yokebreaker;Void_Stalker_Vision" />
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Monk&apos;)"/>
 					<attribute id="UUID" type="guid" value="924ca4a7-755d-42c3-9c5f-02fd64ea46c0"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="MonkWayOfTheTemperedSteel"/>
-                    <attribute id="PassivesAdded" type="LSString" value="FlurryOfBlowsUnlock;TemperedDiscipline;FocusedSerenity" />
+                    <attribute id="PassivesAdded" type="LSString" value="FlurryOfBlowsUnlock;TemperedDiscipline;FocusedSerenity_Yokebreaker" />
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Monk&apos;)"/>
 					<attribute id="UUID" type="guid" value="8f0ee646-0114-4f46-8ff3-d2b5bcaf1ca7"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="PaladinOathOfTheAncients"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Ancient_Judgement;Ancient_Recall;Ancient_Advantage;Ancient_Upgrade1" />
+                    <attribute id="PassivesAdded" type="LSString" value="Ancient_Judgement;Ancient_Recall_Yokebreaker;Ancient_Advantage;Ancient_Upgrade1" />
 					<attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Paladin&apos;)"/>
 					<attribute id="UUID" type="guid" value="4c9def45-b180-4bf3-81e8-ec924d9a629a"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="PaladinOathOfTheCrown"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Crown_Judgement;Crown_Recall;Crown_Advantage;To_the_Sun"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Crown_Judgement;Crown_Recall_Yokebreaker;Crown_Advantage;To_the_Sun"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Paladin&apos;)"/>
 					<attribute id="UUID" type="guid" value="b143df54-0b4f-48bf-9ddc-308168bc86f8"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="PaladinOathOfDevotion"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Divine_Judgement;Divine_Recall;Divine_Advantage;Devotion_Upgrade1" />
+                    <attribute id="PassivesAdded" type="LSString" value="Divine_Judgement;Divine_Recall_Yokebreaker;Divine_Advantage;Devotion_Upgrade1_Yokebreaker" />
 					<attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Paladin&apos;)"/>
 					<attribute id="UUID" type="guid" value="e38341cb-f364-468b-9862-67dcadba72db"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="PaladinOathOfVengeance"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Righteous_Judgement;Righteous_Recall;Righteous_Advantage;Vengeance_Upgrade1" />
+                    <attribute id="PassivesAdded" type="LSString" value="Righteous_Judgement;Righteous_Recall_Yokebreaker;Righteous_Advantage;Vengeance_Upgrade1" />
 					<attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Paladin&apos;)"/>
 					<attribute id="UUID" type="guid" value="750c4922-f381-4f37-bf26-1d0a91a7a797"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="PaladinOathbreaker"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Smite_Oathbroken;Vicious_Condemnation_Melee;Vicious_Condemnation_Ranged;Vicious_Condemnation_Melee_Technical;Vicious_Condemnation_Ranged_Technical" />
+                    <attribute id="PassivesAdded" type="LSString" value="Smite_Oathbroken;Vicious_Condemnation_Melee;Vicious_Condemnation_Ranged;Vicious_Condemnation_Melee_Technical_Yokebreaker;Vicious_Condemnation_Ranged_Technical_Yokebreaker" />
                     <attribute id="Selectors" type="LSString" value="AddSpells(cb1e5aad-26cd-4370-a179-5536bfcc3d47)"/>
 					<attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Paladin&apos;)"/>
 					<attribute id="UUID" type="guid" value="3998987c-004f-4913-b7a7-62610e3cb45e"/>
                 </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="PaladinMystflame"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Smite_Spellshatter;DivineOntoArcane_Yokebreaker"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Paladin&apos;)"/>
+                    <attribute id="UUID" type="guid" value="6b4bdec0-9753-46c1-967d-0c7e7b5ef039"/> 
+                </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="PaladinTyrant"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Smite_Tyrant;Tyrants_Judgement;Tyrants_Recall;Tyrants_Advantage;GrovelBeneathMe" />
+                    <attribute id="PassivesAdded" type="LSString" value="Smite_Tyrant;Tyrants_Judgement;Tyrants_Recall_Yokebreaker;Tyrants_Advantage;GrovelBeneathMe_Yokebreaker" />
 					<attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Paladin&apos;)"/>
 					<attribute id="UUID" type="guid" value="47ab16a3-7f3e-4fa3-9ad2-0e884c2f8384"/>
                 </node>
@@ -590,19 +596,19 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="RangerHunter"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Natural_Hunter;OpportuneShot"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Natural_Hunter_Yokebreaker;Natural_Hunter_Restore_Yokebreaker;OpportuneShot"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Ranger&apos;)"/>
                     <attribute id="UUID" type="guid" value="0d28f4d0-30e2-4948-8b9c-137778929a4a"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="RangerMireMist"/>
-                    <attribute id="PassivesAdded" type="LSString" value="CausticMire;CorrosiveBloom"/>
+                    <attribute id="PassivesAdded" type="LSString" value="CausticMire_Yokebreaker;CorrosiveBloom_Yokebreaker"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Ranger&apos;)"/>
                     <attribute id="UUID" type="guid" value="287ca7d6-c056-4366-b340-2e9acb1000a7"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="RangerSwarmkeeper"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Swarmkeeper_Bee;Swarmkeeper_Jellyfish;Swarmkeeper_Moth;Free_Spirited"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Swarmkeeper_Bee;Swarmkeeper_Jellyfish;Swarmkeeper_Moth;Free_Spirited_Yokebreaker"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(0902b584-1045-4438-92e4-bc63e67240cb)"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Ranger&apos;)"/>
                     <attribute id="UUID" type="guid" value="2fbf3785-a116-41bc-b696-a50432ec46e2"/>
@@ -622,44 +628,44 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="RogueAssassin"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Assassinate;Assassinate_Resource;AssassinsFocus;AssassinsQuarry;AssassinsQuarry_Attack_Fixer;AssassinsQuarry_CombatEnd_Fixer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Assassinate_Yokebreaker;Assassinate_Resource;AssassinsFocus_Yokebreaker;AssassinsQuarry;AssassinsQuarry_Attack_Fixer;AssassinsQuarry_CombatEnd_Fixer"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Rogue&apos;)"/>
 					<attribute id="UUID" type="guid" value="f1d35a6c-9c64-4431-862b-972e1004b628"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="RogueHiddenToxicant"/>
-                    <attribute id="PassivesAdded" type="LSString" value="SneakAttack_Unlock_Toxic;ImbuedToxicity;PoisonousFoothold"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SneakAttack_Unlock_Toxic;ImbuedToxicity_Yokebreaker;PoisonousFoothold_Yokebreaker"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Rogue&apos;)"/>
 					<attribute id="UUID" type="guid" value="a434fbc2-676c-4123-8d9a-24dd2e5d6898"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="RogueSwashbuckler"/>
-                    <attribute id="PassivesAdded" type="LSString" value="RakishAudacity;SneakAttackSwitch;Swash_Unlock"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RakishAudacity_Yokebreaker;SneakAttackSwitch;Swash_Unlock"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Rogue&apos;)"/>
 					<attribute id="UUID" type="guid" value="719ecbac-b1db-4dcc-a845-0fd44d17152c"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="RogueThief"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Feat_Thief;EscapeArtist;NaturalSmokebomb;NaturalSmokebomb_Boosts"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Yokebreaker_Thief;EscapeArtist;NaturalSmokebomb;NaturalSmokebomb_Boosts"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Rogue&apos;)"/>
 					<attribute id="UUID" type="guid" value="3ae7b1ea-be32-4cd2-8a36-545e4a40a3b9"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="RogueVirulence"/>
-                    <attribute id="PassivesAdded" type="LSString" value="VirulentEdge;AcidicLaceration"/>
+                    <attribute id="PassivesAdded" type="LSString" value="VirulentEdge_Yokebreaker;AcidicLaceration_Yokebreaker"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Rogue&apos;)"/>
 					<attribute id="UUID" type="guid" value="42a995f6-fc5e-4577-b21b-eb7fa6c773ec"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="SorcererDraconicBloodline"/>
-                    <attribute id="PassivesAdded" type="LSString" value="DraconicResilience"/>
+                    <attribute id="PassivesAdded" type="LSString" value="DraconicResilience_Light_Yokebreaker;DraconicResilience_Medium_Yokebreaker;DraconicResilience_Heavy_Yokebreaker;DraconicResilience_Heavy_2_Yokebreaker;DraconicResilience_Heavy_3_Yokebreaker;DraconicResilience_Heavy_4_Yokebreaker;DraconicResilience_Heavy_5_Yokebreaker"/>
 					<attribute id="Selectors" type="LSString" value="AddSpells(12150e11-267a-4ecc-a3cc-292c9e2a198d);SelectPassives(c69c33a2-671c-46e1-a92c-656fe64ed447,1,DraconicAncestry)" />
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Sorcerer&apos;)"/>
                     <attribute id="UUID" type="guid" value="ba1c505b-a3a8-483a-a061-a8b120c45c00"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="SorcererRadiantBloom"/>
-                    <attribute id="PassivesAdded" type="LSString" value="SoulfireSpark;RadianceinBloom"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SoulfireSpark_Yokebreaker;RadianceinBloom"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Sorcerer&apos;)"/>
                     <attribute id="UUID" type="guid" value="35e6f8f0-01d4-4273-ad6b-994b287fabd1"/>
                 </node>
@@ -671,31 +677,31 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="SorcererSouloftheFrenziedTundra"/>
-                    <attribute id="PassivesAdded" type="LSString" value="WinterisComing;FrigidMadness"/>
+                    <attribute id="PassivesAdded" type="LSString" value="WinterisComing_Yokebreaker;FrigidMadness_Yokebreaker"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Sorcerer&apos;)"/>
                     <attribute id="UUID" type="guid" value="9c24e1ca-bfe6-4252-a1d7-31e288e23f38"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="SorcererVolcanist"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Magmatic;Magmatic_Turn;PyrrhicRetort"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Magmatic_Yokebreaker;Magmatic_Turn_Yokebreaker;PyrrhicRetort_Yokebreaker"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Sorcerer&apos;)"/>
                     <attribute id="UUID" type="guid" value="10a9438c-a01e-4822-a6d9-537a6ce8bb17"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="SorcererWildMagic"/>
-                    <attribute id="PassivesAdded" type="LSString" value="WildMagic;TidesOfChaos"/>
+                    <attribute id="PassivesAdded" type="LSString" value="WildMagic_Yokebreaker;TidesOfChaos"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Sorcerer&apos;)"/>
                     <attribute id="UUID" type="guid" value="219431d8-c164-454a-b274-0fbf01a7ad2d"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="WarlockPactOfTheBlade"/>
-                    <attribute id="PassivesAdded" type="LSString" value="EldritchBlast_Unlock;PactOfTheBlade;DarkOnesBlessing"/>
+                    <attribute id="PassivesAdded" type="LSString" value="EldritchBlast_Unlock;PactOfTheBlade;DarkOnesBlessing_Yokebreaker"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Warlock&apos;)"/>
                     <attribute id="UUID" type="guid" value="4f136e0d-6548-44e3-ad1c-fcbe28ce58b4"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="WarlockPactOfTheChain"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Feat_PactoftheChain;EldritchBlast_Unlock;PactOfTheChain_Yokebreaker;FiendishGrowth1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="EldritchBlast_Unlock;PactOfTheChain_Yokebreaker;FiendishGrowth1"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Warlock&apos;)"/>
                     <attribute id="UUID" type="guid" value="71c0b76e-3c66-45f8-80ac-98ba0f272fdb"/>
                 </node>
@@ -707,31 +713,31 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="WarlockPactOfThePrimordialDemon"/>
-                    <attribute id="PassivesAdded" type="LSString" value="EldritchBlast_Unlock;PactofthePrimordial;AdvocatusDiaboli"/>
+                    <attribute id="PassivesAdded" type="LSString" value="EldritchBlast_Unlock;PactofthePrimordial_Yokebreaker;AdvocatusDiaboli"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Warlock&apos;)"/>
                     <attribute id="UUID" type="guid" value="656cdba8-d560-42f2-8776-a7c575115fbd"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="WarlockPactOfSeverance"/>
-                    <attribute id="PassivesAdded" type="LSString" value="GoingGhost;CurseoftheSpectre;CurseoftheSpectre_Hematic"/>
+                    <attribute id="PassivesAdded" type="LSString" value="GoingGhost_Yokebreaker;CurseoftheSpectre_Yokebreaker;CurseoftheSpectre_Hematic_Yokebreaker"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Warlock&apos;)"/>
                     <attribute id="UUID" type="guid" value="866befae-74b3-45a0-9da4-bdec17a3a63d"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="WarlockPactOfTheTome"/>
-                    <attribute id="PassivesAdded" type="LSString" value="EldritchBlast_Unlock;PactOfTheTome;PactOfTheTome_Damage;ProjectedInertia"/>
+                    <attribute id="PassivesAdded" type="LSString" value="EldritchBlast_Unlock;PactOfTheTome;PactOfTheTome_Damage_Yokebreaker;ProjectedInertia_Yokebreaker"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Warlock&apos;)"/>
                     <attribute id="UUID" type="guid" value="525212a2-e568-483d-994f-4c7eeee7fe94"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="WizardArcblade"/>
-                    <attribute id="PassivesAdded" type="LSString" value="SteelforgedArcana;Bladesong_Armor_Message;Bladesong_Weapon_Message;Bladesong_Shield_Message;Bladesong_Weapon;Bladesong_Shield;Bladesong_Unarmed;TheApproachingStorm"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Bladesong_Armor_Message;Bladesong_Weapon_Message;Bladesong_Shield_Message;Bladesong_Weapon;Bladesong_Shield;Bladesong_Unarmed;SteelforgedArcana;TheApproachingStorm"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Wizard&apos;)"/>
                     <attribute id="UUID" type="guid" value="84240516-b152-4008-a28a-39e1a6fd4693"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="WizardArcaneWarden"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ArcaneWard;ArcaneWard_Cast;ProjectedWard"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ArcaneWard;ArcaneWard_Cast_Yokebreaker;ProjectedWard;Retaliatory_Ward_Yokebreaker"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Wizard&apos;)"/>
                     <attribute id="UUID" type="guid" value="00ffa9e2-c8be-44b5-bc72-25293a715430"/>
                 </node>
@@ -755,7 +761,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="WizardNecromancy"/>
-                    <attribute id="PassivesAdded" type="LSString" value="NecromanticApprentice;Lifedrinker"/>
+                    <attribute id="PassivesAdded" type="LSString" value="NecromanticApprentice;Lifedrinker_Yokebreaker"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Wizard&apos;)"/>
                     <attribute id="UUID" type="guid" value="f86e70f9-7936-442c-b335-e1e77bb65d8a"/>
                 </node>

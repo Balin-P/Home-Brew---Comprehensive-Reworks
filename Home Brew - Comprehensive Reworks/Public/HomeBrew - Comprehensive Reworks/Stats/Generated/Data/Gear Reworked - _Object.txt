@@ -2183,6 +2183,7 @@ data "InventoryTab" "Misc"
 
 new entry "HAV_ShadowPortal"
 type "Object"
+using "_BaseItem"
 data "Armor" "0"
 data "Vitality" "400"
 data "Sight" "0"
@@ -2207,6 +2208,7 @@ data "ValueUUID" "91696f37-5a03-4f10-b636-2e5e2096a594"
 
 new entry "PUZ_Key"
 type "Object"
+using "_BaseItem"
 data "Weight" "0.00"
 data "InventoryTab" "BooksAndKeys"
 

@@ -189,7 +189,7 @@
 	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000za" version="1">Leap upon a target, bringing your fury down from afar.</content>
 
 	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e00004" version="3">Wyrmcall Eruption</content>
-	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000d" version="1">Gain the ability to expend a &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt; upon dealing damage with one of your Draconic abilities to erupt in a forceful explosion, dealing [1] to all enemies within [2] of your target and possibly knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur0000d" version="1">Gain the ability to expend a &lt;LSTag Type="ActionResource" Tooltip="SuperiorityDie"&gt;Superiority Die&lt;/LSTag&gt; upon dealing damage with one of your Draconic abilities to erupt in a forceful explosion, dealing [1] to all enemies within [2] of your target and possibly knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. This damage increases alongside your levels in Fighter.</content>
 	<content contentuid="h8df49fb1g13acg4b8asdfwe968f4s6e000z4" version="3">Wyrmcall Eruption</content>
 	<content contentuid="h6bdfd618g15b3g40w843r98fe7983ur000zd" version="1">Upon dealing damage with one of your Draconic abilities, erupt in a forceful explosion, dealing [1] to all enemies within [2] of your target and possibly knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
 

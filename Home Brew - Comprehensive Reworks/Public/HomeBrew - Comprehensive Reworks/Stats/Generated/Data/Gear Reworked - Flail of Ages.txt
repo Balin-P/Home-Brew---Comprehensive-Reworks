@@ -19,7 +19,7 @@ data "DisplayName" "h114aac4dg8341g4b93gb7a1ge7e9345cd114;1"
 data "Description" "h45c08211g5396g4a90gac00g81557321efd0;1"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "AttackedWithPassiveSourceWeapon()"
-data "StatsFunctors" "IF(IsDamageTypeAcid(context.Source)):ApplyStatus(ACID, 100, 3);IF(IsDamageTypeCold(context.Source)):ApplyStatus(CHILLED, 100, 3);IF(IsDamageTypeFire(context.Source)):ApplyStatus(BURNING, 100, 3)IF(IsDamageTypeLightning(context.Source)):ApplyStatus(SHOCKED, 100, 3);IF(IsDamageTypeThunder(context.Source)):ApplyStatus(MAG_THUNDER_REVERBERATION, 100, 3)"
+data "StatsFunctors" "IF(IsDamageTypeAcid(context.Source)):ApplyStatus(ACID,100,3);IF(IsDamageTypeCold(context.Source)):ApplyStatus(CHILLED,100,3);IF(IsDamageTypeFire(context.Source)):ApplyStatus(BURNING,100,3);IF(IsDamageTypeLightning(context.Source)):ApplyStatus(SHOCKED,100,3);IF(IsDamageTypeThunder(context.Source)):ApplyStatus(MAG_THUNDER_REVERBERATION,100,3)"
 
 new entry "Target_ElementalWeapon_FlailofAges"
 type "SpellData"

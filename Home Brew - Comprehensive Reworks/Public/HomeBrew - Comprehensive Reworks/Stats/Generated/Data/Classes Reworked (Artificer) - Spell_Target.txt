@@ -244,6 +244,7 @@ data "CastEffect" "c32a08dc-ebfa-4d8c-bd4b-e21cd1f5f256"
 data "TargetEffect" "4075547d-197f-4cb3-94ff-b40a7fd113d4"
 data "MemoryCost" "1"
 data "RequirementConditions" "not HasStatus('BUFF_BLOCKER')"
+data "AIFlags" "CanNotUse"
 
 new entry "Target_ControlledTempo_Expedite"
 type "SpellData"
@@ -268,6 +269,7 @@ data "CastEffect" "c32a08dc-ebfa-4d8c-bd4b-e21cd1f5f256"
 data "TargetEffect" "4075547d-197f-4cb3-94ff-b40a7fd113d4"
 data "MemoryCost" "1"
 data "SpellContainerID" "Target_ControlledTempo"
+data "AIFlags" "CanNotUse"
 
 new entry "Target_ControlledTempo_Delay"
 type "SpellData"
@@ -292,6 +294,7 @@ data "CastEffect" "c32a08dc-ebfa-4d8c-bd4b-e21cd1f5f256"
 data "TargetEffect" "4075547d-197f-4cb3-94ff-b40a7fd113d4"
 data "MemoryCost" "1"
 data "SpellContainerID" "Target_ControlledTempo"
+data "AIFlags" "CanNotUse"
 
 <!--PASSIVES-->
 

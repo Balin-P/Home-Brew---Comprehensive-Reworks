@@ -50,7 +50,7 @@
 	<content contentuid="h004521f9gf207g4263ga129g05fce1ef59fe" version="3">Summon a giant spider that can shoot &lt;LSTag Type="Spell" Tooltip="Target_Web_Spider_Summon"&gt;Webs&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; enemies with its &lt;LSTag Type="Spell" Tooltip="Target_Bite_GiantSpider_Wildshape"&gt;Bite&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h116ba0c1g51dfg46dbg9f47g8558d9af5422" version="1">Horde Breaker</content>
-	<content contentuid="h2ad75116g5840g449cg83d6geac4697f474d" version="2">Gain the ability to target two creatures standing within [1] of each other.&lt;br&gt;&lt;br&gt;In addition your Ranger Companions gain &lt;LSTag Type="Status" Tooltip="Tooltip_ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt;.</content>
+	<content contentuid="h2ad75116g5840g449cg83d6geac4697f474d" version="2">Gain the ability to target two creatures standing within [1] of each other.&lt;br&gt;&lt;br&gt;In addition your Ranger Companions gain &lt;LSTag Type="Status" Tooltip="Tooltip_ExtraAttack"&gt;Extra Actions&lt;/LSTag&gt;.</content>
 	<content contentuid="h22e88128g36c8g4cedgbad1g942fe6401a75" version="1">Horde Breaker (Melee)</content>
 	<content contentuid="h4a5c145dgd1adg4034ga26bg8781dcb9fbd4" version="3">Target two creatures standing close to each other. Attack the first creature and then gain the ability to make an additional &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against the second as a free action.</content>
 	<content contentuid="h75a771c9g1465g4ad8gb033gb5152ef8b463" version="1">Horde Breaker (Ranged)</content>
@@ -148,7 +148,7 @@
 	<content contentuid="h587f4801g411bg4d92g9d70gbeef322ffss6" version="2">Affected creature is being hunted by a nearby Ranger. Each stack of Hunted has reduced their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; by [1]. In addition, they are unable to utilize their armours &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Removed if &lt;LSTag Type="Spell" Tooltip="Target_Help"&gt;Helped&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h4d476cb8gfa45g4f4cga9d13a65409e9f9a2" version="2">Opportune Strike</content>
-	<content contentuid="h20b19b1bg5da3g41d4g901basdf813fe8115" version="2">When an enemy makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an ally, you may spend a charge of your &lt;LSTag Type="ActionResource" Tooltip="NaturalRecoveryPoint"&gt;Natural Focus&lt;/LSTag&gt; in order to make a weapon-based Attack Roll against their aggressor.</content>
+	<content contentuid="h20b19b1bg5da3g41d4g901basdf813fe8115" version="2">When an enemy makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an ally, you may spend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to make a weapon-based Attack Roll against their aggressor.</content>
 	<content contentuid="h4d476cb8gfa45g4f4cga9d13a65409e6a988" version="2">Opportune Strike</content>
 	<content contentuid="h20b19b1bg5da3g41d4g901basdf813f5a522" version="2">When an enemy makes an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an ally, make a weapon-based Attack Roll against their aggressor.</content>
 
@@ -168,7 +168,7 @@
 	<content contentuid="h20b19b1bg5da3g41d4g901bgd1d613fe8115" version="2">When dealing damage to an enemy or item, you ignore all forms of physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h4d476cb8gfa45g4f4cga9d13w5e6f5sef21e" version="2">Twinned Strikes</content>
-	<content contentuid="h20b19b1bg5da3g41d4g9015se46f5s4e6f8d" version="2">Your single target Frontier Ballistics may target two creatures instead of one.</content>
+	<content contentuid="h20b19b1bg5da3g41d4g9015se46f5s4e6f8d" version="2">Your Frontier Ballistics that only select one target can now select an additional target, or the same target twice.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">MIRE MIST</content>
 
@@ -233,13 +233,13 @@
 	<content contentuid="hf081aa54g2347g4295g85aeg8048e2e0000a" version="1">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy affected by your swarms, restore one charge of your &lt;LSTag Type="ActionResource" Tooltip="NaturalRecoveryPoint"&gt;Natural Focus&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hedbd9f3fgf4d8g4f16gb0f2gb0e11e900002" version="1">Empowered Swarms</content>
-	<content contentuid="hf081aa54g2347g4295g85aeg8048e2e0000b" version="1">Your swarms are now capable of targeting two creatures at once. Each time a creature affected by one of your swarms dies, you may use it again, even if another creature affected by a swarm still lives.</content>
+	<content contentuid="hf081aa54g2347g4295g85aeg8048e2e0000b" version="1">Your swarms are now capable of targeting two separate creatures at once. Each time a creature affected by one of your swarms dies, you may use it again, even if another creature affected by a swarm still lives.</content>
 
 	<content contentuid="hedbd9f3fgf4d8g4f16gb0f2gb0e11e900003" version="1">Writhing Tide</content>
 	<content contentuid="hf081aa54g2347g4295g85aeg8048e2e0000c" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; made against enemies affected by your swarms are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. Additionally, Attack Rolls made against allies affected by your swarms are rolled with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hedbd9f3fgf4d8g4f16gb0f2gb0e11e900004" version="1">Superior Swarms</content>
-	<content contentuid="hf081aa54g2347g4295g85aeg8048e2e0000d" version="1">Your swarms are now capable of targeting three creatures at once. Each time a creature affected by one of your swarms dies, you may use it again, even if another creature affected by a swarm still lives.</content>
+	<content contentuid="hf081aa54g2347g4295g85aeg8048e2e0000d" version="1">Your swarms are now capable of targeting three separate creatures at once. Each time a creature affected by one of your swarms dies, you may use it again, even if another creature affected by a swarm still lives.</content>
 
 	<content contentuid="hedbd9f3fgf4d8g4f16gb0f2gb0e11e900005" version="1">A Storm of Swarms</content>
 	<content contentuid="hf081aa54g2347g4295g85aeg8048e2e0000e" version="1">All effects caused by your Swarms are now twice as potent.</content>

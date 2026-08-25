@@ -577,7 +577,7 @@ data "Boosts" "Disadvantage(SavingThrow, Constitution)"
 data "RemoveEvents" "OnHeal"
 data "TickFunctors" "DealDamage((Target.MaxHP/20), Slashing)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;InitiateCombat"
-data "StatusGroups" "SG_Physical;SG_Helpable_Condition"
+data "StatusGroups" "SG_Helpable_Condition"
 
 new entry "CONCENTRATION"
 type "StatusData"

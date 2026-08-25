@@ -666,8 +666,8 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h868862c5g0228g4ca0g8c0bg6b6f1c9d4f3a" version="4">Affected creature is rotting in a vat of their own half melted skin, begging for death. This creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Constitution based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, and is now &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to all damage. They cannot utilize their armours physical &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hc438efbcgedbag41e9gb01egade042468a55" version="2">Counterspell</content>
-	<content contentuid="h4626b545gb292g41e2gac8dgedf05aa09b61" version="7">Stop a targeted Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; from being cast. The &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; you expend to cast Counterspell must be greater than the Spell Slot spent by whom you are countering.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Status" Tooltip="Tooltip_Dangerous_Encounter"&gt;Dangerous&lt;/LSTag&gt; and &lt;LSTag Type="Passive" Tooltip="Fatal_Encounter"&gt;Fatal&lt;/LSTag&gt; foes cannot be countered.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Rogues&lt;br&gt;Sorcerers&lt;br&gt;Wizards</content>
-	<content contentuid="h48686e1eg13fdg4ee5g8b51gb3eb602d599d" version="2">CounterSpell</content>
+	<content contentuid="h4626b545gb292g41e2gac8dgedf05aa09b61" version="7">Stop a targeted Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; from being cast. The &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; you expend to cast Counterspell must be greater than the Spell Slot spent by whom you are countering.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Passive" Tooltip="Fatal_Encounter"&gt;Fatal&lt;/LSTag&gt; foes cannot be countered.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Rogues&lt;br&gt;Sorcerers&lt;br&gt;Wizards</content>
+	<content contentuid="h48686e1eg13fdg4ee5g8b51gb3eb602d599d" version="2">Counterspell</content>
 	<content contentuid="haa58fc9dge729g49ccga2bdgb382c61b3890" version="5">Stop a targeted Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; from being cast. The &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; you expend to cast Counterspell must be greater than the Spell Slot spent by whom you are countering.</content>
 
 	<content contentuid="h8926e52cg44f7g4c16gb614g7247ce64d91e" version="1">Create or Destroy Water</content>
@@ -797,7 +797,7 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="hf9e01bc9g4b62g4ce7ga0b6ga539df816fra" version="3">Imbue a weapon with a radiant infusion. It's damage type will change to radiant, and it will potentially inflict a &lt;LSTag Type="Status" Tooltip="MAG_RADIANT_RADIATING_ORB"&gt;Radiating Orb&lt;/LSTag&gt; when dealing damage.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Druid&lt;br&gt;Rangers&lt;br&gt;Sorcerers</content>
 	<content contentuid="hf9e01bc9g4b62g4ce7ga0b6ga539df816fth" version="3">Imbue a weapon with a thunderous infusion. It's damage type will change to thunder, and it will potentially inflict stack of &lt;LSTag Type="Status" Tooltip="MAG_THUNDER_REVERBERATION"&gt;Reverberation&lt;/LSTag&gt; when dealing damage.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Druid&lt;br&gt;Rangers&lt;br&gt;Sorcerers</content>
 	<content contentuid="hd7cec02dg22c5g4adag8503g41ec5cee749f" version="1">Elemental Weapon</content>
-	<content contentuid="h8ad73819geb3ag46e5g90b8g2d8b4af8263c" version="3">Affected weapons damage type has been magically altered. When dealing damage, it may inflict a condition based on the chosen element.</content>
+	<content contentuid="h8ad73819geb3ag46e5g90b8g2d8b4af8263c" version="3">Affected weapons damage type has been magically altered. When dealing damage to an enemy, it may inflict a condition based on the chosen element.</content>
 
 	<content contentuid="hb96346d0gcce3g4e34gb211geae8f98a3de0" version="1">Enhance Ability</content>
 	<content contentuid="h8c9e7f4cg38deg4a95gb3e0g304b024930bb" version="1">Bestow a magical enhancement upon a creature. They gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; with a chosen &lt;LSTag Tooltip="Abilities"&gt;Ability&lt;/LSTag&gt;, and that ability also increases by 2.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Druid&lt;br&gt;Paladins&lt;br&gt;Rangers</content>
@@ -1405,6 +1405,9 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="h8f748b4cg36ccg4726ga87fgf00dd36126be" version="1">Shield of Faith</content>
 	<content contentuid="h1784ab0egefecg481bg8552ga87888bb2c4a" version="2">Affected creature has recieved a +2 bonus to their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
 
+	<content contentuid="h566b606eg4e52g452eg9313g703c8f77a44b" version="1">Shove</content>
+	<content contentuid="h3921ea48g1ac9g4310gbd52gb7041dcee29f" version="7">Try to push a creature away from you.</content>
+
 	<content contentuid="h5d541e43g6725g4564gbc81gb1ff21141857" version="1">Silence</content>
 	<content contentuid="h25df5600g6f8eg4370ga3b2gfdb336819e7a" version="4">Create a sound-proof sphere. All within are &lt;LSTag Type="Status" Tooltip="HEAVILY_SILENCED"&gt;Silenced&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Thunder damage.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Clerics&lt;br&gt;Paladins&lt;br&gt;Sorcerers</content>
 
@@ -1805,8 +1808,8 @@ So long as the affected creature is not &lt;LSTag Type="Status" Tooltip="DOWNED_
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb600010" version="1">Piercing Strikes</content>
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000j" version="3">Your weapons deal an additional [1].</content>
 
-	<content contentuid="8fb2fdabe5824cec92bf151467230bb600011" version="1">Low Blows</content>
-	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000k" version="3">Once per turn, you may utilize your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; to potentially force a target &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb600011" version="1">Defensive Leverage</content>
+	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000k" version="3">Gain a +2 bonus to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; while &lt;LSTag Type="Passive" Tooltip="FreeHandling"&gt;Free Handling&lt;/LSTag&gt;.</content>
 
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb600012" version="1">One on One</content>
 	<content contentuid="8fb2fdabe5824cec92bf151467230bb60000l" version="3">When you have just one enemy within [1] of you, you make all weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>

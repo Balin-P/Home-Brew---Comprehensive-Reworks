@@ -137,6 +137,7 @@ data "PrepareLoopSound" "Action_Loop_Ranger_UmbralCloak"
 data "CastSound" "Action_Cast_Ranger_DreadAmbusherRanged"
 data "PrepareEffect" "bd8d0897-7a0d-487b-b5ad-08e33ba0940b"
 data "CastEffect" "69d6d668-a6a4-4873-908e-4f10e37376fa"
+data "UseCosts" ""
 data "Cooldown" "OncePerCombat"
 
 new entry "Projectile_DreadAmbusher_Firearm"
@@ -152,6 +153,7 @@ data "PrepareLoopSound" "Action_Loop_Ranger_UmbralCloak"
 data "CastSound" "Action_Cast_Ranger_DreadAmbusherRanged"
 data "PrepareEffect" "bd8d0897-7a0d-487b-b5ad-08e33ba0940b"
 data "CastEffect" "69d6d668-a6a4-4873-908e-4f10e37376fa"
+data "UseCosts" ""
 data "Cooldown" "OncePerCombat"
 
 <!--BEASTMASTER-->

@@ -434,6 +434,11 @@
 	<content contentuid="hb5232a3egc046g45e9g926we8d6e8feace7c" version="1">Greater Automaton: Phase Three</content>
 	<content contentuid="hbf1f45a4g0c29g4e66ga808gd2225e6f6454" version="1">Affected creature will throw their target backward by [1] upon forcing them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. In addition, their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is doubled, and upon starting each turn, they will &lt;LSTag Type="Spell" Tooltip="Shout_Stomp_Grym"&gt;Stomp&lt;/LSTag&gt;.</content>
 
+	<content contentuid="h7eaafff3gebcfg4210g9e83gb0e56211800d" version="3">Adamantine Reverberation</content>
+	<content contentuid="h72418df5g3418g4245gb0f6gf7124562930e" version="7">Grym's form hardens after being struck, providing [1]. Upon being removed, a shockwave will erupt, pushing targets back by [2] and dealing [3].</content>
+	<content contentuid="h94ea441fgd54dg4307g9f73g027a971f44c3" version="2">Adamantine Reverberation</content>
+	<content contentuid="h77c37c0bg14d4g4852g8eb4g0f4a7b745d35" version="2">Affected creature has gained [1]. Immediately after losing these temporary hit points, the creature knocks back foes [2] backward with a shockwave that deals [3].</content>
+
 <content contentuid="0000000000000000000000000000000000000" version="1">HOOK HORRORS</content>
 
 	<content contentuid="h3344d3e6gb749g4bd5ga9e9g75f0de1c9cca" version="5">Hooked on Horror</content>
