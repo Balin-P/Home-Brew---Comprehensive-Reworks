@@ -116,6 +116,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "TheRightToolsfortheJob"
+data "Boosts" "ActionResource(SpellSlot,4,1)"
 
 new entry "APPLY_ARCANIST_3"
 type "StatusData"
@@ -130,6 +131,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "TheRightToolsfortheJob;MysticReload"
+data "Boosts" "ActionResource(SpellSlot,4,1);ActionResource(SpellSlot,4,2)"
 
 new entry "APPLY_ARCANIST_5"
 type "StatusData"
@@ -144,6 +146,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "TheRightToolsfortheJob;MysticReload;ArcaneBallistics"
+data "Boosts" "ActionResource(SpellSlot,4,1);ActionResource(SpellSlot,4,2);ActionResource(SpellSlot,4,3)"
 
 new entry "APPLY_ARCANIST_7"
 type "StatusData"
@@ -158,6 +161,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "TheRightToolsfortheJob;MysticReload;ArcaneBallistics;BallisticRicochet"
+data "Boosts" "ActionResource(SpellSlot,4,1);ActionResource(SpellSlot,4,2);ActionResource(SpellSlot,4,3);ActionResource(SpellSlot,2,4)"
 
 new entry "APPLY_ARCANIST_9"
 type "StatusData"
@@ -172,6 +176,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "TheRightToolsfortheJob;MysticReload;ArcaneBallistics;BallisticRicochet;RunicReloadModule"
+data "Boosts" "ActionResource(SpellSlot,4,1);ActionResource(SpellSlot,4,2);ActionResource(SpellSlot,4,3);ActionResource(SpellSlot,2,4);ActionResource(SpellSlot,2,5)"
 
 new entry "APPLY_ARCANIST_11"
 type "StatusData"
@@ -186,6 +191,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "TheRightToolsfortheJob;MysticReload;ArcaneBallistics;BallisticRicochet;RunicReloadModule;ArcaneAim"
+data "Boosts" "ActionResource(SpellSlot,4,1);ActionResource(SpellSlot,4,2);ActionResource(SpellSlot,4,3);ActionResource(SpellSlot,2,4);ActionResource(SpellSlot,2,5);ActionResource(SpellSlot,2,6)"
 
 <!----------------------------------------------------------------------------------------------------SUBCLASS 2---------------------------------------------------------------------------------------------------->
 

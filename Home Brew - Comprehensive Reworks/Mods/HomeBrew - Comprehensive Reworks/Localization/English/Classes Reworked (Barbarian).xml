@@ -210,7 +210,7 @@
 	<content contentuid="he3cc38b0g238bg416dg86s45d6f4s64d485d" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; The target cannot be thrown if it is Gargantuan in size.</content>
 
 	<content contentuid="h416cac70g5ef0g4496g9d89g598ec0c00003" version="1">Poisebreaker</content>
-	<content contentuid="h108ff3ccga8e3g43f1gbeb5g194e4990000c" version="2">Upon making a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while enraged, you deal damage equal to your levels in Barbarian in a [1] area. This can be toggled at any time.</content>
+	<content contentuid="h108ff3ccga8e3g43f1gbeb5g194e4990000c" version="2">Upon making a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; while enraged, you deal Force damage equal to your level in a [1] area. This can be toggled at any time.</content>
 
 	<content contentuid="h108ff3ccga8e3g43f1gbeb5g194e49900006" version="1">Titanic Strength</content>
 	<content contentuid="h108ff3ccga8e3g43f1gbeb5g194e4990000f" version="2">While enraged, dealing damage to another creature will always knock them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. In addition, your &lt;LSTag Tooltip="TwoHanded"&gt;Non-Versatile Weapons&lt;/LSTag&gt; are now considered &lt;LSTag Tooltip="Versatile"&gt;Versatile&lt;/LSTag&gt;, allowing you to dual-wield them.</content>
@@ -250,7 +250,7 @@
 	<content contentuid="e45b631605924e679e7ea6024bc4911f000zc" version="1">When an ally within [1] of you is attacked, you may use &lt;LSTag Type="Spell" Tooltip="Target_BloodvineGrasp"&gt;Bloodvine Grasp&lt;/LSTag&gt; on their aggressor as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
 
 	<content contentuid="e45b631605924e679e7ea6024bc4911f00004" version="2">Thornfall</content>
-	<content contentuid="e45b631605924e679e7ea6024bc4911f0000d" version="1">Causing an enemy to take damage by falling will deal an additional [1] to both them, as well as all enemies within [2] of them.</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f0000d" version="1">Causing an enemy to take damage by falling will deal an additional [1] to both them, as well as all enemies within [2] of them. This damage increases based on your levels in Barbarian.</content>
 	<content contentuid="e45b631605924e679e7ea6024bc4911f000z4" version="2">Eruption of Thorns</content>
 	<content contentuid="e45b631605924e679e7ea6024bc4911f000zd" version="1">Erupt in thorns, dealing damage to all nearby enemies.</content>
 
@@ -260,7 +260,7 @@
 	<content contentuid="e45b631605924e679e7ea6024bc4911f000ze" version="1">Pull all nearby enemies up to [1] closer to you, causing them to &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt;.</content>
 
 	<content contentuid="e45b631605924e679e7ea6024bc4911f00006" version="2">Heart of Thorns</content>
-	<content contentuid="e45b631605924e679e7ea6024bc4911f0000f" version="1">Upon ending your turn, you deal [1] to all enemies within [2] of you.</content>
+	<content contentuid="e45b631605924e679e7ea6024bc4911f0000f" version="1">Upon ending your turn, you deal [1] to all enemies within [2] of you. This damage increases based on your levels in Barbarian.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">WILD SOUL</content>
 
@@ -275,7 +275,7 @@
 	<content contentuid="h87a4cfdbg2ba1g4a61gbbe7g540a256a9216" version="2">Affected creature deals an additional [1] damage with Spells, &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt;, &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attacks&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Throw_ImprovisedWeapon"&gt;Improvised Weapons&lt;/LSTag&gt;, and when &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Throwing&lt;/LSTag&gt; objects or creatures.&lt;br&gt;&lt;br&gt;Additionally, this creature's unarmed damage has increased, and they have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to elemental damage, as well as &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Spells may continue to be cast during this type of Rage, and will potentially trigger a positive surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt; when cast at level one or higher.</content>
 
 	<content contentuid="h98bdd3bag3777g4870ga094g8362c31ieiid" version="14">Chaotic Roar</content>
-	<content contentuid="hc52dfbcfgb62ag4e72g9ea9gc1234b3939dd" version="2">Upon &lt;LSTag Type="Status" Tooltip="RAGE_MAGIC"&gt;Enraging&lt;/LSTag&gt;, you immediately experience a barbarous surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;. Your fury malforms the weave within, causing alterations within the surge that lead to new and unique effects. When damaged, your aggressor may instead experience a negative surge of Wild Magic.</content>
+	<content contentuid="hc52dfbcfgb62ag4e72g9ea9gc1234b3939dd" version="2">Upon &lt;LSTag Type="Status" Tooltip="RAGE_MAGIC"&gt;Enraging&lt;/LSTag&gt;, you immediately experience a barbarous surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;. Your fury malforms the weave within, causing alterations within the surge that lead to new and unique effects.&lt;br&gt;&lt;br&gt;When damaged, your aggressor may instead experience a negative surge of Wild Magic.</content>
 
 	<content contentuid="h851e49beg9dd7g4b09g88c2g3149c6d03a66" version="2">Unstable Recovery</content>
 	<content contentuid="h851e49beg9dd7g4b09g88c2g3149c6d0b826" version="2">Upon landing a killing blow, you recover a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; of the highest level you can cast based on your levels in Barbarian.</content>
@@ -284,7 +284,7 @@
 	<content contentuid="hc52dfbcfgb62ag4e72g9ea9gc1234b36a99a" version="2">Upon landing a killing blow, you immediately experience a positive surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;. Additionally, upon rolling a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, your target immediately experiences a negative surge of Wild Magic. These effects can trigger once per turn.</content>
 
 	<content contentuid="h98bdd3bag3777g4870ga094g8362c31c8a47" version="14">Tenacious Chaos</content>
-	<content contentuid="hc52dfbcfgb62ag4e72g9ea9gc1234b356a95" version="2">Upon &lt;LSTag Type="Status" Tooltip="RAGE_MAGIC"&gt;Enraging&lt;/LSTag&gt;, all allies within [1] immediately experience a positive surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;.</content>
+	<content contentuid="hc52dfbcfgb62ag4e72g9ea9gc1234b356a95" version="2">Upon &lt;LSTag Type="Status" Tooltip="RAGE_MAGIC"&gt;Enraging&lt;/LSTag&gt;, all allies within [1] of you immediately experience a positive surge of &lt;LSTag Tooltip="WildMagic"&gt;Wild Magic&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h98bdd3bag3777g4870ga094g8362c319399d" version="14">Wild Bloodlust</content>
 	<content contentuid="hc52dfbcfgb62ag4e72g9ea9gc1234b32iuye" version="2">Upon landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you may cast a Spell as a free action. This effect can trigger once per turn.</content>

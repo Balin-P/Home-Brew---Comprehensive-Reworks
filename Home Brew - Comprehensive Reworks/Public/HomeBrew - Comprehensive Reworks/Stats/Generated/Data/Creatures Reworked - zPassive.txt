@@ -896,13 +896,19 @@ data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnTurn"
 data "StatsFunctors" "IF(HasHPPercentageWithoutTemporaryHPLessThan(34, context.Source)):UseSpell(Shout_HAG_SpawnDoubles_Phase2,true,true,true)"
 
+new entry "HAG_KillOnDamage"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnDamaged"
+data "StatsFunctors" "Kill()"
+
 <!--------------------------------------------------BALTHAZAR-->
 
 new entry "Fatal_Encounter_Balthazar"
 type "PassiveData"
 data "DisplayName" "0666f26cs65fs6e5df65f2c96c6af65phases;2"
 data "Description" "ed71545cb44a5s6df486efs46c03bcdphases;3"
-data "DescriptionParams" "DealDamage(1d12, Necrotic)
+data "DescriptionParams" "DealDamage(1d12, Necrotic)"
 data "Icon" "Action_Monster_Banite_AuraOfTerror"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Target_RiseUndead_DeathShepherd_Hardcore);IF(IsSpell() and HasDamageEffectFlag(DamageFlags.Hit)):DamageBonus(1d12,Necrotic)"
@@ -1126,7 +1132,7 @@ using "Assassinate_Ambush"
 data "DisplayName" "heeb194b8g0519g4984g86a5g39b379e9340d;1"
 data "Description" "h3b8f065cgcfdbg447cgb0bfgd668639e2d65;1"
 data "Icon" "Action_Monster_Banite_AuraOfTerror"
-data "Boosts" "IF(HasStatus('DOPPELGANGER_OFFBALANCE')):CriticalDamageOnHit()"
+data "Boosts" "IF(HasStatus('DOPPELGANGER_OFFBALANCE')):CriticalHit(AttackRoll,Success,Always)"
 
 <!--------------------------------------------------DOPPELGANGERS-->
 
@@ -1196,8 +1202,8 @@ data "Description" "hbf1f45a4g0c29g4e66ga808gd6sd62e5f454;3"
 data "Icon" "Action_Monster_Banite_AuraOfTerror"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnStatusApply"
-data "Conditions" "StatusId('PRONE')"
-data "StatsFunctors" "Force(4.5)"
+data "Conditions" "StatusId('PRONE') and not Grounded(context.Target)"
+data "StatsFunctors" "Force(4.5, OriginToEntity)"
 
 new entry "CreaturePassive_Grym_Turn"
 type "PassiveData"
@@ -1258,6 +1264,18 @@ data "Properties" "Highlighted"
 data "BoostContext" "OnDamaged;OnHealed"
 data "BoostConditions" "not Dead() and HasHPPercentageWithoutTemporaryHPLessThan(90, context.Target)"
 data "Boosts" "ActionResourceMultiplier(Movement,200,0);IgnoreLeaveAttackRange()"
+
+<!--------------------------------------------------INCUBUS-->
+
+new entry "EtherealEscape_Incubus"
+type "PassiveData"
+data "DisplayName" "h84f58e64gb19cg40fdg940cg2698f8041190;1"
+data "Description" "hd6a22528g779cg47b5gb337gda5b959fa2a3;3"
+data "Icon" "PassiveFeature_Generic_Ethereal"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnDamaged"
+data "Conditions" "Combat() and not HasHPLessThan(2) and not IsCrowdControlled()"
+data "StatsFunctors" "ApplyStatus(ETHEREALNESS_INCUBUS, 100, 1)"
 
 <!--------------------------------------------------KUATOA-->
 
@@ -1328,14 +1346,19 @@ data "StatsFunctors" "RemoveStatus(SELF,INVISIBLE_ETHEL)"
 
 <!--------------------------------------------------MEPHIT-->
 
+new entry "DeathBurst_IceMephit"
+type "PassiveData"
+data "DisplayName" "h4f5876d1ga729g45d5ga634gdab296da15a5;1"
+data "Description" "h931b02b2ga7b5g4147g9a39gc013b04a8759;1"
+data "DescriptionParams" "DealDamage(6d6,Cold);Distance(3)"
+data "Icon" "GenericIcon_DamageType_Cold"
+
 new entry "DeathBurst_MagmaMephit"
 type "PassiveData"
 data "DisplayName" "h4dba5ce7g245cg4538ga356gf9af8b54aea4;3"
 data "Description" "h7696c355gc791g4affg89d9g7ed7f9646d8e;2"
 data "DescriptionParams" "DealDamage(6d6,Fire);Distance(3)"
-data "ExtraDescription" "h6b91b26ege28eg4e21g9864g612e648b3226;1"
 data "Icon" "GenericIcon_DamageType_Fire"
-data "Properties" "Highlighted"
 
 new entry "DeathBurst_MudMephit"
 type "PassiveData"
@@ -1573,3 +1596,15 @@ data "Icon" "Action_Monster_Banite_AuraOfTerror"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnDamage"
 data "StatsFunctors" "IF(not SavingThrow(Ability.Constitution,CalculateSpellDC(context.PreferredCastingAbility, context.Source))):ApplyStatus(BLINDED,100,1)"
+
+<!--------------------------------------------------WITHERS-->
+
+new entry "Fatal_Encounter_Withers"
+type "PassiveData"
+data "DisplayName" "h4d7f1eviconiaa4d80ga24bg135cjergalzz;3"
+data "Description" "hcd35aviconiaaa4c0fgad2fg2c33jergalzz;2"
+data "Icon" "Action_Monster_Banite_AuraOfTerror"
+data "Properties" "Highlighted;ForceShowInCC"
+data "StatsFunctorContext" "OnAttacked"
+data "Conditions" "HasFunctor(StatsFunctorType.DealDamage)"
+data "StatsFunctors" "ApplyStatus(SWAP,KILL_WITHERS,100,0)"

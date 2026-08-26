@@ -24,6 +24,7 @@ data "Boosts" "UnlockSpell(Shout_Musket_Precise)"
 data "Weapon Group" "MartialRangedWeapon"
 data "Weapon Properties" "Ammunition;Dippable;Reach;Twohanded;Loading"
 data "Proficiency Group" "MartialWeapons;Slings"
+data "StatusOnEquip" "FIREARM_EQUIPPED"
 
 new entry "WPN_MARA_Musket_2"
 type "Weapon"

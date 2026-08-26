@@ -9,6 +9,17 @@ data "Icon" "GenericIcon_Intent_Summon"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "OnApplyFunctors" "RestoreResource(SELF,WildShape,1,0)"
 
+new entry "MANTLEOFCONCENTRATION"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "3a92be7fa93b4848aa0ecf2484333063000z2;1"
+data "Description" "3a92be7fa93b4848aa0ecf2484333063000zb;1"
+data "Icon" "Action_Mag_SoulCatching_Heal"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "Boosts" "ConcentrationIgnoreDamage();ConcentrationIgnoreDamage(Abjuration);ConcentrationIgnoreDamage(Conjuration);ConcentrationIgnoreDamage(Divination);ConcentrationIgnoreDamage(Enchantment);ConcentrationIgnoreDamage(Evocation);ConcentrationIgnoreDamage(Illusion);ConcentrationIgnoreDamage(Necromancy);ConcentrationIgnoreDamage(Transmutation);StatusImmunity(SG_Prone)"
+data "StackID" "MANTLEOFCONCENTRATION"
+data "StackType" "Overwrite"
+
 new entry "WILDSHAPE_SWAP"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -250,6 +261,15 @@ data "RemoveEvents" "OnStatusRemoved"
 
 <!--CIRCLE OF THE MOON-->
 
+new entry "MOON_SWAP_CONCENTRATION_PROTECTION"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "HitAnimationType" "None"
+data "Boosts" "ConcentrationIgnoreDamage();StatusImmunity(SG_Prone)"
+data "RemoveEvents" "OnDamage;OnMove;OnSpellCast"
+data "TickType" "EndTurn"
+
 new entry "DASH_DRUID"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -262,7 +282,7 @@ new entry "EXTRAATTACK_LUNAR"
 type "StatusData"
 data "StatusType" "BOOST"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-data "Boosts" "ActionResource(ActionPoint,1,0)"
+data "Boosts" "ActionResource(ActionPoint,1,0);ActionResource(BonusActionPoint,1,0)"
 data "RemoveConditions" "not HasStatus('SG_Polymorph_BeastShape', context.Source)"
 data "RemoveEvents" "OnStatusRemoved"
 
@@ -402,6 +422,8 @@ data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndi
 data "Boosts" "UnlockSpellVariant(SpellId('Shout_Wildshape_Star_Archer'),ModifyUseCosts(Replace,BonusActionPoint,0,-1,BonusActionPoint));UnlockSpellVariant(SpellId('Shout_Wildshape_Star_Chalice'),ModifyUseCosts(Replace,BonusActionPoint,0,-1,BonusActionPoint));UnlockSpellVariant(SpellId('Shout_Wildshape_Star_Dragon'),ModifyUseCosts(Replace,BonusActionPoint,0,-1,BonusActionPoint))"
 data "RemoveConditions" "SpellId('Shout_Wildshape_Star_Archer') or SpellId('Shout_Wildshape_Star_Chalice') or SpellId('Shout_Wildshape_Star_Dragon')"
 data "RemoveEvents" "OnSpellCast;OnCombatEnded"
+data "StackId" "STARRYFORM_FREE"
+data "StackType" "Ignore"
 
 new entry "SINGULARITY"
 type "StatusData"
@@ -612,7 +634,7 @@ data "RemoveConditions" "not HasStatus('VORTEX_AURA')"
 data "TooltipDamage" "DealDamage(1d12,Thunder)"
 data "TickFunctors" "DealDamage(1d12,Thunder)"
 data "StatusEffectOnTurn" "582b6023-0295-4227-bf46-89755e238183"
-data "OnRemoveFunctors" "IF(not SavingThrow(Ability.Strength, CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))):Force(-6, OriginToEntity, Neutral, false, true)"
+data "OnRemoveFunctors" "IF(not SavingThrow(Ability.Strength, CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))) and not Grounded()):Force(-6, OriginToEntity)"
 
 <!--PASSIVES-->
 

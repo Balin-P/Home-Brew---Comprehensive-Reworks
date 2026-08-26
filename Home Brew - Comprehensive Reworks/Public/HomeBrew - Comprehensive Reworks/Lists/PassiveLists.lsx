@@ -1,4 +1,4 @@
-﻿xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <save>
   <version major="4" minor="0" revision="9" build="328" />
   <region id="PassiveLists">
@@ -15,6 +15,10 @@
         <node id="PassiveList">
                     <attribute id="Passives" type="LSString" value="AT_None,AT_ArcanePrecision,AT_ChaoticFortune,AT_CombatMastery,AT_ControlledAggro,AT_DeepenedResolve,AT_EmpoweredSummons,AT_FortifiedArmour,AT_ImposingWill,AT_IronBreaker,AT_IronFists,AT_MartialBalance,AT_MartialPrecision,AT_MeasuredArcana,AT_QuickReflexes,AT_ReactiveRetribution,AT_RestorativeTouch,AT_TemperedBody,AT_TemperedMind,AT_UncheckedForce,AT_WeaveBreaker" />
                     <attribute id="UUID" type="guid" value="4607f9c7-335c-443f-b075-a3f068c20a0d" />
+					</node>
+        <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="ExtraActions_Action,ExtraActions_BonusAction,ExtraActions_Reaction" />
+                    <attribute id="UUID" type="guid" value="582afedf-26bb-4bdb-99f3-add25e681691" />
 					</node>
         <node id="PassiveList">
                     <attribute id="Passives" type="LSString" value="AdaptivePlating,ArcaneCalibrationMatrix,AutomatedArcaneSuppression,CastleDefense,DeadZoneCalibration,ElementalPayload,EmergencyPowerCell,FailsafeInjection,IncendiaryRounds,KineticFeedbackLoop,LikeClockwork,ModularAugmentation,NaniteDispersionField,Overclocked,PrecisionRifling,RecoilCompensation,Safeguard,SpeedLoader,SyntheticActionEconomy,VitalAim" />

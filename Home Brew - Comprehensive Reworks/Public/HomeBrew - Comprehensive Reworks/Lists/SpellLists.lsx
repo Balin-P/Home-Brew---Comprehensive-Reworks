@@ -4,6 +4,11 @@
   <region id="SpellLists">
     <node id="root">
       <children>
+		<node id="SpellList">
+                    <attribute id="Comment" type="FixedString" value="Artificer - Grenadier (Level 1)"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_Grenadier_StolenExplosives"/>
+                    <attribute id="UUID" type="guid" value="62b78cbc-f9df-4834-a544-d6002d44d588"/>
+					</node>
         <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Barbarian - Berserker (Level 1)" />
 					<attribute id="Spells" type="LSString" value="Throw_FrenziedThrow" />
@@ -166,7 +171,7 @@
 					</node>
         <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Druid - Wildshape Selection" />
-                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Bear_Polar;Shout_WildShape_Cat;Shout_WildShape_Dire_Wolf" />
+                    <attribute id="Spells" type="LSString" value="Shout_WildShape_Badger;Shout_WildShape_Bear_Polar;Shout_WildShape_Cat;Shout_WildShape_DeepRothe;Shout_WildShape_Dilophosaurus;Shout_WildShape_Dire_Raven;Shout_WildShape_Dire_Wolf;Shout_Wildshape_Giant_Eagle;Shout_WildShape_Giant_Spider;Shout_WildShape_Owlbear;Shout_Wildshape_Panther" />
                     <attribute id="UUID" type="guid" value="048d3543-1ac4-4eb9-b6a8-1713d8ff5f91" />
 					</node>
         <node id="SpellList">
@@ -340,6 +345,21 @@
                     <attribute id="UUID" type="guid" value="20c3ac99-a937-464c-810d-d2f50ba44e6e" />
 					</node>
         <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Mythflame Oathcast" />
+                    <attribute id="Spells" type="LSString" value="Shout_Oathcast" />
+                    <attribute id="UUID" type="guid" value="34013841-cbff-4976-9b50-211894badee8" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Mythflame Oathcast 2" />
+                    <attribute id="Spells" type="LSString" value="Shout_Oathcast_2" />
+                    <attribute id="UUID" type="guid" value="85633214-a2a7-46c5-af28-d1259396ce89" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Mythflame Oathcast 3" />
+                    <attribute id="Spells" type="LSString" value="Shout_Oathcast_3" />
+                    <attribute id="UUID" type="guid" value="7bd2be2f-4d0c-444b-a650-e2e0dcb4015a" />
+                </node>
+        <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Paladin - Tyrant (Level 1)" />
                     <attribute id="Spells" type="LSString" value="Target_CommandingGrasp_Container;Shout_ReignofFear" />
                     <attribute id="UUID" type="guid" value="b2ee622b-940a-4818-904a-082ef7ecb1a7" />
@@ -395,17 +415,12 @@
                     <attribute id="UUID" type="guid" value="a8f68201-9083-4704-8e6b-2fc780a00003" />
 					</node>
 		<node id="SpellList">
-                    <attribute id="Comment" type="FixedString" value="Rogue - Swashbuckler (Level 3)"/>
+                    <attribute id="Comment" type="FixedString" value="Rogue - Mercenary (Level 3)"/>
                     <attribute id="Spells" type="LSString" value="Target_DirtyTrick_Disarm;Target_DirtyTrick_Blind;Target_DirtyTrick_Vicious;Shout_DirtyTrick_Panache"/>
                     <attribute id="UUID" type="guid" value="f3b319db-3e70-454e-aab0-4e5947396119"/>
 					</node>
 		<node id="SpellList">
-                    <attribute id="Comment" type="FixedString" value="Rogue - Swashbuckler (Level 7)"/>
-                    <attribute id="Spells" type="LSString" value="Projectile_DirtyTrick_StolenExplosives"/>
-                    <attribute id="UUID" type="guid" value="62b78cbc-f9df-4834-a544-d6002d44d588"/>
-					</node>
-		<node id="SpellList">
-                    <attribute id="Comment" type="FixedString" value="Rogue - Swashbuckler (Level 11)"/>
+                    <attribute id="Comment" type="FixedString" value="Rogue - Mercenary (Level 11)"/>
                     <attribute id="Spells" type="LSString" value="Target_DirtyTrick_CannonFire"/>
                     <attribute id="UUID" type="guid" value="62b78cbc-f9df-4834-a544-d661e7571fc4"/>
 					</node>

@@ -182,7 +182,7 @@ data "ValueOverride" "1"
 data "Weight" "0"
 
 new entry "Weapon_NoValue_Shield"
-type "Weapon"
+type "Armor"
 using "ARM_Shield"
 data "ValueOverride" "1"
 data "Weight" "0"

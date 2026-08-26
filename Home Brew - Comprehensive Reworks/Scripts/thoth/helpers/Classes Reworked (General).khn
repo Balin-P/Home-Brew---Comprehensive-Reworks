@@ -44,7 +44,7 @@ function ExtraAttackSpellCheck()
 end
 
 function ExtraAttackRemovalSpellCheck()
-    return HasStringInSpellRoll('WeaponAttack') & ~IsSpell() & ~(HasUseCosts('ActionPoint', true) or HasUseCosts('BonusActionPoint', true) or HasUseCosts('ReactionActionPoint', true)) | HasStringInSpellRoll('UnarmedAttack') & ~IsSpell() & ~(HasUseCosts('ActionPoint', true) or HasUseCosts('BonusActionPoint', true) or HasUseCosts('ReactionActionPoint', true)) | HasStringInSpellRoll('ThrowAttack') & ~IsSpell() & ~(HasUseCosts('ActionPoint', true) or HasUseCosts('BonusActionPoint', true) or HasUseCosts('ReactionActionPoint', true))
+    return HasStringInSpellRoll('WeaponAttack') & ~(HasUseCosts('ActionPoint', true) or HasUseCosts('BonusActionPoint', true) or HasUseCosts('ReactionActionPoint', true)) & ~IsReactionAttack() & ~SpellId('Projectile_HordeBreaker_Free') & ~SpellId('Projectile_HordeBreaker_Firearm_Free') & ~SpellId('Target_HordeBreaker_Free') | HasStringInSpellRoll('UnarmedAttack') & ~(HasUseCosts('ActionPoint', true) or HasUseCosts('BonusActionPoint', true) or HasUseCosts('ReactionActionPoint', true)) & ~IsReactionAttack() & ~SpellId('Projectile_HordeBreaker_Free') & ~SpellId('Projectile_HordeBreaker_Firearm_Free') & ~SpellId('Target_HordeBreaker_Free') | HasStringInSpellRoll('ThrowAttack') & ~(HasUseCosts('ActionPoint', true) or HasUseCosts('BonusActionPoint', true) or HasUseCosts('ReactionActionPoint', true)) & ~IsReactionAttack() & ~SpellId('Projectile_HordeBreaker_Free') & ~SpellId('Projectile_HordeBreaker_Firearm_Free') & ~SpellId('Target_HordeBreaker_Free')
 end
 
 function ExtraAttackCheck()

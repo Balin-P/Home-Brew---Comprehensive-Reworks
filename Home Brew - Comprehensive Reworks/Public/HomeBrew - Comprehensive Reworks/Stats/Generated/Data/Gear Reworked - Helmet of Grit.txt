@@ -35,7 +35,6 @@ data "StatusEffect" "a75357d8-3633-4df4-be4e-79e37f31c6c8"
 data "TickType" "EndTurn"
 data "StackType" "Overwrite"
 data "Passives" "Haste_Lethargy_Attacked;Haste_Lethargy_Attack;Haste_Free_Action"
-data "RemoveEvents" "OnShortRest;OnCombatEnded"
 data "ManagedStatusEffectType" "Positive"
 
 new entry "MAG_LOW_HP_BONUS_ACTION_TECHNICAL"

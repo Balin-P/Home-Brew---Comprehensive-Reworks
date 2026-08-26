@@ -99,7 +99,7 @@
                     <attribute id="Error" type="TranslatedString" handle="hc45f783f425b4558b9551da613a4f211dd22" version="1" />
                     <attribute id="MaxLevel" type="uint32" value="0" />
                     <attribute id="Name" type="FixedString" value="ChainedBonds" />
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest" />
+                    <attribute id="ReplenishType" type="FixedString" value="Rest" />
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
                     <attribute id="UUID" type="guid" value="7fde0015-2d7d-4298-8d5c-521226912fcc" />
 					</node>

@@ -732,7 +732,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "StackType" "Ignore"
-data "Boosts" "UnlockSpell(Shout_BladeSurge);UnlockSpell(Target_GreenFlameBlade);UnlockSpell(Shout_ArmsOfHadar,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Command_Container,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Zone_ConjureBarrage,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Projectile_EnsnaringStrike_Container,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_FlameBlade,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_HuntersMark,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
+data "Boosts" "UnlockSpell(Shout_BladeSurge);UnlockSpell(Target_GreenFlameBlade);UnlockSpell(Shout_ArmsOfHadar,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Command_Container,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Zone_ConjureBarrage,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Projectile_EnsnaringStrike_Container,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_FlameBlade,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_HuntersMark,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
 
 new entry "CASTER_UNLOCK_CHAIN"
 type "StatusData"
@@ -743,7 +743,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "StackType" "Ignore"
-data "Boosts" "UnlockSpell(Shout_ProduceFlame);UnlockSpell(Target_ViciousMockery);UnlockSpell(Target_CrownOfMadness,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Shout_FireShield,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_InflictWounds,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_MindSpike,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_PhantasmalForce,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_HideousLaughter,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
+data "Boosts" "UnlockSpell(Shout_ProduceFlame);UnlockSpell(Target_ViciousMockery);UnlockSpell(Target_CrownOfMadness,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Shout_FireShield,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_InflictWounds,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_MindSpike,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_PhantasmalForce,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_HideousLaughter,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
 
 new entry "CASTER_UNLOCK_PENUMBRA"
 type "StatusData"
@@ -754,7 +754,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "StackType" "Ignore"
-data "Boosts" "UnlockSpell(Target_ChillTouch);UnlockSpell(Target_SacredFlame);UnlockSpell(Target_Blight,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Contagion,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_DominatePerson,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Eyebite,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Projectile_GuidingBolt,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Shout_SpiritGuardians,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
+data "Boosts" "UnlockSpell(Target_ChillTouch);UnlockSpell(Target_SacredFlame);UnlockSpell(Target_Blight,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Contagion,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_DominatePerson,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Eyebite,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Projectile_GuidingBolt,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Shout_SpiritGuardians,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
 
 new entry "CASTER_UNLOCK_PRIMORDIAL"
 type "StatusData"
@@ -765,7 +765,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "StackType" "Ignore"
-data "Boosts" "UnlockSpell(Projectile_FireBolt);UnlockSpell(Target_TollTheDead);UnlockSpell(Shout_ArmsOfHadar,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_CrownOfMadness,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Eyebite,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Zone_Fear,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_InflictWounds,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_MistyStep,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
+data "Boosts" "UnlockSpell(Projectile_FireBolt);UnlockSpell(Target_TollTheDead);UnlockSpell(Shout_ArmsOfHadar,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_CrownOfMadness,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Eyebite,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Zone_Fear,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_InflictWounds,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_MistyStep,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
 
 new entry "CASTER_UNLOCK_SEVERED"
 type "StatusData"
@@ -776,7 +776,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "StackType" "Ignore"
-data "Boosts" "UnlockSpell(Target_ChillTouch);UnlockSpell(Target_MindSliver);UnlockSpell(Shout_ArmorOfAgathys,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_BloodBroker,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Darkness,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_FrostFingers,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_HungerOfHadar,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_IceStorm,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
+data "Boosts" "UnlockSpell(Target_ChillTouch);UnlockSpell(Target_MindSliver);UnlockSpell(Shout_ArmorOfAgathys,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_BloodBroker,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Darkness,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_FrostFingers,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_HungerOfHadar,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_IceStorm,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
 
 new entry "CASTER_UNLOCK_TOME"
 type "StatusData"
@@ -787,7 +787,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 data "StackType" "Ignore"
-data "Boosts" "UnlockSpell(Shout_Prestidigitation);UnlockSpell(Projectile_Warpstone);UnlockSpell(Target_Bane,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Confusion,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Projectile_Disintegrate,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Hex,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_MistyStep,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_PhantasmalForce,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
+data "Boosts" "UnlockSpell(Shout_Prestidigitation);UnlockSpell(Projectile_Warpstone);UnlockSpell(Target_Bane,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Confusion,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Projectile_Disintegrate,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Hex,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_MistyStep,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_PhantasmalForce,MostPowerful,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
 
 <!--WIZARD-->
 

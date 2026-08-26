@@ -5,7 +5,7 @@ function DamagingSpellCheck()
 end
 
 function CarefulSpellCheck()
-    return HasSpellFlag(SpellFlags.Spell) & AreaRadiusGreaterThan(0) | HasSpellFlag(SpellFlags.Spell) & SpellTypeIs(SpellType.Shout) | HasSpellFlag(SpellFlags.Spell) & SpellTypeIs(SpellType.Wall) | HasSpellFlag(SpellFlags.Spell) & SpellTypeIs(SpellType.Zone)
+    return HasSpellFlag(SpellFlags.Spell) & HasFunctor(StatsFunctorType.DealDamage) & AreaRadiusGreaterThan(0) | HasSpellFlag(SpellFlags.Spell) & HasFunctor(StatsFunctorType.DealDamage) & SpellTypeIs(SpellType.Shout) | HasSpellFlag(SpellFlags.Spell) & HasFunctor(StatsFunctorType.DealDamage) & SpellTypeIs(SpellType.Wall) | HasSpellFlag(SpellFlags.Spell) & HasFunctor(StatsFunctorType.DealDamage) & SpellTypeIs(SpellType.Zone)
 end
 
 function DistantSpellCheck()
@@ -47,6 +47,7 @@ function ExtendedAllowedSpells()
 		SpellId('Target_ViciousMockery') |
 		SpellId('Projectile_EnsnaringStrike') |
 		SpellId('Projectile_AcidArrow') |
+		SpellId('Projectile_Fireball') |
 		SpellId('Projectile_LightningArrow') |
 		SpellId('Projectile_RayOfEnfeeblement') |
 		SpellId('Projectile_RayOfSickness') |
@@ -83,7 +84,6 @@ function ExtendedAllowedSpells()
 		SpellId('Target_StinkingCloud') |
 		SpellId('Target_ArcaneVortex') |
 		SpellId('Target_Banishment') |
-		SpellId('Target_Barkskin') |
 		SpellId('Target_BeaconOfHope') |
 		SpellId('Target_Blindness') |
 		SpellId('Target_Blur') |
@@ -135,7 +135,6 @@ function ExtendedAllowedSpells()
 		SpellId('Target_HoldPerson') |
 		SpellId('Target_HuntersMark') |
 		SpellId('Target_InflictWounds') |
-		SpellId('Target_IntellectFortress') |
 		SpellId('Target_MaximiliansEarthenGrasp') |
 		SpellId('Target_NathairsMischief') |
 		SpellId('Target_IrresistibleDance') |
@@ -170,6 +169,7 @@ function ExtendedAllowedSpells()
 		SpellId('Zone_Thunderwave') |
 		SpellId('Projectile_EnsnaringStrike_2') |
 		SpellId('Projectile_AcidArrow_2') |
+		SpellId('Projectile_Fireball_2') |
 		SpellId('Projectile_LightningArrow_2') |
 		SpellId('Projectile_RayOfEnfeeblement_2') |
 		SpellId('Projectile_RayOfSickness_2') |
@@ -200,7 +200,6 @@ function ExtendedAllowedSpells()
 		SpellId('Target_StinkingCloud_2') |
 		SpellId('Target_ArcaneVortex_2') |
 		SpellId('Target_Banishment_2') |
-		SpellId('Target_Barkskin_2') |
 		SpellId('Target_BeaconOfHope_2') |
 		SpellId('Target_Blindness_2') |
 		SpellId('Target_Blur_2') |
@@ -246,7 +245,6 @@ function ExtendedAllowedSpells()
 		SpellId('Target_HoldPerson_2') |
 		SpellId('Target_HuntersMark_2') |
 		SpellId('Target_InflictWounds_2') |
-		SpellId('Target_IntellectFortress_2') |
 		SpellId('Target_MaximiliansEarthenGrasp_2') |
 		SpellId('Target_NathairsMischief_2') |
 		SpellId('Target_IrresistibleDance_2') |
@@ -281,6 +279,7 @@ function ExtendedAllowedSpells()
 		SpellId('Zone_Thunderwave_2') |
 		SpellId('Projectile_EnsnaringStrike_3') |
 		SpellId('Projectile_AcidArrow_3') |
+		SpellId('Projectile_Fireball_3') |
 		SpellId('Projectile_LightningArrow_3') |
 		SpellId('Projectile_RayOfEnfeeblement_3') |
 		SpellId('Projectile_RayOfSickness_3') |
@@ -311,7 +310,6 @@ function ExtendedAllowedSpells()
 		SpellId('Target_StinkingCloud_3') |
 		SpellId('Target_ArcaneVortex_3') |
 		SpellId('Target_Banishment_3') |
-		SpellId('Target_Barkskin_3') |
 		SpellId('Target_BeaconOfHope_3') |
 		SpellId('Target_Blindness_3') |
 		SpellId('Target_Blur_3') |
@@ -357,7 +355,6 @@ function ExtendedAllowedSpells()
 		SpellId('Target_HoldPerson_3') |
 		SpellId('Target_HuntersMark_3') |
 		SpellId('Target_InflictWounds_3') |
-		SpellId('Target_IntellectFortress_3') |
 		SpellId('Target_MaximiliansEarthenGrasp_3') |
 		SpellId('Target_NathairsMischief_3') |
 		SpellId('Target_IrresistibleDance_3') |
@@ -392,6 +389,7 @@ function ExtendedAllowedSpells()
 		SpellId('Zone_Thunderwave_3') |
 		SpellId('Projectile_EnsnaringStrike_4') |
 		SpellId('Projectile_AcidArrow_4') |
+		SpellId('Projectile_Fireball_4') |
 		SpellId('Projectile_LightningArrow_4') |
 		SpellId('Projectile_RayOfEnfeeblement_4') |
 		SpellId('Projectile_RayOfSickness_4') |
@@ -422,7 +420,6 @@ function ExtendedAllowedSpells()
 		SpellId('Target_StinkingCloud_4') |
 		SpellId('Target_ArcaneVortex_4') |
 		SpellId('Target_Banishment_4') |
-		SpellId('Target_Barkskin_4') |
 		SpellId('Target_BeaconOfHope_4') |
 		SpellId('Target_Blindness_4') |
 		SpellId('Target_Blur_4') |
@@ -468,7 +465,6 @@ function ExtendedAllowedSpells()
 		SpellId('Target_HoldPerson_4') |
 		SpellId('Target_HuntersMark_4') |
 		SpellId('Target_InflictWounds_4') |
-		SpellId('Target_IntellectFortress_4') |
 		SpellId('Target_MaximiliansEarthenGrasp_4') |
 		SpellId('Target_NathairsMischief_4') |
 		SpellId('Target_IrresistibleDance_4') |
@@ -503,6 +499,7 @@ function ExtendedAllowedSpells()
 		SpellId('Zone_Thunderwave_4') |
 		SpellId('Projectile_EnsnaringStrike_5') |
 		SpellId('Projectile_AcidArrow_5') |
+		SpellId('Projectile_Fireball_5') |
 		SpellId('Projectile_LightningArrow_5') |
 		SpellId('Projectile_RayOfEnfeeblement_5') |
 		SpellId('Projectile_RayOfSickness_5') |
@@ -533,7 +530,6 @@ function ExtendedAllowedSpells()
 		SpellId('Target_StinkingCloud_5') |
 		SpellId('Target_ArcaneVortex_5') |
 		SpellId('Target_Banishment_5') |
-		SpellId('Target_Barkskin_5') |
 		SpellId('Target_BeaconOfHope_5') |
 		SpellId('Target_Blindness_5') |
 		SpellId('Target_Blur_5') |
@@ -579,7 +575,6 @@ function ExtendedAllowedSpells()
 		SpellId('Target_HoldPerson_5') |
 		SpellId('Target_HuntersMark_5') |
 		SpellId('Target_InflictWounds_5') |
-		SpellId('Target_IntellectFortress_5') |
 		SpellId('Target_MaximiliansEarthenGrasp_5') |
 		SpellId('Target_NathairsMischief_5') |
 		SpellId('Target_IrresistibleDance_5') |
@@ -614,6 +609,7 @@ function ExtendedAllowedSpells()
 		SpellId('Zone_Thunderwave_5') |
 		SpellId('Projectile_EnsnaringStrike_6') |
 		SpellId('Projectile_AcidArrow_6') |
+		SpellId('Projectile_Fireball_6') |
 		SpellId('Projectile_LightningArrow_6') |
 		SpellId('Projectile_RayOfEnfeeblement_6') |
 		SpellId('Projectile_RayOfSickness_6') |
@@ -644,7 +640,6 @@ function ExtendedAllowedSpells()
 		SpellId('Target_StinkingCloud_6') |
 		SpellId('Target_ArcaneVortex_6') |
 		SpellId('Target_Banishment_6') |
-		SpellId('Target_Barkskin_6') |
 		SpellId('Target_BeaconOfHope_6') |
 		SpellId('Target_Blindness_6') |
 		SpellId('Target_Blur_6') |
@@ -690,7 +685,6 @@ function ExtendedAllowedSpells()
 		SpellId('Target_HoldPerson_6') |
 		SpellId('Target_HuntersMark_6') |
 		SpellId('Target_InflictWounds_6') |
-		SpellId('Target_IntellectFortress_6') |
 		SpellId('Target_MaximiliansEarthenGrasp_6') |
 		SpellId('Target_NathairsMischief_6') |
 		SpellId('Target_IrresistibleDance_6') |
@@ -793,7 +787,7 @@ function HeightenedSpellCheck()
 end
 
 function QuickenedSpellCheck()
-    return HasUseCosts('ActionPoint') & (HasSpellFlag(SpellFlags.Spell) | NonSpellMetamagicAbilities())
+    return ~IsCantrip() & HasUseCosts('ActionPoint') & (HasSpellFlag(SpellFlags.Spell) | NonSpellMetamagicAbilities())
 end
 
 function QuickenedCantripCheck()
@@ -801,7 +795,7 @@ function QuickenedCantripCheck()
 end
 
 function RestorativeSpellCheck()
-    return HasSpellFlag(SpellFlags.Spell) & ~NumberOfTargetsGreaterThan(1) & ~AreaRadiusGreaterThan(0)
+    return HasSpellFlag(SpellFlags.Spell) & ~NumberOfTargetsGreaterThan(1) & ~AreaRadiusGreaterThan(0) & ~SpellTypeIs(SpellType.Shout) & ~SpellTypeIs(SpellType.Wall) & ~SpellTypeIs(SpellType.Zone)
 end
 
 function SeekingSpellCheck()
@@ -821,7 +815,7 @@ function TwinnedProjectileSpellCheck()
 end
 
 function CustomTwinnedProjectileSpellCheck()
-    return HasSpellFlag(SpellFlags.Spell) & ~AreaRadiusGreaterThan(0) & ~NumberOfTargetsGreaterThan(1) & ~SpellTypeIs(SpellType.Shout) & ~SpellTypeIs(SpellType.Teleportation) & ~HasFunctor(StatsFunctorType.Summon) & ~SpellTypeIs(SpellType.Throw) & ~SpellTypeIs(SpellType.Wall) & ~SpellTypeIs(SpellType.Zone) & ~TwinnedExclusionSpells()
+    return HasSpellFlag(SpellFlags.Spell) & ~IsCantrip() & ~AreaRadiusGreaterThan(0) & ~NumberOfTargetsGreaterThan(1) & ~SpellTypeIs(SpellType.Shout) & ~SpellTypeIs(SpellType.Teleportation) & ~HasFunctor(StatsFunctorType.Summon) & ~SpellTypeIs(SpellType.Throw) & ~SpellTypeIs(SpellType.Wall) & ~SpellTypeIs(SpellType.Zone) & ~TwinnedExclusionSpells()
 end
 
 function TwinnedExclusionSpells()
@@ -838,6 +832,11 @@ function TwinnedExclusionSpells()
 		| SpellId('Shout_Blink')
 		| SpellId('Target_Daylight')
 		| SpellId('Target_DominatePerson')
+		| SpellId('Target_DominatePerson_2')
+		| SpellId('Target_DominatePerson_3')
+		| SpellId('Target_DominatePerson_4')
+		| SpellId('Target_DominatePerson_5')
+		| SpellId('Target_DominatePerson_6')
 		| SpellId('Target_MistyStep')
 		| SpellId('Target_MistyStep_2')
 		| SpellId('Target_MistyStep_3')
@@ -937,4 +936,17 @@ function CreationaryCheck()
 	| SpellId('Shout_CreateSorceryPointsLVL5') | SpellId('Shout_CreateSorceryPointsLVL6') | SpellId('Shout_CreateSpellSlotLVL2')
     | SpellId('Shout_CreateSpellSlotLVL3') | SpellId('Shout_CreateSpellSlotLVL4') | SpellId('Shout_CreateSpellSlotLVL5')
 	| SpellId('Shout_CreateSpellSlotLVL6')
+end
+
+function IsBreathAttack()
+    return SpellId('Zone_BreathWeapon_Acid') | SpellId('Zone_BreathWeapon_Greater_Acid') | SpellId('Zone_BreathWeapon_Superior_Acid')
+    | SpellId('Zone_BreathWeapon_Lightning') | SpellId('Zone_BreathWeapon_Greater_Lightning') | SpellId('Zone_BreathWeapon_Superior_Lightning')
+    | SpellId('Zone_BreathWeapon_Poison') | SpellId('Zone_BreathWeapon_Greater_Poison') | SpellId('Zone_BreathWeapon_Superior_Poison')
+    | SpellId('Zone_BreathWeapon_Fire') | SpellId('Zone_BreathWeapon_Greater_Fire') | SpellId('Zone_BreathWeapon_Superior_Fire')
+    | SpellId('Zone_BreathWeapon_Cold') | SpellId('Zone_BreathWeapon_Greater_Cold') | SpellId('Zone_BreathWeapon_Superior_Cold')
+    | SpellId('Zone_BreathWeapon_Force') | SpellId('Zone_BreathWeapon_Greater_Force') | SpellId('Zone_BreathWeapon_Superior_Force')
+    | SpellId('Zone_BreathWeapon_Radiant') | SpellId('Zone_BreathWeapon_Greater_Radiant') | SpellId('Zone_BreathWeapon_Superior_Radiant')
+    | SpellId('Zone_BreathWeapon_Psychic') | SpellId('Zone_BreathWeapon_Greater_Psychic') | SpellId('Zone_BreathWeapon_Superior_Psychic')
+    | SpellId('Zone_BreathWeapon_Thunder') | SpellId('Zone_BreathWeapon_Greater_Thunder') | SpellId('Zone_BreathWeapon_Superior_Thunder')
+    | SpellId('Zone_BreathWeapon_Necrotic') | SpellId('Zone_BreathWeapon_Greater_Necrotic') | SpellId('Zone_BreathWeapon_Superior_Necrotic')
 end

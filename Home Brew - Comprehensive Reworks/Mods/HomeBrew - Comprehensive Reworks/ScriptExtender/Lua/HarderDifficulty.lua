@@ -21,8 +21,6 @@ local PASSIVE_FATAL     = "Fatal_Encounter"
 local SUMMON_EXCLUSION_STATUSES = {
     "SHADOWCURSE_SUMMON_CHECK",
     "UNSUMMON_ABLE",
-    "SHADOWCURSE_SUMMON_CHECK_SPORES",
-    "UNSUMMON_ABLE_SPORES",
 }
 
 -- Late combat joiners are processed after a short delay.

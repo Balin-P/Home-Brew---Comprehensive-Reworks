@@ -1,0 +1,41 @@
+function MFL_ValidCost()
+    local costTypes = {
+        "ActionPoint",
+        "BonusActionPoint",
+        "ReactionActionPoint",
+        "SorceryPoint",
+        "LayOnHandsCharge",
+        "KiPoint",
+        "Rage",
+        "BardicInspiration",
+        "ChannelDivinity",
+        "ChannelOath",
+        "SuperiorityDie",
+        "ArcaneRecoveryPoint",
+        "SpellSlot",
+        "WarlockSpellSlot",
+        "RitualPoint",
+        "NaturalRecoveryPoint",
+        "WildShape",
+        "TidesOfChaos",
+        "WarPriestActionPoint",
+        "FungalInfestationCharge",
+        "LuckPoint",
+        "ShadowSpellSlot",
+        "Interrupt_HellishRebukeTiefling_Charge",
+        "SneakAttack_Charge",
+        "Interrupt_HellishRebukeWarlockMI_Charge"
+    }
+
+    for _, cost in ipairs(costTypes) do
+        if HasUseCosts(cost, false).Result then
+            return true
+        end
+    end
+
+    if IsWeaponAttack().Result then
+        return true
+    end
+
+    return false
+end

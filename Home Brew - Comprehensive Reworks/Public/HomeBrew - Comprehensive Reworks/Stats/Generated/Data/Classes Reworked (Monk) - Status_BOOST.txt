@@ -428,7 +428,7 @@ data "Description" "h380fd620g031cg4b8bg9e8cgf7cee59000zf;2"
 data "Icon" "PassiveFeature_CheekyTipple"
 data "StackId" "PRONE_EIGHTHGATEREMOVAL"
 data "TickType" "EndTurn"
-data "Boosts" "CriticalDamageOnHit()"
+data "Boosts" "CriticalHit(AttackRoll,Success,Always)"
 data "RemoveEvents" "OnCombatEnded"
 
 <!--WAY OF THE GENTLE FIST-->
@@ -558,7 +558,7 @@ data "Icon" "Action_Mag_Hellcrawler"
 data "StackId" "AUSPICIOUS_SHADOWS"
 data "TickType" "EndTurn"
 data "BoostConditions" "SpellId('Target_ShadowStrike_Instant') or SpellId(Target_ShadowStrike_Instant_Unarmed)"
-data "Boosts" "CriticalDamageOnHit()"
+data "Boosts" "CriticalHit(AttackRoll,Success,Always)"
 
 <!--WAY OF THE TEMPERED STEEL-->
 
@@ -577,7 +577,7 @@ data "Boosts" "Disadvantage(SavingThrow, Constitution)"
 data "RemoveEvents" "OnHeal"
 data "TickFunctors" "DealDamage((Target.MaxHP/20), Slashing)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;InitiateCombat"
-data "StatusGroups" "SG_Physical;SG_Helpable_Condition"
+data "StatusGroups" "SG_Helpable_Condition"
 
 new entry "CONCENTRATION"
 type "StatusData"

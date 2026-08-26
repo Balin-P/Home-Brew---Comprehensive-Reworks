@@ -1,3 +1,12 @@
+
+new entry "FIREARM_EQUIPPED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "5aeec0c004874dac95d8170c2054769500000;1"
+data "Description" "5aeec0c004874dac95d8170c20547695zzzzz;1"
+data "Icon" "Passive_ArcaneFirearm"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead;IgnoreResting"
+
 <!--BLUNDERBUSS-->
 
 new entry "FIREARM_BLUNDERBUSS_1"
@@ -197,6 +206,8 @@ data "Description" "h509b8e00gacb9g46e8d5ffs5e8f5e5f0000b;1"
 data "Icon" "Passive_SoulOfArtefice"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "OnApplyFunctors" "IF(not ClassLevelHigherOrEqualThan(3,'Artificer')):RestoreResource(SpellSlot,1,1);IF(ClassLevelHigherOrEqualThan(3,'Artificer') and not ClassLevelHigherOrEqualThan(5,'Artificer')):RestoreResource(SpellSlot,1,2);IF(ClassLevelHigherOrEqualThan(5,'Artificer') and not ClassLevelHigherOrEqualThan(7,'Artificer')):RestoreResource(SpellSlot,1,3);IF(ClassLevelHigherOrEqualThan(7,'Artificer') and not ClassLevelHigherOrEqualThan(9,'Artificer')):RestoreResource(SpellSlot,1,4);IF(ClassLevelHigherOrEqualThan(9,'Artificer') and not ClassLevelHigherOrEqualThan(11,'Artificer')):RestoreResource(SpellSlot,1,5);IF(ClassLevelHigherOrEqualThan(11,'Artificer')):RestoreResource(SpellSlot,1,6)"
+data "StackId" "MYSTICRELOAD"
+data "StackType" "Ignore"
 
 new entry "ARCANEBALLISTICS"
 type "StatusData"
@@ -605,10 +616,9 @@ using "INFUSION"
 data "DisplayName" "88523fb3deaa2d5f5ef6304e0911fbc400019;4"
 data "Description" "99523fb3deaasdf5e8f6304e0911fbc40000s;4"
 data "Icon" "GenericIcon_Intent_Buff"
+data "StackType" "Ignore"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-data "Boosts" "UnlockSpellVariant(SpellSlotCheck(),ModifyTooltipDescription(),ModifyUseCosts(Replace,SpellSlot,0,-1,SpellSlot),ModifyUseCosts(Replace,WarlockSpellSlot,0,-1,WarlockSpellSlot),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyIconGlow())"
-data "RemoveConditions" "IsSpell() and not IsCantrip()"
-data "RemoveEvents" "OnSpellCast"
+data "OnApplyFunctors" "IF(not ClassLevelHigherOrEqualThan(3,'Artificer', context.Source)):RestoreResource(SpellSlot,1,1);IF(ClassLevelHigherOrEqualThan(3,'Artificer', context.Source) and not ClassLevelHigherOrEqualThan(5,'Artificer', context.Source)):RestoreResource(SpellSlot,1,2);IF(ClassLevelHigherOrEqualThan(5,'Artificer', context.Source) and not ClassLevelHigherOrEqualThan(7,'Artificer', context.Source)):RestoreResource(SpellSlot,1,3);IF(ClassLevelHigherOrEqualThan(7,'Artificer', context.Source) and not ClassLevelHigherOrEqualThan(9,'Artificer', context.Source)):RestoreResource(SpellSlot,1,4);IF(ClassLevelHigherOrEqualThan(9,'Artificer', context.Source) and not ClassLevelHigherOrEqualThan(11,'Artificer', context.Source)):RestoreResource(SpellSlot,1,5);IF(ClassLevelHigherOrEqualThan(11,'Artificer', context.Source)):RestoreResource(SpellSlot,1,6)"
 
 new entry "STABILITYMATRIX"
 type "StatusData"
@@ -791,7 +801,7 @@ data "Description" "99523fb3deaasdf5e8f6304e0911fbc40z00p;4"
 data "Icon" "GenericIcon_Intent_Debuff"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "StackId" "TEMPORARY_HP"
-data "StackPriority" "999"
+data "StackPriority" "99"
 
 new entry "SIGNALSILENCE"
 type "StatusData"

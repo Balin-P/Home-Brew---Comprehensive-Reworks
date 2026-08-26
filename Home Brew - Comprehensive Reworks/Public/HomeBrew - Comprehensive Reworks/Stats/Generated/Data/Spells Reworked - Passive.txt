@@ -48,7 +48,7 @@ data "Icon" "statIcons_CrawlingGnawInfection"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCreate;OnCombatStarted;OnTurn"
 data "Conditions" "not IsAetherSuspended(context.Source)"
-data "StatsFunctors" "IF(not HasStatus('ZOMBIE_DECAY_ACTUAL', context.Source))ApplyStatus(SELF,ZOMBIE_DECAY_ACTUAL,100,-1)"
+data "StatsFunctors" "IF(not HasStatus('ZOMBIE_DECAY_ACTUAL', context.Source)):ApplyStatus(SELF,ZOMBIE_DECAY_ACTUAL,100,-1)"
 
 <!--DRUNK-->
 
@@ -395,22 +395,6 @@ data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnAttacked"
 data "Conditions" "Enemy() and IsMeleeAttack()() and not SpellTypeIs(SpellType.Throw) and not IsRedirectedDamage()"
 data "StatsFunctors" "ApplyStatus(PASSIVE_FIRE_SHIELD_WARM,100,0);ApplyStatus(SELF,PASSIVE_FIRE_SHIELD_WARM_ATTACKER,100,0);DealDamage(SWAP,6d6, Fire,,,0,,true)"
-
-<!--FLAMING ARROWS-->
-
-new entry "S5E_FlameArrows"
-type "PassiveData"
-data "Icon" "Spell_Transmutation_FlameArrows"
-data "DisplayName" "39f1898f9sdfosdoifsodofsofd99494xyz6;1"
-data "Description" "39f1898f9sdfosdoifsodofsofd99494xyzf;1"
-data "DescriptionParams" "DealDamage(1d4,Fire)"
-data "Properties" "IsToggled;Temporary"
-data "StatsFunctorContext" "OnDamage"
-data "Conditions" "IsRangedWeaponAttack() and Character() and not Self() and not Ally() and not IsReactionAttack()"
-data "StatsFunctors" "UseActionResource(SELF,FlameArrows,1,0);ApplyStatus(BURNING,100,1);DealDamage(1d4,Fire,,,0,,true)"
-data "ToggleGroup" "S5E_FlameArrows"
-data "EnabledConditions" "HasActionResource('FlameArrows', 1, 0, false, false, context.Source) and not (HasPassive('LowRange_Firearm_Passive', context.Source) or HasPassive('MidRange_Firearm_Passive', context.Source) or HasPassive('HighRange_Firearm_Passive', context.Source))"
-data "EnabledContext" "OnLongRest;OnActionResourcesChanged;OnStatusApplied;OnStatusRemoved"
 
 <!--FLAMING SPHERE-->
 

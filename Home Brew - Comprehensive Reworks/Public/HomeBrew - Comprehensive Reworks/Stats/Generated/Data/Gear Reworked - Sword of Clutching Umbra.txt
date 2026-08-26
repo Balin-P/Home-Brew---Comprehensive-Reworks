@@ -27,6 +27,8 @@ data "TooltipStatusApply" ""
 data "SpellFlags" "IsMelee;IsHarmful;IsDefaultWeaponAction;Stealth"
 data "TargetEffect" "7693dbb8-2068-4f2c-a5d5-62e896d41247"
 data "Cooldown" "OncePerTurn"
+data "Requirements" "Combat"
+data "RequirementConditions" "not HasStatus('SG_Polymorph_BeastShape')"
 
 new entry "CONSUMED_SWORDOFCLUTCHINGUMBRA"
 type "StatusData"

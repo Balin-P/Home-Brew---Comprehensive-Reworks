@@ -210,7 +210,7 @@ using "PACIFYING_SPORES"
 data "DisplayName" "h9b01f118gdd98g4473g8d55g555a7835aab3;1"
 data "Description" "h4173dc84g1ce1g4ad2g9d40gc069cb66f43e;1"
 data "OnApplyFunctors" "BreakConcentration()"
-data "StatusGroups" "SG_Magical;SG_Confused"
+data "StatusGroups" "SG_Confused"
 
 <!--BERNARD-->
 
@@ -345,7 +345,7 @@ data "Description" "h4eb1e5f9g7eeeg4f23g888cg822824ca1392;4"
 data "DescriptionParams" "GainTemporaryHitPoints(124)"
 data "Icon" "statIcons_Bulette_DiamondScales"
 data "StackId" "TEMPORARY_HP"
-data "StackPriority" "124"
+data "StackPriority" "99"
 data "Boosts" "Attribute(Grounded);IgnoreDamageThreshold(All,15);TemporaryHP(124);Resistance(Bludgeoning, Vulnerable);Resistance(Force, Vulnerable)"
 data "RemoveConditions" "not HasTemporaryHP()"
 data "RemoveEvents" "OnDamage"
@@ -842,7 +842,7 @@ data "FormatColor" "White"
 data "TickType" "EndTurn"
 data "TickFunctors" "RemoveStatus(WYR_GORTASH_CRUSHINGFIST_HANGING)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;TickingWithSource;FreezeDuration"
-data "OnApplyFunctors" "IF(Character() and not Tagged('ACT3_WYR_GORTASH'))ApplyStatus(WYR_AI_HELPER_AVOIDAREA_EXCEPT_GORTASH,100,-1)"
+data "OnApplyFunctors" "IF(Character() and not Tagged('ACT3_WYR_GORTASH')):ApplyStatus(WYR_AI_HELPER_AVOIDAREA_EXCEPT_GORTASH,100,-1)"
 data "StatusEffect" "16afd8d3-be99-445c-bcab-dce474d521e0"
 
 <!--GREMISHKA-->
@@ -886,6 +886,23 @@ data "StatusEffect" "89af8f46-c493-4537-a2ee-f6d1ed121993"
 data "Boosts" "UnlockSpell(Projectile_ArcaneCurrent_Grym);UnlockSpell(Shout_Stomp_Grym);UnlockSpell(Shout_SelfDestruct_Grym);ActionResourceMultiplier(Movement,200,0)"
 data "Passives" "CreaturePassive_Grym;CreaturePassive_Grym_Turn;CreaturePassive_Grym_Detonate"
 data "FormatColor" "Red"
+
+new entry "KINETICARMOR_ADAMANTINEGOLEM"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h94ea441fgd54dg4307g9f73g027a971f44c3;2"
+data "Description" "h77c37c0bg14d4g4852g8eb4g0f4a7b745d35;2"
+data "DescriptionParams" "GainTemporaryHitPoints(24);Distance(9);DealDamage(3d12,Thunder)"
+data "Icon" "GenericIcon_Intent_Buff"
+data "StackId" "TEMPORARY_HP"
+data "StackPriority" "24"
+data "Boosts" "TemporaryHP(24)"
+data "TickType" "EndTurn"
+data "RemoveConditions" "not HasTemporaryHP()"
+data "RemoveEvents" "OnDamage"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(KINETICARMOR_ADAMANTINEGOLEM_TECHNICAL,100,1)"
+data "StatusEffect" "70b7f383-841b-4dd3-87e0-55b275f66d86"
 
 <!--HALSIN GOBLIN PEN-->
 
@@ -1379,6 +1396,18 @@ data "Passives" "Fatal_Encounter_Raphael"
 data "StackId" "FATAL_ENCOUNTER_RAPHAEL"
 data "StackType" "Ignore"
 
+<!--ROTHE-->
+
+new entry "UND_FEARFULROTHE_AGITATED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hd0e7b197g08a7g43f0ga290g8b469c4984f2;2"
+data "Description" "haa35729dg5e28g437ag9769gb70e9ce59ce1;2"
+data "Icon" "statIcons_Agitated"
+data "FormatColor" "Red"
+data "Boosts" "Advantage(AttackRoll)"
+data "StatusGroups" "SG_Mental;SG_Rage"
+
 <!--SAVARSH KETHK-->
 
 new entry "CRE_COMBAT_INSTRUCTION"
@@ -1578,6 +1607,20 @@ data "DisplayName" "hcd546155gd37dg4fefg9deeg71d2f0198287;1"
 data "Description" "h2527cab9gb2c6g4756g9667g468826a1c89e;1"
 data "DescriptionParams" "Distance(9); GainTemporaryHitPoints(100)"
 data "Boosts" "ActionResource(Movement,9,0); TemporaryHP(100)"
+
+<!--WITHERS-->
+
+new entry "KILL_WITHERS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h4d7f1eviconiaa4d80ga24bg135cjergalzz;3"
+data "Description" "hcd35aviconiaaa4c0fgad2fg2c33jergalzz;2"
+data "Icon" "Action_Monster_Banite_AuraOfTerror"
+data "StackId" "KILL_WITHERS"
+data "OnApplyFunctors" "Kill()"
+data "OnRemoveFunctors" "SwitchDeathType(Explode);ApplyStatus(CORPSE_USED,100,-1)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StackType" "Overwrite"
 
 <!--WOOD WOAD-->
 

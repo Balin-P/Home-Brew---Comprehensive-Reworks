@@ -71,7 +71,7 @@ data "OnApplyFunctors" "SummonInInventory(aca5d144-773b-42ba-aca1-6903c60c418c,P
 new entry "Bard_Steel_Weapon_Add_NPC"
 type "PassiveData"
 data "Properties" "IsHidden;IsToggled;ToggledDefaultOn"
-data "ToggleOnFunctors" "ApplyStatus(BARD_STEEL_WEAPON_DICE_ROLL,100,1d100)"
+data "ToggleOnFunctors" "IF(not HasMeleeWeaponEquipped()):ApplyStatus(BARD_STEEL_WEAPON_DICE_ROLL,100,1d100)"
 
 new entry "BARD_STEEL_WEAPON_DICE_ROLL"
 type "StatusData"

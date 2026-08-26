@@ -133,6 +133,31 @@ data "Description" "8a87461fd8dd4f5b9098ded714f6c8asd5f87;2"
 data "Icon" "Spell_Transmutation_TimeStop"
 data "Boosts" "SpellSaveDC(3)"
 
+new entry "SUMMON_DUNESIS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "8a87461fd8dd4f5b9098ded714f6c8aa00021;1"
+data "Description" "8a87461fd8dd4f5b9098ded714f6c8aa0000u;2"
+data "Icon" "PassiveFeature_Banite_TacticalDiscipline"
+data "StackId" "SUMMON_DUNESIS"
+data "Passives" "Summon_Dunesis"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StackType" "Ignore"
+
+<!--GALVANIZED STORMSOUL-->
+
+new entry "GALVANIZED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hcbb02b50g75d3g468fgacb6gs6e5galvaniz;1"
+data "Description" "h53277800gd3a4g4984gbff6g0s5egalvaniz;1"
+data "DescriptionParams" "Distance(18)"
+data "Icon" "Spell_2e_DrawTheLightning"
+data "StackId" "GALVANIZED"
+data "Passives" "Galvanized_Enemy_Damaged"
+data "StackType" "Ignore"
+data "FormatColor" "Blue"
+
 <!--GREATER IMPACT-->
 
 new entry "GREATERIMPACT_BONUS_ATTACK"

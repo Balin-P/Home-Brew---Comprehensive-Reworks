@@ -600,7 +600,7 @@ data "DisplayName" "h86a825dagb852g4f68g847cg41fcba2a6d22;1"
 data "Description" "hf12dfcdfg3774g4f31g849cg8c09c21sdf88;2"
 data "Icon" "PassiveFeature_WarMagic"
 data "Boosts" "Advantage(Concentration);UnlockSpellVariant(MeleeCheck(),ModifyTargetRadius(Multiplicative,2))"
-data "StackType" "Overwrite"
+data "StackType" "Ignore"
 data "StackId" "FROM_BEYOND"
 
 new entry "EXTRA_ATTACK_MOUNTAINOUS_MADNESS"

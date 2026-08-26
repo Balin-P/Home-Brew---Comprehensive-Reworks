@@ -306,6 +306,26 @@
 						<node id="LocomotionParams" />
 					</children>
 				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="1cd39f40-b64c-4cfb-a474-2d7bdde72ba8" />
+					<attribute id="Name" type="LSString" value="MYSTFLAME_VFX_Projectile_Nere_PsychicMirror_Explosion_01" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="uint8" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_Root" />
+					<attribute id="ImpactFX" type="FixedString" value="MYSTFLAME_VFX_Projectiles_Nere_PsychicMirror_Explosion_Impact_01" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="InitialSpeed" type="float" value="30" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
 			</children>
 		</node>
 	</region>

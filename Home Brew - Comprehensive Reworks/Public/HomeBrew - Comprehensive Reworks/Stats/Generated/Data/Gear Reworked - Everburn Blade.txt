@@ -11,7 +11,7 @@ data "Unique" "1"
 data "Weapon Properties" "Melee;Dippable;Finesse;Twohanded"
 data "UseCosts" "ReactionActionPoint:1;Attunement:2"
 data "StatusOnEquip" "ATTUNEMENT2"
-data "WeaponFunctors" "IF(not SavingThrow(Ability.Constitution, ManeuverSaveDC())):ApplyStatus(BURNING,100,1);GROUND:IF(HasStatus('BURNING',context.Source)):SurfaceChange(Ignite)"
+data "WeaponFunctors" "IF(not SavingThrow(Ability.Constitution, ManeuverSaveDC())):ApplyStatus(CURSEOFHELLFIRE,100,1);GROUND:IF(HasStatus('BURNING',context.Source)):SurfaceChange(Ignite)"
 data "PassivesOnEquip" "HeavyCleave;MAG_Fire_Passive_Everburn"
 
 new entry "MAG_Fire_Passive_Everburn"

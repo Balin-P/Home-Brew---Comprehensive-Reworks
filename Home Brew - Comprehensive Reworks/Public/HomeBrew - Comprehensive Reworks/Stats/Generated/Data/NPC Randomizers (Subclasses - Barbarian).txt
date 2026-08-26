@@ -546,6 +546,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "WildMagicRage"
+data "Boosts" "ActionResource(SpellSlot,2,1)"
 
 new entry "APPLY_WILDSOUL_3"
 type "StatusData"
@@ -560,6 +561,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "WildMagicRage;ChaoticRoar;Unstable_Backlash"
+data "Boosts" "ActionResource(SpellSlot,4,1)"
 
 new entry "APPLY_WILDSOUL_5"
 type "StatusData"
@@ -574,6 +576,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "WildMagicRage;ChaoticRoar;Unstable_Backlash;Unstable_Recovery"
+data "Boosts" "ActionResource(SpellSlot,4,1);ActionResource(SpellSlot,2,2)"
 
 new entry "APPLY_WILDSOUL_7"
 type "StatusData"
@@ -588,6 +591,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "WildMagicRage;ChaoticRoar;Unstable_Backlash;Unstable_Recovery;ChanceSurge;ChanceSurge_Damaged"
+data "Boosts" "ActionResource(SpellSlot,4,1);ActionResource(SpellSlot,4,2)"
 
 new entry "APPLY_WILDSOUL_9"
 type "StatusData"
@@ -602,6 +606,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "WildMagicRage;ChaoticRoar;Unstable_Backlash;Unstable_Recovery;ChanceSurge;ChanceSurge_Damaged;TenaciousChaos"
+data "Boosts" "ActionResource(SpellSlot,4,1);ActionResource(SpellSlot,4,2);ActionResource(SpellSlot,2,3)"
 
 new entry "APPLY_WILDSOUL_11"
 type "StatusData"
@@ -616,3 +621,4 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "WildMagicRage;ChaoticRoar;Unstable_Backlash;Unstable_Recovery;ChanceSurge;ChanceSurge_Damaged;TenaciousChaos;Wild_Bloodlust"
+data "Boosts" "ActionResource(SpellSlot,4,1);ActionResource(SpellSlot,4,2);ActionResource(SpellSlot,4,3)"

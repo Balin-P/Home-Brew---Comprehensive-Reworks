@@ -116,6 +116,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "Force_Hide_NPC;ArcaneTrickery;SneakAttack_Unlock_Magic"
+data "Boosts" "ActionResource(SpellSlot,2,1)"
 
 new entry "APPLY_ARCANETRICKSTER_3"
 type "StatusData"
@@ -130,6 +131,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "Force_Hide_NPC;ArcaneTrickery;SneakAttack_Unlock_Magic;BlessingoftheTrickster"
+data "Boosts" "ActionResource(SpellSlot,4,1)"
 
 new entry "APPLY_ARCANETRICKSTER_5"
 type "StatusData"
@@ -144,6 +146,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "Force_Hide_NPC;ArcaneTrickery;SneakAttack_Unlock_Magic;BlessingoftheTrickster;TrickoftheLight"
+data "Boosts" "ActionResource(SpellSlot,4,1);ActionResource(SpellSlot,2,2)"
 
 new entry "APPLY_ARCANETRICKSTER_7"
 type "StatusData"
@@ -158,6 +161,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "Force_Hide_NPC;ArcaneTrickery;SneakAttack_Unlock_Magic;BlessingoftheTrickster;TrickoftheLight;EtherealCaster"
+data "Boosts" "ActionResource(SpellSlot,4,1);ActionResource(SpellSlot,4,2)"
 
 new entry "APPLY_ARCANETRICKSTER_9"
 type "StatusData"
@@ -172,6 +176,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "Force_Hide_NPC;ArcaneTrickery;SneakAttack_Unlock_Magic;BlessingoftheTrickster;TrickoftheLight;EtherealCaster;MagicalAmbush"
+data "Boosts" "ActionResource(SpellSlot,4,1);ActionResource(SpellSlot,4,2);ActionResource(SpellSlot,2,3)"
 
 new entry "APPLY_ARCANETRICKSTER_11"
 type "StatusData"
@@ -186,6 +191,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "Force_Hide_NPC;ArcaneTrickery;SneakAttack_Unlock_Magic;BlessingoftheTrickster;TrickoftheLight;EtherealCaster;MagicalAmbush;ElusiveCasting"
+data "Boosts" "ActionResource(SpellSlot,4,1);ActionResource(SpellSlot,4,2);ActionResource(SpellSlot,4,3)"
 
 <!----------------------------------------------------------------------------------------------------SUBCLASS 2---------------------------------------------------------------------------------------------------->
 
@@ -229,7 +235,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
-data "Passives" "Force_Hide_NPC;Assassinate_NPC;Assassinate_Resource;SneakAttack_Unlock;AssassinsFocus;AssassinsQuarry_NPC;AssassinsQuarry_Attack_Fixer;AssassinsQuarry_CombatEnd_Fixer;HiddenImplement"
+data "Passives" "Force_Hide_NPC;Assassinate_NPC;Assassinate_Resource;SneakAttack_Unlock;AssassinsFocus;AssassinsQuarry_NPC;AssassinsQuarry_Attack_Fixer;AssassinsQuarry_CombatEnd_Fixer;MarkedforBlood"
 
 new entry "APPLY_ASSASSIN_7"
 type "StatusData"
@@ -243,7 +249,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
-data "Passives" "Force_Hide_NPC;Assassinate_NPC;Assassinate_Resource;SneakAttack_Unlock;AssassinsFocus;AssassinsQuarry_NPC;AssassinsQuarry_Attack_Fixer;AssassinsQuarry_CombatEnd_Fixer;HiddenImplement;Critical_Shock"
+data "Passives" "Force_Hide_NPC;Assassinate_NPC;Assassinate_Resource;SneakAttack_Unlock;AssassinsFocus;AssassinsQuarry_NPC;AssassinsQuarry_Attack_Fixer;AssassinsQuarry_CombatEnd_Fixer;MarkedforBlood;Critical_Shock"
 
 new entry "APPLY_ASSASSIN_9"
 type "StatusData"
@@ -257,7 +263,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
-data "Passives" "Force_Hide_NPC;Assassinate_NPC;Assassinate_Resource;SneakAttack_Unlock;AssassinsFocus;AssassinsQuarry_NPC;AssassinsQuarry_Attack_Fixer;AssassinsQuarry_CombatEnd_Fixer;HiddenImplement;Critical_Shock;MarkedforBlood"
+data "Passives" "Force_Hide_NPC;Assassinate_NPC;Assassinate_Resource;SneakAttack_Unlock;AssassinsFocus;AssassinsQuarry_NPC;AssassinsQuarry_Attack_Fixer;AssassinsQuarry_CombatEnd_Fixer;MarkedforBlood;Critical_Shock;HiddenImplement"
 
 new entry "APPLY_ASSASSIN_11"
 type "StatusData"
@@ -271,7 +277,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
-data "Passives" "Force_Hide_NPC;Assassinate_NPC;Assassinate_Resource;SneakAttack_Unlock;AssassinsFocus;AssassinsQuarry_NPC;AssassinsQuarry_Attack_Fixer;AssassinsQuarry_CombatEnd_Fixer;HiddenImplement;Critical_Shock;MarkedforBlood;Execute"
+data "Passives" "Force_Hide_NPC;Assassinate_NPC;Assassinate_Resource;SneakAttack_Unlock;AssassinsFocus;AssassinsQuarry_NPC;AssassinsQuarry_Attack_Fixer;AssassinsQuarry_CombatEnd_Fixer;MarkedforBlood;Critical_Shock;HiddenImplement;Execute"
 
 <!----------------------------------------------------------------------------------------------------SUBCLASS 3---------------------------------------------------------------------------------------------------->
 
