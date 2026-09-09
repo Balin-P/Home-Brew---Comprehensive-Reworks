@@ -5,7 +5,7 @@
 	<content contentuid="hbd8b5855gd61cg5d0agd5cage4642cc576hb" version="1">Fire a barrage of three arcane bolts.</content>
 
 	<content contentuid="h4c929007gfcd5gf501g2aadgd1710575d8hb" version="2">Arcane Spheres</content>
-	<content contentuid="hae1ed21dgf03eg58a6ge421ge462c3311bhb" version="1">Restore an allies &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, or siphon the life of a nearby enemy, storing it in up to three arcane spheres. For each arane sphere you hold, you will roll an additional die when targeting a creature with this action.</content>
+	<content contentuid="hae1ed21dgf03eg58a6ge421ge462c3311bhb" version="1">Restore an allies &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, or siphon the life of a nearby enemy, storing it in up to three arcane spheres. For each arcane sphere you hold, you will roll an additional die when targeting a creature with this action.</content>
 	<content contentuid="h4c929007gfcd5gf501g2aadgd1710575d1hb" version="2">Arcane Spheres: 1</content>
 	<content contentuid="hae1ed21dgf03eg58a6ge421ge462c33111hb" version="1">Affected creature has absorbed the life of a nearby enemy, boosting their damage and healing capabilities.</content>
 	<content contentuid="h4c929007gfcd5gf501g2aadgd1710575d2hb" version="2">Arcane Spheres: 2</content>
@@ -45,7 +45,7 @@
 	<content contentuid="h5224588bgfae1gfe10gd946gfbb01d5ezhey" version="1">Affected creature has taken [1] due to the incessant chattering of a nearby Wisp...</content>
 
 	<content contentuid="h78a7505fgf662gc1d3g01b5gcc92e0b623hb" version="2">Invictus Aeterna</content>
-	<content contentuid="h869594c6g6b76gda3dgb5f4gf90a12ff8fhb" version="1">Surround an allied corpse in stone pillars for three turns. While between the pillars, allies will benefit from the effects of &lt;LSTag Type="Status" Tooltip="DEATH_WARD"&gt;Death Ward&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>
+	<content contentuid="h869594c6g6b76gda3dgb5f4gf90a12ff8fhb" version="1">Target an allied corpse in order to surround yourself in soul stones for three turns. While between the stones, your allies will benefit from the effects of &lt;LSTag Type="Status" Tooltip="DEATH_WARD"&gt;Death Ward&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>
 	<content contentuid="hc28c88d4g5ac9gba7cgc319g29991bfc2fhb" version="2">Invictus Aeterna</content>
 	<content contentuid="h4007b863g8c03gefb8g3955gfb7f20c90chb" version="1">Affected corpse is projecting &lt;LSTag Type="Status" Tooltip="DEATH_WARD"&gt;Death Ward&lt;/LSTag&gt; onto nearby allies.</content>
 
@@ -150,6 +150,6 @@
 	<content contentuid="h68e9b61fgb806g5ac1gdc6bgdc0d8ea224hb" version="3">Affected creature is wrapped in an arcane aegis. The next projectile fired at them will be reflected back at it's sender. Removed upon taking damage.</content>
 
 	<content contentuid="h5d2f386ag389dg02d2g5a62g4b04a1094fhb" version="2">Whirlpool</content>
-	<content contentuid="he5f511d5g5023g38a8gbea1gc19b84de64hb" version="1">Conjure a whirlpool at your feet, pulling all nearby enemies close to you.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Druid&lt;br&gt;Rangers&lt;br&gt;Sorcerers</content>
+	<content contentuid="he5f511d5g5023g38a8gbea1gc19b84de64hb" version="1">Conjure a whirlpool at your feet, pulling all nearby creatures close to you.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Druid&lt;br&gt;Rangers&lt;br&gt;Sorcerers</content>
 
 </contentList>
