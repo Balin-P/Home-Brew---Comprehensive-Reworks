@@ -21,6 +21,11 @@
 	<content contentuid="fa731f0f74f5402aa0da9027a05084eb00003" version="1">Extra Resource: Reaction</content>
 	<content contentuid="fa731f0f74f5402aa0da9027a05084eb0000c" version="1">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>
 
+	<content contentuid="a66009651b4143518ce104d0c7de97ff00001" version="1">Arcane Blowback</content>
+	<content contentuid="a66009651b4143518ce104d0c7de97ff0000a" version="1">Affected creature is suffering from arcane blowback for having cast over three leveled Spells. They are unable to cast Spells again until their next turn.</content>
+	<content contentuid="a66009651b4143518ce104d0c7de97ff000z1" version="1">Arcane Blowback</content>
+	<content contentuid="a66009651b4143518ce104d0c7de97ff000za" version="1">You are unable to cast Spells again until your next turn.</content>
+
 <content contentuid="0000000000000000000000000000000000000" version="1">TUTORIAL</content>
 
 	<content contentuid="h9ba0158egeb2ag40e8g84f4g23f979fadf09" version="1">Reset Tutorials</content>
@@ -260,6 +265,8 @@
 	<content contentuid="ha8a3d3bdg7acbg43b2g8d74g2de450882e1c" version="1">Many people are willing to trade with you - but how good a deal you get depends on how well-liked you are.&lt;br&gt;&lt;br&gt;You can trade to quickly buy and sell items, or haggle to get a better value - haggling in a trader's favour will make them like you more and get you better prices in future.</content>
 	<content contentuid="h29844f39gb20cg47fdg9ce9gb198dafb6c91" version="1">Many people are willing to trade with you - but how good a deal you get depends on how well-liked you are.&lt;br&gt;&lt;br&gt;You can trade to quickly buy and sell items, or haggle to get a better value - haggling in a trader's favour will make them like you more and get you better prices in future.</content>
 
+	<content contentuid="h3eb5959eg32a3g4476g907eg60d5c432b937" version="1">When you land a Critical Hit on an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, your damage dice are doubled. You land a Critical Hit by rolling 20 on the 20-sided die.&lt;br&gt;&lt;br&gt;Critical Hits ignore all damage &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and cannot be reduced by a creature's &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;.</content>
+
 <content contentuid="0000000000000000000000000000000000000" version="1">GODS AND PERSONALITY</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gcca5425nogod" version="3">No God</content>
@@ -383,7 +390,7 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000f" version="3">Upon casting a Spell, there is a 10% chance that it will erupt in a violent explosion, damaging everything within [1] of your target.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00007" version="3">Critical Loss</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000g" version="3">Reduce the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by 2 when making a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;. However, the damage of your Critical Hits is permanently halved.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000g" version="3">Reduce the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by 2 when making a weapon based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;. However, the damage of Critical Hits dealt by weapons is permanently halved.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00008" version="3">Crybaby</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000h" version="3">At the start of any combat encounter, you are &lt;LSTag Type="Status" Tooltip="CALM_EMOTIONS"&gt;Calm&lt;/LSTag&gt; for three turns. However, upon being &lt;LSTag Tooltip="CriticalHit"&gt;Critically Hit&lt;/LSTag&gt;, you immediately fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; and begin to cry.</content>
@@ -437,15 +444,17 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000v" version="3">Gain the ability to make an off-hand weapon attack as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;, and all off-hand based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; are rolled with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;. However, all Attack Rolls made with your main-hand are rolled with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00023" version="3">Let Me Solo Them</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000w" version="3">Reduce the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; by 4, and your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are doubled. However, you are unable to utilize &lt;LSTag Type="ActionResource" Tooltip="Attunement"&gt;Attunement&lt;/LSTag&gt;.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Warning: The penalty of this trait cannot be removed once selected. Attempting to start combat while utilizing your Attunement will instantly kill you.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000w" version="3">Your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are doubled and you are considered to be a &lt;LSTag Type="Passive" Tooltip="Fatal_Encounter"&gt;Fatal Encounter&lt;/LSTag&gt;. However, you are unable to utilize &lt;LSTag Type="ActionResource" Tooltip="Attunement"&gt;Attunement&lt;/LSTag&gt;.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Warning: The penalty of this trait cannot be removed once selected. Attempting to start combat while utilizing your Attunement will instantly kill you.</content>
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00z11" version="3">Sudden Death!</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000zk" version="3">Affected creature has died!</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00024" version="3">Lone Wolf</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000x" version="3">While traveling alone or with just one companion, you gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;, an additional &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;, and your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are doubled.&lt;Br&gt;&lt;Br&gt;Lone Wolf also applies to any creatures that you summon.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000x" version="3">While traveling alone or with just one companion, you gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;, &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;, and your maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are doubled. Additionally, if traveling solo, you gain status immunity to &lt;LSTag Type="Status" Tooltip="ARCANE_BLOWBACK_ACTUAL"&gt;Arcane Blowback&lt;/LSTag&gt;.&lt;Br&gt;&lt;Br&gt;Lone Wolf also applies to any creatures that you summon.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00025" version="3">Narcoleptic</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000y" version="3">Upon starting your turn, you have a 25% chance to fall &lt;LSTag Type="Status" Tooltip="SLEEP"&gt;Asleep&lt;/LSTag&gt;. However, upon waking from a sleep-based Condition, your next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; will roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000y" version="3">Upon starting your turn whle in combat, you have a 50% chance to gain one stack of &lt;LSTag Type="Status" Tooltip="DROWSINESS"&gt;Drowsiness&lt;/LSTag&gt;. Upon gaining three stacks of Drowsiness, you will fall &lt;LSTag Type="Status" Tooltip="SLEEP"&gt;Asleep&lt;/LSTag&gt;. However, upon waking from a sleep-based Condition, your next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; will roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="hd58e3781gc50cg486fga2a5gbeab48drowsy" version="3">Drowsiness</content>
+	<content contentuid="h0e3666feg49ceg4aebg85feg62e178drowsy" version="3">Affected creature is beginning to feel heavy. Upon gaining three stacks of Drowsiness, they will fall &lt;LSTag Type="Status" Tooltip="SLEEP"&gt;Asleep&lt;/LSTag&gt;. Upon waking from a sleep-based Condition, their next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; will roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00026" version="3">Natural Medium</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f890000z" version="3">Permanently gain the effects of &lt;LSTag Type="Spell" Tooltip="Shout_DetectThoughts"&gt;Detect Thoughts&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_SpeakWithAnimals"&gt;Speak with Animals&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_SpeakWithDead"&gt;Speak with Dead&lt;/LSTag&gt;. However, you make all Charisma-based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
@@ -468,7 +477,7 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000ae" version="3">You no longer provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;. However, you are unable to utilize your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reactions&lt;/LSTag&gt; during combat.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00032" version="3">Reckless</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000af" version="3">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage rolls. However, you also become &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to physical damage.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000af" version="3">When dealing damage to an enemy or item, you ignore all &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt;. However, you also become &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to all damage.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sd4fd00033" version="3">Slow Roller</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sd8f89000ag" version="3">Your &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is halved. However, upon damaging an enemy with a melee-based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you halve their Movement Speed as well.</content>
@@ -526,7 +535,7 @@
 	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0b" version="3">Gain a +4 bonus to your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety12" version="3">Controlled Aggro</content>
-	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0l" version="3">While in combat, enemies will see you as a priority target.</content>
+	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0l" version="3">While in combat, enemies will see you as a priority target. In addition, you are immune to being &lt;LSTag Tooltip="CriticalHit"&gt;Critically Hit&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h6eb72b35g6633g4642gaf97gc5sarchety03" version="3">Deepened Resolve</content>
 	<content contentuid="h8612a65dg446cg427bga712g6sdarchety0c" version="3">Gain a bonus to your &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
@@ -584,11 +593,11 @@
 	<content contentuid="h241bfb0fgffa2g4ccega96fgb26da384ecf8" version="1">Keep your balance. Land on your feet.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants a 50% reduction to damage taken from falling.</content>
 	<content contentuid="ha18e79b2g111ag441egb532g3ff79d4ba842" version="1">Wield nimble fingers. Steal stuff.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants a 50% reduction to damage taken from traps.</content>
 	<content contentuid="hb2487d1bga7a8g4a2dgb6a8g447842179f6d" version="1">Stay out of sight. Melt into the shadows.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; causes nearby enemies to be able to be walked through.</content>
-	<content contentuid="hda75bbd8g5613g4f40g8b8dgb8d3f4f6855d" version="1">Recognise magic. Interact with enchanted items.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants the ability to passively &lt;LSTag Type="Spell" Tooltip="Shout_DetectThoughts"&gt;Detect the Thoughts&lt;/LSTag&gt; of other creatures.</content>
+	<content contentuid="hda75bbd8g5613g4f40g8b8dgb8d3f4f6855d" version="1">Recognise magic. Interact with enchanted items.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants the ability to passively see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures and objects.</content>
 	<content contentuid="ha31089eegb95fg44d8gb191g302341c0b57a" version="1">Remember the past - of the world and its people.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants a +1 bonus to all &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SkillCheck"&gt;Skill Checks&lt;/LSTag&gt;.</content>
 	<content contentuid="h2a7019efgfaf7g455fg8fd9g4b7c275fbbfa" version="1">Analyse clues. Solve mysteries.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants status immunity to being &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.</content>
 	<content contentuid="h94f2954eg8a71g49c9ga9bdg66b65a04a23c" version="1">Recognise plants. Hug trees.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants a +1 bonus to &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
-	<content contentuid="h3adc18e5gc8c3g459dgbe82gb27aca09da54" version="1">Recognise deities. Understand holy rites.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants the ability to &lt;LSTag Type="Spell" Tooltip="Target_SpeakWithDead"&gt;Speak With the Dead&lt;/LSTag&gt;.</content>
+	<content contentuid="h3adc18e5gc8c3g459dgbe82gb27aca09da54" version="1">Recognise deities. Understand holy rites.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants the ability to speak with dead creatures.</content>
 	<content contentuid="hfa186a8cg869cg4ecdgadf3gb7326ab444c4" version="1">Influence animals. Be one with the beast.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants basic &lt;LSTag Type="Passive" Tooltip="Darkvision"&gt;Darkvision&lt;/LSTag&gt;.</content>
 	<content contentuid="h2eb576b5gc088g40e6gad9ag52751e1f9be7" version="1">Read people and situations. Detect lies.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; causes enemies to make their &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt; against you with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
 	<content contentuid="h0eb7380bg4477g4d04ga797ge577e24aa856" version="1">Recognise symptoms. Diagnose disease.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants a chance to brew two alchemical solutions instead of one when combining extracts.</content>
@@ -597,7 +606,7 @@
 	<content contentuid="h5febcaf6g13f4g4662g9c68ge24ec3c2d80a" version="1">Lie and cheat. Manipulate the truth.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants the ability to join combat late without losing your first turn.</content>
 	<content contentuid="h5e849499g23bfg4e5dga9f3gb6ce36f9abc2" version="1">Be a bully. Threaten and induce fear.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants a +1 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
 	<content contentuid="ha6c0ffb0g73ccg4435g9d7ag8a24ee90a849" version="1">Entertain audiences. Command the stage.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants the ability to play instruments and a chance to survive when falling to your death within chasms.</content>
-	<content contentuid="h3d5ecb16g20f8g4febgba03g41ae11b9ddf2" version="1">Turn on the charm. Coax and cajole.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants cheaper prices when trading with vendors.</content>
+	<content contentuid="h3d5ecb16g20f8g4febgba03g41ae11b9ddf2" version="1">Turn on the charm. Coax and cajole.&lt;Br&gt;&lt;Br&gt;&lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; grants the ability to speak with animals.</content>
 
 	<content contentuid="h7b5cbdbfg05acg4158ga1eeg382c44ff18b0" version="1">Summoned</content>
 	<content contentuid="hefa4f2d8g4c9cg4d67gbb72g918e773ed491" version="1">Affected creature is a summoned entity. All summoned creatures use your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; as their own, and add it to their...&lt;Br&gt;- &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;&lt;Br&gt;- &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;&lt;Br&gt;- Damage Rolls&lt;Br&gt;- &lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt;&lt;Br&gt;- &lt;LSTag Tooltip="DifficultyClass"&gt;Difficulty Class&lt;/LSTag&gt;&lt;Br&gt;- Initiative&lt;Br&gt;- &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;</content>
@@ -744,6 +753,7 @@
 	<content contentuid="h33046c15ea574ec5a91bd4c8709dead4a46g" version="1">Paladin: Devout Paragon</content>
 	<content contentuid="h20453170b9ff4b9c8c32d33a020357b50ac9" version="1">Paladin: Oathbound Crusader</content>
 	<content contentuid="hf4ed1f7d36d94c2abcda899d07b9e943ab47" version="1">Paladin: Oathbreaker</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a2252564" version="1">Paladin: Runic Mystflame</content>
 	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00004" version="1">Paladin: Tyrant</content>
 
 	<content contentuid="he2f1a1df896949edb5d6b3530f25289178g6" version="1">Ranger: Beast Master</content>
@@ -763,7 +773,7 @@
 	<content contentuid="h74cb6d76f7084d1d9ccca5ba1622140f3c7d" version="1">Sorcerer: Draconic Bloodline</content>
 	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00008" version="1">Sorcerer: Radiant Bloom</content>
 	<content contentuid="h73a8aafef8874258bc6950b4c4d569b0842e" version="1">Sorcerer: Shade Walker</content>
-	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00007" version="1">Sorcerer: Soul of the Frenzied</content>
+	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00007" version="1">Sorcerer: Soul of the Tundral</content>
 	<content contentuid="h304a5e34541a42f098df489329c48ee49a00" version="1">Sorcerer: Volcanist</content>
 	<content contentuid="h0c1d71fc32044f7480d64ef77b978f2d1eea" version="1">Sorcerer: Wild Magic</content>
 
@@ -838,10 +848,10 @@
 	<content contentuid="h3cef7c68ge983g4735g979eg25c197ee9962" version="5">Make a ranged attack with your off-hand weapon.</content>
 
 	<content contentuid="h87dd56ecg2a9ag45b0ga933g10795076a454" version="1">Dual-Wield Melee Attack</content>
-	<content contentuid="h5fafec24g30d5g425cg952cga9c5375dd8f5" version="2">Make a melee attack with both of your melee weapons.</content>
+	<content contentuid="h5fafec24g30d5g425cg952cga9c5375dd8f5" version="2">Make a melee attack with both of your melee weapons. Damage dealt with your off-hand will not receive the majority of damage bonuses.</content>
 
 	<content contentuid="h87dd56ecg2a9ag45b0ga933g1079507ff9s7" version="1">Dual-Wield Ranged Attack</content>
-	<content contentuid="h5fafec24g30d5g425cg952cga9c5375aa978" version="2">Make a ranged attack with both of your ranged weapons.</content>
+	<content contentuid="h5fafec24g30d5g425cg952cga9c5375aa978" version="2">Make a ranged attack with both of your ranged weapons. Damage dealt with your off-hand will not receive the majority of damage bonuses.</content>
 
 	<content contentuid="hc7e6e2cbg26fbg465dg8a2ag9402190ff0b1" version="1">Wand</content>
 	<content contentuid="h1c62f7c0g083eg4ad5ga754g12b2a1086245" version="1">Wand</content>
@@ -869,23 +879,33 @@
 	<content contentuid="h441085efge3a5g4004gba8dgf2378e8986c8" version="1">Fortitude and resilience. Improves &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting&lt;/LSTag&gt; for Barbarians, Bards, Fighters, Paladins, Sorcerers, and Warlocks, as well as their ability to apply Conditions.&lt;Br&gt;&lt;Br&gt;Also reduces elemental damage taken when wearing Medium or Heavy Armour.</content>
 	<content contentuid="hb5a027a4g2934g40bfga5e1g7c00d2f5s698" version="1">Global Bonus</content>
 	<content contentuid="hb5a027a4g2934g40bfga5e1g7c225ds5f648" version="1">Full Metal</content>
-	<content contentuid="hb5a027a4g2934g40bfga5e1g7c225ds22564" version="1">While wearing Medium or Heavy Armour, physical damage taken by an attack is reduced by your &lt;LSTag Tooltip="AbilityModifier"&gt;Constitution Modifier&lt;/LSTag&gt;, and elemental damage is reduced by your Charisma Modifier. While wearing Medium Armour, your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are also increased by 2, multiplied by your level.</content>
+	<content contentuid="hb5a027a4g2934g40bfga5e1g7c225ds22564" version="1">While wearing Medium or Heavy Armour, physical damage taken by an attack is reduced by your &lt;LSTag Tooltip="AbilityModifier"&gt;Constitution Modifier&lt;/LSTag&gt;, and elemental damage is reduced by your Charisma Modifier. The amount of times you may reduce damage per turn with your armour is equal to your respective modifiers combined. While wearing Medium Armour, your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; are also increased by 2, multiplied by your level.</content>
 	<content contentuid="h4333422eg15d9g4c6egbfbeg9f06915940d1" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; bonus limited to +2.&lt;Br&gt;&lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt; limited to -2.</content>
 	<content contentuid="h24a49208g1912g4270g9d2dgc2986ab10ae0" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; is unaffected by your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;.&lt;Br&gt;&lt;LSTag Type="Status" Tooltip="DAMAGE_REDUCTION"&gt;Damage Reduction&lt;/LSTag&gt; has no limit.</content>
 	<content contentuid="h0bdd92afge500g4484g820dgbb225d655458" version="1">Damage Reduction</content>
 	<content contentuid="h65d96dbcg7697g4779g87c5g3266d9858858" version="1">When you are about to receive physical damage due to a Melee or Ranged &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, or due to a Spell, you utilize your armour to lessen the blow and reduce the damage. Damage is reduced by a value equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Constitution Modifier&lt;/LSTag&gt;. In addition, elemental damage is reduced by an amount equal to your Charisma Modifier.</content>
+	<content contentuid="hb5a027a4g2934g40bfga5e1g7c225dconmod" version="1">Full Metal</content>
+	<content contentuid="hb5a027a4g2934g40bfga5e1g7c225dmodcon" version="1">Affected creature is reducing the amount of damage they take due to their equipped armour. Each time they are damaged, they will lose one stack of this condition. This condition is reapplied at the beginning of each turn.</content>
+	<content contentuid="hb5a027a4g2934g40bfga5e1g7c225dconded" version="1">Defenses Shattered!</content>
+	<content contentuid="hb5a027a4g2934g40bfga5e1g7c225ddedcon" version="1">Affected creature is unable to reduce damage taken with their equipped armour. They will begin reducing damage taken again at the beginning of their next turn.</content>
+	<content contentuid="hb5a027a4g2934g40bfga5e1g7c22physical" version="1">Physical Defenses Down!</content>
+	<content contentuid="hb5a027a4g2934g40bfga5ekk3k3kphysical" version="1">Affected creature is unable to reduce physical damage taken with their equipped armour due to an applied status effect.</content>
+	<content contentuid="hb5a027a4g2934g40bfga5e1g7c2elemental" version="1">Elemental Defenses Down!</content>
+	<content contentuid="hb5a027a4g2934g40bfga5ekk3k3elemental" version="1">Affected creature is unable to reduce elemental damage taken with their equipped armour due to an applied status effect.</content>
+	<content contentuid="hb5a027a4g2934g40bfga5e1g7c2elemeboth" version="1">Defenses Down!</content>
+	<content contentuid="hb5a027a4g2934g40bfga5ekk3k3elemeboth" version="1">Affected creature is unable to reduce all damage taken with their equipped armour due to an applied status effect.</content>
 
-	<content contentuid="hcf90a672g10deg4b3egad4fg9094c6ac6224" version="1">Extra Actions</content>
+	<content contentuid="hcf90a672g10deg4b3egad4fg9094c6ac6224" version="1">Extra Action</content>
 	<content contentuid="he37249cfg5d71g499cg82d9gc369133f2066" version="2">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h3e6c622egb059g47e7gb925g7e82eae32521" version="2">Improved Extra Actions</content>
-	<content contentuid="h36aba2dbg6f37g4343ga32egcab0fd7d5f68" version="1">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; and &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.&lt;Br&gt;&lt;Br&gt;This passive acts as a replacement of &lt;LSTag Type="Status" Tooltip="Tooltip_ExtraAttack"&gt;Extra Actions&lt;/LSTag&gt;.</content>
+	<content contentuid="h36aba2dbg6f37g4343ga32egcab0fd7d5f68" version="1">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; and &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.&lt;Br&gt;&lt;Br&gt;This passive acts as a replacement of &lt;LSTag Type="Status" Tooltip="Tooltip_ExtraAttack"&gt;Extra Action&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h3e6c622egb059g47e7gb925g7e82eae1bfda" version="2">Lunar Instinct</content>
 	<content contentuid="h36aba2dbg6f37g4343ga32egcab0fd7edcb3" version="1">While assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, you gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; and &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h3e6c622egb059g47e7gb925g7e82eae12525" version="2">Bestial Instinct</content>
-	<content contentuid="h36aba2dbg6f37g4343ga32egcab0fd766684" version="1">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; and &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Bonus Action&lt;/LSTag&gt; at all times.&lt;Br&gt;&lt;Br&gt;This passive acts as a replacement of &lt;LSTag Type="Status" Tooltip="Tooltip_ExtraAttack"&gt;Extra Actions&lt;/LSTag&gt;.</content>
+	<content contentuid="h36aba2dbg6f37g4343ga32egcab0fd766684" version="1">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; and &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Bonus Action&lt;/LSTag&gt; at all times.&lt;Br&gt;&lt;Br&gt;This passive acts as a replacement of &lt;LSTag Type="Status" Tooltip="Tooltip_ExtraAttack"&gt;Extra Action&lt;/LSTag&gt;.</content>
 
 	<content contentuid="h631e68c7g95f2g4437ga8cfg13e7449d375f" version="1">Ends the day and restores all &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; and resources.
 

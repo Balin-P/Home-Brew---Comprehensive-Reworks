@@ -373,7 +373,6 @@
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="BardCollegeOfSteel"/>
                     <attribute id="PassivesAdded" type="LSString" value="Steelforged_Actions;Melodic_Steel_Yokebreaker"/>
-					<attribute id="Selectors" type="LSString" value="SelectPassives(9355b0df-9229-4a33-8d4b-30d1918388cf,1,Steelforged)" />
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Bard&apos;)"/>
                     <attribute id="UUID" type="guid" value="e1b012c1-051a-4202-84cd-b037fc2ac6f8"/>
                 </node>
@@ -498,7 +497,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="FighterPalisade"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ProjectedBulwark;SentinelsRebuke"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ReinforcedStrikes_Yokebreaker;ProjectedBulwark"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Fighter&apos;)"/>
                     <attribute id="UUID" type="guid" value="30498f77-3440-42dc-a61a-cb05ac49b248"/>
                 </node>
@@ -535,7 +534,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="MonkWayOfTheTemperedSteel"/>
-                    <attribute id="PassivesAdded" type="LSString" value="FlurryOfBlowsUnlock;TemperedDiscipline;FocusedSerenity_Yokebreaker" />
+                    <attribute id="PassivesAdded" type="LSString" value="FlurryOfBlowsUnlock;TemperedDiscipline;UnansweredAngle_Yokebreaker" />
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Monk&apos;)"/>
 					<attribute id="UUID" type="guid" value="8f0ee646-0114-4f46-8ff3-d2b5bcaf1ca7"/>
                 </node>
@@ -628,7 +627,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="RogueAssassin"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Assassinate_Yokebreaker;Assassinate_Resource;AssassinsFocus_Yokebreaker;AssassinsQuarry;AssassinsQuarry_Attack_Fixer;AssassinsQuarry_CombatEnd_Fixer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Assassinate_Yokebreaker;Assassinate_Resource;AssassinsFocus_Yokebreaker;AssassinsQuarry_Yokebreaker"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Rogue&apos;)"/>
 					<attribute id="UUID" type="guid" value="f1d35a6c-9c64-4431-862b-972e1004b628"/>
                 </node>
@@ -659,7 +658,7 @@
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="SorcererDraconicBloodline"/>
                     <attribute id="PassivesAdded" type="LSString" value="DraconicResilience_Light_Yokebreaker;DraconicResilience_Medium_Yokebreaker;DraconicResilience_Heavy_Yokebreaker;DraconicResilience_Heavy_2_Yokebreaker;DraconicResilience_Heavy_3_Yokebreaker;DraconicResilience_Heavy_4_Yokebreaker;DraconicResilience_Heavy_5_Yokebreaker"/>
-					<attribute id="Selectors" type="LSString" value="AddSpells(12150e11-267a-4ecc-a3cc-292c9e2a198d);SelectPassives(c69c33a2-671c-46e1-a92c-656fe64ed447,1,DraconicAncestry)" />
+					<attribute id="Selectors" type="LSString" value="SelectPassives(c69c33a2-671c-46e1-a92c-656fe64ed447,1,DraconicAncestry)" />
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Sorcerer&apos;)"/>
                     <attribute id="UUID" type="guid" value="ba1c505b-a3a8-483a-a061-a8b120c45c00"/>
                 </node>
@@ -671,7 +670,7 @@
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="SorcererShadeWalker"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ReleasetheHounds;DarkestHour"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ReleasetheHounds_Yokebreaker;DarkestHour"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Sorcerer&apos;)"/>
                     <attribute id="UUID" type="guid" value="4df54b62-d011-4a95-8f97-e52f823b553d"/>
                 </node>

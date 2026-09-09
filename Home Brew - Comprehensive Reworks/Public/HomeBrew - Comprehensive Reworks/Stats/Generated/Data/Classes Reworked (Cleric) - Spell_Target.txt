@@ -30,6 +30,7 @@ data "CastEffect" "104d98d3-1402-4fce-bab8-14df357d660e"
 data "TargetEffect" "63def50f-b1fa-4394-81f6-539880d4e8a9"
 data "DamageType" "Necrotic"
 data "RequirementConditions" "not HasStatus('NPCCONCENTRATION_SMARTERNPCS')"
+data "HitAnimationType" "None"
 
 new entry "Target_BurstingSinew"
 type "SpellData"
@@ -63,6 +64,7 @@ data "CastEffect" "a1b229db-954a-466b-bfeb-0536dc17d673"
 data "TargetEffect" "74c3d8de-5937-4a60-84b4-ef5005c039f2"
 data "PositionEffect" "4d22ced8-9206-41d7-a842-a3f4c290277a"
 data "DamageType" "Necrotic"
+data "HitAnimationType" "None"
 
 <!--FORGE DOMAIN-->
 

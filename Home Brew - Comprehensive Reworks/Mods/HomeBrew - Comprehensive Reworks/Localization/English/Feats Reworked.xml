@@ -226,7 +226,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">RESTRICTED TERRITORY</content>
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00033" version="1">Restricted Territory</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000g0" version="1">Gain the ability to use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to make a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an enemy who enters your weapons range. Additionally, landing an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; will deal the maximum damage possible.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000g0" version="1">Gain the ability to use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to make a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an enemy who enters your weapons range. Additionally, &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; you make will roll your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and damage with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00z33" version="1">Restricted Territory</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00zg0" version="1">Make a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against an enemy who enters your range.</content>
 
@@ -252,9 +252,9 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">SHIELDBEARER</content>
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00037" version="3">Shieldbearer</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000k0" version="3">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Dexterity based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while wielding a shield. In addition, you gain three &lt;LSTag Type="ActionResource" Tooltip="Shieldbearer"&gt;Shieldbearer Charges&lt;/LSTag&gt; which can be used to negate an instance of incoming damage or reflect projectiles after performing a &lt;LSTag Type="Spell" Tooltip="Target_ShieldBlow_Riposte"&gt;Shield Bash&lt;/LSTag&gt;. Once per turn, landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy will restore one Shieldbearer Charge.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000k0" version="3">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Dexterity based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while wielding a shield. In addition, you gain a &lt;LSTag Type="ActionResource" Tooltip="Shieldbearer"&gt;Shieldbearer Charge&lt;/LSTag&gt; which can be used to negate an instance of incoming damage or reflect projectiles after performing a &lt;LSTag Type="Spell" Tooltip="Target_ShieldBlow_Riposte"&gt;Shield Bash&lt;/LSTag&gt;. Once per turn, landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy will restore your Shieldbearer Charge.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0zz37" version="3">Shieldbearer Charge</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0zzk0" version="3">The amount of times you may utilize your Shield to negate an instance of incoming damage or reflect projectiles.&lt;br&gt;&lt;br&gt;Once per turn, landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy will restore one Shieldbearer Charge.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa0zzk0" version="3">Allows you to utilize your Shield to negate an instance of incoming damage or reflect projectiles.&lt;br&gt;&lt;br&gt;Once per turn, landing a killing blow or &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on an enemy will restore your Shieldbearer Charge.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aazzz37" version="3">Armoured Fortress</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aazzzk0" version="3">Negate an instance of incoming damage.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c3reflect" version="3">Deflective Fortress</content>
@@ -279,7 +279,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">TOUGH</content>
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00040" version="3">Tough</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000n0" version="4">Increase the amount of &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; you have by 4 per level. Additionally, any damage dealt to you that totals 2 or less is nullified.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; This passive effect also applies to any creatures that you summon.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000n0" version="4">Increase the amount of &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; you have by 4 per level. Additionally, you ignore all damage taken equal to 2 or less, and cannot be &lt;LSTag Tooltip="CriticalHit"&gt;Critically Hit&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; This passive effect also applies to any creatures that you summon.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">WAR CASTER</content>
 
@@ -597,8 +597,8 @@
 	<content contentuid="bdb436c7-daf0-43d9-944f-4ddbf08befe0" version="1">Yokebreaker: Shade Walker</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df38" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_ShadeWalker"&gt;Shade Walker Sorcerer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
-	<content contentuid="502ca0fa-586c-4b22-a50e-3af8b8a24e34" version="1">Yokebreaker: Soul of the Frenzied Tundra</content>
-	<content contentuid="241d2854-851a-43d8-98f7-c3aa0a125c57" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_FrenziedTundra"&gt;Soul of the Frenzied Tundra Sorcerer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+	<content contentuid="502ca0fa-586c-4b22-a50e-3af8b8a24e34" version="1">Yokebreaker: Soul of the Tundral</content>
+	<content contentuid="241d2854-851a-43d8-98f7-c3aa0a125c57" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_FrenziedTundra"&gt;Soul of the Tundral Sorcerer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="ba6dd9aa-f5c4-4d65-ba06-b415e0f424d4" version="1">Yokebreaker: Volcanist</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df39" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Volcanist"&gt;Volcanist Sorcerer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>

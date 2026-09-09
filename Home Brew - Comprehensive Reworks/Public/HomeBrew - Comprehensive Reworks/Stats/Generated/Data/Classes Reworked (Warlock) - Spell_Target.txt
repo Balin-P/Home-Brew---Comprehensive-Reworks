@@ -811,6 +811,7 @@ data "MemoryCost" "1"
 data "PrepareEffect" "96a51ac8-2e7e-4718-bb62-dcfd18964a02"
 data "CastEffect" "7a73fa11-81e8-44bc-8653-a0d0ebbecf4b"
 data "TargetEffect" "70319a43-6342-4996-811d-dd50df8b3fa1"
+data "Requirements" "Combat"
 
 new entry "Target_DominatePerson_Succubus"
 type "SpellData"

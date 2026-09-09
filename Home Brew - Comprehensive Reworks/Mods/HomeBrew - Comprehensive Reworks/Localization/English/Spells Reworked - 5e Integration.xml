@@ -325,9 +325,9 @@
 	<content contentuid="39f1898f9sdfosdoifsodofsofd99494xyzf" version="1">Deal an additional [1] and cause your targets to &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burn&lt;/LSTag&gt; for one turn when making a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt;.</content>
 
 	<content contentuid="39f1898f9sdfosdoifsodofsofd994940007" version="1">Internal Fortress</content>
-	<content contentuid="39f1898f9sdfosdoifsodofsofd99494000g" version="1">Protect a creature, reducing all physical damage they take by [1] until the end of their next combat encounter.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Rogues&lt;br&gt;Sorcerers&lt;br&gt;Wizards</content>
+	<content contentuid="39f1898f9sdfosdoifsodofsofd99494000g" version="1">Protect a creature, reducing all damage they take by [1] until the end of their next combat encounter.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Barbarians&lt;br&gt;Rogues&lt;br&gt;Sorcerers&lt;br&gt;Wizards</content>
 	<content contentuid="39f1898f9sdfosdoifsodofsofd9949400z7" version="1">Internal Fortress</content>
-	<content contentuid="39f1898f9sdfosdoifsodofsofd9949400zg" version="1">Affected creature is protected, reducing physical damage taken by [1] until the end of their next combat encounter.</content>
+	<content contentuid="39f1898f9sdfosdoifsodofsofd9949400zg" version="1">Affected creature is protected, reducing damage taken by [1] until the end of their next combat encounter.</content>
 
 	<content contentuid="39f1898f9sdfosdoifsodofsofd994940008" version="1">Blood Broker</content>
 	<content contentuid="39f1898f9sdfosdoifsodofsofd99494000h" version="1">Sacrifice your own life in order to resurrect a companion with all of their &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Learned By:&lt;br&gt;Clerics&lt;br&gt;Fighters&lt;br&gt;Paladins&lt;br&gt;Warlocks</content>

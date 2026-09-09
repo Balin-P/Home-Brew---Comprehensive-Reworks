@@ -19,7 +19,7 @@ data "Description" "6593b492919easd9fs4s94d548d5sd9878d54;2"
 data "Properties" "Highlighted;ForceShowInCC;OncePerTurn"
 data "Icon" "PassiveFeature_Generic_Tactical"
 data "StatsFunctorContext" "OnEquip"
-data "StatsFunctors" "RestoreResource(SELF,ReactionActionPoint, 1, 0);ApplyStatus(SELF,WEAPONIZEDAUTONOMY,100,1)"
+data "StatsFunctors" "ApplyStatus(SELF,WEAPONIZEDAUTONOMY,100,1)"
 
 new entry "WEAPONIZEDAUTONOMY"
 type "StatusData"

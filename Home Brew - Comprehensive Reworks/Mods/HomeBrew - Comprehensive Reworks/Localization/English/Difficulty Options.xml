@@ -99,6 +99,8 @@ Honoured Adventurers:
 - Nighthoundz
 - Mysh
 - Chickenman
+- Facy
+- Wormiq
 
 	</content>
 
@@ -117,9 +119,11 @@ See the tutorial menu for info on Mythic changes.</content>
 	<content contentuid="hb80200a7g8e69g4f66gbc18gs6666d3f8858" version="1">Various enemies receive new passives and effects. In addition, Mythic systems such as Exhaustion and Stress are enabled.</content>
 
 	<content contentuid="957ba11249774ae19941f337058395be00001" version="4">Mythic: Dangerous Encounter</content>
-	<content contentuid="957ba11249774ae19941f337058395be0000a" version="4">This creature has a +[1] bonus to the first &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; it makes each round. In addition, upon &lt;LSTag Tooltip="Downed"&gt;Downing&lt;/LSTag&gt; a member of your party, the Downed party member will receive an additional stack of Exhaustion.</content>
+	<content contentuid="957ba11249774ae19941f337058395be0000a" version="4">This creature has a +[1] bonus to the first &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; it makes each round. In addition, upon &lt;LSTag Tooltip="Downed"&gt;Downing&lt;/LSTag&gt; a member of your party, the Downed party member will receive an additional stack of Exhaustion.&lt;br&gt;&lt;br&gt;This creature cannot be &lt;LSTag Tooltip="CriticalHit"&gt;Critically Hit&lt;/LSTag&gt; while above 50% of their maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
 	<content contentuid="957ba11249774ae19941f337058395be00002" version="4">Mythic: Fatal Encounter</content>
-	<content contentuid="957ba11249774ae19941f337058395be0000b" version="4">This creature has a +[1] bonus to the first three &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; it makes each round. In addition, upon &lt;LSTag Tooltip="Downed"&gt;Downing&lt;/LSTag&gt; a member of your party, the Downed party member will immediately die. In addition, they gain a +[2] bonus to their Initiative.</content>
+	<content contentuid="957ba11249774ae19941f337058395be0000b" version="4">This creature has a +[1] bonus to the first three &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; it makes each round. In addition, upon &lt;LSTag Tooltip="Downed"&gt;Downing&lt;/LSTag&gt; a member of your party, the Downed party member will immediately die. In addition, they gain a +[2] bonus to their Initiative.&lt;br&gt;&lt;br&gt;This creature cannot be &lt;LSTag Tooltip="CriticalHit"&gt;Critically Hit&lt;/LSTag&gt; while above 25% of their maximum &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
+	<content contentuid="1666457afc624dcb9a8f2c9f2d906dac00001" version="4">Critically Viable</content>
+	<content contentuid="1666457afc624dcb9a8f2c9f2d906dac0000a" version="4">Affected creature is now susceptible to being &lt;LSTag Tooltip="CriticalHit"&gt;Critically Hit&lt;/LSTag&gt;.</content>
 
 	<content contentuid="957ba11249774ae19941f337058395be000z1" version="4">Mythic: Lesser Resistance</content>
 	<content contentuid="957ba11249774ae19941f337058395be000za" version="4">Affected creature has a +[1] bonus to the first &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; it fails each round.</content>
