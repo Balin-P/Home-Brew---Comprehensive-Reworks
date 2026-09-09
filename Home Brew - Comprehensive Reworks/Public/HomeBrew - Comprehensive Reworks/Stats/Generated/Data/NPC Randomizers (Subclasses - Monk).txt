@@ -116,6 +116,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "Flow_State;FlurryOfBlowsMagicUnlock"
+data "Boosts" "ActionResource(SpellSlot,2,1)"
 
 new entry "APPLY_ARCANEWAY_3"
 type "StatusData"
@@ -130,6 +131,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "Flow_State;FlurryOfBlowsMagicUnlock;Essence_of_the_Elements"
+data "Boosts" "ActionResource(SpellSlot,4,1)"
 
 new entry "APPLY_ARCANEWAY_5"
 type "StatusData"
@@ -144,6 +146,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "Flow_State;FlurryOfBlowsMagicUnlock;Essence_of_the_Elements;Martial_Elements"
+data "Boosts" "ActionResource(SpellSlot,4,1);ActionResource(SpellSlot,2,2)"
 
 new entry "APPLY_ARCANEWAY_7"
 type "StatusData"
@@ -158,6 +161,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "Flow_State;FlurryOfBlowsMagicUnlock;Essence_of_the_Elements;Martial_Elements;Elemental_Overdrive"
+data "Boosts" "ActionResource(SpellSlot,4,1);ActionResource(SpellSlot,4,2)"
 
 new entry "APPLY_ARCANEWAY_9"
 type "StatusData"
@@ -172,6 +176,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "Flow_State;FlurryOfBlowsMagicUnlock;Essence_of_the_Elements;Martial_Elements;Elemental_Overdrive;Elemental_Recovery"
+data "Boosts" "ActionResource(SpellSlot,4,1);ActionResource(SpellSlot,4,2);ActionResource(SpellSlot,2,3)"
 
 new entry "APPLY_ARCANEWAY_11"
 type "StatusData"
@@ -186,6 +191,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "Flow_State;FlurryOfBlowsMagicUnlock;Essence_of_the_Elements;Martial_Elements;Elemental_Overdrive;Elemental_Recovery;Protective_Casting"
+data "Boosts" "ActionResource(SpellSlot,4,1);ActionResource(SpellSlot,4,2);ActionResource(SpellSlot,4,3)"
 
 <!----------------------------------------------------------------------------------------------------SUBCLASS 2---------------------------------------------------------------------------------------------------->
 
@@ -287,7 +293,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
-data "Passives" "MendingBlows;MendingBlows_Turn"
+data "Passives" "MendingBlows;MendingBlows_Turn;MendingBlows_Damage"
 
 new entry "APPLY_GENTLE_3"
 type "StatusData"
@@ -301,7 +307,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
-data "Passives" "MendingBlows;MendingBlows_Turn;MercifulCounter"
+data "Passives" "MendingBlows;MendingBlows_Turn;MendingBlows_Damage;MercifulCounter"
 
 new entry "APPLY_GENTLE_5"
 type "StatusData"
@@ -315,7 +321,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
-data "Passives" "MendingBlows;MendingBlows_Turn;MercifulCounter;FistsofEquilibrium"
+data "Passives" "MendingBlows;MendingBlows_Turn;MendingBlows_Damage;MercifulCounter;FistsofEquilibrium"
 
 new entry "APPLY_GENTLE_7"
 type "StatusData"
@@ -329,7 +335,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
-data "Passives" "MendingBlows;MendingBlows_Turn;MercifulCounter;FistsofEquilibrium;Serenity"
+data "Passives" "MendingBlows;MendingBlows_Turn;MendingBlows_Damage;MercifulCounter;FistsofEquilibrium;Serenity"
 
 new entry "APPLY_GENTLE_9"
 type "StatusData"
@@ -343,7 +349,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
-data "Passives" "MendingBlows;MendingBlows_Turn;MercifulCounter;FistsofEquilibrium;Serenity;CleansingGuidance"
+data "Passives" "MendingBlows;MendingBlows_Turn;MendingBlows_Damage;MercifulCounter;FistsofEquilibrium;Serenity;CleansingGuidance"
 
 new entry "APPLY_GENTLE_11"
 type "StatusData"
@@ -357,7 +363,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
-data "Passives" "MendingBlows;MendingBlows_Turn;MercifulCounter;FistsofEquilibrium;Serenity;CleansingGuidance;FlowofCompassion"
+data "Passives" "MendingBlows;MendingBlows_Turn;MendingBlows_Damage;MercifulCounter;FistsofEquilibrium;Serenity;CleansingGuidance;FlowofCompassion"
 
 <!----------------------------------------------------------------------------------------------------SUBCLASS 4---------------------------------------------------------------------------------------------------->
 
@@ -473,7 +479,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
-data "Passives" "FlurryOfBlowsUnlock;Shadowstrike_Technical;Shadowstrike_Technical_2;Void_Stalker;Void_Stalker_Vision"
+data "Passives" "FlurryOfBlowsUnlock;Shadowstrike_Technical;Shadowstrike_Technical_2;Void_Stalker;Void_Stalker_Vision;Void_Stalker_Turn"
 
 new entry "APPLY_SHADOW_5"
 type "StatusData"
@@ -487,7 +493,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
-data "Passives" "FlurryOfBlowsUnlock;Shadowstrike_Technical;Shadowstrike_Technical_2;Void_Stalker;Void_Stalker_Vision;Auspicious_Shadows"
+data "Passives" "FlurryOfBlowsUnlock;Shadowstrike_Technical;Shadowstrike_Technical_2;Void_Stalker;Void_Stalker_Vision;Void_Stalker_Turn;Auspicious_Shadows"
 
 new entry "APPLY_SHADOW_7"
 type "StatusData"
@@ -501,7 +507,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
-data "Passives" "FlurryOfBlowsUnlock;Shadowstrike_Technical;Shadowstrike_Technical_2;Void_Stalker;Void_Stalker_Vision;Auspicious_Shadows;Fade_to_Black"
+data "Passives" "FlurryOfBlowsUnlock;Shadowstrike_Technical;Shadowstrike_Technical_2;Void_Stalker;Void_Stalker_Vision;Void_Stalker_Turn;Auspicious_Shadows;Fade_to_Black"
 
 new entry "APPLY_SHADOW_9"
 type "StatusData"
@@ -515,7 +521,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
-data "Passives" "FlurryOfBlowsUnlock;Shadowstrike_Technical;Shadowstrike_Technical_2;Void_Stalker;Void_Stalker_Vision;Auspicious_Shadows;Fade_to_Black;Silent_Strikes"
+data "Passives" "FlurryOfBlowsUnlock;Shadowstrike_Technical;Shadowstrike_Technical_2;Void_Stalker;Void_Stalker_Vision;Void_Stalker_Turn;Auspicious_Shadows;Fade_to_Black;Auspicious_Beginnings"
 
 new entry "APPLY_SHADOW_11"
 type "StatusData"
@@ -529,7 +535,7 @@ data "TickType" "StartTurn"
 data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
-data "Passives" "FlurryOfBlowsUnlock;Shadowstrike_Technical;Shadowstrike_Technical_2;Void_Stalker;Void_Stalker_Vision;Auspicious_Shadows;Fade_to_Black;Silent_Strikes;See_No_Evil"
+data "Passives" "FlurryOfBlowsUnlock;Shadowstrike_Technical;Shadowstrike_Technical_2;Void_Stalker;Void_Stalker_Vision;Void_Stalker_Turn;Auspicious_Shadows;Fade_to_Black;Auspicious_Beginnings;Maximmized_Shadows"
 
 <!----------------------------------------------------------------------------------------------------SUBCLASS 6---------------------------------------------------------------------------------------------------->
 

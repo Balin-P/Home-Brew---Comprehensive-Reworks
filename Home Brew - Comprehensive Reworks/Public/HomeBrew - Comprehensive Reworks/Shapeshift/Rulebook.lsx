@@ -625,6 +625,19 @@
                 </node>
                 <node id="Rule">
                     <attribute id="ApplyTagsFromTemplate" type="bool" value="true" />
+                    <attribute id="ApplyVisual" type="bool" value="false" />
+                    <attribute id="ChangeBodyType" type="bool" value="true" />
+                    <attribute id="ChangeIcon" type="bool" value="false" />
+                    <attribute id="ChangeRace" type="bool" value="true" />
+                    <attribute id="IgnoreCustomLooks" type="bool" value="false" />
+                    <attribute id="RemoveOldTags" type="bool" value="true" />
+                    <attribute id="RetainDisplayName" type="bool" value="true" />
+                    <attribute id="RuleName" type="LSString" value="DisguiseKeepNameKeepBody" />
+                    <attribute id="UUID" type="guid" value="b40b5829-c857-4d5b-8c25-025a58e90809" />
+                    <attribute id="UseShapeshiftIdentity" type="bool" value="true" />
+                </node>
+                <node id="Rule">
+                    <attribute id="ApplyTagsFromTemplate" type="bool" value="true" />
                     <attribute id="ApplyVisual" type="bool" value="true" />
                     <attribute id="ChangeBodyType" type="bool" value="true" />
                     <attribute id="ChangeIcon" type="bool" value="true" />

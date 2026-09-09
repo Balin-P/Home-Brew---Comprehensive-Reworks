@@ -96,6 +96,10 @@
                     <attribute id="Text" type="TranslatedString" handle="14bed17029204bdb895648e0a8ddaf380000" version="2"/>
                     <attribute id="UUID" type="guid" value="14bed170-2920-4bdb-8956-48e0a8ddaf38"/>
 					</node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Text" type="TranslatedString" handle="18a4141a7d3147d18d8de9d2d3f7c7a900000" version="2"/>
+                    <attribute id="UUID" type="guid" value="18a4141a-7d31-47d1-8d8d-e9d2d3f7c7a9"/>
+					</node>
             </children>
         </node>
     </region>

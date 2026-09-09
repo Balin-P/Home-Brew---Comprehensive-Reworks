@@ -7,6 +7,16 @@ function FocusedWeaveCheck()
     | SpellId('Shout_ElementalFletching')
 end
 
+function FrontierMastery()
+    return SpellId('Target_BefuddlingStrike_Frontier') | SpellId('Target_BlindingStrike_Frontier') | SpellId('Target_CrowningStrike_Frontier')
+    | SpellId('Shout_GrandSlam_Frontier') | SpellId('Target_LobotomizingStrike_Frontier') | SpellId('Target_SilencingStrike_Frontier')
+    | SpellId('Target_TerrifyingStrike_Frontier') | SpellId('Shout_Vortex_Frontier') | SpellId('Projectile_BlindingShot_Frontier')
+    | SpellId('Target_PostureBreaker_Frontier')    | SpellId('Zone_Cleave_Frontier') | SpellId('Target_ConcussiveSmash_Frontier')
+    | SpellId('Target_CripplingStrike_Frontier') | SpellId('Target_DisarmingStrike_Frontier') | SpellId('Target_HeartStopper_Frontier')
+    | SpellId('Target_Slash_New_Frontier')    | SpellId('Target_PiercingThrust_Frontier') | SpellId('Rush_SpringAttack_Frontier')
+    | SpellId('Target_HinderingSmash_Frontier')    | SpellId('Projectile_HamstringShot_Frontier') | SpellId('Projectile_PiercingShot_Frontier')
+end
+
 function IsFocusedFletching()
     return SpellId('Projectile_ElementalFletching_Acid_Focused') | SpellId('Projectile_ElementalFletching_Cold_Focused') | SpellId('Projectile_ElementalFletching_Fire_Focused')
     | SpellId('Projectile_ElementalFletching_Lightning_Focused') | SpellId('Projectile_ElementalFletching_Necrotic_Focused') | SpellId('Projectile_ElementalFletching_Poison_Focused')

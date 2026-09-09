@@ -705,6 +705,13 @@
                     <attribute id="UUID" type="guid" value="db825127-33ef-42a2-bff7-ea91278b4a1b"/>
                 </node>
                 <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h650d479e822d403690dc702401a72fde418d" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h713ce8b995f64a1aa0248e89b789dfe8f6ef" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="PaladinMystflame"/>
+                    <attribute id="FeatId" type="guid" value="6b4bdec0-9753-46c1-967d-0c7e7b5ef039"/>
+                    <attribute id="UUID" type="guid" value="2d259d54-4f66-4d94-9a33-91928840b3f4"/>
+                </node>
+                <node id="FeatDescription">
                     <attribute id="Description" type="TranslatedString" handle="2e28011e-1a75-4ca2-b7eb-e9a5619e5c70" version="4"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="eb3922d2-0eec-43fb-99d5-884203c0af97" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="PaladinTyrant"/>

@@ -338,6 +338,7 @@ data "SoundStop" "Spell_Status_SurvivalInstinct_MO_Stop"
 data "StackId" "SURVIVAL_INSTINCT"
 data "Boosts" "DownedStatus(SURVIVAL_INSTINCT_DOWNED,6)"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "IsUnique" "1"
 
 <!--ZAITHISK FAILURE-->
 

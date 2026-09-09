@@ -5,13 +5,13 @@
     <node id="root">
       <children>
         <node id="ClassDescription">
-                    <attribute id="BaseHp" type="int32" value="12" />
+                    <attribute id="BaseHp" type="int32" value="34" />
                     <attribute id="CanLearnSpells" type="bool" value="false" />
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Artificer" />
                     <attribute id="Description" type="TranslatedString" handle="77523fb3deaa14de1766304e0911fbc49ae77" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="66523fb3deaa14de1766304e0911fbc49ae66" version="1"/>
-                    <attribute id="HpPerLevel" type="int32" value="8" />
+                    <attribute id="HpPerLevel" type="int32" value="6" />
                     <attribute id="HasGod" type="bool" value="true" />
                     <attribute id="IsDefaultForUseSpellAction" type="bool" value="true" />
                     <attribute id="LearningStrategy" type="uint8" value="1" />
@@ -119,14 +119,14 @@
                     <attribute id="UUID" type="guid" value="d227fa52-339e-4e7d-a0b4-3a16b8220f53" />
 					</node>
         <node id="ClassDescription">
-                    <attribute id="BaseHp" type="int32" value="12" />
+                    <attribute id="BaseHp" type="int32" value="34" />
 					<attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Barbarian" />
                     <attribute id="ClassHotbarColumns" type="int32" value="5" />
                     <attribute id="CommonHotbarColumns" type="int32" value="9" />
                     <attribute id="Description" type="TranslatedString" handle="h3aa4b4a4g0076g4635gb363g7891e8f2e495" version="10" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h60fa88ecg49b2g402bg9c75g273cbaafd414" version="1" />
-                    <attribute id="HpPerLevel" type="int32" value="8" />
+                    <attribute id="HpPerLevel" type="int32" value="6" />
                     <attribute id="HasGod" type="bool" value="true" />
                     <attribute id="ItemsHotbarColumns" type="int32" value="2" />
                     <attribute id="LearningStrategy" type="uint8" value="1" />
@@ -234,14 +234,14 @@
                     <attribute id="UUID" type="guid" value="d6bf00fc-3518-4d63-ba8b-03532c1abc4d" />
 					</node>
         <node id="ClassDescription">
-                    <attribute id="BaseHp" type="int32" value="12" />
+                    <attribute id="BaseHp" type="int32" value="34" />
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Bard" />
                     <attribute id="ClassHotbarColumns" type="int32" value="5" />
                     <attribute id="CommonHotbarColumns" type="int32" value="9" />
                     <attribute id="Description" type="TranslatedString" handle="h05ff3d40g32d0g4ea1g91d5gecb608ec7389" version="3" />
                     <attribute id="DisplayName" type="TranslatedString" handle="hc1ce87cbg8371g4d9fgb5b2g7311045ccdbd" version="1" />
-                    <attribute id="HpPerLevel" type="int32" value="8" />
+                    <attribute id="HpPerLevel" type="int32" value="6" />
                     <attribute id="HasGod" type="bool" value="true" />
                     <attribute id="IsSomaticWithInstrument" type="bool" value="true" />
                     <attribute id="ItemsHotbarColumns" type="int32" value="2" />
@@ -346,12 +346,12 @@
                     <attribute id="UUID" type="guid" value="2b46330d-0ada-4eb5-a131-3d250a41ca6a" />
 					</node>
         <node id="ClassDescription">
-                    <attribute id="BaseHp" type="int32" value="12" />
+                    <attribute id="BaseHp" type="int32" value="34" />
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Cleric" />
                     <attribute id="Description" type="TranslatedString" handle="hac77027cg6dd2g4e7ega824gfbdbc91b6f05" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h1e736362g0299g4824g9b4eg65dd9457cfef" version="1" />
-                    <attribute id="HpPerLevel" type="int32" value="8" />
+                    <attribute id="HpPerLevel" type="int32" value="6" />
                     <attribute id="HasGod" type="bool" value="true" />
                     <attribute id="LearningStrategy" type="uint8" value="1" />
                     <attribute id="MustPrepareSpells" type="bool" value="false" />
@@ -455,12 +455,12 @@
                     <attribute id="UUID" type="guid" value="b9ccf90e-b35b-4b73-b896-8ed2d32ae8c6" />
 					</node>
         <node id="ClassDescription">
-                    <attribute id="BaseHp" type="int32" value="12" />
+                    <attribute id="BaseHp" type="int32" value="34" />
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Druid" />
                     <attribute id="Description" type="TranslatedString" handle="h5b0ab964g6039g4146g971fg5d32dd440499" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h2e468028g9c89g4eaag94d7g52ee6ed46660" version="1" />
-                    <attribute id="HpPerLevel" type="int32" value="8" />
+                    <attribute id="HpPerLevel" type="int32" value="6" />
                     <attribute id="HasGod" type="bool" value="true" />
                     <attribute id="LearningStrategy" type="uint8" value="1" />
                     <attribute id="MustPrepareSpells" type="bool" value="false" />
@@ -563,14 +563,14 @@
                     <attribute id="UUID" type="guid" value="fe416267-36f0-4346-90fc-4aeb7f25ec07"/>
 					</node>
         <node id="ClassDescription">
-                    <attribute id="BaseHp" type="int32" value="12" />
+                    <attribute id="BaseHp" type="int32" value="34" />
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Fighter" />
                     <attribute id="ClassHotbarColumns" type="int32" value="5" />
                     <attribute id="CommonHotbarColumns" type="int32" value="9" />
                     <attribute id="Description" type="TranslatedString" handle="h3a7fde7cgec48g4676ga129g7dadbdf4f3cb" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="hebea4441g482fg4631gbf3fg34e7a84d5839" version="1" />
-                    <attribute id="HpPerLevel" type="int32" value="8" />
+                    <attribute id="HpPerLevel" type="int32" value="6" />
                     <attribute id="HasGod" type="bool" value="true" />
                     <attribute id="ItemsHotbarColumns" type="int32" value="2" />
                     <attribute id="LearningStrategy" type="uint8" value="1" />
@@ -678,12 +678,12 @@
                     <attribute id="UUID" type="guid" value="45b23c3f-90d8-486d-af7b-9267adae611e" />
 					</node>
         <node id="ClassDescription">
-                    <attribute id="BaseHp" type="int32" value="12" />
+                    <attribute id="BaseHp" type="int32" value="34" />
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Monk" />
                     <attribute id="Description" type="TranslatedString" handle="h565bd24cg663cg4506g9244g42b57c697ef1" version="2" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h2362f41dg75e2g48c8g8ae6geb1c6e9129f5" version="2" />
-                    <attribute id="HpPerLevel" type="int32" value="8" />
+                    <attribute id="HpPerLevel" type="int32" value="6" />
                     <attribute id="HasGod" type="bool" value="true" />
                     <attribute id="LearningStrategy" type="uint8" value="1" />
                     <attribute id="MustPrepareSpells" type="bool" value="false" />
@@ -784,12 +784,12 @@
                     <attribute id="UUID" type="guid" value="e82bc139-5594-4d90-acee-1e5e1a6b9f4e" />
 					</node>
         <node id="ClassDescription">
-                    <attribute id="BaseHp" type="int32" value="12" />
+                    <attribute id="BaseHp" type="int32" value="34" />
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Paladin" />
                     <attribute id="Description" type="TranslatedString" handle="h9fca63d9gfc1fg48c3g8ae9g01bbddae1ec3" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h3ddc9a75ge59cg466eg8243gcde4e8d4f95d" version="1" />
-                    <attribute id="HpPerLevel" type="int32" value="8" />
+                    <attribute id="HpPerLevel" type="int32" value="6" />
                     <attribute id="HasGod" type="bool" value="true" />
                     <attribute id="LearningStrategy" type="uint8" value="1" />
                     <attribute id="MustPrepareSpells" type="bool" value="false" />
@@ -903,6 +903,21 @@
 				</node>
         <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+                    <attribute id="Description" type="TranslatedString" handle="h130df7e8eb2d41ce90c97835520d4924917a" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="hadb7e84644854b8b9a46f5e4586197e53c25" version="1" />
+                    <attribute id="LearningStrategy" type="uint8" value="1" />
+                    <attribute id="MustPrepareSpells" type="bool" value="false" />
+                    <attribute id="Name" type="FixedString" value="RunicMystflame" />
+                    <attribute id="ParentGuid" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c" />
+                    <attribute id="PrimaryAbility" type="uint8" value="6" />
+                    <attribute id="ProgressionTableUUID" type="guid" value="516f676f-2a01-46b7-a715-a04bbdd79b23" />
+                    <attribute id="SoundClassType" type="FixedString" value="Paladin" />
+                    <attribute id="SpellCastingAbility" type="uint8" value="6" /> 
+                    <attribute id="SpellList" type="guid" value="3bcdea33-af00-4a43-9f77-279a49982924" />
+                    <attribute id="UUID" type="guid" value="48680c65-9286-4f0b-be5b-6a3c8e39d1e1" />
+					</node>
+        <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="Description" type="TranslatedString" handle="05ba80fa2f9c43a3b2da424d8e82080bzzzzz" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="05ba80fa2f9c43a3b2da424d8e82080b00000" version="1" />
                     <attribute id="LearningStrategy" type="uint8" value="1" />
@@ -916,14 +931,14 @@
                     <attribute id="UUID" type="guid" value="05ba80fa-2f9c-43a3-b2da-424d8e82080b" />
 				</node>
         <node id="ClassDescription">
-                    <attribute id="BaseHp" type="int32" value="12" />
+                    <attribute id="BaseHp" type="int32" value="34" />
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Ranger" />
                     <attribute id="ClassHotbarColumns" type="int32" value="5" />
                     <attribute id="CommonHotbarColumns" type="int32" value="9" />
                     <attribute id="Description" type="TranslatedString" handle="he4f45c6cg4d0ag4907g8f09g4a8eb96f8eaf" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h02550c44g3239g4901ga3f8gd92c541819e6" version="1" />
-                    <attribute id="HpPerLevel" type="int32" value="8" />
+                    <attribute id="HpPerLevel" type="int32" value="6" />
                     <attribute id="HasGod" type="bool" value="true" />
                     <attribute id="ItemsHotbarColumns" type="int32" value="2" />
                     <attribute id="LearningStrategy" type="uint8" value="1" />
@@ -1042,7 +1057,7 @@
                     <attribute id="UUID" type="guid" value="55a0054c-23a2-47a2-9697-b3a59e5eba7f"/>
 					</node>
         <node id="ClassDescription">
-                    <attribute id="BaseHp" type="int32" value="12" />
+                    <attribute id="BaseHp" type="int32" value="34" />
                     <attribute id="CanLearnSpells" type="bool" value="true" />
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Rogue" />
@@ -1051,7 +1066,7 @@
                     <attribute id="MustPrepareSpells" type="bool" value="false" />
                     <attribute id="Description" type="TranslatedString" handle="h6556d47cgd1d3g483agab42gc6638c0b9cfc" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h3e4e847bg6d4fg48fagbe1dgddc6aec7ef32" version="1" />
-                    <attribute id="HpPerLevel" type="int32" value="8" />
+                    <attribute id="HpPerLevel" type="int32" value="6" />
                     <attribute id="HasGod" type="bool" value="true" />
                     <attribute id="ItemsHotbarColumns" type="int32" value="2" />
                     <attribute id="LearningStrategy" type="uint8" value="1" />
@@ -1154,12 +1169,12 @@
                     <attribute id="UUID" type="guid" value="9f2c4d7e-2379-40b4-8a03-01bd33f8bb9b" />
 					</node>
         <node id="ClassDescription">
-                    <attribute id="BaseHp" type="int32" value="12" />
+                    <attribute id="BaseHp" type="int32" value="34" />
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Sorcerer" />
                     <attribute id="Description" type="TranslatedString" handle="h23997f5eg91f5g499bgac88gda4f6f2dfcc9" version="2" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h6eca29f5g747eg40c1gb3f0g6425335d294b" version="1" />
-                    <attribute id="HpPerLevel" type="int32" value="8" />
+                    <attribute id="HpPerLevel" type="int32" value="6" />
                     <attribute id="HasGod" type="bool" value="true" />
                     <attribute id="LearningStrategy" type="uint8" value="1" />
                     <attribute id="MustPrepareSpells" type="bool" value="false" />
@@ -1272,12 +1287,12 @@
                     </children>
 					</node>
         <node id="ClassDescription">
-                    <attribute id="BaseHp" type="int32" value="12" />
+                    <attribute id="BaseHp" type="int32" value="34" />
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Warlock" />
                     <attribute id="Description" type="TranslatedString" handle="h060da457g2dd1g47bcg8134gaa49da101992" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h5fff3a1eg6c43g4e9fgbad0g00c1ce3d5b42" version="1" />
-                    <attribute id="HpPerLevel" type="int32" value="8" />
+                    <attribute id="HpPerLevel" type="int32" value="6" />
                     <attribute id="HasGod" type="bool" value="true" />
                     <attribute id="LearningStrategy" type="uint8" value="1" />
                     <attribute id="MustPrepareSpells" type="bool" value="false" />
@@ -1388,13 +1403,13 @@
                     </children>
 					</node>
         <node id="ClassDescription">
-                    <attribute id="BaseHp" type="int32" value="12" />
+                    <attribute id="BaseHp" type="int32" value="34" />
                     <attribute id="CanLearnSpells" type="bool" value="true" />
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Wizard" />
                     <attribute id="Description" type="TranslatedString" handle="hbadeec08gaa48g44e8g9e12g8dcef3cb9b46" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h71e2a2b9ga3a4g4386g9afdgeea6ee030f27" version="1" />
-                    <attribute id="HpPerLevel" type="int32" value="8" />
+                    <attribute id="HpPerLevel" type="int32" value="6" />
                     <attribute id="HasGod" type="bool" value="true" />
                     <attribute id="IsDefaultForUseSpellAction" type="bool" value="true" />
                     <attribute id="LearningStrategy" type="uint8" value="1" />

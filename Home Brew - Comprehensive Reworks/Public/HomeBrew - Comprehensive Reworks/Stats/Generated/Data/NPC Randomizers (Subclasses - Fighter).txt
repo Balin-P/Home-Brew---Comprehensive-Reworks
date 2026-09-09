@@ -374,6 +374,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "Call_of_the_Old_One"
+data "Boosts" "ActionResource(WarlockSpellSlot,2,1)"
 
 new entry "APPLY_ELDRITCH_3"
 type "StatusData"
@@ -388,6 +389,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "Call_of_the_Old_One;From_Beyond"
+data "Boosts" "ActionResource(WarlockSpellSlot,2,1)"
 
 new entry "APPLY_ELDRITCH_5"
 type "StatusData"
@@ -402,6 +404,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "Call_of_the_Old_One;From_Beyond;Ex_Oblivione"
+data "Boosts" "ActionResource(WarlockSpellSlot,2,2)"
 
 new entry "APPLY_ELDRITCH_7"
 type "StatusData"
@@ -416,6 +419,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "Call_of_the_Old_One;From_Beyond;Ex_Oblivione;Mountainous_Madness"
+data "Boosts" "ActionResource(WarlockSpellSlot,2,2)"
 
 new entry "APPLY_ELDRITCH_9"
 type "StatusData"
@@ -430,6 +434,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "Call_of_the_Old_One;From_Beyond;Ex_Oblivione;Mountainous_Madness;Lurking_Fear"
+data "Boosts" "ActionResource(WarlockSpellSlot,2,3)"
 
 new entry "APPLY_ELDRITCH_11"
 type "StatusData"
@@ -444,6 +449,7 @@ data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentrat
 data "RemoveEvents" "OnApply;OnTurn;OnMove"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;IgnoreResting;ApplyToDead"
 data "Passives" "Call_of_the_Old_One;From_Beyond;Ex_Oblivione;Mountainous_Madness;Lurking_Fear"
+data "Boosts" "ActionResource(WarlockSpellSlot,2,3)"
 
 <!----------------------------------------------------------------------------------------------------SUBCLASS 5---------------------------------------------------------------------------------------------------->
 

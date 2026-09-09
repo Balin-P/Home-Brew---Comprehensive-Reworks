@@ -14,7 +14,7 @@ data "StatusOnEquip" "ATTUNEMENT1"
 
 new entry "Shout_MAG_ShadowBlade"
 type "SpellData"
-data "SpellType" "Zone"
+data "SpellType" "Shout"
 using "Shout_ShadowBlade"
 data "UseCosts" "BonusActionPoint:1"
 data "Cooldown" "OncePerCombat"

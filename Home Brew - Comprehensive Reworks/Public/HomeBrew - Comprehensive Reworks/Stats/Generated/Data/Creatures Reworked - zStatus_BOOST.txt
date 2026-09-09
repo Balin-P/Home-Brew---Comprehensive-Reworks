@@ -10,6 +10,8 @@ data "StackId" "LOCKDOWN_CONDITION"
 data "TickType" "EndTurn"
 data "Boosts" "StatusImmunity(SG_Prone);StatusImmunity('BANISHED_SPELL');StatusImmunity('CHEST_TRAUMA');StatusImmunity('COMMAND_APPROACH');StatusImmunity('COMMAND_FLEE');StatusImmunity('COMMAND_GROVEL');StatusImmunity('COMMAND_HALT');StatusImmunity('CONFUSION_SKIP');StatusImmunity('CROWN_OF_MADNESS');StatusImmunity('DOMINATE_PERSON');StatusImmunity('ENTOMBED');StatusImmunity('FEARED');StatusImmunity('FROZEN');StatusImmunity('HIDEOUS_LAUGHTER');StatusImmunity('HIDEOUS_LAUGHTER_FIRSTLEVEL');StatusImmunity('HOLD_MONSTER');StatusImmunity('HYPNOTIC_GAZE');StatusImmunity('HYPNOTIC_PATTERN');StatusImmunity('INCAPACITATED_DND');StatusImmunity('INTIMIDATING_PRESENCE');StatusImmunity('IRRESISTIBLE_DANCE');StatusImmunity('LURING_SONG');StatusImmunity('PACIFIED');StatusImmunity('PARALYZED');StatusImmunity('PETRIFIED');StatusImmunity('POLYMORPH_SHEEP');StatusImmunity('PRONE');StatusImmunity('RESILIENT_SPHERE');StatusImmunity('SLEEP');StatusImmunity('SLEEPING');StatusImmunity('STAGGERING_SMITE');StatusImmunity('STINKING_CLOUD');StatusImmunity('STUNNED');StatusImmunity('SURPRISED');StatusImmunity('TURNED');StatusImmunity('UNHOLY_SUBJUGATION');StatusImmunity('GG_TWO_AGONY')"
 data "StatusGroups" "SG_RemoveOnRespec"
+data "ApplyEffect" "23899d8a-723b-4cf6-ace7-85b516311aa9"
+data "StatusEffect" "4a266605-3b5f-486d-adef-4f2bd6d4ee34"
 
 new entry "LOCKDOWN_CONDITION_DESCRIPTION"
 type "StatusData"
@@ -210,7 +212,7 @@ using "PACIFYING_SPORES"
 data "DisplayName" "h9b01f118gdd98g4473g8d55g555a7835aab3;1"
 data "Description" "h4173dc84g1ce1g4ad2g9d40gc069cb66f43e;1"
 data "OnApplyFunctors" "BreakConcentration()"
-data "StatusGroups" "SG_Magical;SG_Confused"
+data "StatusGroups" "SG_Confused"
 
 <!--BERNARD-->
 
@@ -345,7 +347,7 @@ data "Description" "h4eb1e5f9g7eeeg4f23g888cg822824ca1392;4"
 data "DescriptionParams" "GainTemporaryHitPoints(124)"
 data "Icon" "statIcons_Bulette_DiamondScales"
 data "StackId" "TEMPORARY_HP"
-data "StackPriority" "124"
+data "StackPriority" "99"
 data "Boosts" "Attribute(Grounded);IgnoreDamageThreshold(All,15);TemporaryHP(124);Resistance(Bludgeoning, Vulnerable);Resistance(Force, Vulnerable)"
 data "RemoveConditions" "not HasTemporaryHP()"
 data "RemoveEvents" "OnDamage"
@@ -467,6 +469,13 @@ data "Icon" "GenericIcon_DamageType_Radiant"
 data "Passives" "DamageShield_NPC_Radiant"
 
 <!--DISPLACER BEAST-->
+
+new entry "CREATEILLUSION_DISPLACERBEAST"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h5068c835gea45g4abdg9698gc41ebdf10fd0;1"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;LoseControl;LoseControlFriendly"
+data "Passives" "General_KillOnDamage"
 
 new entry "DISPLACERBEAST_DISPLACEMENT"
 type "StatusData"
@@ -633,6 +642,34 @@ data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndi
 data "Passives" "Fatal_Encounter_Gerringothe"
 data "StackId" "FATAL_ENCOUNTER_BOSSPHASE"
 data "StackType" "Ignore"
+
+<!--GITHYANKI-->
+
+new entry "LICH_QUEENS_BLESSING"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "ha32797b6g8153g43b6gbb5cga37cc6czlich;1"
+data "Description" "hf0c16535gd5a3g4da1gbf6agb69118dzlich;1"
+data "Icon" "PassiveFeature_DarkOnesBlessing"
+data "HitAnimationType" "None"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
+data "StackId" "LICH_QUEENS_BLESSING"
+data "StackType" "Ignore"
+data "AuraRadius" "36"
+data "AuraStatuses" "TARGET:IF(Tagged('GITHYANKI') and not Player()):ApplyStatus(LICH_QUEENS_BLESSING_ACTUAL)"
+data "Boosts" "StatusImmunity(SG_Charmed);StatusImmunity(SG_Cursed);StatusImmunity(SG_Petrified);StatusImmunity(SG_Polymorph);StatusImmunity(SG_Possessed)"
+
+new entry "LICH_QUEENS_BLESSING_ACTUAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "ha32797b6g8153g43b6gbb5cga37cc6cvlich;1"
+data "Description" "hf0c16535gd5a3g4da1gbf6agb69118dvlich;1"
+data "Icon" "PassiveFeature_DarkOnesBlessing"
+data "HitAnimationType" "None"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog"
+data "StackId" "LICH_QUEENS_BLESSING_ACTUAL"
+data "StackType" "Ignore"
+data "Boosts" "StatusImmunity(SG_Charmed);StatusImmunity(SG_Cursed);StatusImmunity(SG_Petrified);StatusImmunity(SG_Polymorph);StatusImmunity(SG_Possessed)"
 
 <!--GLUT-->
 
@@ -842,7 +879,7 @@ data "FormatColor" "White"
 data "TickType" "EndTurn"
 data "TickFunctors" "RemoveStatus(WYR_GORTASH_CRUSHINGFIST_HANGING)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;TickingWithSource;FreezeDuration"
-data "OnApplyFunctors" "IF(Character() and not Tagged('ACT3_WYR_GORTASH'))ApplyStatus(WYR_AI_HELPER_AVOIDAREA_EXCEPT_GORTASH,100,-1)"
+data "OnApplyFunctors" "IF(Character() and not Tagged('ACT3_WYR_GORTASH')):ApplyStatus(WYR_AI_HELPER_AVOIDAREA_EXCEPT_GORTASH,100,-1)"
 data "StatusEffect" "16afd8d3-be99-445c-bcab-dce474d521e0"
 
 <!--GREMISHKA-->
@@ -886,6 +923,23 @@ data "StatusEffect" "89af8f46-c493-4537-a2ee-f6d1ed121993"
 data "Boosts" "UnlockSpell(Projectile_ArcaneCurrent_Grym);UnlockSpell(Shout_Stomp_Grym);UnlockSpell(Shout_SelfDestruct_Grym);ActionResourceMultiplier(Movement,200,0)"
 data "Passives" "CreaturePassive_Grym;CreaturePassive_Grym_Turn;CreaturePassive_Grym_Detonate"
 data "FormatColor" "Red"
+
+new entry "KINETICARMOR_ADAMANTINEGOLEM"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h94ea441fgd54dg4307g9f73g027a971f44c3;2"
+data "Description" "h77c37c0bg14d4g4852g8eb4g0f4a7b745d35;2"
+data "DescriptionParams" "GainTemporaryHitPoints(24);Distance(9);DealDamage(3d12,Thunder)"
+data "Icon" "GenericIcon_Intent_Buff"
+data "StackId" "TEMPORARY_HP"
+data "StackPriority" "24"
+data "Boosts" "TemporaryHP(24)"
+data "TickType" "EndTurn"
+data "RemoveConditions" "not HasTemporaryHP()"
+data "RemoveEvents" "OnDamage"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(KINETICARMOR_ADAMANTINEGOLEM_TECHNICAL,100,1)"
+data "StatusEffect" "70b7f383-841b-4dd3-87e0-55b275f66d86"
 
 <!--HALSIN GOBLIN PEN-->
 
@@ -1137,6 +1191,44 @@ data "OnApplyRoll" "not SavingThrow(Ability.Intelligence,CalculateSpellDC(contex
 data "OnApplySuccess" "ApplyStatus(STUNNED,100,1)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 
+new entry "ZHALK_AGGRO_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "HitAnimationType" "None"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StackId" "ZHALK_AGGRO_AURA"
+data "StackType" "Ignore"
+data "AuraRadius" "36"
+data "AuraStatuses" "TARGET:IF(Tagged('CAMBION') and Tagged('FIXEDSUBCLASS')):ApplyStatus(ZHALK_AGGRO_ACTUAL)"
+
+new entry "ZHALK_AGGRO_ACTUAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "ha32797b6g8153g43b6gbb5cga37cc6czhalk;1"
+data "Description" "hf0c16535gd5a3g4da1gbf6agb69118dzhalk;1"
+data "Icon" "TadpoleSuperPower_Ceremorphosis"
+data "HitAnimationType" "None"
+data "StatusPropertyFlags" ""
+data "StackId" "ZHALK_AGGRO_ACTUAL"
+data "StackType" "Ignore"
+data "Boosts" "IF(not IsReactionAttack() and not Tagged('ABERRATION')):RollBonus(Attack,-99)"
+
+new entry "LIE_DYING"
+type "StatusData"
+data "StatusType" "INCAPACITATED"
+data "DisplayName" "h31122027ga88eg4eccg8c6bg8938accdbe10;1"
+data "Description" "h31122027ga88eg4eccg8c6bg8938accddesc;1"
+data "Icon" "Status_Dying"
+data "AnimationStart" "c68b348d-fe4c-41af-a29d-83010fc91418(STAT_Downed_Peace_01_Start)"
+data "AnimationLoop" "b666ee61-f1cb-45bd-ae1b-1123799fbbbe(STAT_Downed_Peace_01_Loop)"
+data "AnimationEnd" "9630f83c-a369-425d-8c0f-d38e01153a05(STAT_Downed_Peace_01_End)"
+data "StillAnimationPriority" "Downed"
+data "Boosts" "AbilityFailedSavingThrow(Strength);AbilityFailedSavingThrow(Dexterity);CriticalHit(AttackTarget,Success,Always,3);CriticalHit(AttackTarget,Failure,Never,3);DetectDisturbancesBlock(true);"
+data "StatusPropertyFlags" "IsInvulnerable;DisableOverhead;DisableCombatlog"
+data "UseLyingPickingState" "Yes"
+data "OnApplyFunctors" "BreakConcentration()"
+data "Passives" "General_KillOnDamage"
+
 <!--MINOTAUR-->
 
 new entry "RECKLESS_MINOTAUR"
@@ -1379,6 +1471,18 @@ data "Passives" "Fatal_Encounter_Raphael"
 data "StackId" "FATAL_ENCOUNTER_RAPHAEL"
 data "StackType" "Ignore"
 
+<!--ROTHE-->
+
+new entry "UND_FEARFULROTHE_AGITATED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hd0e7b197g08a7g43f0ga290g8b469c4984f2;2"
+data "Description" "haa35729dg5e28g437ag9769gb70e9ce59ce1;2"
+data "Icon" "statIcons_Agitated"
+data "FormatColor" "Red"
+data "Boosts" "Advantage(AttackRoll)"
+data "StatusGroups" "SG_Mental;SG_Rage"
+
 <!--SAVARSH KETHK-->
 
 new entry "CRE_COMBAT_INSTRUCTION"
@@ -1578,6 +1682,20 @@ data "DisplayName" "hcd546155gd37dg4fefg9deeg71d2f0198287;1"
 data "Description" "h2527cab9gb2c6g4756g9667g468826a1c89e;1"
 data "DescriptionParams" "Distance(9); GainTemporaryHitPoints(100)"
 data "Boosts" "ActionResource(Movement,9,0); TemporaryHP(100)"
+
+<!--WITHERS-->
+
+new entry "KILL_WITHERS"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h4d7f1eviconiaa4d80ga24bg135cjergalzz;3"
+data "Description" "hcd35aviconiaaa4c0fgad2fg2c33jergalzz;2"
+data "Icon" "Action_Monster_Banite_AuraOfTerror"
+data "StackId" "KILL_WITHERS"
+data "OnApplyFunctors" "Kill()"
+data "OnRemoveFunctors" "SwitchDeathType(Explode);ApplyStatus(CORPSE_USED,100,-1)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StackType" "Overwrite"
 
 <!--WOOD WOAD-->
 

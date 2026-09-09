@@ -156,7 +156,7 @@ data "ApplyEffect" "6c32aa03-be03-4d56-a28b-0984f194de88"
 data "StatusEffect" "b41d8aaa-619b-4686-b4fa-71d1285693ec"
 data "ManagedStatusEffectType" "Negative"
 data "TickType" "EndTurn"
-data "StatusGroups" "SG_Magical;SG_Cursed"
+data "StatusGroups" "SG_Cursed"
 
 new entry "CONSUMED_PHALARALUVE"
 type "StatusData"

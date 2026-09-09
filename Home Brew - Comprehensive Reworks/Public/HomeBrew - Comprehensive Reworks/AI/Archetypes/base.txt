@@ -85,8 +85,8 @@ ENABLE_MOVEMENT_AVOID_AOO						100.00
 //////////////////////////////////////////////////////////////////////////
 // Target Selection MULTIPLIERS
 
-MULTIPLIER_TARGET_MY_ENEMY						1.25 	//multiplier used if the target is the enemy of the source, e.g. because source attacked target before
-MULTIPLIER_TARGET_MY_HOSTILE					1.50	//multiplier used if the source is the enemy of the target, e.g. because target attacked source before
+MULTIPLIER_TARGET_MY_ENEMY						1.05 	//multiplier used if the target is the enemy of the source, e.g. because source attacked target before
+MULTIPLIER_TARGET_MY_HOSTILE					1.05	//multiplier used if the source is the enemy of the target, e.g. because target attacked source before
 MULTIPLIER_TARGET_SUMMON						1.00
 MULTIPLIER_TARGET_AGGRO_MARKED					4.00
 MULTIPLIER_TARGET_HOSTILE_COUNT_ONE				0.75
@@ -94,10 +94,10 @@ MULTIPLIER_TARGET_HOSTILE_COUNT_TWO_OR_MORE		0.50
 MULTIPLIER_TARGET_IN_SIGHT						1.05
 MULTIPLIER_TARGET_INCAPACITATED					1.25
 MULTIPLIER_TARGET_KNOCKED_DOWN					1.25
-MULTIPLIER_TARGET_PREFERRED						1.50
+MULTIPLIER_TARGET_PREFERRED						2.50
 MULTIPLIER_TARGET_UNPREFERRED					0.50
-MULTIPLIER_TARGET_HEALTH_BIAS					1.25	// How important the current HP of a target is (lower HP = higher score)
-MULTIPLIER_TARGET_ENEMY_DOWNED 					1.25
+MULTIPLIER_TARGET_HEALTH_BIAS					1.05	// How important the current HP of a target is (lower HP = higher score)
+MULTIPLIER_TARGET_ENEMY_DOWNED 					1.05
 MULTIPLIER_TARGET_ALLY_DOWNED 					0.00
 MULTIPLIER_TARGET_NEUTRAL_DOWNED				0.00
 
@@ -161,7 +161,7 @@ MAX_HEAL_MULTIPLIER								0.25  // Must be between 0 and 1, the closer to 1, th
 MAX_HEAL_SELF_MULTIPLIER						0.25  // Must be between 0 and 1, the closer to 1, the more it demands healing when you are close to dying
 
 // Simple multipliers when damage results in a kill
-MULTIPLIER_KILL_ENEMY							1.25
+MULTIPLIER_KILL_ENEMY							1.05
 MULTIPLIER_KILL_ENEMY_SUMMON					1.05
 MULTIPLIER_KILL_ALLY							0.00
 MULTIPLIER_KILL_ALLY_SUMMON						0.00
@@ -329,7 +329,7 @@ MULTIPLIER_BOOST_BLOCK_SOMATIC_COMPONENT 0.125
 MULTIPLIER_MOVEMENT_SURFACE 1.0
 
 // Modifier used to make AI over estimate its chances of hitting their target
-MODIFIER_HIT_CHANCE_STUPIDITY 0.25
+MODIFIER_HIT_CHANCE_STUPIDITY 0.50
 
 //////////////////////////////////////////////////////////////////////////
 // RollBonus MULTIPLIERS
@@ -402,9 +402,9 @@ USE_ITEM_MODIFIER_NO_VISIBILITY			1.0
 // Concentration modifiers
 
 // Modifier used to change the score of removing the AI's own concentration
-MODIFIER_CONCENTRATION_REMOVE_SELF 						-4.0
+MODIFIER_CONCENTRATION_REMOVE_SELF		-4.0
 // Modifier used to change the score of removing a target's concentration (other than itself) 
-MODIFIER_CONCENTRATION_REMOVE_TARGET 					1.0
+MODIFIER_CONCENTRATION_REMOVE_TARGET			1.0
 
 //////////////////////////////////////////////////////////////////////////
 // Throwing modifiers

@@ -257,7 +257,7 @@
                 <node id="TooltipUpcastDescriptions">
                     <attribute id="Name" type="FixedString" value="Cloudkill"/>
                     <attribute id="Text" type="TranslatedString" handle="h197f62bbgd1ddg4436g90df5s5d4f6d54ef8" version="1"/>
-                    <attribute id="UUID" type="guid" value="9be63378-034b-4532-a282-91fa3a5sf4df"/>
+                    <attribute id="UUID" type="guid" value="69e576bd-9cec-41a5-9efe-52f6c71a6b76"/>
                 </node>
                 <node id="TooltipUpcastDescriptions">
                     <attribute id="Name" type="FixedString" value="Oath Channeling"/>
@@ -268,6 +268,26 @@
                     <attribute id="Name" type="FixedString" value="Mantra of Restoration"/>
                     <attribute id="Text" type="TranslatedString" handle="2ef5c74c3ef74b958689b8cf3cefcbee00000" version="1"/>
                     <attribute id="UUID" type="guid" value="2ef5c74c-3ef7-4b95-8689-b8cf3cefcbee"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Additional Damage, Silence and Area Radius"/>
+                    <attribute id="Text" type="TranslatedString" handle="h919809878f174212aa565b4b869e224c7g03" version="3"/>
+                    <attribute id="UUID" type="guid" value="e610b8cb-8fa5-475e-88af-117b59ff49df"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Additional HP Reduction"/>
+                    <attribute id="Text" type="TranslatedString" handle="337c715bce824fa5b23444e24dd391a800000" version="3"/>
+                    <attribute id="UUID" type="guid" value="fe1ef438-1575-489d-860c-0c941ba1d8fb"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Deal An Additional X and Select an Additional Target"/>
+                    <attribute id="Text" type="TranslatedString" handle="5b221c57050247f2952b5a6e548a321a34545" version="3"/>
+                    <attribute id="UUID" type="guid" value="30d9c743-cb3f-4bfd-9b14-fe3a43cc4b4e"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Increase Initiative by X per Level"/>
+                    <attribute id="Text" type="TranslatedString" handle="35e3a6591ef947a99ac80db4c248a7e645455" version="3"/>
+                    <attribute id="UUID" type="guid" value="35e3a659-1ef9-47a9-9ac8-0db4c248a7e1"/>
                 </node>
             </children>
         </node>

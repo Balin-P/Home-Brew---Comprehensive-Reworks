@@ -56,7 +56,7 @@
                     <attribute id="Description" type="TranslatedString" handle="h5e2183f0g1d9ag4726g86ffg832d5f5d5f6f" version="4"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h39ed1ebbg6dadg4bafga046g6e5e8f6f8858" version="4"/>
                     <attribute id="Name" type="LSString" value="RULESET_MYTHIC"/>
-                    <attribute id="ShowInCustom" type="bool" value="true"/>
+                    <attribute id="ShowInCustom" type="bool" value="false"/>
                     <attribute id="Type" type="uint8" value="0"/>
                     <attribute id="UUID" type="guid" value="28b5b9de-cef7-4cc2-972c-22f962efe757"/>
                 </node>
