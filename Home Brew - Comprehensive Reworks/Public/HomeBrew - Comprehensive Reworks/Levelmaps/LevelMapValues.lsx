@@ -136,7 +136,6 @@
                     <attribute id="Level11" type="LSString" value="1d12"/>
                     <attribute id="Level12" type="LSString" value="1d12"/>
                     <attribute id="Name" type="FixedString" value="MartialArts"/>
-					<attribute id="PreferredClassUUID" type="guid" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f"/>
                     <attribute id="UUID" type="guid" value="8d4ad847-3a8b-47b2-be5f-ddd49b1723d4"/>
 					</node>
 		<node id="LevelMapSeries">
@@ -155,23 +154,6 @@
 					<attribute id="Name" type="FixedString" value="RageDamage"/>
 					<attribute id="PreferredClassUUID" type="guid" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399"/>
 					<attribute id="UUID" type="guid" value="47925e09-30f6-4549-8252-60ea7f87b7a6"/>
-					</node>
-        <node id="LevelMapSeries">
-                    <attribute id="Level1" type="LSString" value="1d4"/>
-                    <attribute id="Level2" type="LSString" value="1d4"/>
-                    <attribute id="Level3" type="LSString" value="1d4"/>
-                    <attribute id="Level4" type="LSString" value="1d4"/>
-                    <attribute id="Level5" type="LSString" value="1d8"/>
-                    <attribute id="Level6" type="LSString" value="1d8"/>
-                    <attribute id="Level7" type="LSString" value="1d8"/>
-                    <attribute id="Level8" type="LSString" value="1d8"/>
-                    <attribute id="Level9" type="LSString" value="1d12"/>
-                    <attribute id="Level10" type="LSString" value="1d12"/>
-                    <attribute id="Level11" type="LSString" value="1d12"/>
-                    <attribute id="Level12" type="LSString" value="1d12"/>
-                    <attribute id="Name" type="FixedString" value="RagingBlows"/>
-					<attribute id="PreferredClassUUID" type="guid" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399"/>
-                    <attribute id="UUID" type="guid" value="b4136c95-a4f9-4fc1-96bc-00310232d27a"/>
 					</node>
         <node id="LevelMapSeries">
                     <attribute id="Level1" type="LSString" value="1d6"/>

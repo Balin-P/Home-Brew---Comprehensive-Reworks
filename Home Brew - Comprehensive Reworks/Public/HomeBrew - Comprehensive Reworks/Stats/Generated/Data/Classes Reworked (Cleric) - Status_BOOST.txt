@@ -130,7 +130,7 @@ data "DisplayName" "h6cc498f5g13a0g4dc1g8c91gff3580c00ss2;1"
 data "Description" "heec87dfbg454fg4550g8622gb200a6700ssb;2"
 data "Icon" "Action_AccursedSpecter_SoulDevour"
 data "StackId" "CURSEOFUNDEATH"
-data "Boosts" "Tag(UNDEAD);Tag(ACT2_SHADOW_CURSE_IMMUNE);Resistance(Necrotic, Immune);Resistance(Poison, Immune)"
+data "Boosts" "Tag(UNDEAD);Tag(ACT2_SHADOW_CURSE_IMMUNE);Resistance(Necrotic, Immune)"
 data "ManagedStatusEffectType" "Positive"
 
 new entry "HARVEST"

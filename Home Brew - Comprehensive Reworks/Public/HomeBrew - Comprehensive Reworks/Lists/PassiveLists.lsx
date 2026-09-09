@@ -41,10 +41,6 @@
                     <attribute id="UUID" type="guid" value="2e8c5dba-f49c-4f24-a850-05e61aefb4ef" />
 					</node>
         <node id="PassiveList">
-                    <attribute id="Passives" type="LSString" value="Steelforged_Melee,Steelforged_Ranged" />
-                    <attribute id="UUID" type="guid" value="9355b0df-9229-4a33-8d4b-30d1918388cf" />
-					</node>
-        <node id="PassiveList">
                     <attribute id="Passives" type="LSString" value="Aegis,Blessed_Resolve,BloodforBlood,Consecrative_Sacrifice,Divine_Resiliance,Divine_Restoration,Ethereal_Intuition,Flames_of_Repentance,Holy_Fortitude,Guided_Strikes,Holy_Retribution,Immaculate_Ward,Martyrdom,Paradisiacal_Gift,Sacral_Bulwark,Sanctified_Presence,Sanctifying_Aura,Stalwart,Stout_Believer,Venerational_Strikes" />
                     <attribute id="UUID" type="guid" value="137c5bd5-c5a9-4185-aec9-70a583191f17" />
 					</node>

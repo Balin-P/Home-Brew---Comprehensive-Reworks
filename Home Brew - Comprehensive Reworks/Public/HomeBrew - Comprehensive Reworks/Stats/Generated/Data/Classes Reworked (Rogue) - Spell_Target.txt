@@ -111,9 +111,10 @@ data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;8252328a-66dd-4
 data "VerbalIntent" "Utility"
 data "SpellFlags" "IsLinkedSpellContainer"
 data "HitAnimationType" "None"
-data "PrepareEffect" "ec80b3cd-29fd-40d2-a41a-b703db1b6f8e"
-data "CastEffect" "7bce304f-a409-495e-a092-012b727b0914"
-data "TargetEffect" "1d00a392-5444-4533-b125-d4cafc7e496a"
+data "PrepareEffect" "6c756e61-b61c-484c-b574-3777024ec4f0"
+data "CastEffect" "6d617265-7ce5-416d-8af2-72d44ec8bd0f"
+data "HitEffect" "1dbe2817-f10f-4271-abed-c3d91efa7642"
+data "TargetEffect" "371c77a2-7c70-4cce-8fe1-9eaca16f776c"
 
 new entry "Target_Toxicity_DeliriumSurge"
 type "SpellData"

@@ -60,7 +60,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">CIRCLE OF ELEMENTS</content>
 
 	<content contentuid="ha585d015g08f6g4c52s1d6f54s6d54ff0000" version="2">Circle of Elements</content>
-	<content contentuid="ha585d015g08f6g4c52s1d6f54s6d54ffzzzz" version="2">You attune yourself to nature through four distinct elements - air, earth, fire, and water. Through their balance, you draw strength and fortitude.</content>
+	<content contentuid="ha585d015g08f6g4c52s1d6f54s6d54ffzzzz" version="2">You attune yourself to nature through four distinct elements - air, earth, fire, and water. Through their balance, you draw strength and fortitude.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage</content>
 
 	<content contentuid="ha585d015g08f6g4c52s1d6f54s6d54ff0001" version="2">Cycle of Balance</content>
 	<content contentuid="ha585d015g08f6g4c52s1d6f54s6d54ff000a" version="2">Each turn while in combat, you cycle through one of the four seasons. Each season grants two passive damage buffs equal to your levels in Druid divided by two, as well as damage &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; corresponding to your seasonal damage types. This bonus does not apply to damage dealt with an off-hand weapon.&lt;br&gt;&lt;br&gt;In addition, each season allows you to morph into a corresponding elemental Myrmidon.</content>
@@ -116,6 +116,9 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">CIRCLE OF THE LAND</content>
 
+	<content contentuid="ha9c297f0g9d10g4342gbc1eg39233f659d37" version="2">Circle of the Land</content>
+	<content contentuid="h8b9c3fa4g3e32g4913gbbe9g0c33b209865f" version="2">You channel the natural arcana flowing through the earth and creatures atop it to cast powerful druidic magic.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Summoner</content>
+
 	<content contentuid="ha585d015g08f6g4c58ga0cdg57ff4s5d884f" version="2">DRUIDCOMPANION</content>
 	<content contentuid="ha585d015g08fff6s8d4f512557ff4s5d884f" version="2">DRUIDCOMPANIONTAGFORDRUIDOVERHAUL</content>
 
@@ -163,7 +166,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">CIRCLE OF THE MOON</content>
 
 	<content contentuid="h282704e7g650dg4a64gbf0dgfb5b681f3be5" version="2">Circle of the Moon</content>
-	<content contentuid="hcd5ebe30g081fg4a7agba99g38d237697789" version="2">Your form is mutable as the mercurial moon, letting you shift effortlessly into various beasts.</content>
+	<content contentuid="hcd5ebe30g081fg4a7agba99g38d237697789" version="2">Your form is mutable as the mercurial moon, letting you shift effortlessly into various beasts.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage/Tank</content>
 
 	<content contentuid="h2b3423cfg3562g4217g9873g725ds6d2e584" version="2">Moonbreak</content>
 	<content contentuid="h9496db0cgc952g4937g90b7g666sd895e854" version="2">You gain access to ten &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt; forms. While assuming one of these ten Wildshape forms, you can swap to any of them as a free action. When swapping to another Wildshape form in this manner, you retain the same percentage of &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; of the form you swapped from.</content>
@@ -197,7 +200,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">CIRCLE OF SHADOWS</content>
 
 	<content contentuid="5126c10823d3434e8286ee66c19e569800000" version="2">Circle of Shadows</content>
-	<content contentuid="5126c10823d3434e8286ee66c19e5698zzzzz" version="2">Death is the most natural occurance within nature. From within the shadows, you observe this fact in the truest of form, and guide others to a more intimate understanding.</content>
+	<content contentuid="5126c10823d3434e8286ee66c19e5698zzzzz" version="2">Death is the most natural occurance within nature. From within the shadows, you observe this fact in the truest of form, and guide others to a more intimate understanding.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Damage</content>
 
 	<content contentuid="5126c10823d3434e8286ee66c19e569800001" version="2">Displaced Nature</content>
 	<content contentuid="5126c10823d3434e8286ee66c19e56980000a" version="2">Gain the ability to shift into a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape_DisplacerBeast"&gt;Displacer Beast&lt;/LSTag&gt; at will. In addition, you gain the ability to see in magical darkness out to a range of [1].</content>
@@ -209,7 +212,7 @@
 	<content contentuid="5126c10823d3434e8286ee66c19e56980000b" version="2">While assuming a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, deal additional Psychic damage to enemies, and recover &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of each of your turns, equal to your levels in Druid. This bonus does not apply to damage dealt with an off-hand weapon.</content>
 
 	<content contentuid="5126c10823d3434e8286ee66c19e569800003" version="2">Predatory Communion</content>
-	<content contentuid="5126c10823d3434e8286ee66c19e56980000c" version="2">Gain the ability to morph your allies into &lt;LSTag Type="Spell" Tooltip="Shout_WildShape_DisplacerBeast"&gt;Displacer Beasts&lt;/LSTag&gt;.</content>
+	<content contentuid="5126c10823d3434e8286ee66c19e56980000c" version="2">Gain the ability to morph your allies into &lt;LSTag Type="Spell" Tooltip="Shout_WildShape_DisplacerBeast"&gt;Displacer Beasts&lt;/LSTag&gt;. In addition, while &lt;LSTag Type="Status" Tooltip="SNEAKING_HEAVILY_OBSCURED"&gt;Heavily Obscured&lt;/LSTag&gt;, you are immune to all forms of curses.</content>
 	<content contentuid="5126c10823d3434e8286ee66c19e5698000z3" version="2">Predatory Communion</content>
 	<content contentuid="5126c10823d3434e8286ee66c19e5698000zc" version="2">Forcibly morph an ally into a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape_DisplacerBeast"&gt;Displacer Beast&lt;/LSTag&gt;. Allies may create additional copies of themselves while morphed if they also have &lt;LSTag Type="Status" Tooltip="Tooltip_DisplacedNature"&gt;Displaced Nature&lt;/LSTag&gt;.</content>
 
@@ -223,6 +226,9 @@
 	<content contentuid="5126c10823d3434e8286ee66c19e56980000f" version="2">Upon driving a creature to &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Madness&lt;/LSTag&gt;, they become &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to Psychic damage.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">CIRCLE OF THE SPORES</content>
+
+	<content contentuid="heb734024ga6c3g45f9gadceg2003f8ae53dc" version="2">Circle of the Spores</content>
+	<content contentuid="hbc48de91g0cb1g48ecgad10ge728d2fd32a8" version="3">Viewing death, necrosis, fungal growth, and sporulation as just another part of life, you can manipulate such spores to augment yourself and harm your foes.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage/Summoner</content>
 
 	<content contentuid="hb78b19e9gaad1g4af7g9b15g542ff2b23e87" version="1">Fungal Symbiosis Charge</content>
 	<content contentuid="h863ad928g3591g4108g96a9g739e0858934e" version="1">Point used to cast &lt;LSTag Type="Spell" Tooltip="Shout_SymbioticEntity"&gt;Symbiotic Entity&lt;/LSTag&gt;.</content>
@@ -273,7 +279,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">CIRCLE OF THE STARS</content>
 
 	<content contentuid="h10443accg5dd7g465dgacc8g5fb0edc93e92" version="1">Circle of the Stars</content>
-	<content contentuid="h7e89ecfbg98c8g4a5cgba23gd5416fb16529" version="1">You are guided by the infinite mysteries of the cosmos. It is through your understanding of the stars that your druidic magic gains its potency.</content>
+	<content contentuid="h7e89ecfbg98c8g4a5cgba23gd5416fb16529" version="1">You are guided by the infinite mysteries of the cosmos. It is through your understanding of the stars that your druidic magic gains its potency.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage/Healer</content>
 	<content contentuid="h4bc7bfdbgdd94g47ccg840bgbf81be39a1c2" version="1">Star Map</content>
 	<content contentuid="h92349329g26d7g41a0g8a9ag7fc79f05a472" version="1">A map of the stars you can use as a resource while guided by a &lt;LSTag Type="Spell" Tooltip="Shout_ShapeoftheCosmos"&gt;Shape of the Cosmos&lt;/LSTag&gt;.</content>
 
@@ -500,7 +506,7 @@
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000a" version="1">When a creature damages you with a melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, deal Piercing damage to them equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Wisdom Modifier&lt;/LSTag&gt;.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200002" version="1">Combat's Harvest</content>
-	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000b" version="1">At the beginning of any combat encounter, cast &lt;LSTag Type="Spell" Tooltip="Target_Goodberry"&gt;Goodberry&lt;/LSTag&gt;. When consuming a Goodberry, you restore significantly more &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;.</content>
+	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000b" version="1">Upon consuming a healing potion, all allies within [1] of you also receive the effects.</content>
 
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d3491200003" version="1">Earthern Sentinel</content>
 	<content contentuid="ba8dc90c6dd042ee918bba2f68d349120000c" version="1">When you roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with a Spell, &lt;LSTag Type="Status" Tooltip="PETRIFIED"&gt;Petrify&lt;/LSTag&gt; your target for one turn.</content>

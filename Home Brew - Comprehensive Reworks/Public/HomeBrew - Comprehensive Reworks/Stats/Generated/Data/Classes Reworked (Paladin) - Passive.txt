@@ -422,7 +422,7 @@ data "DisplayName" "h298b9a29g5657g4aa9gaad6gad22d3d1f1d5;1"
 data "Description" "hb2400634gf3e4g46f1gb93dg136s6d5f4d54;2"
 data "DescriptionParams" "DealDamage(1d12, Radiant)"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "IF(HasStatus('MAG_RADIANT_RADIATING_ORB', context.Target)):Advantage(AttackRoll);IF(HasStatus('MAG_RADIANT_RADIATING_ORB', context.Target)):DamageBonus(1d12, Radiant)"
+data "Boosts" "IF(HasStatus('MAG_RADIANT_RADIATING_ORB', context.Target)):Advantage(AttackRoll);IF(HasStatus('MAG_RADIANT_RADIATING_ORB', context.Target) and Enemy() and not IsOffHandAttack() and not HasStatus('MULTIHIT_BLOCKER', context.Source)):DamageBonus(1d12, Radiant)"
 
 <!--Oathbound Crusader-->
 
@@ -611,7 +611,7 @@ data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "not HasPassive('DivineOntoArcane', context.Source) and HasStatus('HEAVILY_SILENCED',context.Target) and Enemy() and (IsSpell() or IsAttack() or IsCantrip() or MFL_ValidCost()) and not HasStatus('DOA_PROPER_KB_CHECK_TECHNICAL',context.Target,context.Source)"
 data "StatsFunctors" "ApplyStatus(DOA_PROPER_KB_CHECK_TECHNICAL,100,0)"
-data "Boosts" "IF(HasStatus('HEAVILY_SILENCED',context.Target) or HasStatus('SILENCED',context.Target)):Advantage(AttackRoll);IF(HasStatus('HEAVILY_SILENCED',context.Target) or HasStatus('SILENCED',context.Target)):Reroll(Damage, 20, false)"
+data "Boosts" "UnlockSpell(Shout_Oathcast);IF(HasStatus('HEAVILY_SILENCED',context.Target) or HasStatus('SILENCED',context.Target)):Advantage(AttackRoll);IF(HasStatus('HEAVILY_SILENCED',context.Target) or HasStatus('SILENCED',context.Target)):Reroll(Damage, 20, false)"
 
 new entry "Voiceless"
 type "PassiveData"
@@ -666,7 +666,7 @@ data "Icon" "Icon_MFL_ArcaneGlory"
 data "DisplayName" "h74f108b4bca44432817e2073c11abc4ff1c7;1"
 data "Description" "hde1e219dfff942a580ec7668847a32bdfd18;1"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "UnlockSpellVariant(CustomTwinnedProjectileSpellCheck(),ModifyNumberOfTargets(Override,3,false))"
+data "Boosts" "UnlockSpellVariant(KarsusAvatarCheck(),ModifyNumberOfTargets(Override,3,false))"
 
 <!--TYRANT-->
 
@@ -898,7 +898,7 @@ data "DisplayName" "fe6f4159abae42539029e284001d12de00010;1"
 data "Description" "fe6f4159abae42539029e284001d12de0000j;2"
 data "ExtraDescription" "h197f62bbgd1ddg4436g90df5s6s5d4f56f45"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "IF(Tagged('ABERRATION',context.Target) or Tagged('FEY',context.Target) or Tagged('FIEND',context.Target) or Tagged('UNDEAD',context.Target) and Enemy()):DamageBonus(12, Radiant)"
+data "Boosts" "IF((Tagged('ABERRATION',context.Target) or Tagged('FEY',context.Target) or Tagged('FIEND',context.Target) or Tagged('UNDEAD',context.Target)) and Enemy() and not IsOffHandAttack() and not HasStatus('MULTIHIT_BLOCKER', context.Source)):DamageBonus(12, Radiant)"
 
 new entry "Repel_the_Damned"
 type "PassiveData"
@@ -1002,7 +1002,7 @@ data "DisplayName" "fe6f4159abae42539029e284001d12de00010;1"
 data "Description" "fe6f4159abae42539029e284001d12de0000j;2"
 data "ExtraDescription" "h197f62bbgd1ddg4436g90df5s6s5d4f56f45"
 data "Properties" "IsHidden"
-data "Boosts" "IF((HasPassive('Principle_of_Belief',GetSummoner(context.Source)) or HasPassive('Principle_of_Belief_Item',GetSummoner(context.Source))) and (Tagged('ABERRATION') or Tagged('FEY') or Tagged('FIEND') or Tagged('UNDEAD'))):DamageBonus(12, Radiant)"
+data "Boosts" "IF((HasPassive('Principle_of_Belief',GetSummoner(context.Source)) or HasPassive('Principle_of_Belief_Item',GetSummoner(context.Source))) and (Tagged('ABERRATION') or Tagged('FEY') or Tagged('FIEND') or Tagged('UNDEAD')) and Enemy() and not IsOffHandAttack() and not HasStatus('MULTIHIT_BLOCKER', context.Source)):DamageBonus(12, Radiant)"
 
 new entry "Summon_Repel_the_Damned"
 type "PassiveData"
