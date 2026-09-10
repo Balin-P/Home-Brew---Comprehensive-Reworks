@@ -522,7 +522,7 @@
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d3220000f" version="4">When dealing damage with a weapon, you deal an additional [1].</content>
 
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d32200007" version="1">Relentless Attacks</content>
-	<content contentuid="5118b4641cdb4145a0fb4699faf1d3220000g" version="4">Upon landing a killing blow, you may make an additional attack as a free action.</content>
+	<content contentuid="5118b4641cdb4145a0fb4699faf1d3220000g" version="4">Once per turn, upon landing a killing blow on an enemy, you restore your &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt;.</content>
 
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d32200008" version="1">Mob Mentality</content>
 	<content contentuid="5118b4641cdb4145a0fb4699faf1d3220000h" version="4">While within [1] of an ally, this creature rolls their damage with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>

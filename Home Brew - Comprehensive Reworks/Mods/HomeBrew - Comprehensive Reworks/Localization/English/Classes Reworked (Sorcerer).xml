@@ -280,7 +280,7 @@
 	<content contentuid="9585509cf15f491a86ba751105cc21000000e" version="1">&lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Maddened&lt;/LSTag&gt; enemies deal the maximum damage possible when targeting their allies. In addition, Maddened enemies are considered to be priority targets, and are significantly more likely to be targeted by their allies.</content>
 
 	<content contentuid="9585509cf15f491a86ba751105cc210000006" version="1">Frozen Soul</content>
-	<content contentuid="9585509cf15f491a86ba751105cc21000000f" version="1">Once per turn, upon using &lt;LSTag Type="Passive" Tooltip="CreationaryText"&gt;Creationary&lt;/LSTag&gt;, all enemies within of you [1] take [2].</content>
+	<content contentuid="9585509cf15f491a86ba751105cc21000000f" version="1">Once per turn, upon using &lt;LSTag Type="Passive" Tooltip="Tooltip_CreationaryText"&gt;Creationary&lt;/LSTag&gt;, all enemies within of you [1] take [2].</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">VOLCANIST</content>
 
@@ -353,6 +353,19 @@
 	<content contentuid="9b7b811b9c3043e189f945540bf5116e00010" version="1">Sorcerous Sundries</content>
 	<content contentuid="9b7b811b9c3043e189f945540bf5116e0000j" version="1">Within your grasp lies the untamed boundaries of the arcane.&lt;br&gt;A wellspring of creativity to tap into and mold as you see fit.</content>
 
+	<content contentuid="0287fd8d-84da-4799-a59f-a6b5d75aa7f0" version="1">Greater Metamagic: Maximized Magic</content>
+	<content contentuid="f29e1f76-9c88-4dee-9923-81e924388937" version="1">Spells that deal damage will deal the maximum amount of damage possible. However, you will be unable to roll &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt; per level of &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; spent.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Only one Greater Metamagic may be active at any given time. Greater Metamagic cannot be used with &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt;.</content>
+	
+	<content contentuid="h2a4fba9dg0b06g4e44ga7b4gbd11d93de433" version="1">Greater Metamagic: Quickened Magic</content>
+	<content contentuid="h7a4aed26ga038g4775g885ag81cc91f418ac" version="1">Quickened Magic</content>
+	<content contentuid="hc94b3484g2ddcg4479g81bbgf237ca981795" version="2">Spells that cost an &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; require a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; instead.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt; per level of &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; spent.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Only one Greater Metamagic may be active at any given time. Greater Metamagic cannot be used with &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt;.</content>
+	
+	<content contentuid="e38654de-fd40-4f34-96c6-25a5886af1a9" version="1">Greater Metamagic: Tripled Magic</content>
+	<content contentuid="1468eac4-3b98-4861-9a24-579a9a78235e" version="1">Spells that only target one creature can now target three separate creatures.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt; per level of &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; spent.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Only one Greater Metamagic may be active at any given time. Greater Metamagic cannot be used with &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt;.</content>
+
+	<content contentuid="h8c9f627fgff0ag4f0bgab3dg2f1e75e85e4b" version="1">Greater Metamagic: Tuned Magic</content>
+	<content contentuid="hf96ed50cg50d3g4ce9g87bbg295a0910065f" version="2">Damaging Spells that make an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; will roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt; per level of &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; spent.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Only one Greater Metamagic may be active at any given time. Greater Metamagic cannot be used with &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt;.</content>
+
 	<content contentuid="hc4758e5dg1f1dg424agadb4gc4ffdd2dd25d" version="1">Metamagic: Absorbing Magic</content>
 	<content contentuid="h64f78215gd47bg4c27gb0cegdd366d8ff6d9" version="3">Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; which deal damage transmute an arcane shield across your body, granting you &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to elemental damage for three turns.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; per cast.</content>
 	<content contentuid="hc4758e5dg1f1dg424agadb4gc4ffdd2ggggg" version="1">Sorcerous Shield</content>
@@ -392,15 +405,8 @@
 	<content contentuid="hc6d29819g33d5g4ca7g9957gb8c47d823262" version="1">Heightened Magic</content>
 	<content contentuid="h73917ce3gc827g49e4ga954g8a5f696de6f7" version="4">Targets of Spells or &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that require &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; make their Saving Throw with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt; per cast.</content>
 
-	<content contentuid="0287fd8d-84da-4799-a59f-a6b5d75aa7f0" version="1">Greater Metamagic: Maximized Magic</content>
-	<content contentuid="f29e1f76-9c88-4dee-9923-81e924388937" version="1">Spells that deal damage will deal the maximum amount of damage possible. However, you will be unable to roll &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt; per level of &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; spent.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Only one Greater Metamagic may be active at any given time. Greater Metamagic cannot be used with &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt;.</content>
-	
 	<content contentuid="689cae2f-e4ff-44cc-84ce-180aa6727a03" version="1">Metamagic: Piercing Magic</content>
 	<content contentuid="259166d2-1d55-416e-82f8-20a96e4d4467" version="1">Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that deal damage to an enemy or item ignore all &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; per cast.</content>
-
-	<content contentuid="h2a4fba9dg0b06g4e44ga7b4gbd11d93de433" version="1">Greater Metamagic: Quickened Magic</content>
-	<content contentuid="h7a4aed26ga038g4775g885ag81cc91f418ac" version="1">Quickened Magic</content>
-	<content contentuid="hc94b3484g2ddcg4479g81bbgf237ca981795" version="2">Spells that cost an &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; require a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; instead.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt; per level of &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; spent.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Only one Greater Metamagic may be active at any given time. Greater Metamagic cannot be used with &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt;.</content>
 
 	<content contentuid="e04344f9-0869-41d5-9d20-f2ffd52d2f5f" version="1">Metamagic: Regenerative Magic</content>
 	<content contentuid="7c5a2258-ad8c-45b2-84d3-e1ffd65sd845" version="1">Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; that deal damage also restore your &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;. The total amount restored is equal to half the damage you deal.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; per cast.</content>
@@ -417,12 +423,6 @@
 
 	<content contentuid="0c593a86-7a4a-4b72-b4a0-c3a1e191211e" version="1">Metamagic: Tempestuous Magic</content>
 	<content contentuid="b0bc6550-9678-4d3d-8530-fce9d32f77b6" version="1">Damaging Spells and &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; push your enemies back by [1] and may cause them to fall &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; if they fail a Strength based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Costs [2] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt; per cast.</content>
-	
-	<content contentuid="e38654de-fd40-4f34-96c6-25a5886af1a9" version="1">Greater Metamagic: Tripled Magic</content>
-	<content contentuid="1468eac4-3b98-4861-9a24-579a9a78235e" version="1">Spells that only target one creature can now target three separate creatures.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt; per level of &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; spent.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Only one Greater Metamagic may be active at any given time. Greater Metamagic cannot be used with &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt;.</content>
-
-	<content contentuid="h8c9f627fgff0ag4f0bgab3dg2f1e75e85e4b" version="1">Greater Metamagic: Tuned Magic</content>
-	<content contentuid="hf96ed50cg50d3g4ce9g87bbg295a0910065f" version="2">Damaging Spells that make an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; will roll as a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Costs [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt; per level of &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; spent.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Only one Greater Metamagic may be active at any given time. Greater Metamagic cannot be used with &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt;.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PASSIVES</content>
 
@@ -512,7 +512,7 @@
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000r" version="1">Gain the ability to expend one &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt; to gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on any &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Check&lt;/LSTag&gt;.</content>
 
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b500019" version="1">Sorcerous Focus</content>
-	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000s" version="1">After having used &lt;LSTag Type="Passive" Tooltip="CreationaryText"&gt;Creationary&lt;/LSTag&gt;, gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all Spell &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; for the rest of your turn.</content>
+	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b50000s" version="1">After having used &lt;LSTag Type="Passive" Tooltip="Tooltip_CreationaryText"&gt;Creationary&lt;/LSTag&gt;, gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all Spell &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; for the rest of your turn.</content>
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b500z19" version="1">Sorcerous Focus</content>
 	<content contentuid="7ece8b0a155648e49a0b00a7bc8644b5000zs" version="1">Affected creature has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all Spell &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; for the rest of their turn.</content>
 

@@ -703,6 +703,8 @@ data "StatusPropertyFlags" "InitiateCombat;Burning;DisableOverhead;IgnoreResting
 data "StatusGroups" "SG_Cursed"
 data "StatusEffect" "a1458242-11d1-417d-b342-68eb552886e6"
 data "StackType" "Additive"
+data "RemoveConditions" "not Combat()"
+data "RemoveEvents" "OnTurn;OnCombatEnded"
 
 new entry "CURSEOFHELLFIRE_OWNER"
 type "StatusData"

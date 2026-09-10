@@ -195,7 +195,7 @@
 	<content contentuid="h72afe393gd62eg4d84g9429g6f67d5226e6c" version="5">Deliver two lightning fast blows and possibly push your target [1] away.</content>
 
 	<content contentuid="h451f9a42gca5ag40d5ga31ag3024c66a6sdd" version="6">Weaponized Fists</content>
-	<content contentuid="h4dc41c23g84a5g459dg80e3g0e22fb19sd98" version="6">Gain the ability to cast the standard variant of &lt;LSTag Type="Spell" Tooltip="Target_UnarmedAttackDual"&gt;Flurry of Blows&lt;/LSTag&gt; as an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; at any time.</content>
+	<content contentuid="h4dc41c23g84a5g459dg80e3g0e22fb19sd98" version="6">Gain the ability to cast the standard variant of &lt;LSTag Type="Spell" Tooltip="Target_FlurryOfBlows_Free"&gt;Flurry of Blows&lt;/LSTag&gt; as an &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; at any time.</content>
 
 	<content contentuid="h5decdf3dgf82cg42b6gb6dega2294e952dd0" version="3">Stunning Strike (Armed)</content>
 	<content contentuid="hadda723bgfc48g48c7ga21bg586272f41179" version="1">Stunning Strike (Unarmed)</content>

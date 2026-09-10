@@ -181,7 +181,7 @@ new entry "MAG_Legendary_Chromatic_Heat_Passive"
 type "PassiveData"
 data "Properties" "OncePerAttack;IsHidden"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "IsSpell() and not Self()"
+data "Conditions" "IsSpell() and not Self() and Character()"
 data "StatsFunctors" "ApplyStatus(SELF, MAG_FIRE_HEAT, 100, 3);ApplyStatus(SELF,MAG_FIRE_HEAT_DURATION_TECHNICAL,100,1)"
 
 new entry "Projectile_MAG_Legendary_Chromatic_Fireball"
