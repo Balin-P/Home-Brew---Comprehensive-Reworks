@@ -1095,13 +1095,13 @@ data "StatsFunctors" "ApplyStatus(SELF,GOB_WolfPens_WILDSHAPE_BEAR_4,100,-1);App
 
 new entry "Relentless_Attacks"
 type "PassiveData"
-using "ExtraAttack"
 data "DisplayName" "5118b4641cdb4145a0fb4699faf1d32200007;2"
 data "Description" "5118b4641cdb4145a0fb4699faf1d3220000g;2"
 data "Icon" "Action_Monster_Banite_AuraOfTerror"
+data "Properties" "Highlighted;ForceShowInCC;OncePerTurn"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsKillingBlow() and Character() and not Self() and not Ally()"
-data "StatsFunctors" "ApplyStatus(SELF,EXTRA_ATTACK, 100, 1)"
+data "StatsFunctors" "ApplyStatus(SELF,RELENTLESS_ATTACKS_RESTORE, 100, 0)"
 
 <!--------------------------------------------------HOOK HORRORS-->
 

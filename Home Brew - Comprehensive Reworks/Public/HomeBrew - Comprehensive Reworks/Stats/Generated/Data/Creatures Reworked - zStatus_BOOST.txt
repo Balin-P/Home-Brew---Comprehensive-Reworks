@@ -11,7 +11,6 @@ data "TickType" "EndTurn"
 data "Boosts" "StatusImmunity(SG_Prone);StatusImmunity('BANISHED_SPELL');StatusImmunity('CHEST_TRAUMA');StatusImmunity('COMMAND_APPROACH');StatusImmunity('COMMAND_FLEE');StatusImmunity('COMMAND_GROVEL');StatusImmunity('COMMAND_HALT');StatusImmunity('CONFUSION_SKIP');StatusImmunity('CROWN_OF_MADNESS');StatusImmunity('DOMINATE_PERSON');StatusImmunity('ENTOMBED');StatusImmunity('FEARED');StatusImmunity('FROZEN');StatusImmunity('HIDEOUS_LAUGHTER');StatusImmunity('HIDEOUS_LAUGHTER_FIRSTLEVEL');StatusImmunity('HOLD_MONSTER');StatusImmunity('HYPNOTIC_GAZE');StatusImmunity('HYPNOTIC_PATTERN');StatusImmunity('INCAPACITATED_DND');StatusImmunity('INTIMIDATING_PRESENCE');StatusImmunity('IRRESISTIBLE_DANCE');StatusImmunity('LURING_SONG');StatusImmunity('PACIFIED');StatusImmunity('PARALYZED');StatusImmunity('PETRIFIED');StatusImmunity('POLYMORPH_SHEEP');StatusImmunity('PRONE');StatusImmunity('RESILIENT_SPHERE');StatusImmunity('SLEEP');StatusImmunity('SLEEPING');StatusImmunity('STAGGERING_SMITE');StatusImmunity('STINKING_CLOUD');StatusImmunity('STUNNED');StatusImmunity('SURPRISED');StatusImmunity('TURNED');StatusImmunity('UNHOLY_SUBJUGATION');StatusImmunity('GG_TWO_AGONY')"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "ApplyEffect" "23899d8a-723b-4cf6-ace7-85b516311aa9"
-data "StatusEffect" "4a266605-3b5f-486d-adef-4f2bd6d4ee34"
 
 new entry "LOCKDOWN_CONDITION_DESCRIPTION"
 type "StatusData"
@@ -310,6 +309,12 @@ data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndi
 data "Passives" "Relentless_Attacks"
 data "StackId" "RELENTLESS_ATTACKS"
 data "StackType" "Ignore"
+
+new entry "RELENTLESS_ATTACKS_RESTORE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "OnApplyFunctors" "RestoreResource(SELF,ActionPoint, 1, 0)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 
 <!--BULETTE-->
 
