@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids" />
+	<region id="EffectBank">
+		<node id="EffectBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="a545cd18-032e-d339-e342-8808deff63da" />
+					<attribute id="Name" type="LSString" value="VFX_Totemist_ElementalOrbs_Cold" />
+					<attribute id="SourceFile" type="LSString" value="Public/HomeBrew - Comprehensive Reworks/Assets/Effects/Effects_Banks/Totemist/VFX_Totemist_ElementalOrbs_Cold.lsfx" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Totemist_ElementalOrbs_Cold" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -1 -2" />
+					<attribute id="BoundsMax" type="fvec3" value="2 3 2" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="1.11" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="76ef56e4-6489-67fd-5306-9a33647d51a1" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="17d902f5-b471-87ae-a63a-1d396f8460dc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6fbc06a8-35c6-bf7b-29cd-20277b4ae8af" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f41b46c1-a2f5-7dd9-383b-c2e037536866" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3c0516b1-0d9d-d29c-a2ee-2b176bf389ff" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="cbd2d56a-7df7-0a99-a0f4-716d273243f0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d1b959e1-4a69-5fb9-3711-9d39bc5edce0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="be17c3a9-a58a-1f84-f760-9a9d5efe14ac" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="44192e18-75cf-4d16-1747-81ed534b8247" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3d5fa2b7-a18b-b6cf-48b0-8713484e64dc" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

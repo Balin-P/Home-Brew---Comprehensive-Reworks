@@ -193,7 +193,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">MAGE SLAYER</content>
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00027" version="2">Mage Slayer</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000a0" version="3">Enemies you hit immediately lose &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; on any Spells they were maintaining and become &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; for one turn.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; This passive effect also applies to any creatures that you summon.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000a0" version="3">Enemies you hit immediately lose &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; on any Spells they were maintaining and become &lt;LSTag Type="Status" Tooltip="SILENCED"&gt;Muted&lt;/LSTag&gt; for one turn.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">MARTIAL ADEPT</content>
 
@@ -363,7 +363,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">REACTIVE ASSAULT</content>
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714sdf68878d09" version="2">Reactive Assault</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250i" version="3">Upon landing a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you may expend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to make a basic weapon-based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; This passive effect also applies to any creatures that you summon.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fd250i" version="3">Once per turn, upon landing a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you may expend your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to make a basic weapon-based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; This passive effect also applies to any creatures that you summon.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714sdf6887zz09" version="2">Reactive Assault</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714f60d1fdzz0i" version="3">Affected creature may use their &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; in order to make a basic weapon-based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
 	<content contentuid="8a87461fd8dd4f5b9098ded714sdf6887xx09" version="2">Reactive Assault: Bonus Attack</content>
@@ -484,6 +484,9 @@
 	<content contentuid="c5e31ade-84b3-4b74-856b-af58833764fa" version="1">Yokebreaker: Circle of the Stars</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df16" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Stars"&gt;Circle of the Stars Druid&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
+	<content contentuid="97d0cd5c-578a-4801-8d05-b8abd2eb0370" version="1">Yokebreaker: Circle of the Totemic</content>
+	<content contentuid="2bd59821-d7c4-4b9f-8073-1ae1d22aeac1" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Totemist"&gt;Circle of the Totemic Druid&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
 
 
 	<content contentuid="f1fb71a7-7f9a-4afd-8fcc-71dda4bd71d1" version="1">Yokebreaker: Arcane Archer</content>
@@ -573,6 +576,9 @@
 
 	<content contentuid="b8521733-fde0-4025-bd90-9d73358819f9" version="1">Yokebreaker: Assassin</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df34" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Assassin"&gt;Assassin Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
+	<content contentuid="1aa795e0-afec-40a3-bc5c-836f1c1c68bb" version="1">Yokebreaker: Gauntlet</content>
+	<content contentuid="2f5ac748-b05d-42d3-a476-f3d99f1cdf03" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Gauntlet"&gt;Gauntlet Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="b8521733-fde0-4025-bd90-2d5ef1f5e4f5" version="1">Yokebreaker: Hidden Toxicant</content>
 	<content contentuid="47709b48-6124-44dc-8792-a6e8f6e8f598" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_HiddenToxicant"&gt;Hidden Toxicant Rogue&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>

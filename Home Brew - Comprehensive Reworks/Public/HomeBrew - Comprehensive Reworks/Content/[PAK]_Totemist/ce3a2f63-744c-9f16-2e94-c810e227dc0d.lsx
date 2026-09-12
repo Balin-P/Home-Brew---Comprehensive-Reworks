@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids" />
+	<region id="EffectBank">
+		<node id="EffectBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="ce3a2f63-744c-9f16-2e94-c810e227dc0d" />
+					<attribute id="Name" type="LSString" value="VFX_Totemist_Rain_Lightning" />
+					<attribute id="SourceFile" type="LSString" value="Public/HomeBrew - Comprehensive Reworks/Assets/Effects/Effects_Banks/Spells/Cast/Damage/Cold/VFX_Totemist_Rain_Lightning.lsfx" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Totemist_Rain_Lightning" />
+					<attribute id="BoundsMin" type="fvec3" value="-11 -7 -11" />
+					<attribute id="BoundsMax" type="fvec3" value="11 15 11" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="3.046587" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b64d2f34-4236-f1ea-e09d-3a1fb5711f62" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9da026a7-8dc3-d830-35dc-504a77f5f719" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f60bc7b0-6a4b-862d-4940-ea4dafaa7317" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d4cec0f-db2c-8612-f20d-e231fdd799cb" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="39f6fbef-4b40-0bdb-e513-aff7232349a8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="44192e18-75cf-4d16-1747-81ed534b8247" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="317bf423-2205-46f1-6932-c1e980336040" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="bdeb2b56-4cde-22d6-bbd0-d7d2959125f8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c383794f-f57c-18d3-9df6-094d803c0057" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b9809dff-d50b-b2fe-ef5b-2561ceeeef23" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d5404352-1020-4ac2-8de0-6571b31609c1" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

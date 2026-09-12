@@ -224,6 +224,55 @@
                     <attribute id="UUID" type="guid" value="f81e8e9e-ffe0-4173-83d6-7cd8cf718477"/>
 					</node>
         <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1"/>
+                    <attribute id="Level2" type="LSString" value="2"/>
+                    <attribute id="Level3" type="LSString" value="3"/>
+                    <attribute id="Level4" type="LSString" value="4"/>
+                    <attribute id="Level5" type="LSString" value="5"/>
+                    <attribute id="Level6" type="LSString" value="6"/>
+                    <attribute id="Level7" type="LSString" value="7"/>
+                    <attribute id="Level8" type="LSString" value="8"/>
+                    <attribute id="Level9" type="LSString" value="9"/>
+                    <attribute id="Level10" type="LSString" value="10"/>
+                    <attribute id="Level11" type="LSString" value="11"/>
+                    <attribute id="Level12" type="LSString" value="12"/>
+                    <attribute id="Name" type="FixedString" value="Totemist_LMV_SurfaceTension"/>
+                    <attribute id="UUID" type="guid" value="7b526a86-b06e-4a29-bbeb-d48540b06b59"/>
+                    <attribute id="PreferredClassUUID" type="guid" value="457d0a6e-9da8-4f95-a225-18382f0e94b5"/>
+					</node>
+        <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1"/>
+                    <attribute id="Level2" type="LSString" value="2"/>
+                    <attribute id="Level3" type="LSString" value="3"/>
+                    <attribute id="Level4" type="LSString" value="4"/>
+                    <attribute id="Level5" type="LSString" value="5"/>
+                    <attribute id="Level6" type="LSString" value="6"/>
+                    <attribute id="Level7" type="LSString" value="7"/>
+                    <attribute id="Level8" type="LSString" value="8"/>
+                    <attribute id="Level9" type="LSString" value="9"/>
+                    <attribute id="Level10" type="LSString" value="10"/>
+                    <attribute id="Level11" type="LSString" value="11"/>
+                    <attribute id="Level12" type="LSString" value="12"/>
+                    <attribute id="Name" type="FixedString" value="Totemist_LMV_SurfaceTension_Totem"/>
+                    <attribute id="UUID" type="guid" value="b42e5c18-8bcf-4772-8df5-5a3f81b41e07"/>
+					</node>
+        <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d12"/>
+                    <attribute id="Level2" type="LSString" value="1d12"/>
+                    <attribute id="Level3" type="LSString" value="2d12"/>
+                    <attribute id="Level4" type="LSString" value="2d12"/>
+                    <attribute id="Level5" type="LSString" value="3d12"/>
+                    <attribute id="Level6" type="LSString" value="3d12"/>
+                    <attribute id="Level7" type="LSString" value="4d12"/>
+                    <attribute id="Level8" type="LSString" value="4d12"/>
+                    <attribute id="Level9" type="LSString" value="5d12"/>
+                    <attribute id="Level10" type="LSString" value="5d12"/>
+                    <attribute id="Level11" type="LSString" value="6d12"/>
+                    <attribute id="Level12" type="LSString" value="6d12"/>
+                    <attribute id="Name" type="FixedString" value="Totemist_LMV_ElementalSurge"/>
+                    <attribute id="UUID" type="guid" value="c22c54cf-4540-4ed0-aeda-7682c98ae63b"/>
+					</node>
+        <node id="LevelMapSeries">
                     <attribute id="Level1" type="LSString" value="1d6"/>
                     <attribute id="Level2" type="LSString" value="1d6"/>
                     <attribute id="Level3" type="LSString" value="2d6"/>

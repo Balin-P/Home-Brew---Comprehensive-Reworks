@@ -563,6 +563,20 @@
                     <attribute id="UUID" type="guid" value="fe416267-36f0-4346-90fc-4aeb7f25ec07"/>
 					</node>
         <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+                    <attribute id="Description" type="TranslatedString" handle="h6bc147be1052483db7e25dc2a5bfb36a0g65" version="2" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h49877a78e3714f9687895fce355936a0e3ed" version="2" />
+                    <attribute id="LearningStrategy" type="uint8" value="1" />
+                    <attribute id="MustPrepareSpells" type="bool" value="false" />
+                    <attribute id="Name" type="FixedString" value="Totemist" />
+                    <attribute id="ParentGuid" type="guid" value="457d0a6e-9da8-4f95-a225-18382f0e94b5" />
+                    <attribute id="PrimaryAbility" type="uint8" value="5" />
+                    <attribute id="ProgressionTableUUID" type="guid" value="a2bfaf60-1799-4fe2-91b5-7bcf152993cb" /> 
+                    <attribute id="SoundClassType" type="FixedString" value="Druid" />
+                    <attribute id="SpellCastingAbility" type="uint8" value="5" />
+                    <attribute id="UUID" type="guid" value="8a220e31-1ea0-424d-b825-d247bf1469ed" /> 
+					</node>
+        <node id="ClassDescription">
                     <attribute id="BaseHp" type="int32" value="34" />
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Fighter" />
@@ -1111,6 +1125,20 @@
                     <attribute id="SoundClassType" type="FixedString" value="Rogue" />
                     <attribute id="SpellCastingAbility" type="uint8" value="4" />
                     <attribute id="UUID" type="guid" value="b53a8061-f31d-4985-adfe-d4d691a918d9" />
+					</node>
+        <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+                    <attribute id="Description" type="TranslatedString" handle="c84f670f8f044d128fd7132cc2f848b7zzzzz" version="2" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="c84f670f8f044d128fd7132cc2f848b700000" version="1" />
+                    <attribute id="LearningStrategy" type="uint8" value="1" />
+                    <attribute id="MustPrepareSpells" type="bool" value="false" />
+                    <attribute id="Name" type="FixedString" value="Gauntlet" />
+                    <attribute id="ParentGuid" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a" />
+                    <attribute id="PrimaryAbility" type="uint8" value="4" />
+                    <attribute id="ProgressionTableUUID" type="guid" value="c84f670f-8f04-4d12-8fd7-132cc2f848b7" />
+                    <attribute id="SoundClassType" type="FixedString" value="Rogue" />
+                    <attribute id="SpellCastingAbility" type="uint8" value="4" />
+                    <attribute id="UUID" type="guid" value="f2f1c79d-75d2-404f-94f9-07c9573388af" />
 					</node>
         <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />

@@ -2399,7 +2399,7 @@ new entry "OBJ_Potion_Of_Invisibility"
 type "Object"
 using "_Potion"
 data "RootTemplate" "809d5026-4896-4b3a-986e-95da58da77e2"
-data "UseConditions" "not IsSummonWithoutMouth() and not IsImmuneToStatus('SG_Invisible',context.Source)"
+data "UseConditions" "not IsSummonWithoutMouth() and not IsImmuneToStatus('SG_Invisible',context.Source) and not HasStatus('INVISIBILITY_BLOCKER') and not IsImmuneToStatus('SG_Invisible')"
 
 new entry "ALCH_Solution_Potion_DetectThoughts"
 type "Object"

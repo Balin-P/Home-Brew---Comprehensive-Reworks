@@ -385,7 +385,10 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">ENEMY PASSIVES</content>
 
 	<content contentuid="hc761eaf7g4df1g4de8g8f79gcaae9s5df256" version="1">Floating</content>
-	<content contentuid="h6bcb2ab7g7c97g4746gb6begba80e5e86858" version="5">This creature is able to float effortlessly. As such, it is unaffected by &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt; and takes no damage when falling.</content>
+	<content contentuid="h6bcb2ab7g7c97g4746gb6begba80e5e86858" version="5">This creature is able to effortlessly float in any direction through the air. As such, it is unaffected by &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;, takes no damage from falling, cannot be killed by being thrown into a chasm, and cannot be &lt;LSTag Type="Spell" Tooltip="Target_Shove"&gt;Shoved&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Throw_Throw"&gt;Thrown&lt;/LSTag&gt;.</content>
+
+	<content contentuid="hc761eaf7g4df1g4de8g8f79gcaae9s5flyin" version="1">Flying</content>
+	<content contentuid="h6bcb2ab7g7c97g4746gb6begba80e5eflyin" version="5">This creature is capable of natural flight. As such, it is unaffected by &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;, takes no damage from falling, and cannot be killed by being thrown into a chasm.</content>
 
 	<content contentuid="h2395dc03ga60dg4ca8gbf28g9cc613301043" version="1">Frightening Assault</content>
 	<content contentuid="h36f181f8g1bcag43bag8f71g69c05e02ea0c" version="2">This creature can perform a &lt;LSTag Type="Spell" Tooltip="Target_Multiattack_Cloaker"&gt;Multiattack&lt;/LSTag&gt; if their target is suffering from a fear based status effect. Upon dealing damage, they may cause their target to become &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
@@ -472,7 +475,7 @@
 	<content contentuid="ha87e063cg90aag4085g94bbg77b7f89b339e" version="5">Illusory Copy</content>
 	<content contentuid="h50825fb4g9c1ag4146g9efeg7164023ebf01" version="1">Create an illusory Displacer Beast at a location you can see. Upon taking damage, the illusion will immediately fade.</content>
 	<content contentuid="ha87e063cg90aag4085g94bbg77b7f2d5f6e2" version="5">Illusory Displacement</content>
-	<content contentuid="h50825fb4g9c1ag4146g9efeg716406s8e6f8" version="1">Teleport a creature to an area you can see, rending their mind in the process. Allies will take no damage from this action.</content>
+	<content contentuid="h50825fb4g9c1ag4146g9efeg716406s8e6f8" version="1">Teleport a creature to an area you can see, rending their mind in the process. Allies will take no damage from this action. If your destination target is also a creature, your two targets will swap places.</content>
 
 	<content contentuid="h3344d3e6gb749g4bd5ga9e9g75f2d5f3d542" version="5">Timmask Touch</content>
 	<content contentuid="h38d3f000g4a2eg4682g9wsefe845de5d8f7e" version="1">Upon dealing damage to a creature who is not a plant, Myconid potentially implant &lt;LSTag Type="Status" Tooltip="TIMMASK_SPORES"&gt;Timmask Spores&lt;/LSTag&gt; into their target, unless they or their target are &lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt;.</content>
@@ -544,7 +547,7 @@
 	<content contentuid="h58d7ae56g37d3g45f1g8f3egd70ca36zzzzz" version="4">When attacked from outside of it's view, this turret will shut down until the beginning of it's next turn.</content>
 
 	<content contentuid="h5fca4903g537dg488cg87b1g63a762a6d64f" version="2">Shadowblend</content>
-	<content contentuid="hea75adfagec2eg4985ga1c1g0b3acf1201d6" version="4">While Lightly or Heavily Obscured, this creature gains the ability to blend with shadows and become &lt;LSTag Type="Status" Tooltip="INVISIBILITY"&gt;Invisible&lt;/LSTag&gt;, so long as they are not &lt;LSTag Type="Status" Tooltip="INVISIBILITY_BLOCKER"&gt;Revealed&lt;/LSTag&gt;.</content>
+	<content contentuid="hea75adfagec2eg4985ga1c1g0b3acf1201d6" version="4">While Lightly or Heavily Obscured, this creature gains the ability to blend with shadows and become &lt;LSTag Type="Status" Tooltip="INVISIBILITY"&gt;Invisible&lt;/LSTag&gt;.</content>
 
 	<content contentuid="hc761eaf7g4df1g4de8g8f79gcaae9047a8f6" version="1">Shadow Veil</content>
 	<content contentuid="h6bcb2ab7g7c97g4746gb6begba800a7c6099" version="5">While Lightly or Heavily Obscured, shadow mastiffs are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage.</content>

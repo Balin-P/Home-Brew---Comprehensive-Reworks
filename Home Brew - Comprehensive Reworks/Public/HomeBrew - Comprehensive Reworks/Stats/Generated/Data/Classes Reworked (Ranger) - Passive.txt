@@ -166,7 +166,7 @@ data "Icon" "Spell_2e_BrineDragonBile"
 data "Properties" "IsHidden"
 data "Boosts" "IF(HasPassive('CausticMire',GetSummoner(context.Source) or HasPassive('CausticMire_Yokebreaker',GetSummoner(context.Source)) and Enemy() and not HasStatus('MULTIHIT_BLOCKER', context.Source))):DamageBonus(1d4, Acid)"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "HasPassive('CausticMire',GetSummoner(context.Source) or HasPassive('CausticMire_Yokebreaker',GetSummoner(context.Source)) and Character() and not Self() and not Ally()"
+data "Conditions" "(HasPassive('CausticMire',GetSummoner(context.Source) or HasPassive('CausticMire_Yokebreaker',GetSummoner(context.Source)))) and Character() and not Self() and not Ally()"
 data "StatsFunctors" "ApplyStatus(ACID,100,1)"
 
 <!--RANGER-->

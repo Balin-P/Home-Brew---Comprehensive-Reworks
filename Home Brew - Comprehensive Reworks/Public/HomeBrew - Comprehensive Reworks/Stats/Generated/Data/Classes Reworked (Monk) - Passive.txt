@@ -6,7 +6,7 @@ data "DisplayName" "d03f845e0df8463295a0cc3b6d86442c6a942;1"
 data "Description" "d03f845e0df8463295a0cc3b6d86442c6a921;1"
 data "DescriptionParams" "DealDamage(LevelMapValue(MartialArts), Bludgeoning)"
 data "Icon" "PassiveFeature_MartialArts_BonusUnarmedStrike"
-data "Properties" "Highlighted;IsToggled;ToggledDefaultAddToHotbar"
+data "Properties" "Highlighted;IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar"
 data "Boosts" "MonkWeaponAttackOverride()"
 
 new entry "MartialArts_DextrousUnarmedAttacks"

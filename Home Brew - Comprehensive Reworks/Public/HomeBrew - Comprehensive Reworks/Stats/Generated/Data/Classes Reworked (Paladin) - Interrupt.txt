@@ -61,7 +61,7 @@ type "InterruptData"
 using "Interrupt_Smite_Spellshatter"
 data "Icon" "Icon_MFL_SpellshatterSmite"
 data "DisplayName" "h0e3ec11c2b7049e896226765219dc68ca144;1"
-data "Conditions" "IsCritical() and not (SpellId('Target_Smite_Spellshatter') or SpellId('CTarget_Smite_Divine') or SpellId('CTarget_Smite_Oathbroken') or SpellId('CTarget_Smite_Tyrant') or SpellId('CTarget_Smite_Blinding') or SpellId('CTarget_Smite_Branding') or SpellId('CProjectile_Smite_Branding') or SpellId('CTarget_Smite_Searing') or SpellId('CTarget_StaggeringSmite') or SpellId('CTarget_Smite_Thunderous') or SpellId('CTarget_Smite_Wrathful')) and IsAbleToReact(context.Observer) and not Item() and Self(context.Source,context.Observer) and not Ally(context.Target,context.Observer) and not Dead(context.Target) and HasDamageEffectFlag(DamageFlags.Hit) and (IsWeaponAttack() or IsUnarmedAttack()) and not IsKillingBlow() and not AnyEntityIsItem()"
+data "Conditions" "IsCritical() and not IsSpell() and not (SpellId('Target_Smite_Spellshatter') or SpellId('CTarget_Smite_Divine') or SpellId('CTarget_Smite_Oathbroken') or SpellId('CTarget_Smite_Tyrant') or SpellId('CTarget_Smite_Blinding') or SpellId('CTarget_Smite_Branding') or SpellId('CProjectile_Smite_Branding') or SpellId('CTarget_Smite_Searing') or SpellId('CTarget_StaggeringSmite') or SpellId('CTarget_Smite_Thunderous') or SpellId('CTarget_Smite_Wrathful')) and IsAbleToReact(context.Observer) and not Item() and Self(context.Source,context.Observer) and not Ally(context.Target,context.Observer) and not Dead(context.Target) and HasDamageEffectFlag(DamageFlags.Hit) and (IsWeaponAttack() or IsUnarmedAttack()) and not IsKillingBlow() and not AnyEntityIsItem()"
 data "InterruptDefaultValue" "Ask;Enabled"
 
 new entry "CInterrupt_Smite_Tyrant"

@@ -122,6 +122,38 @@ data "Icon" "Action_InfiltrationExpertise"
 data "TickType" "EndTurn"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;TickingWithSource"
 
+<!--GAUNTLET-->
+
+new entry "THESANDSOFTIME"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "c84f670f8f044d128fd7132cc2f848b700zz6;1"
+data "Description" "c84f670f8f044d128fd7132cc2f848b700zzf;2"
+data "Icon" "Spell_2e_MudPit"
+data "StackId" "THESANDSOFTIME"
+data "StackPriority" "0"
+data "StackType" "Additive"
+data "StatusPropertyFlags" "FreezeDuration"
+data "Passives" "TheSandsofTime_Duration_Technical"
+data "TickType" "EndTurn"
+data "RemoveEvents" "OnCombatEnded"
+
+new entry "TheSandsofTime_Duration_Technical"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCreate;OnAttacked;OnStatusApplied;OnTurn"
+data "Conditions" "not StatusId('THESANDSOFTIME_DURATION_TECHNICAL')"
+data "StatsFunctors" "ApplyStatus(THESANDSOFTIME_DURATION_TECHNICAL,100,1)"
+
+new entry "THESANDSOFTIME_DURATION_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "THESANDSOFTIME_DURATION_TECHNICAL"
+data "StackType" "Overwrite"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
+data "OnApplyFunctors" "IF(StatusGroupDurationEqualOrMoreThan(context.Target,'THESANDSOFTIME',7)):SetStatusDuration(THESANDSOFTIME, 3, ForceSet) "
+data "RemoveEvents" "OnCombatEnded"
+
 <!--HIDDEN TOXICANT-->
 
 new entry "TOXICITY"
@@ -288,6 +320,7 @@ data "Boosts" "IgnoreLeaveAttackRange(); Invisibility(); Advantage(AttackRoll); 
 data "StatusPropertyFlags" "UnavailableInActiveRoll;ExcludeFromPortraitRendering"
 data "RemoveEvents" "OnSpellCast;OnDamage;OnEntityPickUp;OnEntityDrop;OnEntityDrag;OnLockpickingFinished;OnDisarmingFinished"
 data "RemoveConditions" "(IsStatusEvent(StatusEvent.OnSpellCast) and not HasSpellFlag(SpellFlags.Invisible)) or (IsStatusEvent(StatusEvent.OnDamage) and TotalDamageDoneGreaterThan(0)) or (not IsStatusEvent(StatusEvent.OnSpellCast) and not IsStatusEvent(StatusEvent.OnDamage))"
+data "OnRemoveFunctors" "IF(CheckRulesetModifier('b843263f-869c-4a21-960d-867091e8bd04', true)):ApplyStatus(INVISIBILITY_BLOCKER,100,1)"
 data "StatusGroups" "SG_RemoveOnRespec;SG_Invisible"
 data "StatusEffect" "d26436d4-d019-4dfc-b2f1-da0ac195575f"
 data "TickType" "EndTurn"

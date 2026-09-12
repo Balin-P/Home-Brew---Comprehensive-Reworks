@@ -4428,7 +4428,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Cragrain" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -4455,7 +4455,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Shout_Shillelagh" />
+									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -4532,7 +4532,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Cragrain" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -4559,7 +4559,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Shout_Shillelagh" />
+									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -4613,7 +4613,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_CreateDestroyWater" />
+									<attribute id="Skill" type="FixedString" value="Target_Bless" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -4656,7 +4656,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Cragrain" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -4683,7 +4683,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Shout_Shillelagh" />
+									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -4737,7 +4737,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_CreateDestroyWater" />
+									<attribute id="Skill" type="FixedString" value="Target_Bless" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -4764,7 +4764,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Projectile_RayOfSickness" />
+									<attribute id="Skill" type="FixedString" value="Target_SeismicEruption" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -4807,7 +4807,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Cragrain" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -4834,7 +4834,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Shout_Shillelagh" />
+									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -4888,7 +4888,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_CreateDestroyWater" />
+									<attribute id="Skill" type="FixedString" value="Target_Bless" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -4915,7 +4915,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Projectile_RayOfSickness" />
+									<attribute id="Skill" type="FixedString" value="Target_SeismicEruption" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -4942,7 +4942,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_PlantGrowth" />
+									<attribute id="Skill" type="FixedString" value="Target_HeroesFeast" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -4985,7 +4985,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Cragrain" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5012,7 +5012,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Shout_Shillelagh" />
+									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5093,7 +5093,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_CreateDestroyWater_2" />
+									<attribute id="Skill" type="FixedString" value="Target_Bless_2" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5120,7 +5120,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Projectile_RayOfSickness_2" />
+									<attribute id="Skill" type="FixedString" value="Target_SeismicEruption_2" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5147,7 +5147,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_PlantGrowth_2" />
+									<attribute id="Skill" type="FixedString" value="Target_HeroesFeast_2" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5174,7 +5174,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_CureWounds_Dryad_2" />
+									<attribute id="Skill" type="FixedString" value="Target_GreaterRestoration_2" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5217,7 +5217,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Cragrain" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5244,7 +5244,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Shout_Shillelagh" />
+									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5325,7 +5325,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_CreateDestroyWater_2" />
+									<attribute id="Skill" type="FixedString" value="Target_Bless_2" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5352,7 +5352,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Projectile_RayOfSickness_2" />
+									<attribute id="Skill" type="FixedString" value="Target_SeismicEruption_2" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5379,7 +5379,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_PlantGrowth_2" />
+									<attribute id="Skill" type="FixedString" value="Target_HeroesFeast_2" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5406,7 +5406,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_CureWounds_Dryad_2" />
+									<attribute id="Skill" type="FixedString" value="Target_GreaterRestoration_2" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5476,7 +5476,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Cragrain" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5503,7 +5503,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Shout_Shillelagh" />
+									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5584,7 +5584,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_CreateDestroyWater_2" />
+									<attribute id="Skill" type="FixedString" value="Target_Bless_2" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5611,7 +5611,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Projectile_RayOfSickness_2" />
+									<attribute id="Skill" type="FixedString" value="Target_SeismicEruption_2" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5638,7 +5638,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_PlantGrowth_2" />
+									<attribute id="Skill" type="FixedString" value="Target_HeroesFeast_2" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5665,7 +5665,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_CureWounds_Dryad_2" />
+									<attribute id="Skill" type="FixedString" value="Target_GreaterRestoration_2" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5719,7 +5719,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_Moonbeam_2" />
+									<attribute id="Skill" type="FixedString" value="Target_Sanctuary_2" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5762,7 +5762,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Cragrain" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5789,7 +5789,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Shout_Shillelagh" />
+									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5870,7 +5870,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_CreateDestroyWater_2" />
+									<attribute id="Skill" type="FixedString" value="Target_Bless_2" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5897,7 +5897,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Projectile_RayOfSickness_2" />
+									<attribute id="Skill" type="FixedString" value="Target_SeismicEruption_2" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5924,7 +5924,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_PlantGrowth_2" />
+									<attribute id="Skill" type="FixedString" value="Target_HeroesFeast_2" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -5951,7 +5951,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_CureWounds_Dryad_2" />
+									<attribute id="Skill" type="FixedString" value="Target_GreaterRestoration_2" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6005,7 +6005,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_Moonbeam_2" />
+									<attribute id="Skill" type="FixedString" value="Target_Sanctuary_2" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6032,7 +6032,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_GraspingVine_2" />
+									<attribute id="Skill" type="FixedString" value="Zone_ScatterShot_2" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6075,7 +6075,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Cragrain" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6102,7 +6102,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Shout_Shillelagh" />
+									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6210,7 +6210,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_CreateDestroyWater_3" />
+									<attribute id="Skill" type="FixedString" value="Target_Bless_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6237,7 +6237,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Projectile_RayOfSickness_3" />
+									<attribute id="Skill" type="FixedString" value="Target_SeismicEruption_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6264,7 +6264,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_PlantGrowth_3" />
+									<attribute id="Skill" type="FixedString" value="Target_HeroesFeast_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6291,7 +6291,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_CureWounds_Dryad_3" />
+									<attribute id="Skill" type="FixedString" value="Target_GreaterRestoration_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6345,7 +6345,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_Moonbeam_3" />
+									<attribute id="Skill" type="FixedString" value="Target_Sanctuary_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6372,7 +6372,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_GraspingVine_3" />
+									<attribute id="Skill" type="FixedString" value="Zone_ScatterShot_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6442,7 +6442,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Cragrain" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6469,7 +6469,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Shout_Shillelagh" />
+									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6577,7 +6577,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_CreateDestroyWater_3" />
+									<attribute id="Skill" type="FixedString" value="Target_Bless_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6604,7 +6604,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Projectile_RayOfSickness_3" />
+									<attribute id="Skill" type="FixedString" value="Target_SeismicEruption_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6631,7 +6631,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_PlantGrowth_3" />
+									<attribute id="Skill" type="FixedString" value="Target_HeroesFeast_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6658,7 +6658,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_CureWounds_Dryad_3" />
+									<attribute id="Skill" type="FixedString" value="Target_GreaterRestoration_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6712,7 +6712,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_Moonbeam_3" />
+									<attribute id="Skill" type="FixedString" value="Target_Sanctuary_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6739,7 +6739,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_GraspingVine_3" />
+									<attribute id="Skill" type="FixedString" value="Zone_ScatterShot_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6793,7 +6793,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_Bless_3" />
+									<attribute id="Skill" type="FixedString" value="Target_NaturesEmbrace_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6836,7 +6836,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Cragrain" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6863,7 +6863,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Shout_Shillelagh" />
+									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6971,7 +6971,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_CreateDestroyWater_3" />
+									<attribute id="Skill" type="FixedString" value="Target_Bless_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -6998,7 +6998,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Projectile_RayOfSickness_3" />
+									<attribute id="Skill" type="FixedString" value="Target_SeismicEruption_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -7025,7 +7025,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_PlantGrowth_3" />
+									<attribute id="Skill" type="FixedString" value="Target_HeroesFeast_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -7052,7 +7052,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_CureWounds_Dryad_3" />
+									<attribute id="Skill" type="FixedString" value="Target_GreaterRestoration_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -7106,7 +7106,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_Moonbeam_3" />
+									<attribute id="Skill" type="FixedString" value="Target_Sanctuary_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -7133,7 +7133,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_GraspingVine_3" />
+									<attribute id="Skill" type="FixedString" value="Zone_ScatterShot_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -7187,7 +7187,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_Bless_3" />
+									<attribute id="Skill" type="FixedString" value="Target_NaturesEmbrace_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -7257,7 +7257,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Cragrain" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -7284,7 +7284,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Shout_Shillelagh" />
+									<attribute id="Skill" type="FixedString" value="Target_SpareTheDying" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -7392,7 +7392,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_CreateDestroyWater_3" />
+									<attribute id="Skill" type="FixedString" value="Target_Bless_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -7419,7 +7419,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Projectile_RayOfSickness_3" />
+									<attribute id="Skill" type="FixedString" value="Target_SeismicEruption_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -7446,7 +7446,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_PlantGrowth_3" />
+									<attribute id="Skill" type="FixedString" value="Target_HeroesFeast_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -7473,7 +7473,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_CureWounds_Dryad_3" />
+									<attribute id="Skill" type="FixedString" value="Target_GreaterRestoration_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -7527,7 +7527,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_Moonbeam_3" />
+									<attribute id="Skill" type="FixedString" value="Target_Sanctuary_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -7554,7 +7554,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_GraspingVine_3" />
+									<attribute id="Skill" type="FixedString" value="Zone_ScatterShot_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -7608,7 +7608,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_Bless_3" />
+									<attribute id="Skill" type="FixedString" value="Target_NaturesEmbrace_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -7662,7 +7662,7 @@
 									<attribute id="MinimumImpact" type="int32" value="0" />
 									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
 									<attribute id="ScoreModifier" type="float" value="1" />
-									<attribute id="Skill" type="FixedString" value="Target_SpikeGrowth_3" />
+									<attribute id="Skill" type="FixedString" value="Target_NaturesGrasp_3" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="StartRound" type="int32" value="0" />
 									<children>
@@ -7684,6 +7684,1650 @@
 								</node>
 							</children>
 						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="0a773fd6-3ff2-46bb-8e0d-4135647fa588" />
+					<attribute id="Name" type="LSString" value="Totemist_VFX_Projectile_Shockwave_Thunder" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="uint8" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="CastBone" type="FixedString" value="CastFX" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Totemist_Shockwave_Thunder_02" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="InitialSpeed" type="float" value="30" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="17f4318e-3cdc-4daf-8d46-0c12975b919d" />
+					<attribute id="Name" type="LSString" value="Totemist_VFX_Projectile_Fortress" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="uint8" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="CastBone" type="FixedString" value="CastFX" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Totemist_Fortress_Tick" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="InitialSpeed" type="float" value="30" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="254771d3-a179-4c15-9b8a-b206842c3875" />
+					<attribute id="Name" type="LSString" value="Totemist_VFX_Projectile_Shockwave_Acid" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="uint8" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="CastBone" type="FixedString" value="CastFX" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Totemist_Shockwave_Acid_02" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="InitialSpeed" type="float" value="30" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="25ebaa2b-ff7b-4c7d-83b8-4f784364cbe2" />
+					<attribute id="Name" type="LSString" value="Totemist_VFX_Projectile_Rain_Cold" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="uint8" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="CastBone" type="FixedString" value="CastFX" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Totemist_Rain_Cold" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="InitialSpeed" type="float" value="30" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="4a1b2b9e-03f7-4609-b5d0-5f10f7d9b5e8" />
+					<attribute id="Name" type="LSString" value="Totemist_VFX_Projectile_Shockwave_Cold" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="uint8" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="CastBone" type="FixedString" value="CastFX" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Totemist_Shockwave_Cold_02" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="InitialSpeed" type="float" value="30" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="50d4ab3d-5284-4a72-87c6-3cf3bae2e632" />
+					<attribute id="Name" type="LSString" value="Totemist_VFX_Projectile_Rain_Lightning" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="uint8" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="CastBone" type="FixedString" value="CastFX" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Totemist_Rain_Lightning" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="InitialSpeed" type="float" value="30" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="82c06ca9-8b6f-4cc8-b65c-8ef140b48145" />
+					<attribute id="Name" type="LSString" value="Totemist_VFX_Projectile_Rain_Acid" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="uint8" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="CastBone" type="FixedString" value="CastFX" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Totemist_Rain_Acid" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="InitialSpeed" type="float" value="30" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="a45040b7-59f5-4e4d-bed3-e32c732f7fc3" />
+					<attribute id="Name" type="LSString" value="Totemist_VFX_Projectile_Rain_Thunder" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="uint8" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="CastBone" type="FixedString" value="CastFX" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Totemist_Rain_Thunder" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="InitialSpeed" type="float" value="30" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="aea76d47-5ad4-4548-a7ec-3ae68c821245" />
+					<attribute id="Name" type="LSString" value="Totemist_VFX_Projectile_Shockwave_Fire" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="uint8" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="CastBone" type="FixedString" value="CastFX" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Totemist_Shockwave_Fire_02" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="InitialSpeed" type="float" value="30" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="d1d54aa1-71f4-4668-a697-a92b7cd1b593" />
+					<attribute id="Name" type="LSString" value="Totemist_VFX_Projectile_Shockwave_Lightning" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="uint8" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="CastBone" type="FixedString" value="CastFX" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Totemist_Shockwave_Lightning_02" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="InitialSpeed" type="float" value="30" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="d9f74210-6def-4f06-b5a5-6903982b0738" />
+					<attribute id="Name" type="LSString" value="VFX_Projectile_Totemist_SnareTotem" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="uint8" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="CastBone" type="FixedString" value="CastFX" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Totemist_Snare_ProjectileEffect" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="InitialSpeed" type="float" value="30" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="e293d510-5f1e-44dd-acd3-5ed8f57e510f" />
+					<attribute id="Name" type="LSString" value="Totemist_VFX_Projectile_Relocate" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="uint8" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="CastBone" type="FixedString" value="CastFX" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Totemist_TotemRelocate_Appear" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="InitialSpeed" type="float" value="30" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="e92fbfbe-e7d5-4c19-863c-76fe9a4a74ac" />
+					<attribute id="Name" type="LSString" value="Totemist_VFX_Projectile_Rain_Fire" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="uint8" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="CastBone" type="FixedString" value="CastFX" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Totemist_Rain_Fire" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="InitialSpeed" type="float" value="30" />
+					<attribute id="Acceleration" type="float" value="0" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CanClickThrough" type="bool" value="True" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h31d4274eg962dg45degb1c0g2ec3abf9f94e" version="1" />
+					<attribute id="FreezeGravity" type="bool" value="True" />
+					<attribute id="Icon" type="FixedString" value="Item_Unknown" />
+					<attribute id="IsInteractionDisabled" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="44dee7cd-ebb4-48bf-81ff-d2414ef025ef" />
+					<attribute id="Name" type="LSString" value="Helper_Spell_Silence" />
+					<attribute id="ParentTemplateId" type="FixedString" value="06f96d65-0ee5-4ed5-a30a-92a3bfe3f708" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+					<attribute id="Stats" type="FixedString" value="OBJ_GenericImmutableObject" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="b3358aac-d287-be09-b906-8a78a08f2b67" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665791066" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.19999999" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+									<attribute id="Max" type="fvec3" value="0.09510566 0.099999994 0.090450816" />
+									<attribute id="Min" type="fvec3" value="-0.07694207 -0.099999994 -0.090450816" />
+									<attribute id="Radius" type="float" value="0.090450816" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.19999999" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+									<attribute id="Max" type="fvec3" value="0.09510566 0.099999994 0.090450816" />
+									<attribute id="Min" type="fvec3" value="-0.07694207 -0.099999994 -0.090450816" />
+									<attribute id="Radius" type="float" value="0.090450816" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.19999999" />
+									<attribute id="IsIgnoringScale" type="bool" value="False" />
+									<attribute id="Max" type="fvec3" value="0.09510566 0.099999994 0.090450816" />
+									<attribute id="Min" type="fvec3" value="-0.07694207 -0.099999994 -0.090450816" />
+									<attribute id="Radius" type="float" value="0.090450816" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="AnubisConfigName" type="FixedString" value="DefaultCombat" />
+					<attribute id="Archetype" type="FixedString" value="mage" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="61ec4000-4f5b-0e01-ccb9-6726ac92f696" />
+					<attribute id="Equipment" type="FixedString" value="" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="CanBeMoved" type="bool" value="True" />
+					<attribute id="CanBePickedUp" type="bool" value="False" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="Scale" type="float" value="0.7" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="IsBlocker" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="CanBePickpocketed" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanFight" type="bool" value="True" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="MapKey" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalTotem_Base" />
+					<attribute id="ParentTemplateId" type="FixedString" value="82bdf364-bcf3-4070-9b18-f4c1fd7dd2b0" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalBeamTotem" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h105b66b350394843864ce2c063b34fc78406" version="1" />
+					<attribute id="Icon" type="FixedString" value="Icon_Totemist_Portrait_ElementalBeamTotem" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="90c71852-67e4-e7e5-2f34-785508bd8479" />
+					<attribute id="LevelOverride" type="int32" value="1" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="2.54159" />
+									<attribute id="Max" type="fvec3" value="0.35223353 0.7300828 0.37108207" />
+									<attribute id="Min" type="fvec3" value="-0.35965544 -1.7881393E-07 -0.40436828" />
+									<attribute id="Radius" type="float" value="0.3742455" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="2.54159" />
+									<attribute id="Max" type="fvec3" value="0.35223353 0.7300828 0.37108207" />
+									<attribute id="Min" type="fvec3" value="-0.35965544 -1.7881393E-07 -0.40436828" />
+									<attribute id="Radius" type="float" value="0.748491" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="2.54159" />
+									<attribute id="Max" type="fvec3" value="0.35223353 0.7300828 0.37108207" />
+									<attribute id="Min" type="fvec3" value="-0.35965544 -1.7881393E-07 -0.40436828" />
+									<attribute id="Radius" type="float" value="0.748491" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="TOTEMIST_ELEMENTAL_BEAM_TOTEM" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="f9650813-18ae-4da7-9a9e-615d9814bcfb" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="22e5209c-eaeb-40dc-b6ef-a371794110c2" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="b47643e0-583c-4808-b108-f6d3b605b0a9" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="79ee3964-2fdd-4377-bd29-88b934dd070d" />
+								</node>
+							</children>
+						</node>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="28d1ddc7-0d4f-4eeb-8864-dd8a296be281" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalTotem_2" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalBeamTotem_2" />
+					<attribute id="LevelOverride" type="int32" value="2" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="d6176c48-8c3f-4eda-b136-19ca07e27959" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalTotem_3" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalBeamTotem_3" />
+					<attribute id="LevelOverride" type="int32" value="3" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="23368870-ce7f-479c-830d-7d0a37c44e5f" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalTotem_4" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalBeamTotem_4" />
+					<attribute id="LevelOverride" type="int32" value="4" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="e3e09be1-077b-4efd-97b5-5d5e3a8aef76" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalTotem_5" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalBeamTotem_5" />
+					<attribute id="LevelOverride" type="int32" value="5" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="26540a30-99cb-47d4-94cb-bc7ec2bd5656" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalTotem_6" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalBeamTotem_6" />
+					<attribute id="LevelOverride" type="int32" value="6" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="3d413d75-b805-47e5-854d-dca1fc67f190" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalTotem_7" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalBeamTotem_7" />
+					<attribute id="LevelOverride" type="int32" value="7" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="00712358-d0f6-4bfc-aedc-9aa5cf1566b5" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalTotem_8" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalBeamTotem_8" />
+					<attribute id="LevelOverride" type="int32" value="8" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="ebb09d0a-78a8-4d53-9b32-c1da33b34893" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalTotem_9" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalBeamTotem_9" />
+					<attribute id="LevelOverride" type="int32" value="9" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="fc92bd6d-2f3b-4efc-9b5d-75621c1308ea" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalTotem_10" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalBeamTotem_10" />
+					<attribute id="LevelOverride" type="int32" value="10" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="7f4c5a3a-cf31-40bd-8c13-ebdf1674be2a" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalTotem_11" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalBeamTotem_11" />
+					<attribute id="LevelOverride" type="int32" value="11" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="01dcc6db-e63c-4a5f-b152-a9ee390d415d" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalTotem_12" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalBeamTotem_12" />
+					<attribute id="LevelOverride" type="int32" value="12" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="61ec4000-4f5b-0e01-ccb9-6726ac92f696" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="0804a371-a65c-4e19-84f7-fdc19929319c" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalTotem_Fire" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalBeamTotem" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb461b120dfd14c5d960283af4990984b637b" version="1" />
+					<attribute id="Icon" type="FixedString" value="Icon_Totemist_Portrait_FlameBeamTotem" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="6ed108ef-fa8c-b78b-ccd4-58f238ad0a20" />
+					<children>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Totemist_ElementalBeam_Fire" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="61ec4000-4f5b-0e01-ccb9-6726ac92f696" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="d9c8a41e-a42b-42c3-a335-765fa4f5de59" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalTotem_Cold" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalBeamTotem" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h2076d914119e431dbda4d8ac6228cb201845" version="1" />
+					<attribute id="Icon" type="FixedString" value="Icon_Totemist_Portrait_FrostBeamTotem" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="6ed108ef-fa8c-b78b-ccd4-58f238ad0a20" />
+					<children>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Totemist_ElementalBeam_Cold" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="61ec4000-4f5b-0e01-ccb9-6726ac92f696" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="4fd9e502-7e1d-4f3c-824a-c323faf12b98" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalTotem_Thunder" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalBeamTotem" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc67f28b3375f459cbef5746e01fc96684196" version="1" />
+					<attribute id="Icon" type="FixedString" value="Icon_Totemist_Portrait_ThunderBeamTotem" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="6ed108ef-fa8c-b78b-ccd4-58f238ad0a20" />
+					<children>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Totemist_ElementalBeam_Thunder" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="61ec4000-4f5b-0e01-ccb9-6726ac92f696" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="acfe9b8e-af7a-4d66-9c17-d1d2135b5ba4" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalTotem_Lightning" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalBeamTotem" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h50995fce4f9d46b78e0a6e77488fc3646f3e" version="1" />
+					<attribute id="Icon" type="FixedString" value="Icon_Totemist_Portrait_LightningBeamTotem" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="6ed108ef-fa8c-b78b-ccd4-58f238ad0a20" />
+					<children>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Totemist_ElementalBeam_Lightning" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="61ec4000-4f5b-0e01-ccb9-6726ac92f696" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="76333c07-5bdd-4979-a061-2cd95db6fbba" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalTotem_Acid" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalBeamTotem" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb98abbab2f334c2da7eedfbc829ae30c7aa0" version="1" />
+					<attribute id="Icon" type="FixedString" value="Icon_Totemist_Portrait_CausticBeamTotem" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="6ed108ef-fa8c-b78b-ccd4-58f238ad0a20" />
+					<children>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Totemist_ElementalBeam_Acid" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="61ec4000-4f5b-0e01-ccb9-6726ac92f696" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="9cbc4e31-2f01-433f-903b-b5c28ea1f7e4" />
+					<attribute id="Name" type="LSString" value="Totemist_SnareTotem" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_SnareTotem" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="Scale" type="float" value="0.9" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hea62d45f31cf4488a5a4473994013f70cdaf" version="1" />
+					<attribute id="Icon" type="FixedString" value="Icon_Totemist_Portrait_SnareTotem" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="6ed108ef-fa8c-b78b-ccd4-58f238ad0a20" />
+					<children>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Totemist_GenericTotemAttack" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="TOTEMIST_SNARE_TOTEM" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="TOTEMIST_TOTEM_FORCE_SKIP_TURN_TECHNICAL" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9cbc4e31-2f01-433f-903b-b5c28ea1f7e4" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="11cd0b72-7609-4a18-8edb-f735450bd281" />
+					<attribute id="Name" type="LSString" value="Totemist_SnareTotem_2" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_SnareTotem_2" />
+					<attribute id="LevelOverride" type="int32" value="2" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9cbc4e31-2f01-433f-903b-b5c28ea1f7e4" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="2120473d-a51b-41ef-a23e-9d437a2ef660" />
+					<attribute id="Name" type="LSString" value="Totemist_SnareTotem_3" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_SnareTotem_3" />
+					<attribute id="LevelOverride" type="int32" value="3" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9cbc4e31-2f01-433f-903b-b5c28ea1f7e4" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="2cb1a05c-de58-42c5-ad73-12d14d743ee4" />
+					<attribute id="Name" type="LSString" value="Totemist_SnareTotem_4" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_SnareTotem_4" />
+					<attribute id="LevelOverride" type="int32" value="4" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9cbc4e31-2f01-433f-903b-b5c28ea1f7e4" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="a84bf582-ecfb-446a-9926-9f41ffc6f8ff" />
+					<attribute id="Name" type="LSString" value="Totemist_SnareTotem_5" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_SnareTotem_5" />
+					<attribute id="LevelOverride" type="int32" value="5" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9cbc4e31-2f01-433f-903b-b5c28ea1f7e4" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="a92e60a8-da50-46f6-8e1b-1d981eeb6944" />
+					<attribute id="Name" type="LSString" value="Totemist_SnareTotem_6" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_SnareTotem_6" />
+					<attribute id="LevelOverride" type="int32" value="6" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9cbc4e31-2f01-433f-903b-b5c28ea1f7e4" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="5d7b90b7-d09c-488b-921c-a8b77e02f956" />
+					<attribute id="Name" type="LSString" value="Totemist_SnareTotem_7" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_SnareTotem_7" />
+					<attribute id="LevelOverride" type="int32" value="7" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9cbc4e31-2f01-433f-903b-b5c28ea1f7e4" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="d3df45c1-1439-4683-844f-e95ffb4ffade" />
+					<attribute id="Name" type="LSString" value="Totemist_SnareTotem_8" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_SnareTotem_8" />
+					<attribute id="LevelOverride" type="int32" value="8" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9cbc4e31-2f01-433f-903b-b5c28ea1f7e4" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="a1341edf-779c-4a37-985d-6031b8de611d" />
+					<attribute id="Name" type="LSString" value="Totemist_SnareTotem_9" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_SnareTotem_9" />
+					<attribute id="LevelOverride" type="int32" value="9" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9cbc4e31-2f01-433f-903b-b5c28ea1f7e4" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="c28e766a-8393-4b61-a743-892079818e16" />
+					<attribute id="Name" type="LSString" value="Totemist_SnareTotem_10" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_SnareTotem_10" />
+					<attribute id="LevelOverride" type="int32" value="10" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9cbc4e31-2f01-433f-903b-b5c28ea1f7e4" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="5870c44c-d74c-466f-b27c-0d65439473fb" />
+					<attribute id="Name" type="LSString" value="Totemist_SnareTotem_11" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_SnareTotem_11" />
+					<attribute id="LevelOverride" type="int32" value="11" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9cbc4e31-2f01-433f-903b-b5c28ea1f7e4" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="ce430b90-cba0-441b-ae8f-eb04750c4522" />
+					<attribute id="Name" type="LSString" value="Totemist_SnareTotem_12" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_SnareTotem_12" />
+					<attribute id="LevelOverride" type="int32" value="12" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="61ec4000-4f5b-0e01-ccb9-6726ac92f696" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="4882409c-4fed-4f5d-9345-4b4a8d2011e3" />
+					<attribute id="Name" type="LSString" value="Totemist_FortressTotem" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_FortressTotem" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="Scale" type="float" value="0.9" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h4b9a20600fce4c4186c0fab36520fe66bcc3" version="1" />
+					<attribute id="Icon" type="FixedString" value="Icon_Totemist_Portrait_FortressTotem" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="6ed108ef-fa8c-b78b-ccd4-58f238ad0a20" />
+					<children>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Totemist_GenericTotemAttack" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="TOTEMIST_FORTRESS_TOTEM" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="TOTEMIST_TOTEM_FORCE_SKIP_TURN_TECHNICAL" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4882409c-4fed-4f5d-9345-4b4a8d2011e3" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="ce504dff-566c-4fef-89e3-fcee7acbcc6d" />
+					<attribute id="Name" type="LSString" value="Totemist_FortressTotem_2" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_FortressTotem_2" />
+					<attribute id="LevelOverride" type="int32" value="2" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4882409c-4fed-4f5d-9345-4b4a8d2011e3" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="e0fd3a19-9daf-47f6-99a6-9018229116b9" />
+					<attribute id="Name" type="LSString" value="Totemist_FortressTotem_3" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_FortressTotem_3" />
+					<attribute id="LevelOverride" type="int32" value="3" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4882409c-4fed-4f5d-9345-4b4a8d2011e3" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="79a67a13-39c7-409d-bc36-6975ce7c045f" />
+					<attribute id="Name" type="LSString" value="Totemist_FortressTotem_4" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_FortressTotem_4" />
+					<attribute id="LevelOverride" type="int32" value="4" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4882409c-4fed-4f5d-9345-4b4a8d2011e3" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="ecb1672b-fe17-49dd-953c-b440ed3b9558" />
+					<attribute id="Name" type="LSString" value="Totemist_FortressTotem_5" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_FortressTotem_5" />
+					<attribute id="LevelOverride" type="int32" value="5" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4882409c-4fed-4f5d-9345-4b4a8d2011e3" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="cce61ef9-c7f9-474e-8c4f-d4fe4e6445f2" />
+					<attribute id="Name" type="LSString" value="Totemist_FortressTotem_6" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_FortressTotem_6" />
+					<attribute id="LevelOverride" type="int32" value="6" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4882409c-4fed-4f5d-9345-4b4a8d2011e3" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="4ce8632b-a9f0-46be-9c47-6a6df5f2d927" />
+					<attribute id="Name" type="LSString" value="Totemist_FortressTotem_7" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_FortressTotem_7" />
+					<attribute id="LevelOverride" type="int32" value="7" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4882409c-4fed-4f5d-9345-4b4a8d2011e3" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="7a69f6a0-4540-4162-9102-f08a161fd224" />
+					<attribute id="Name" type="LSString" value="Totemist_FortressTotem_8" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_FortressTotem_8" />
+					<attribute id="LevelOverride" type="int32" value="8" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4882409c-4fed-4f5d-9345-4b4a8d2011e3" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="1df4c6e7-6857-4ada-a0fc-20a563ce3b75" />
+					<attribute id="Name" type="LSString" value="Totemist_FortressTotem_9" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_FortressTotem_9" />
+					<attribute id="LevelOverride" type="int32" value="9" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4882409c-4fed-4f5d-9345-4b4a8d2011e3" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="21210d78-7d6f-4f5a-92f8-77633c0bd5ac" />
+					<attribute id="Name" type="LSString" value="Totemist_FortressTotem_10" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_FortressTotem_10" />
+					<attribute id="LevelOverride" type="int32" value="10" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4882409c-4fed-4f5d-9345-4b4a8d2011e3" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="e0dd855d-9ec0-4b54-a8b1-2758d59d1ae9" />
+					<attribute id="Name" type="LSString" value="Totemist_FortressTotem_11" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_FortressTotem_11" />
+					<attribute id="LevelOverride" type="int32" value="11" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4882409c-4fed-4f5d-9345-4b4a8d2011e3" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="ab52bad1-4fb0-486a-87b6-962d8262ca32" />
+					<attribute id="Name" type="LSString" value="Totemist_FortressTotem_12" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_FortressTotem_12" />
+					<attribute id="LevelOverride" type="int32" value="12" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="61ec4000-4f5b-0e01-ccb9-6726ac92f696" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="ea7aa278-2045-4b06-ba82-66201db34691" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalSurgeTotem" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalSurgeTotem" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="Scale" type="float" value="0.9" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h04a38432974a485a95437ff77100e7fa1g0f" version="1" />
+					<attribute id="Icon" type="FixedString" value="Icon_Totemist_Portrait_ElementalSurgeTotem" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="6ed108ef-fa8c-b78b-ccd4-58f238ad0a20" />
+					<children>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Totemist_GenericTotemAttack" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="TOTEMIST_ELEMENTAL_SURGE_TOTEM" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="TOTEMIST_TOTEM_FORCE_SKIP_TURN_TECHNICAL" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="TOTEMIST_ELEMENTAL_SURGE_TOTEM_TICK_ON_CREATE_TECHNICAL" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ea7aa278-2045-4b06-ba82-66201db34691" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="38144fcb-4a89-4a3f-93ae-99df40523be8" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalSurgeTotem_2" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalSurgeTotem_2" />
+					<attribute id="LevelOverride" type="int32" value="2" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ea7aa278-2045-4b06-ba82-66201db34691" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="ea372a31-ba70-41a5-939e-5a8553501970" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalSurgeTotem_3" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalSurgeTotem_3" />
+					<attribute id="LevelOverride" type="int32" value="3" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ea7aa278-2045-4b06-ba82-66201db34691" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="50b537c7-7653-4f85-b4d4-a429a7d9e0b7" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalSurgeTotem_4" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalSurgeTotem_4" />
+					<attribute id="LevelOverride" type="int32" value="4" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ea7aa278-2045-4b06-ba82-66201db34691" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="2ee6c723-ae86-4096-a941-72e7b212a56f" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalSurgeTotem_5" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalSurgeTotem_5" />
+					<attribute id="LevelOverride" type="int32" value="5" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ea7aa278-2045-4b06-ba82-66201db34691" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="ee7e0f67-b377-4446-ae9b-79edf7d86e3c" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalSurgeTotem_6" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalSurgeTotem_6" />
+					<attribute id="LevelOverride" type="int32" value="6" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ea7aa278-2045-4b06-ba82-66201db34691" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="b521ce4a-0ffc-470f-95a9-558a59ab1efc" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalSurgeTotem_7" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalSurgeTotem_7" />
+					<attribute id="LevelOverride" type="int32" value="7" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ea7aa278-2045-4b06-ba82-66201db34691" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="d272f671-2258-4839-ab54-e3c1541f9296" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalSurgeTotem_8" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalSurgeTotem_8" />
+					<attribute id="LevelOverride" type="int32" value="8" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ea7aa278-2045-4b06-ba82-66201db34691" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="79412d40-00e3-4dc2-b0e9-62e125d252c3" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalSurgeTotem_9" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalSurgeTotem_9" />
+					<attribute id="LevelOverride" type="int32" value="9" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ea7aa278-2045-4b06-ba82-66201db34691" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="387211a7-25ee-48c8-ac7d-7c53df52cfab" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalSurgeTotem_10" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalSurgeTotem_10" />
+					<attribute id="LevelOverride" type="int32" value="10" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ea7aa278-2045-4b06-ba82-66201db34691" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="3ec4a887-48ef-4c45-ba03-5cbf66ca087d" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalSurgeTotem_11" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalSurgeTotem_11" />
+					<attribute id="LevelOverride" type="int32" value="11" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ea7aa278-2045-4b06-ba82-66201db34691" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="309e204b-7625-42be-a493-08e84891e032" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalSurgeTotem_12" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalSurgeTotem_12" />
+					<attribute id="LevelOverride" type="int32" value="12" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="61ec4000-4f5b-0e01-ccb9-6726ac92f696" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="78f92940-c7a1-4fb6-9aee-51fa02d1a2dc" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalSurgeTotem_Cold" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalSurgeTotem" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="DisplayName" type="TranslatedString" handle="he4dcdfd0a2b649e694a4c380bc0d7307c45b" version="1" />
+					<attribute id="Icon" type="FixedString" value="Icon_Totemist_Portrait_FrostSurgeTotem" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="6ed108ef-fa8c-b78b-ccd4-58f238ad0a20" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="61ec4000-4f5b-0e01-ccb9-6726ac92f696" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c59f3757-0287-4826-b71a-d1342915614d" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalSurgeTotem_Thunder" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalSurgeTotem" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1a012a7c7f4f4a44a2421577f557c1a17e92" version="1" />
+					<attribute id="Icon" type="FixedString" value="Icon_Totemist_Portrait_ThunderSurgeTotem" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="6ed108ef-fa8c-b78b-ccd4-58f238ad0a20" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="61ec4000-4f5b-0e01-ccb9-6726ac92f696" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="89d46e2d-1881-48d5-8aff-8d9ebdc6998b" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalSurgeTotem_Lightning" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalSurgeTotem" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf027a4af624742bc86f3ac036bdb5617702g" version="1" />
+					<attribute id="Icon" type="FixedString" value="Icon_Totemist_Portrait_LightningSurgeTotem" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="6ed108ef-fa8c-b78b-ccd4-58f238ad0a20" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="61ec4000-4f5b-0e01-ccb9-6726ac92f696" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="8f03e306-1b76-40ac-8522-40a4d40c2e60" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalSurgeTotem_Acid" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalSurgeTotem" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hdc47bbadd58f468c9a9116a4b506364edc8e" version="1" />
+					<attribute id="Icon" type="FixedString" value="Icon_Totemist_Portrait_CausticSurgeTotem" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="6ed108ef-fa8c-b78b-ccd4-58f238ad0a20" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="61ec4000-4f5b-0e01-ccb9-6726ac92f696" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="b5dd1b5e-1ab0-4e9e-9939-b2e201396897" />
+					<attribute id="Name" type="LSString" value="Totemist_ElementalSurgeTotem_Fire" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ElementalSurgeTotem" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h0ff808279f3c4a17b865e6fa23ca1bd1a14a" version="1" />
+					<attribute id="Icon" type="FixedString" value="Icon_Totemist_Portrait_FlameSurgeTotem" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="6ed108ef-fa8c-b78b-ccd4-58f238ad0a20" />
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="61ec4000-4f5b-0e01-ccb9-6726ac92f696" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="ef5c8ad9-7248-45f0-a5ff-60e0da4499ed" />
+					<attribute id="Name" type="LSString" value="Totemist_ChaosTotem" />
+					<attribute id="ParentTemplateId" type="FixedString" value="62969323-bffe-46b3-82ab-9e61c877c191" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ChaosTotem" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="Scale" type="float" value="0.9" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h824b40fd0316402e805a4b0a85d6d74845b3" version="1" />
+					<attribute id="Icon" type="FixedString" value="Icon_Totemist_Portrait_ChaosTotem" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="6ed108ef-fa8c-b78b-ccd4-58f238ad0a20" />
+					<children>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="Skill" type="FixedString" value="Target_Totemist_GenericTotemAttack" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="TOTEMIST_CHAOS_TOTEM" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="TOTEMIST_TOTEM_FORCE_SKIP_TURN_TECHNICAL" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="TOTEMIST_CHAOS_TOTEM_AURA" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ef5c8ad9-7248-45f0-a5ff-60e0da4499ed" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="34ac230c-dd81-4ded-9809-20cb1e3afdae" />
+					<attribute id="Name" type="LSString" value="Totemist_ChaosTotem_2" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ChaosTotem_2" />
+					<attribute id="LevelOverride" type="int32" value="2" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ef5c8ad9-7248-45f0-a5ff-60e0da4499ed" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="81fa5a3e-2d7b-4a16-9486-0ede375a34c2" />
+					<attribute id="Name" type="LSString" value="Totemist_ChaosTotem_3" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ChaosTotem_3" />
+					<attribute id="LevelOverride" type="int32" value="3" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ef5c8ad9-7248-45f0-a5ff-60e0da4499ed" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="0780af05-a44c-4489-8dc0-8d983f0c0b74" />
+					<attribute id="Name" type="LSString" value="Totemist_ChaosTotem_4" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ChaosTotem_4" />
+					<attribute id="LevelOverride" type="int32" value="4" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ef5c8ad9-7248-45f0-a5ff-60e0da4499ed" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="18194b69-9652-42b6-a4a2-db3d8ebbaa85" />
+					<attribute id="Name" type="LSString" value="Totemist_ChaosTotem_5" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ChaosTotem_5" />
+					<attribute id="LevelOverride" type="int32" value="5" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ef5c8ad9-7248-45f0-a5ff-60e0da4499ed" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="04e4e706-af18-4278-b7fb-f6864262c856" />
+					<attribute id="Name" type="LSString" value="Totemist_ChaosTotem_6" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ChaosTotem_6" />
+					<attribute id="LevelOverride" type="int32" value="6" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ef5c8ad9-7248-45f0-a5ff-60e0da4499ed" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="8140a59e-138b-46bf-9685-02aed4038cce" />
+					<attribute id="Name" type="LSString" value="Totemist_ChaosTotem_7" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ChaosTotem_7" />
+					<attribute id="LevelOverride" type="int32" value="7" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ef5c8ad9-7248-45f0-a5ff-60e0da4499ed" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="b4c8d31a-44ee-4a54-b634-e26acbc0bd18" />
+					<attribute id="Name" type="LSString" value="Totemist_ChaosTotem_8" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ChaosTotem_8" />
+					<attribute id="LevelOverride" type="int32" value="8" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ef5c8ad9-7248-45f0-a5ff-60e0da4499ed" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="8c9c2b3f-b0e0-4d34-976c-edc48af66495" />
+					<attribute id="Name" type="LSString" value="Totemist_ChaosTotem_9" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ChaosTotem_9" />
+					<attribute id="LevelOverride" type="int32" value="9" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ef5c8ad9-7248-45f0-a5ff-60e0da4499ed" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="72c48fbf-fdae-4f58-9849-c67d17dbc44a" />
+					<attribute id="Name" type="LSString" value="Totemist_ChaosTotem_10" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ChaosTotem_10" />
+					<attribute id="LevelOverride" type="int32" value="10" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ef5c8ad9-7248-45f0-a5ff-60e0da4499ed" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="7160cb41-f102-426a-a386-b4c0775a0e36" />
+					<attribute id="Name" type="LSString" value="Totemist_ChaosTotem_11" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ChaosTotem_11" />
+					<attribute id="LevelOverride" type="int32" value="11" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ef5c8ad9-7248-45f0-a5ff-60e0da4499ed" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="MapKey" type="FixedString" value="593112f0-bf87-43e3-8d2f-ff8e7050176a" />
+					<attribute id="Name" type="LSString" value="Totemist_ChaosTotem_12" />
+					<attribute id="Stats" type="FixedString" value="Stats_Totemist_Totems_ChaosTotem_12" />
+					<attribute id="LevelOverride" type="int32" value="12" />
+					<children>
+						<node id="LocomotionParams" />
 					</children>
 				</node>
 			</children>

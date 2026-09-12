@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="0"/>
+    <region id="ConditionErrors">
+        <node id="root">
+            <children>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h914cc0ff629249ce832ff01ea1b276846da5" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="TotemistBondCheck_False"/>
+                    <attribute id="UUID" type="guid" value="3531000e-90d7-411c-a902-d0a74362450a"/>
+                </node>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hc179d8c93d8b485b863ac0a12d6e07acd298" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="TotemistTotemCounterMaximum"/>
+                    <attribute id="UUID" type="guid" value="9ab43197-d4c4-45bb-8f22-8bf50ed5a589"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

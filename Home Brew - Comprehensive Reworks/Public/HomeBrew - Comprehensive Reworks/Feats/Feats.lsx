@@ -462,6 +462,13 @@
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Druids&apos;)"/>
                     <attribute id="UUID" type="guid" value="e139d9a4-1bd9-4dd4-8db8-7cedf707ee13"/>
                 </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="DruidTotemist"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Totemist_BasicConjurer;Totemist_TotemicDisciple"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Druids&apos;)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(6b8d483d-9e5f-40ea-9bea-48f8da3ac9a8);AddSpells(937cf32f-5c3b-4e36-83c1-8e9737767988)" />
+                    <attribute id="UUID" type="guid" value="51b7587d-966a-4f3b-b7c4-4e9fe8cf86f0"/> 
+                </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="FighterArcaneArcher"/>
                     <attribute id="PassivesAdded" type="LSString" value="FocusedWeave;ElementalFletching;ArcaneFinesse"/>
@@ -630,6 +637,12 @@
                     <attribute id="PassivesAdded" type="LSString" value="Assassinate_Yokebreaker;Assassinate_Resource;AssassinsFocus_Yokebreaker;AssassinsQuarry_Yokebreaker"/>
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Rogue&apos;)"/>
 					<attribute id="UUID" type="guid" value="f1d35a6c-9c64-4431-862b-972e1004b628"/>
+                </node>
+				<node id="Feat">
+                    <attribute id="Name" type="FixedString" value="RogueGauntlet"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Dimensional_Claw;Dimensional_Claw_Advantage;GetOverHere_Yokebreaker"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Rogue&apos;)"/>
+					<attribute id="UUID" type="guid" value="34539fe0-ef9f-4ae1-a218-95f431ef67da"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="RogueHiddenToxicant"/>

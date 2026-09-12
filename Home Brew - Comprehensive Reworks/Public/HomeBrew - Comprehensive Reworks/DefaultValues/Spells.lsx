@@ -81,39 +81,46 @@
                     <attribute id="UUID" type="guid" value="b26e698f-a8c9-4439-b757-fb88c63695f0"/>
 					</node>
                 <node id="DefaultValue">
-                    <attribute id="Add" type="LSString" value="Shout_WildShape_Bear_Polar;Shout_WildShape_Cat;Shout_WildShape_Dire_Wolf"/>
+                    <attribute id="Add" type="LSString" value="Shout_WildShape_Bear_Polar"/>
                     <attribute id="Level" type="int32" value="1"/>
                     <attribute id="SelectorId" type="LSString" value="Druid - Wildshape"/>
                     <attribute id="TableUUID" type="guid" value="7d0acf1e-191b-481f-b227-b54c63e02b57"/>
                     <attribute id="UUID" type="guid" value="cb6f6543-7016-45e0-a5e9-8a865b6b3e6d"/>
 					</node>
                 <node id="DefaultValue">
-                    <attribute id="Add" type="LSString" value="Shout_WildShape_Bear_Polar;Shout_WildShape_Cat;Shout_WildShape_Dire_Wolf"/>
+                    <attribute id="Add" type="LSString" value="Shout_WildShape_Bear_Polar"/>
                     <attribute id="Level" type="int32" value="1"/>
                     <attribute id="SelectorId" type="LSString" value="Druid - Wildshape"/>
                     <attribute id="TableUUID" type="guid" value="ba1f14d6-d40b-47ce-b071-91b491d87b27"/>
                     <attribute id="UUID" type="guid" value="c7b06496-1166-491f-b93b-cd4c51175ea5"/>
 					</node>
                 <node id="DefaultValue">
-                    <attribute id="Add" type="LSString" value="Shout_WildShape_Bear_Polar;Shout_WildShape_Cat;Shout_WildShape_Dire_Wolf"/>
+                    <attribute id="Add" type="LSString" value="Shout_WildShape_Bear_Polar"/>
                     <attribute id="Level" type="int32" value="1"/>
                     <attribute id="SelectorId" type="LSString" value="Druid - Wildshape"/>
                     <attribute id="TableUUID" type="guid" value="a4b9c267-93b0-49b2-b2fe-da4f007c2dca"/>
                     <attribute id="UUID" type="guid" value="9ea79cfd-8cf2-4371-b996-cd0a6c2dcec9"/>
 					</node>
                 <node id="DefaultValue">
-                    <attribute id="Add" type="LSString" value="Shout_WildShape_Bear_Polar;Shout_WildShape_Cat;Shout_WildShape_Dire_Wolf"/>
+                    <attribute id="Add" type="LSString" value="Shout_WildShape_Bear_Polar"/>
                     <attribute id="Level" type="int32" value="1"/>
                     <attribute id="SelectorId" type="LSString" value="Druid - Wildshape"/>
                     <attribute id="TableUUID" type="guid" value="288c9d1e-ab18-46dd-8fa3-d4fcfa44147a"/>
                     <attribute id="UUID" type="guid" value="c7b06496-1166-491f-b93b-cd4c51122468"/>
 					</node>
                 <node id="DefaultValue">
-                    <attribute id="Add" type="LSString" value="Shout_WildShape_Bear_Polar;Shout_WildShape_Cat;Shout_WildShape_Dire_Wolf"/>
+                    <attribute id="Add" type="LSString" value="Shout_WildShape_Bear_Polar"/>
                     <attribute id="Level" type="int32" value="1"/>
                     <attribute id="SelectorId" type="LSString" value="Druid - Wildshape"/>
                     <attribute id="TableUUID" type="guid" value="bc4a7a99-bd26-4307-a0b9-8c183f34c55d"/>
                     <attribute id="UUID" type="guid" value="c7b06496-1166-491f-b93b-cd4c51111245"/>
+					</node>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Shout_WildShape_Bear_Polar"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="Druid - Wildshape"/>
+                    <attribute id="TableUUID" type="guid" value="a2bfaf60-1799-4fe2-91b5-7bcf152993cb"/>
+                    <attribute id="UUID" type="guid" value="b88064e1-91bd-432a-b41c-be353ea1c394"/>
 					</node>
                 <node id="DefaultValue">
                     <attribute id="Add" type="LSString" value="Target_GreenFlameBlade;Rush_PsionicCharge;Zone_SoulReaver"/>

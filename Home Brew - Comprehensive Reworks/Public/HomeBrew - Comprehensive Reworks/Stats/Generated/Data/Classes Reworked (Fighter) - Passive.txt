@@ -963,7 +963,6 @@ new entry "Tunnel_Fighter"
 type "PassiveData"
 data "DisplayName" "439cb1c55ce44da8b8f3ccd2e23204f500020;1"
 data "Description" "439cb1c55ce44da8b8f3ccd2e23204f50000t;2"
-data "ExtraDescription" "h197f62bbgd1ddg4436g90df5s6s5d4f56f45"
 data "Icon" "PassiveFeature_MediumArmorMaster"
 data "Properties" "Highlighted;ForceShowInCC"
 data "Boosts" "ActionResource(ReactionActionPoint,1,0);IF(IsReactionAttack()):Advantage(AttackRoll)"
@@ -1053,15 +1052,6 @@ data "ExtraDescription" "h197f62bbgd1ddg4436g90df5s6s5d4f56f45"
 data "Icon" "PassiveFeature_MediumArmorMaster"
 data "Properties" "IsHidden"
 data "Boosts" "IF(HasPassive('Tactical_Retreat',GetSummoner(context.Source)) or HasPassive('Tactical_Retreat_Item',GetSummoner(context.Source))):UnlockSpellVariant(MeleeCheck(),ModifyTargetRadius(Multiplicative,1.5))"
-
-new entry "Summon_Tunnel_Fighter"
-type "PassiveData"
-data "DisplayName" "439cb1c55ce44da8b8f3ccd2e23204f500020;1"
-data "Description" "439cb1c55ce44da8b8f3ccd2e23204f50000t;2"
-data "ExtraDescription" "h197f62bbgd1ddg4436g90df5s6s5d4f56f45"
-data "Icon" "PassiveFeature_MediumArmorMaster"
-data "Properties" "IsHidden"
-data "Boosts" "IF(HasPassive('Tunnel_Fighter',GetSummoner(context.Source)) or HasPassive('Tunnel_Fighter_Item',GetSummoner(context.Source))):ActionResource(ReactionActionPoint,1,0);IF((HasPassive('Tunnel_Fighter',GetSummoner(context.Source)) or HasPassive('Tunnel_Fighter_Item',GetSummoner(context.Source))) and IsReactionAttack()):Advantage(AttackRoll)"
 
 <!--MANEUVERS-->
 

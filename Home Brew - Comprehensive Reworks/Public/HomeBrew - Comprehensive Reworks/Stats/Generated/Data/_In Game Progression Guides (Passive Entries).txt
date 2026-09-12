@@ -218,6 +218,13 @@ data "Description" "55ce1b701c9642a4a3dbf59a6810157f0004d;1"
 data "Icon" "Spell_Divination_Identify"
 data "Properties" "Highlighted;ForceShowInCC"
 
+new entry "ClassProgression_Totemist"
+type "PassiveData"
+data "DisplayName" "h9cad9ed6fb554bbd87c6e512bd55229a4490;1"
+data "Description" "hbc1502e2fa1a4e339f1b9a733a2248c3a9f3;1"
+data "Icon" "Spell_Divination_Identify"
+data "Properties" "Highlighted;ForceShowInCC"
+
 <!--FIGHTER-->
 
 new entry "ClassProgression_ArcaneArcher"
@@ -414,6 +421,13 @@ new entry "ClassProgression_Assassin"
 type "PassiveData"
 data "DisplayName" "55ce1b701c9642a4a3dbf59a6810157f00092;1"
 data "Description" "55ce1b701c9642a4a3dbf59a6810157f0009b;1"
+data "Icon" "Spell_Divination_Identify"
+data "Properties" "Highlighted;ForceShowInCC"
+
+new entry "ClassProgression_Gauntlet"
+type "PassiveData"
+data "DisplayName" "394bef5160fb40cc902f827865b5454f00000;1"
+data "Description" "394bef5160fb40cc902f827865b5454fzzzzz;1"
 data "Icon" "Spell_Divination_Identify"
 data "Properties" "Highlighted;ForceShowInCC"
 
@@ -797,6 +811,13 @@ data "DisplayName" "55ce1b701c9642a4a3dbf59a6810157fzz044;1"
 data "Description" "55ce1b701c9642a4a3dbf59a6810157fzz04d;1"
 data "Icon" "Spell_Divination_Identify"
 
+new entry "StatusClassProgression_Totemist"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "55ce1b701c9642a4a3dbf59a681015totemic;1"
+data "Description" "55ce1b701c9642a4a3dbf59a68alsototemic;1"
+data "Icon" "Spell_Divination_Identify"
+
 <!--FIGHTER-->
 
 new entry "StatusClassProgression_ArcaneArcher"
@@ -987,6 +1008,13 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "55ce1b701c9642a4a3dbf59a6810157fzz092;1"
 data "Description" "55ce1b701c9642a4a3dbf59a6810157fzz09b;1"
+data "Icon" "Spell_Divination_Identify"
+
+new entry "StatusClassProgression_Gauntlet"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "33b741bd285146a08877fb0c7d4bfc8500000;1"
+data "Description" "02b8759c67bf41f88e80a3ae4b6d419200000;1"
 data "Icon" "Spell_Divination_Identify"
 
 new entry "StatusClassProgression_HiddenToxicant"

@@ -7,7 +7,7 @@
 	<content contentuid="hfe6be642g5ae0g4e79gaccag91689d25420c" version="3">You gain one Ki Point per level, which are restored upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;. Ki Points fuel various techniques as a Monk, allowing you to be more effective and versatile in combat.</content>
 
 	<content contentuid="d03f845e0df8463295a0cc3b6d86442c6a942" version="6">Martial Arts</content>
-	<content contentuid="d03f845e0df8463295a0cc3b6d86442c6a921" version="6">Your weapons may scale with your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;, rather than your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;. This can be toggled at any time.&lt;br&gt;&lt;br&gt;Additionally, you are able to benefit from &lt;LSTag Type="Status" Tooltip="Tooltip_FreeHandling"&gt;Free Handling&lt;/LSTag&gt; while you are unarmed.</content>
+	<content contentuid="d03f845e0df8463295a0cc3b6d86442c6a921" version="6">Your weapons and unarmed damage may scale using your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;, rather than your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;. This can be toggled at any time.&lt;br&gt;&lt;br&gt;Additionally, you are able to benefit from &lt;LSTag Type="Status" Tooltip="Tooltip_FreeHandling"&gt;Free Handling&lt;/LSTag&gt; while you are unarmed.</content>
 
 	<content contentuid="h69adc5a5ge60ag4affg84a0gd14490176db0" version="1">Unarmed Strike</content>
 	<content contentuid="hefec7f3fg7e34g4a1ag97a4gc4223e9e32b4" version="2">Swiftly strike an enemy.</content>

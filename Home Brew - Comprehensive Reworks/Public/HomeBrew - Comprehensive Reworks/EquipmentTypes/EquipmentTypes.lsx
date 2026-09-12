@@ -39,11 +39,11 @@
                     <attribute id="WeaponType_TwoHanded" type="FixedString" value="Slashing1H"/>
                 </node>
                 <node id="EquipmentType">
-                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Upper_R"/>
+                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
                     <attribute id="BoneMainUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
-                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Upper_L"/>
+                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Hip_R"/>
                     <attribute id="BoneOffHandUnsheathed" type="FixedString" value="Dummy_L_Hand"/>
-					<attribute id="BoneVersatileSheathed" type="FixedString" value="Dummy_Sheath_Upper_R"/>
+					<attribute id="BoneVersatileSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
                     <attribute id="BoneVersatileUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
                     <attribute id="Name" type="FixedString" value="LightHammer"/>
                     <attribute id="SoundAttackType" type="FixedString" value="Bludgeoning"/>
@@ -56,11 +56,11 @@
                     <attribute id="WeaponType_TwoHanded" type="FixedString" value="Slashing1H"/>
                 </node>
                 <node id="EquipmentType">
-                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Upper_R"/>
+                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
                     <attribute id="BoneMainUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
-                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Upper_L"/>
+                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Hip_R"/>
                     <attribute id="BoneOffHandUnsheathed" type="FixedString" value="Dummy_L_Hand"/>
-					<attribute id="BoneVersatileSheathed" type="FixedString" value="Dummy_Sheath_Upper_R"/>
+					<attribute id="BoneVersatileSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
                     <attribute id="BoneVersatileUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
                     <attribute id="Name" type="FixedString" value="Sickle"/>
                     <attribute id="SoundAttackType" type="FixedString" value="Slashing"/>
@@ -73,11 +73,11 @@
                     <attribute id="WeaponType_TwoHanded" type="FixedString" value="Slashing1H"/>
                 </node>
                 <node id="EquipmentType">
-                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Upper_R"/>
+                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
                     <attribute id="BoneMainUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
-                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Upper_L"/>
+                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Hip_R"/>
                     <attribute id="BoneOffHandUnsheathed" type="FixedString" value="Dummy_L_Hand"/>
-					<attribute id="BoneVersatileSheathed" type="FixedString" value="Dummy_Sheath_Upper_R"/>
+					<attribute id="BoneVersatileSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
                     <attribute id="BoneVersatileUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
                     <attribute id="Name" type="FixedString" value="Club"/>
                     <attribute id="SoundAttackType" type="FixedString" value="Bludgeoning"/>
@@ -107,11 +107,11 @@
                     <attribute id="WeaponType_TwoHanded" type="FixedString" value="Spear2H"/>
                 </node>
                 <node id="EquipmentType">
-                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Upper_R"/>
+                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
                     <attribute id="BoneMainUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
-                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Upper_L"/>
+                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Hip_R"/>
                     <attribute id="BoneOffHandUnsheathed" type="FixedString" value="Dummy_L_Hand"/>
-					<attribute id="BoneVersatileSheathed" type="FixedString" value="Dummy_Sheath_Upper_R"/>
+					<attribute id="BoneVersatileSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
                     <attribute id="BoneVersatileUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
                     <attribute id="Name" type="FixedString" value="Mace"/>
                     <attribute id="SoundAttackType" type="FixedString" value="Bludgeoning"/>
@@ -220,11 +220,11 @@
                     <attribute id="WeaponType_TwoHanded" type="FixedString" value="Slashing1H"/>
                 </node>
                 <node id="EquipmentType">
-                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Upper_R"/>
+                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
                     <attribute id="BoneMainUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
-                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Upper_L"/>
+                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Hip_R"/>
                     <attribute id="BoneOffHandUnsheathed" type="FixedString" value="Dummy_L_Hand"/>
-					<attribute id="BoneVersatileSheathed" type="FixedString" value="Dummy_Sheath_Upper_R"/>
+					<attribute id="BoneVersatileSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
                     <attribute id="BoneVersatileUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
                     <attribute id="Name" type="FixedString" value="Shortsword"/>
                     <attribute id="SoundAttackType" type="FixedString" value="Piercing"/>
@@ -237,11 +237,11 @@
                     <attribute id="WeaponType_TwoHanded" type="FixedString" value="Piercing1H"/>
                 </node>
                 <node id="EquipmentType">
-                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Upper_R"/>
+                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
                     <attribute id="BoneMainUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
-                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Upper_L"/>
+                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Hip_R"/>
                     <attribute id="BoneOffHandUnsheathed" type="FixedString" value="Dummy_L_Hand"/>
-					<attribute id="BoneVersatileSheathed" type="FixedString" value="Dummy_Sheath_Upper_R"/>
+					<attribute id="BoneVersatileSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
                     <attribute id="BoneVersatileUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
                     <attribute id="Name" type="FixedString" value="Flail"/>
                     <attribute id="SoundAttackType" type="FixedString" value="Bludgeoning"/>
@@ -254,11 +254,11 @@
                     <attribute id="WeaponType_TwoHanded" type="FixedString" value="Slashing1H"/>
                 </node>
                 <node id="EquipmentType">
-                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Upper_R"/>
+                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
                     <attribute id="BoneMainUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
-                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Upper_L"/>
+                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Hip_R"/>
                     <attribute id="BoneOffHandUnsheathed" type="FixedString" value="Dummy_L_Hand"/>
-					<attribute id="BoneVersatileSheathed" type="FixedString" value="Dummy_Sheath_Upper_R"/>
+					<attribute id="BoneVersatileSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
                     <attribute id="BoneVersatileUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
                     <attribute id="Name" type="FixedString" value="Morningstar"/>
                     <attribute id="SoundAttackType" type="FixedString" value="Piercing"/>
@@ -271,11 +271,11 @@
                     <attribute id="WeaponType_TwoHanded" type="FixedString" value="Slashing1H"/>
                 </node>
                 <node id="EquipmentType">
-                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Upper_R"/>
+                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
                     <attribute id="BoneMainUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
-                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Upper_L"/>
+                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Hip_R"/>
                     <attribute id="BoneOffHandUnsheathed" type="FixedString" value="Dummy_L_Hand"/>
-					<attribute id="BoneVersatileSheathed" type="FixedString" value="Dummy_Sheath_Upper_R"/>
+					<attribute id="BoneVersatileSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
                     <attribute id="BoneVersatileUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
                     <attribute id="Name" type="FixedString" value="Rapier"/>
                     <attribute id="SoundAttackType" type="FixedString" value="Piercing"/>
@@ -288,11 +288,11 @@
                     <attribute id="WeaponType_TwoHanded" type="FixedString" value="Piercing1H"/>
                 </node>
                 <node id="EquipmentType">
-                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Upper_R"/>
+                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
                     <attribute id="BoneMainUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
-                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Upper_L"/>
+                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Hip_R"/>
                     <attribute id="BoneOffHandUnsheathed" type="FixedString" value="Dummy_L_Hand"/>
-					<attribute id="BoneVersatileSheathed" type="FixedString" value="Dummy_Sheath_Upper_R"/>
+					<attribute id="BoneVersatileSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
                     <attribute id="BoneVersatileUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
                     <attribute id="Name" type="FixedString" value="WarPick"/>
                     <attribute id="SoundAttackType" type="FixedString" value="Piercing"/>
@@ -464,10 +464,12 @@
                     <attribute id="WeaponType_TwoHanded" type="FixedString" value="Spear2H"/>
                 </node>
                 <node id="EquipmentType">
-                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Lower_R"/>
+                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
                     <attribute id="BoneMainUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
-                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Lower_L"/>
+                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Hip_R"/>
                     <attribute id="BoneOffHandUnsheathed" type="FixedString" value="Dummy_L_Hand"/>
+					<attribute id="BoneVersatileSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
+                    <attribute id="BoneVersatileUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
                     <attribute id="Name" type="FixedString" value="HandCrossbow"/>
                     <attribute id="SoundAttackType" type="FixedString" value="Crossbow"/>
                     <attribute id="SoundEquipmentType" type="FixedString" value="Crossbow"/>
@@ -505,9 +507,9 @@
                     <attribute id="WeaponType_TwoHanded" type="FixedString" value="Bow2H"/>
                 </node>
 				<node id="EquipmentType">
-                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Hip_R"/>
+                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
                     <attribute id="BoneMainUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
-                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
+                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Hip_R"/>
                     <attribute id="BoneOffHandUnsheathed" type="FixedString" value="Dummy_L_Hand"/>
                     <attribute id="Name" type="FixedString" value="Mara_1H"/>
                     <attribute id="SoundAttackType" type="FixedString" value=""/>
@@ -533,11 +535,11 @@
                     <attribute id="WeaponType_TwoHanded" type="FixedString" value="Crossbow2H"/>
                 </node>
                 <node id="EquipmentType">
-                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Lower_R"/>
+                    <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
                     <attribute id="BoneMainUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
-                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Lower_L"/>
+                    <attribute id="BoneOffHandSheathed" type="FixedString" value="Dummy_Sheath_Hip_R"/>
                     <attribute id="BoneOffHandUnsheathed" type="FixedString" value="Dummy_L_Hand"/>
-					<attribute id="BoneVersatileSheathed" type="FixedString" value="Dummy_Sheath_Upper_R"/>
+					<attribute id="BoneVersatileSheathed" type="FixedString" value="Dummy_Sheath_Hip_L"/>
                     <attribute id="BoneVersatileUnsheathed" type="FixedString" value="Dummy_R_Hand"/>
                     <attribute id="Name" type="FixedString" value="Wand"/>
                     <attribute id="SoundAttackType" type="FixedString" value=""/>

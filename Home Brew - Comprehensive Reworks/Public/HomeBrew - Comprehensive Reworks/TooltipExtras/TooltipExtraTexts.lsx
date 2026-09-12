@@ -100,6 +100,14 @@
                     <attribute id="Text" type="TranslatedString" handle="18a4141a7d3147d18d8de9d2d3f7c7a900000" version="2"/>
                     <attribute id="UUID" type="guid" value="18a4141a-7d31-47d1-8d8d-e9d2d3f7c7a9"/>
 					</node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Text" type="TranslatedString" handle="h874858f9b0474adca6365d486f5e3d6f1a6c" version="2"/>
+                    <attribute id="UUID" type="guid" value="40ac5e95-4041-4450-948f-ce634e72adb8"/>
+					</node>
+                <node id="TooltipExtraTexts">
+                    <attribute id="Text" type="TranslatedString" handle="h7ce4ea8b27294504bba9fa46869cd3f96f6g" version="2"/>
+                    <attribute id="UUID" type="guid" value="2691699b-4ca4-41dd-88d8-044fc116a5fc"/>
+					</node>
             </children>
         </node>
     </region>

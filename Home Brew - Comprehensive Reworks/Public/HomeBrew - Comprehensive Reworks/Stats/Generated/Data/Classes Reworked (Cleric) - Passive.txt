@@ -256,7 +256,7 @@ data "DescriptionParams" "Distance(3);DealDamage(LevelMapValue(DivineInterventio
 data "Icon" "Spell_2e_ColorSpray"
 data "Properties" "Highlighted;IsToggled;ToggledDefaultAddToHotbar"
 data "StatsFunctorContext" "OnAttack"
-data "Conditions" "Ally() and not Self() and IsSpell() and not AreaRadiusGreaterThan(1) and not HasStatus('INVISIBLE', context.Target) and not HasStatus('INVISIBILITY_BLOCKER', context.Target) and not HasFunctor(StatsFunctorType.Summon)"
+data "Conditions" "Ally() and not Self() and IsSpell() and not AreaRadiusGreaterThan(1) and not HasStatus('INVISIBLE', context.Target) and not HasFunctor(StatsFunctorType.Summon)"
 data "StatsFunctors" "ApplyStatus(INVISIBLE,100,3)"
 
 new entry "Veilcasting_NPC"
@@ -267,7 +267,7 @@ data "DescriptionParams" "Distance(3);DealDamage(LevelMapValue(DivineInterventio
 data "Icon" "Spell_2e_ColorSpray"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnAttack"
-data "Conditions" "Ally() and not Self() and IsSpell() and not HasStatus('INVISIBLE', context.Target) and not HasStatus('INVISIBILITY_BLOCKER', context.Target)"
+data "Conditions" "Ally() and not Self() and IsSpell() and not HasStatus('INVISIBLE', context.Target)"
 data "StatsFunctors" "ApplyStatus(INVISIBLE,100,3)"
 data "Boosts" "UnlockSpell(Shout_TurnUndead);UnlockSpell(Shout_DivineIntervention_Illusory)"
 
@@ -287,7 +287,7 @@ data "Description" "1532e50122e94186bab1a621b059dbed0000c;2"
 data "Icon" "Spell_2e_ColorSpray"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnAttack"
-data "Conditions" "Ally() and not Self() and IsSpell() and not HasStatus('INVISIBLE', context.Source) and not HasStatus('INVISIBILITY_BLOCKER', context.Source)"
+data "Conditions" "Ally() and not Self() and IsSpell() and not HasStatus('INVISIBLE', context.Source)"
 data "StatsFunctors" "ApplyStatus(SELF,INVISIBLE,100,3)"
 
 new entry "Dreamfracture"

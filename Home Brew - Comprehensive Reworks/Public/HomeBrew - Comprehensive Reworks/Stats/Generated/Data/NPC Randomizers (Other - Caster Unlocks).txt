@@ -328,6 +328,17 @@ data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndi
 data "StackType" "Ignore"
 data "Boosts" "UnlockSpell(Target_Light);UnlockSpell(Target_SacredFlame);UnlockSpell(Target_Bless,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Haste,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Moonbeam,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Shout_Sleep,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Zone_Sunbeam,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Projectile_SolarFlare,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
 
+new entry "CASTER_UNLOCK_TOTEMIC"
+type "StatusData"
+data "StatusType" "BOOST"
+data "HitAnimationType" "None"
+data "StackId" "CASTER_UNLOCK"
+data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
+data "RemoveEvents" "OnApply;OnTurn;OnMove"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
+data "StackType" "Ignore"
+data "Boosts" "UnlockSpell(Projectile_Cragrain);UnlockSpell(Shout_Druidcraft);UnlockSpell(Target_Blindness,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_CureWounds,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_Haste,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Zone_Sunbeam,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Shout_WillOWisp,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_WitherAndBloom,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
+
 <!--FIGHTER-->
 
 new entry "CASTER_UNLOCK_ARCANEARCHER"
@@ -615,6 +626,16 @@ data "StackType" "Ignore"
 data "Boosts" "UnlockSpell(Target_ThunderousStrike);UnlockSpell(Projectile_Warpstone);UnlockSpell(Target_CloudOfDaggers,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Zone_ColorSpray,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_HypnoticPattern,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_MindPiercer,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Shout_MirrorImage,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_NathairsMischief,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
 
 new entry "CASTER_UNLOCK_ASSASSIN"
+type "StatusData"
+data "StatusType" "BOOST"
+data "HitAnimationType" "None"
+data "StackId" "CASTER_UNLOCK"
+data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
+data "RemoveEvents" "OnApply;OnTurn;OnMove"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
+data "StackType" "Ignore"
+
+new entry "CASTER_UNLOCK_GAUNTLET"
 type "StatusData"
 data "StatusType" "BOOST"
 data "HitAnimationType" "None"

@@ -142,7 +142,7 @@
 	<content contentuid="1532e50122e94186bab1a621b059dbedzzzzz" version="1">Your faith is one of occlusion and obscurity. Secrets forged in shadow, bound in rites which elude all but the most devout of followers.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Support</content>
 
 	<content contentuid="1532e50122e94186bab1a621b059dbed00001" version="1">Veilcasting</content>
-	<content contentuid="1532e50122e94186bab1a621b059dbed0000a" version="1">If they are not currently &lt;LSTag Type="Status" Tooltip="INVISIBILITY_BLOCKER"&gt;Revealed&lt;/LSTag&gt;, directly targeting an ally with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; will cause them to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; for three turns. This can be toggled at any time.&lt;br&gt;&lt;br&gt;Additionally, upon causing a creature to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; through Veilcasting, all enemies within [1] of them receive [2]. This damage increases alongside your levels in Cleric.</content>
+	<content contentuid="1532e50122e94186bab1a621b059dbed0000a" version="1">Directly targeting an ally with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; will cause them to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; for three turns. This can be toggled at any time.&lt;br&gt;&lt;br&gt;Additionally, upon causing a creature to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; through Veilcasting, all enemies within [1] of them receive [2]. This damage increases alongside your levels in Cleric.</content>
 
 	<content contentuid="1532e50122e94186bab1a621b059dbed00002" version="1">Mirror Force</content>
 	<content contentuid="1532e50122e94186bab1a621b059dbed0000b" version="1">When an ally is damaged by an enemy, use a &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; charge to reflect the damage back to their aggeressor. In addition, you cause your ally to regain [2]. This &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; restored increases alongside your levels in Cleric.</content>
@@ -150,7 +150,7 @@
 	<content contentuid="1532e50122e94186bab1a621b059dbed000zb" version="1">When an ally is damaged by an enemy, reflect the damage back to their aggeressor. In addition, you cause your ally to regain [2].</content>
 
 	<content contentuid="1532e50122e94186bab1a621b059dbed00003" version="1">Phantom Communion</content>
-	<content contentuid="1532e50122e94186bab1a621b059dbed0000c" version="1">If you are not currently &lt;LSTag Type="Status" Tooltip="INVISIBILITY_BLOCKER"&gt;Revealed&lt;/LSTag&gt;, targeting an ally with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; will cause you to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; as well.</content>
+	<content contentuid="1532e50122e94186bab1a621b059dbed0000c" version="1">Targeting an ally with a Spell or &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; will cause you to become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; as well.</content>
 
 	<content contentuid="1532e50122e94186bab1a621b059dbed00004" version="1">Dreamfracture</content>
 	<content contentuid="1532e50122e94186bab1a621b059dbed0000d" version="1">Upon dealing Psychic damage to an enemy, you potentially &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprise&lt;/LSTag&gt; your target for one turn.</content>

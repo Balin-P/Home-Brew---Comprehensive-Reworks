@@ -115,6 +115,45 @@
 	<content contentuid="hc4558204g2c77g4b58gafb6g0ba6b39adsdf" version="1">Execute</content>
 	<content contentuid="h098941ccgc4ecg49f2gb22agabed0b0ewrff" version="3">Dealing damage to a target with less than 20% of its total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; instantly kills them.</content>
 
+<content contentuid="0000000000000000000000000000000000000" version="1">GAUNTLET</content>
+
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700000" version="1">Gauntlet</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7zzzzz" version="1">With gauntlet and dagger in hand, you bend the battlefield to your will—dragging enemies into reach, striking from impossible angles, and stealing their final moments for yourself.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Damage</content>
+
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700001" version="1">Dimensional Claw</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b70000a" version="1">Your weapons and unarmed damage may scale using your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;, rather than your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;. This can be toggled at any time.&lt;br&gt;&lt;br&gt;Additionally, while unarmed or dealing damage with a dagger in your main-hand, you gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
+	
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700002" version="1">Get Over Here</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b70000b" version="1">Gain the ability to throw a grappling hook, pulling a creature [1] closer to you and dealing damage equal to your &lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; in the process. In addition, when making a melee based unarmed &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, you deal an additional [1].</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000z2" version="1">Get Over Here</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000zb" version="1">Throw a grapling hook and pull a creature [1] closer to you, dealing damage equal to your &lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; in the process.</content>
+
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700003" version="1">Dagger Tail</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b70000c" version="1">After having used &lt;LSTag Type="Spell" Tooltip="Target_GetOverHere"&gt;Get Over Here&lt;/LSTag&gt; to pull a creature closer, you may expend a &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Point&lt;/LSTag&gt; to kick them, pushing them backward by [1] and knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000z3" version="1">Dagger Tail</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000zc" version="1">After having used &lt;LSTag Type="Spell" Tooltip="Target_GetOverHere"&gt;Get Over Here&lt;/LSTag&gt; to pull a creature closer, kick them, pushing them backward by [1] and knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700004" version="1">Cloak and Dagger</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b70000d" version="1">Gain the ability to teleport up to [1], potentially &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinding&lt;/LSTag&gt; enemies within [2] of where you land. In addition, after damaging an enemy, you may immediately follow up with &lt;LSTag Type="Spell" Tooltip="Target_GetOverHere"&gt;Get Over Here&lt;/LSTag&gt; if they are farther than [3] away.</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000z4" version="1">Cloak and Dagger</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000zd" version="1">Teleport up to [1], potentially &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinding&lt;/LSTag&gt; enemies within [2] of where you land.</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700zz4" version="1">Get Over Here</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700zzd" version="1">After damaging an enemy farther than [1] away, throw a grapling hook and pull them [2] closer to you, dealing damage equal to your &lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; in the process.</content>
+
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700005" version="1">Warrior Within</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b70000e" version="1">Gain the ability to attack all creatures within [1], pushing them backward by [2] and knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. You may also do so after you successfully avoid an enemies melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000z5" version="1">Warrior Within</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000ze" version="1">Attack all creatures within [1], pushing them backward by [2] and knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700zz5" version="1">Warrior Within</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700zze" version="1">After having avoided an enemies melee based &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, attack all creatures within [1], pushing them backward by [2] and knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700006" version="1">The Sands of Time</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b70000f" version="1">Upon killing a creature, you store their essence as sand in an hourglass. After having killed three creatures, you may use their sand in order to restore your &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Points&lt;/LSTag&gt;.</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000z6" version="1">The Sands of Time</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b7000zf" version="1">Expend your currently held sand in order to restore your &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Points&lt;/LSTag&gt;.</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700zz6" version="1">The Sands of Time</content>
+	<content contentuid="c84f670f8f044d128fd7132cc2f848b700zzf" version="1">Affected creature is storing sand obtained from killing enemies. Upon gaining three stacks of this condition, they will be able to fully restore their &lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Points&lt;/LSTag&gt;.</content>
+
 <content contentuid="0000000000000000000000000000000000000" version="1">HIDDEN TOXICANT</content>
 
 	<content contentuid="hedbd9f3fgf4d8g4f16gb02we68f4s65ef485" version="1">Hidden Toxicant</content>
