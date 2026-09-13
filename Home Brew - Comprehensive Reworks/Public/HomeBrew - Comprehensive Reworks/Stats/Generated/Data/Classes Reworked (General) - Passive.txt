@@ -868,6 +868,14 @@ data "DisplayName" "hbbab0a4cg3329g469ag97adgdb563d7bcb9b;2"
 data "Description" "hfc872f95gff97g4985g8788g76eaf61e3f17;2"
 data "Properties" "IsHidden"
 
+<!--DOWNED AUTO REVIVE-->
+
+new entry "Downed_CombatEnded"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCombatEnded"
+data "StatsFunctors" "RegainHitPoints(1)"
+
 <!--DUAL WIELDING-->
 
 new entry "Offhand_Dual_Wield"
@@ -928,6 +936,21 @@ data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCast"
 data "Conditions" "Combat(context.Source) and IsSpell() and not IsCantrip() and (HasUseCosts('SpellSlot') or HasUseCosts('WarlockSpellSlot')) and not HasStatus('CT_LONEWOLF_1', context.Source)"
 data "StatsFunctors" "ApplyStatus(SELF,ARCANE_BLOWBACK,100,1)"
+
+<!--MULTI HIT BLOCKER-->
+
+new entry "Multihit_Blocker_Applicator"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "Enemy() and IsSpell() and not AreaRadiusGreaterThan(1)"
+data "StatsFunctors" "ApplyStatus(SELF,MULTIHIT_BLOCKER,100,1)"
+
+new entry "Multihit_Blocker_Remover"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCastResolved"
+data "StatsFunctors" "RemoveStatus(MULTIHIT_BLOCKER)"
 
 <!--PARTY AI CONTROL-->
 

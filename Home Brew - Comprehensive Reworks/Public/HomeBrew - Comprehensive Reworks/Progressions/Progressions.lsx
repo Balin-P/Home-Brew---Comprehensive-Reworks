@@ -12423,7 +12423,7 @@
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="5" />
 					<attribute id="Name" type="LSString" value="Archfey" />
-					<attribute id="PassivesAdded" type="LSString" value="EldritchOverflow" />
+					<attribute id="PassivesAdded" type="LSString" value="EldritchOverflow;EldritchOverflow_Lance" />
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="TableUUID" type="guid" value="7e1e0190-bd32-4ca6-9623-8adebeba74d4" />
 					<attribute id="UUID" type="guid" value="716cd777-fbdc-4664-aad9-fbf79d7a41cc" />

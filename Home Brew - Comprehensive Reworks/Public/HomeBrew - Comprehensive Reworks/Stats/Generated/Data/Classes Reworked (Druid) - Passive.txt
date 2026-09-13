@@ -792,8 +792,7 @@ data "Properties" "ForceShowInCC;Highlighted"
 data "Icon" "Icon_Totemist_Generic"
 data "DisplayName" "h9d711310b78d4333b27081045970b552gd07;1"
 data "Description" "h6c746e17bb8849fab38981d526a7157eab5d;1"
-data "Boosts" "UnlockSpellVariant(IsTotemSummonSpell(),ModifyUseCosts(Replace,WildShape,0,-1,WildShape))"
-data "Boosts" "UnlockSpell(Target_Totemist_Supercharge)"
+data "Boosts" "UnlockSpell(Target_Totemist_Supercharge);UnlockSpellVariant(IsTotemSummonSpell(),ModifyUseCosts(Replace,WildShape,0,-1,WildShape))"
 
 <!--WILDSHAPE PASSIVES-->
 
@@ -1206,7 +1205,7 @@ data "ExtraDescription" "h197f62bbgd1ddg4436g90df5s6s5d4f56f45"
 data "Icon" "PassiveFeature_NaturesWard"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "not IsKillingBlow() and IsAttack() and (HasStatus('SG_Polymorph_BeastShape', context.Source) or HasStatus('DRYAD_PASSIVE_ACTUAL', context.Source) or HasStatus('WILDSHAPE_STARRY_ARCHER_PLAYER', context.Source) or HasStatus('WILDSHAPE_STARRY_CHALICE_PLAYER', context.Source) or HasStatus('WILDSHAPE_STARRY_DRAGON_PLAYER', context.Source) or HasStatus('WILDSHAPE_EYESOFTHECOSMOS', context.Source) or HasStatus('SYMBIOTIC_ENTITY', context.Source))"
+data "Conditions" "not IsKillingBlow() and IsAttack() and (HasStatus('SG_Polymorph_BeastShape', context.Source) or HasStatus('DRYAD_PASSIVE_ACTUAL', context.Source) or HasStatus('WILDSHAPE_STARRY_ARCHER_PLAYER', context.Source) or HasStatus('WILDSHAPE_STARRY_CHALICE_PLAYER', context.Source) or HasStatus('WILDSHAPE_STARRY_DRAGON_PLAYER', context.Source) or HasStatus('WILDSHAPE_EYESOFTHECOSMOS', context.Source) or HasStatus('SYMBIOTIC_ENTITY', context.Source) or HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_ACID', context.Source) or HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_COLD', context.Source) or HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_FIRE', context.Source) or HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_LIGHTNING', context.Source) or HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_THUNDER', context.Source))"
 data "StatsFunctors" "IF(not SavingThrow(Ability.Constitution, ManeuverSaveDC())):ApplyStatus(GAPING_WOUND,100,3)"
 
 new entry "Primal_Surge"
@@ -1225,7 +1224,7 @@ data "ExtraDescription" "h197f62bbgd1ddg4436g90df5s6s5d4f56f45"
 data "Icon" "PassiveFeature_NaturesWard"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "not IsKillingBlow() and IsAttack() and (HasStatus('SG_Polymorph_BeastShape', context.Source) or HasStatus('DRYAD_PASSIVE_ACTUAL', context.Source) or HasStatus('WILDSHAPE_STARRY_ARCHER_PLAYER', context.Source) or HasStatus('WILDSHAPE_STARRY_CHALICE_PLAYER', context.Source) or HasStatus('WILDSHAPE_STARRY_DRAGON_PLAYER', context.Source) or HasStatus('WILDSHAPE_EYESOFTHECOSMOS', context.Source) or HasStatus('SYMBIOTIC_ENTITY', context.Source))"
+data "Conditions" "not IsKillingBlow() and IsAttack() and (HasStatus('SG_Polymorph_BeastShape', context.Source) or HasStatus('DRYAD_PASSIVE_ACTUAL', context.Source) or HasStatus('WILDSHAPE_STARRY_ARCHER_PLAYER', context.Source) or HasStatus('WILDSHAPE_STARRY_CHALICE_PLAYER', context.Source) or HasStatus('WILDSHAPE_STARRY_DRAGON_PLAYER', context.Source) or HasStatus('WILDSHAPE_EYESOFTHECOSMOS', context.Source) or HasStatus('SYMBIOTIC_ENTITY', context.Source) or HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_ACID', context.Source) or HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_COLD', context.Source) or HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_FIRE', context.Source) or HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_LIGHTNING', context.Source) or HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_THUNDER', context.Source))"
 data "StatsFunctors" "IF(not SavingThrow(Ability.Strength, ManeuverSaveDC())):ApplyStatus(PRONE,100,1)"
 
 new entry "Shapechangers_Versatility"

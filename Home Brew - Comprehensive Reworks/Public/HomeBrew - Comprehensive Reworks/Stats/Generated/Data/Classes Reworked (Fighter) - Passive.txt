@@ -338,6 +338,7 @@ data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnCast"
 data "Conditions" "SpellId('BaitAndSwitch') or SpellId('Brace') or SpellId('Shout_ChargeManeuver') or SpellId('Target_CommandersStrike') or SpellId('Target_DisarmingAttack') or SpellId('Projectile_DisarmingAttack') or SpellId('Target_DistractingStrike') or SpellId('Projectile_DistractingStrike') or SpellId('Shout_EvasiveFootwork') or SpellId('Target_FeintingAttack') or SpellId('Target_ChallengersStrike') or SpellId('Projectile_ChallengersStrike') or SpellId('Shout_LungingAttack') or SpellId('Target_ManeuveringAttack') or SpellId('Projectile_ManeuveringAttack') or SpellId('Target_MenacingAttack') or SpellId('Projectile_MenacingAttack') or SpellId('Shout_Parry') or SpellId('Shout_PrecisionAttack') or SpellId('Target_PushingAttack') or SpellId('Projectile_PushingAttack') or SpellId('Throw_QuickToss') or SpellId('Target_Rally') or SpellId('Interrupt_Riposte') or SpellId('Zone_SweepingAttack') or SpellId('Target_TripAttack') or SpellId('Projectile_TripAttack')"
 data "StatsFunctors" "ApplyStatus(SELF,FROM_BEYOND, 100, 3)"
+data "Boosts" "UnlockSpell(Target_EldritchStrike,AddChildren,e9127b70-22b7-42a1-b172-d02f828f260a)"
 
 new entry "Ex_Oblivione"
 type "PassiveData"

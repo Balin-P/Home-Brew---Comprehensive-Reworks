@@ -683,7 +683,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">ELMINSTER</content>
 
 	<content contentuid="d247707e4caa4901b85064c78056a5passive" version="1">Gouda Riddance</content>
-	<content contentuid="b80fb80c0a5e432ca5cd78f85df6b1passive" version="1">This creature turns any mortals who would dare to damage him into a fine block of cheese for three turns. And then they die. This effect will only occur if Elminster isn't hungry.</content>
+	<content contentuid="b80fb80c0a5e432ca5cd78f85df6b1passive" version="1">This creature turns any mortals who would dare to damage him into a fine block of cheese for three turns. And then they die. This effect will only occur if Elminster is hungry.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">GERRINGOTHE THORM</content>
 

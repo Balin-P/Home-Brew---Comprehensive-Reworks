@@ -335,7 +335,7 @@
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000h" version="2">Gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; based &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. In addition, your Strength is increased by [1].</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800010" version="1">Rage of the Mountain</content>
-	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000j" version="2">While enraged, you also benefit from the effects of &lt;LSTag Type="Status" Tooltip="THAUMATURGY_BARBARIAN"&gt;Titan's Boon&lt;/LSTag&gt;.</content>
+	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000j" version="2">While enraged, you also benefit from the effects of &lt;LSTag Type="Status" Tooltip="THAUMATURGY_BARBARIAN"&gt;Titan's Boon&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt; No effect if you are already raging as a &lt;LSTag Type="Status" Tooltip="RAGE_GIANT"&gt;Giant's Blood Barbarian&lt;/LSTag&gt;.</content>
 
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf800011" version="1">Rage of the Undefeated</content>
 	<content contentuid="66706bd4b60a4ca88b703f3fc04bfaf80000k" version="2">While below 25% of your total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, you may make an additional &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;Melee Weapon Attack&lt;/LSTag&gt; using your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;.</content>

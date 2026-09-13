@@ -1,28 +1,5 @@
 <!---------------------------------------------------------------------------------------------------MISC--------------------------------------------------------------------------------------------------->
 
-<!--DOWNED AUTO REVIVE-->
-
-new entry "Downed_CombatEnded"
-type "PassiveData"
-data "Properties" "IsHidden"
-data "StatsFunctorContext" "OnCombatEnded"
-data "StatsFunctors" "RegainHitPoints(1)"
-
-<!--MULTI HIT SPELLS-->
-
-new entry "Multihit_Blocker_Applicator"
-type "PassiveData"
-data "Properties" "IsHidden"
-data "StatsFunctorContext" "OnDamage"
-data "Conditions" "Enemy() and IsSpell() and not AreaRadiusGreaterThan(1)"
-data "StatsFunctors" "ApplyStatus(SELF,MULTIHIT_BLOCKER,100,1)"
-
-new entry "Multihit_Blocker_Remover"
-type "PassiveData"
-data "Properties" "IsHidden"
-data "StatsFunctorContext" "OnCastResolved"
-data "StatsFunctors" "RemoveStatus(MULTIHIT_BLOCKER)"
-
 <!--SHORT RESTING-->
 
 new entry "ShortResting"

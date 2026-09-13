@@ -450,7 +450,7 @@
 	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe50zs" version="2">Expend your &lt;LSTag Type="ActionResource" Tooltip="ActionPoint"&gt;Action&lt;/LSTag&gt; to regain your &lt;LSTag Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;.</content>
 
 	<content contentuid="115fb28f01e84e44b3536f475sd5f4ef2f020" version="1">Vital Aim</content>
-	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500t" version="2">Landing a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; inflicts a &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wound&lt;/LSTag&gt; on your target.</content>
+	<content contentuid="115fb28f01e84e44b3536f4741b47sdfe500t" version="2">Landing a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with a &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attack&lt;/LSTag&gt; inflicts three stacks of &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt; on your target.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">FIREARMS</content>
 

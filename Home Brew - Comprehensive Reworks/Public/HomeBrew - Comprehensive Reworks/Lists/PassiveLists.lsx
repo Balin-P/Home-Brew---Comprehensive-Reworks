@@ -107,7 +107,7 @@
                     <attribute id="UUID" type="guid" value="c69c33a2-671c-46e1-a92c-656fe64ed447" />
 					</node>
         <node id="PassiveList">
-                    <attribute id="Passives" type="LSString" value="BaneofthePact,BindingTransposition,BoundElements,BoundCompulsion,CurseofHellfire,DarkRetaliation,CDevilsSight,EldritchEnervation,EldritchLance,EldritchStrike,HellishRebuttal,HellboundVision,LuckoftheDevil,MasterofChaos,OneWithShadows,PactProtection,PactStricken,RepellingBlast,ResiliantServitude,ShadeWalker" />
+                    <attribute id="Passives" type="LSString" value="BaneofthePact,BindingTransposition,BoundElements,BoundCompulsion,CurseofHellfire,DarkRetaliation,CDevilsSight,EldritchEnervation,EldritchLethargy,EldritchPull,HellishRebuttal,HellboundVision,LuckoftheDevil,MasterofChaos,OneWithShadows,PactProtection,PactStricken,RepellingBlast,ResiliantServitude,ShadeWalker" />
                     <attribute id="UUID" type="guid" value="fd7736fa-5c64-475e-a4c9-f4061690d8c4" />
 					</node>
         <node id="PassiveList">

@@ -331,7 +331,9 @@
 	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000e" version="3">Upon dealing damage with your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, you apply &lt;LSTag Type="Status" Tooltip="ELDRITCH_STRIKE"&gt;Eldritch Inertia&lt;/LSTag&gt;. In addition, killing a creature with your Eldritch Blast will potentially remove one stack of &lt;LSTag Type="Spell" Tooltip="Shout_HematicInvocation"&gt;Hematic Invocation&lt;/LSTag&gt;.</content>
 
 	<content contentuid="ha9cadfc2g5dbcg4e6bgb410gb25e02e00002" version="1">Eldritch Overflow</content>
-	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000b" version="3">You are capable of dividing your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; into two separate beams. Each beam will deal 1d12 Force damage. This can be toggled at any time.</content>
+	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000b" version="3">You are capable of dividing your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; into two separate beams. Each beam will deal 1d12 Force damage. This can be toggled at any time.&lt;br&gt;&lt;br&gt;In addition, you gain &lt;LSTag Type="Spell" Tooltip="Zone_EldritchLance"&gt;Eldritch Lance&lt;/LSTag&gt;.</content>
+	<content contentuid="h5b41e534gf582g4d6bgb33cg06086s45d6f8" version="5">Eldritch Lance</content>
+	<content contentuid="hb0fbe645ge1dbg4106g99bege9w9er7d5685" version="1">Fire a concentrated variant of your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, which pierces enemies.&lt;br&gt;&lt;br&gt;Most passives which modify your Eldritch Blast also modify your Eldritch Lance.</content>
 
 	<content contentuid="ha9cadfc2g5dbcg4e6bgb410gb25e02e00001" version="1">Mystic Precision</content>
 	<content contentuid="hc5506949g2e54g47b0gb8b6g69dffdd0000a" version="3">When you cast &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, the number you need in order to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by 2.</content>
@@ -376,15 +378,13 @@
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c74696a497" version="5">Eldritch Enervation</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0af5966939ff" version="1">Dealing damage with your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; heals you for a value equal to your &lt;LSTag Tooltip="AbilityModifier"&gt;Charisma Modifier&lt;/LSTag&gt;.</content>
 
-	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c7469928ii" version="5">Eldritch Lance</content>
-	<content contentuid="h53277800gd3a4g4984gbff6g0af596699987" version="1">Gain the ability to fire a concentrated variant of your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, which pierces enemies at the cost of one &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slot&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Most passives which modify your Eldritch Blast will also modify your &lt;LSTag Type="Spell" Tooltip="Zone_EldritchLance"&gt;Eldritch Lance&lt;/LSTag&gt;.</content>
-	<content contentuid="h5b41e534gf582g4d6bgb33cg06086s45d6f8" version="5">Eldritch Lance</content>
-	<content contentuid="hb0fbe645ge1dbg4106g99bege9w9er7d5685" version="1">Fire a concentrated variant of your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, which pierces enemies.&lt;br&gt;&lt;br&gt;Most passives which modify your Eldritch Blast also modify your Eldritch Lance.</content>
+	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c7469928ii" version="5">Eldritch Lethargy</content>
+	<content contentuid="h53277800gd3a4g4984gbff6g0af596699987" version="1">When you hit a creature with &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, you halve their &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt;. This passive can be toggled at any time.</content>
+	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c7469928zi" version="5">Eldritch Lethargy</content>
+	<content contentuid="h53277800gd3a4g4984gbff6g0af5966999z7" version="1">Affected creature's &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt; is halved.</content>
 
-	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c7469212aa" version="5">Eldritch Strike</content>
-	<content contentuid="h53277800gd3a4g4984gbff6g0af596666799" version="1">Gain the ability to channel your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; into your main-hand weapon at the cost of one &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock Spell Slot&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Upon landing a blow with Eldritch Strike, you erupt with Eldritch energy, causing you to fire a beam of your Eldritch Blast at an enemy within [1].</content>
-	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c74s56df2e" version="5">Eldritch Strike</content>
-	<content contentuid="h53277800gd3a4g4984gbff6g0af5689ed568" version="1">Channel your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; into your main-hand weapon and strike a target.&lt;br&gt;&lt;br&gt;Upon landing a blow with Eldritch Strike, you erupt with Eldritch energy, causing you to fire your Eldritch Blast at an enemy within [1].</content>
+	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c7469212aa" version="5">Eldritch Pull</content>
+	<content contentuid="h53277800gd3a4g4984gbff6g0af596666799" version="1">When you hit a creature with &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt;, you pull the creature up to [1] to you. This passive can be toggled at any time.</content>
 
 	<content contentuid="hcbb02b50g75d3g468fgacb6gb7c74696a699" version="5">Hellish Rebuttal</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0af59669333f" version="1">When an enemy fails an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against you, you gain &lt;LSTag Type="Status" Tooltip="TRUE_STRIKE"&gt;True Strike&lt;/LSTag&gt; until the end of your next turn. In addition, your summoned creatures ignore all forms of physical damage &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>

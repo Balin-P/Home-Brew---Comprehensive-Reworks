@@ -2821,7 +2821,7 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "c84f670f8f044d128fd7132cc2f848b700002;1"
 data "Description" "c84f670f8f044d128fd7132cc2f848b70000b;1"
-data "DescriptionParams" "Distance(9)"
+data "DescriptionParams" "Distance(9);DealDamage(1d4,Piercing)"
 data "Icon" "Spell_2e_FriendFetch"
 
 new entry "Tooltip_Dagger_Tail"

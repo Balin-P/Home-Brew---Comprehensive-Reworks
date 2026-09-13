@@ -1112,7 +1112,7 @@ data "Icon" "Passive_SoulOfArtefice"
 data "Properties" "Highlighted;ForceShowInCC"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsCritical() and Character() and not Self() and not Ally() and IsRangedWeaponAttack()"
-data "StatsFunctors" "ApplyStatus(GAPING_WOUND,100,1)"
+data "StatsFunctors" "ApplyStatus(GAPING_WOUND,100,3)"
 
 <!--SUMMON PASSIVES-->
 
