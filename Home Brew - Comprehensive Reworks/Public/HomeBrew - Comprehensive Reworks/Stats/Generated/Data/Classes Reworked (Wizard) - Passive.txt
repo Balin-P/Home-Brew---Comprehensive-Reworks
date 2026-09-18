@@ -768,7 +768,7 @@ data "Properties" "Highlighted;ForceShowInCC;OncePerCombat"
 data "Boosts" "UnlockSpell(Target_BindUndead)"
 data "StatsFunctorContext" "OnCombatStarted;OnTurn"
 data "Conditions" "Combat() and not IsAetherSuspended(context.Source)"
-data "StatsFunctors" "GROUND:Summon(54a69e66-3e4c-437c-97c4-66810cd383ca, UntilLongRest,,,,SHADOWCURSE_SUMMON_CHECK,SUMMON_LOSECONTROL,UNSUMMON_ABLE)"
+data "StatsFunctors" "GROUND:Summon(54a69e66-3e4c-437c-97c4-66810cd383ca, UntilLongRest,,,,SHADOWCURSE_SUMMON_CHECK,UNSUMMON_ABLE)"
 
 new entry "RaiseHell"
 type "PassiveData"

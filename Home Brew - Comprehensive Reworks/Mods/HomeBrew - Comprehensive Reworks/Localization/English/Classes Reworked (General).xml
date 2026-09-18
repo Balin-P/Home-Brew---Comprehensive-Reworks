@@ -734,6 +734,7 @@
 	<content contentuid="h4d4b577779a048fbb78cd244e0b84b17b85b" version="1">Druid: Circle of the Spores</content>
 	<content contentuid="ha82b54fa9f7949ce9a572079139362c3046d" version="1">Druid: Circle of the Stars</content>
 	<content contentuid="ha82b54fa9f7949ce9a572079139362totems" version="1">Druid: Circle of the Totemic</content>
+	<content contentuid="ha82b54fa9f7949ce9a572079139362spider" version="1">Druid: Circle of the Venom</content>
 
 	<content contentuid="h9766190f1fd349f88a57bf00f99c3419fbf1" version="1">Fighter: Arcane Archer</content>
 	<content contentuid="h8e07c781f6be48bb8d11f539e1c8b49bg65b" version="1">Fighter: Champion</content>
@@ -773,6 +774,7 @@
 	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00006" version="1">Rogue: Virulence</content>
 
 	<content contentuid="h74cb6d76f7084d1d9ccca5ba1622140f3c7d" version="1">Sorcerer: Draconic Bloodline</content>
+	<content contentuid="h74cb6d76f7084d1d9ccca5ba1622140blood" version="1">Sorcerer: Hematic Monarch</content>
 	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00008" version="1">Sorcerer: Radiant Bloom</content>
 	<content contentuid="h73a8aafef8874258bc6950b4c4d569b0842e" version="1">Sorcerer: Shade Walker</content>
 	<content contentuid="5b9c6b9f8fb541f3839d6c3738507a9c00007" version="1">Sorcerer: Soul of the Tundral</content>

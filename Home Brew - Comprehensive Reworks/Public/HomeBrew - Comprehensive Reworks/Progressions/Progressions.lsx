@@ -4070,6 +4070,9 @@
 										<node id="SubClass">
 											<attribute id="Object" type="guid" value="8a220e31-1ea0-424d-b825-d247bf1469ed" />
 										</node>
+										<node id="SubClass">
+											<attribute id="Object" type="guid" value="60968b92-a822-40d5-8569-00c37d5e08a8" />
+										</node>
 								</children>
 							</node>
 						</children>
@@ -4107,6 +4110,9 @@
 										</node>
 										<node id="SubClass">
 											<attribute id="Object" type="guid" value="8a220e31-1ea0-424d-b825-d247bf1469ed" />
+										</node>
+										<node id="SubClass">
+											<attribute id="Object" type="guid" value="60968b92-a822-40d5-8569-00c37d5e08a8" />
 										</node>
 								</children>
 							</node>
@@ -4448,7 +4454,7 @@
 					<attribute id="UUID" type="guid" value="1177580a-a0e4-4da2-928b-f0151ad87339" />
 					</node>
 
-<!--DRUID (CIRCLE OF ELEMENTS)-->
+<!--DRUID (CIRCLE OF THE ELEMENTS)-->
 
         <node id="Progression">
 					<attribute id="Level" type="uint8" value="1" />
@@ -5126,6 +5132,102 @@
 					<attribute id="ProgressionType" type="uint8" value="1" />
 					<attribute id="TableUUID" type="guid" value="a2bfaf60-1799-4fe2-91b5-7bcf152993cb" />
 					<attribute id="UUID" type="guid" value="575d3434-8c22-40bf-a416-8cdd64d8baff" />
+					</node>
+
+<!--DRUID (CIRCLE OF THE VENOM)-->
+
+        <node id="Progression">
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="CircleoftheVenom"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ClassProgression_CircleoftheVenom;Beastcraft;BroodmareApotheosis"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+					<attribute id="Selectors" type="LSString" value="SelectSpells(048d3543-1ac4-4eb9-b6a8-1713d8ff5f91,1,0,Wildshape)" />
+                    <attribute id="TableUUID" type="guid" value="83fafe23-7f67-40de-a359-526646fb6a21"/>
+                    <attribute id="UUID" type="guid" value="83fafe23-7f67-40de-a359-000000000001"/>
+					</node>
+        <node id="Progression">
+                    <attribute id="Level" type="uint8" value="2"/>
+                    <attribute id="Name" type="LSString" value="CircleoftheVenom"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="83fafe23-7f67-40de-a359-526646fb6a21"/>
+                    <attribute id="UUID" type="guid" value="83fafe23-7f67-40de-a359-000000000002"/>
+					</node>
+        <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="CircleoftheVenom"/>
+                    <attribute id="PassivesAdded" type="LSString" value="FriendlyNeighborhood"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="83fafe23-7f67-40de-a359-526646fb6a21"/>
+                    <attribute id="UUID" type="guid" value="83fafe23-7f67-40de-a359-000000000003"/>
+					</node>
+        <node id="Progression">
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="CircleoftheVenom"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="83fafe23-7f67-40de-a359-526646fb6a21"/>
+                    <attribute id="UUID" type="guid" value="83fafe23-7f67-40de-a359-000000000004"/>
+					</node>
+        <node id="Progression">
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="CircleoftheVenom"/>
+                    <attribute id="PassivesAdded" type="LSString" value="CharlottesKiss"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+					<attribute id="Selectors" type="LSString" value="SelectSpells(048d3543-1ac4-4eb9-b6a8-1713d8ff5f91,1,0,Wildshape)" />
+                    <attribute id="TableUUID" type="guid" value="83fafe23-7f67-40de-a359-526646fb6a21"/>
+                    <attribute id="UUID" type="guid" value="83fafe23-7f67-40de-a359-000000000005"/>
+					</node>
+        <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="CircleoftheVenom"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="83fafe23-7f67-40de-a359-526646fb6a21"/>
+                    <attribute id="UUID" type="guid" value="83fafe23-7f67-40de-a359-000000000006"/>
+					</node>
+        <node id="Progression">
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="CircleoftheVenom"/>
+                    <attribute id="PassivesAdded" type="LSString" value="DeepnestPenetration"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="83fafe23-7f67-40de-a359-526646fb6a21"/>
+                    <attribute id="UUID" type="guid" value="83fafe23-7f67-40de-a359-000000000007"/>
+					</node>
+        <node id="Progression">
+                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Name" type="LSString" value="CircleoftheVenom"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="83fafe23-7f67-40de-a359-526646fb6a21"/>
+                    <attribute id="UUID" type="guid" value="83fafe23-7f67-40de-a359-000000000008"/>
+					</node>
+        <node id="Progression">
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="CircleoftheVenom"/>
+                    <attribute id="PassivesAdded" type="LSString" value="CocoonTombLullaby"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+					<attribute id="Selectors" type="LSString" value="SelectSpells(048d3543-1ac4-4eb9-b6a8-1713d8ff5f91,1,0,Wildshape)" />
+                    <attribute id="TableUUID" type="guid" value="83fafe23-7f67-40de-a359-526646fb6a21"/>
+                    <attribute id="UUID" type="guid" value="83fafe23-7f67-40de-a359-000000000009"/>
+					</node>
+        <node id="Progression">
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="CircleoftheVenom"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="83fafe23-7f67-40de-a359-526646fb6a21"/>
+                    <attribute id="UUID" type="guid" value="83fafe23-7f67-40de-a359-000000000010"/>
+					</node>
+        <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="CircleoftheVenom"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ASurgeofSilkandVenom"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="83fafe23-7f67-40de-a359-526646fb6a21"/>
+                    <attribute id="UUID" type="guid" value="83fafe23-7f67-40de-a359-000000000011"/>
+					</node>
+        <node id="Progression">
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="CircleoftheVenom"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="83fafe23-7f67-40de-a359-526646fb6a21"/>
+                    <attribute id="UUID" type="guid" value="83fafe23-7f67-40de-a359-000000000012"/>
 					</node>
 
 <!--DRUID (NPC BUG FIXES)-->
@@ -10572,16 +10674,19 @@
 											<attribute id="Object" type="guid" value="36286b0a-26f9-4b4e-9311-fd1404301d20" />
 										</node>
 										<node id="SubClass">
+											<attribute id="Object" type="guid" value="ec1b3d59-3aba-4e20-abc6-95282f20a1a1" />
+										</node>
+										<node id="SubClass">
 											<attribute id="Object" type="guid" value="75afaf5b-beec-4893-9102-d9037449bef5" />
 										</node>
 										<node id="SubClass">
 											<attribute id="Object" type="guid" value="b443a7fa-b36a-4cbc-9e4b-f3167de34d1b"/>
 										</node>
 										<node id="SubClass">
-											<attribute id="Object" type="guid" value="d379fdae-b401-4731-8d50-277c73919ae3" />
+											<attribute id="Object" type="guid" value="9bbd2505-c0a5-49c2-937c-48b6052e5c2a" />
 										</node>
 										<node id="SubClass">
-											<attribute id="Object" type="guid" value="9bbd2505-c0a5-49c2-937c-48b6052e5c2a" />
+											<attribute id="Object" type="guid" value="d379fdae-b401-4731-8d50-277c73919ae3" />
 										</node>
 										<node id="SubClass">
 											<attribute id="Object" type="guid" value="14374d37-a70e-41a8-9dc5-85a23f8b5dd2" />
@@ -10607,16 +10712,19 @@
 											<attribute id="Object" type="guid" value="36286b0a-26f9-4b4e-9311-fd1404301d20" />
 										</node>
 										<node id="SubClass">
+											<attribute id="Object" type="guid" value="ec1b3d59-3aba-4e20-abc6-95282f20a1a1" />
+										</node>
+										<node id="SubClass">
 											<attribute id="Object" type="guid" value="75afaf5b-beec-4893-9102-d9037449bef5" />
 										</node>
 										<node id="SubClass">
 											<attribute id="Object" type="guid" value="b443a7fa-b36a-4cbc-9e4b-f3167de34d1b"/>
 										</node>
 										<node id="SubClass">
-											<attribute id="Object" type="guid" value="d379fdae-b401-4731-8d50-277c73919ae3" />
+											<attribute id="Object" type="guid" value="9bbd2505-c0a5-49c2-937c-48b6052e5c2a" />
 										</node>
 										<node id="SubClass">
-											<attribute id="Object" type="guid" value="9bbd2505-c0a5-49c2-937c-48b6052e5c2a" />
+											<attribute id="Object" type="guid" value="d379fdae-b401-4731-8d50-277c73919ae3" />
 										</node>
 										<node id="SubClass">
 											<attribute id="Object" type="guid" value="14374d37-a70e-41a8-9dc5-85a23f8b5dd2" />
@@ -11058,7 +11166,100 @@
 					<attribute id="TableUUID" type="guid" value="35aa255d-3eb7-4e93-8092-7545ced25b09" />
 					<attribute id="UUID" type="guid" value="0308db2f-1ed5-4a5f-8b11-8dec627e84ea" />
 					</node>
-					
+
+<!--SORCERER (HEMATIC MONARCH)-->
+
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="1" />
+					<attribute id="Name" type="LSString" value="HematicMonarch" />
+					<attribute id="PassivesAdded" type="LSString" value="ClassProgression_HematicMonarch;ThereWillBeBlood" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="ffd6d5a6-2dcb-4878-b497-47e9a884a5f1" />
+					<attribute id="UUID" type="guid" value="ec1b3d59-3aba-4e20-abc6-95282f20a101" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="2" />
+					<attribute id="Name" type="LSString" value="HematicMonarch" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="ffd6d5a6-2dcb-4878-b497-47e9a884a5f1" />
+					<attribute id="UUID" type="guid" value="ec1b3d59-3aba-4e20-abc6-95282f20a102" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="3" />
+					<attribute id="Name" type="LSString" value="HematicMonarch" />
+					<attribute id="PassivesAdded" type="LSString" value="ASymphonyofRed" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="ffd6d5a6-2dcb-4878-b497-47e9a884a5f1" />
+					<attribute id="UUID" type="guid" value="ec1b3d59-3aba-4e20-abc6-95282f20a103" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="4" />
+					<attribute id="Name" type="LSString" value="HematicMonarch" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="ffd6d5a6-2dcb-4878-b497-47e9a884a5f1" />
+					<attribute id="UUID" type="guid" value="ec1b3d59-3aba-4e20-abc6-95282f20a104" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="5" />
+					<attribute id="Name" type="LSString" value="HematicMonarch" />
+					<attribute id="PassivesAdded" type="LSString" value="BleedItOut" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="ffd6d5a6-2dcb-4878-b497-47e9a884a5f1" />
+					<attribute id="UUID" type="guid" value="ec1b3d59-3aba-4e20-abc6-95282f20a105" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="6" />
+					<attribute id="Name" type="LSString" value="HematicMonarch" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="ffd6d5a6-2dcb-4878-b497-47e9a884a5f1" />
+					<attribute id="UUID" type="guid" value="ec1b3d59-3aba-4e20-abc6-95282f20a106" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="7" />
+					<attribute id="Name" type="LSString" value="HematicMonarch" />
+					<attribute id="PassivesAdded" type="LSString" value="RainingBlood" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="ffd6d5a6-2dcb-4878-b497-47e9a884a5f1" />
+					<attribute id="UUID" type="guid" value="ec1b3d59-3aba-4e20-abc6-95282f20a107" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="8" />
+					<attribute id="Name" type="LSString" value="HematicMonarch" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="ffd6d5a6-2dcb-4878-b497-47e9a884a5f1" />
+					<attribute id="UUID" type="guid" value="ec1b3d59-3aba-4e20-abc6-95282f20a108" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="9" />
+					<attribute id="Name" type="LSString" value="HematicMonarch" />
+					<attribute id="PassivesAdded" type="LSString" value="SanguineMyBrother" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="ffd6d5a6-2dcb-4878-b497-47e9a884a5f1" />
+					<attribute id="UUID" type="guid" value="ec1b3d59-3aba-4e20-abc6-95282f20a109" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="10" />
+					<attribute id="Name" type="LSString" value="HematicMonarch" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="ffd6d5a6-2dcb-4878-b497-47e9a884a5f1" />
+					<attribute id="UUID" type="guid" value="ec1b3d59-3aba-4e20-abc6-95282f20a110" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="11" />
+					<attribute id="Name" type="LSString" value="HematicMonarch" />
+					<attribute id="PassivesAdded" type="LSString" value="LordofExultation" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="ffd6d5a6-2dcb-4878-b497-47e9a884a5f1" />
+					<attribute id="UUID" type="guid" value="ec1b3d59-3aba-4e20-abc6-95282f20a111" />
+					</node>
+        <node id="Progression">
+					<attribute id="Level" type="uint8" value="12" />
+					<attribute id="Name" type="LSString" value="HematicMonarch" />
+					<attribute id="ProgressionType" type="uint8" value="1" />
+					<attribute id="TableUUID" type="guid" value="ffd6d5a6-2dcb-4878-b497-47e9a884a5f1" />
+					<attribute id="UUID" type="guid" value="ec1b3d59-3aba-4e20-abc6-95282f20a112" />
+					</node>
+			
 <!--SORCERER (RADIANT BLOOM)-->
 
         <node id="Progression">

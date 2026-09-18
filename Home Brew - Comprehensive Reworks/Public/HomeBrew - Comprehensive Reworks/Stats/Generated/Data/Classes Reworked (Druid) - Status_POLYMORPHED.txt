@@ -1415,8 +1415,6 @@ data "StatusType" "POLYMORPHED"
 using "CWILDSHAPE_MYRMIDON_WATER_PLAYER_1"
 data "TemplateID" "6c82f01b-d201-444c-0015-000000000012"
 
-<!--CIRCLE OF THE SHADOWS-->
-
 <!--DISPLACERBEAST-->
 
 new entry "CWILDSHAPE_DISPLACERBEAST_PLAYER_1"
@@ -1501,6 +1499,91 @@ type "StatusData"
 data "StatusType" "POLYMORPHED"
 using "CWILDSHAPE_DISPLACERBEAST_PLAYER_1"
 data "TemplateID" "614a564f-73db-433e-0010-000000000012"
+
+<!--BROODMARE PHASE SPIDER-->
+
+new entry "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_1"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_BADGER_PLAYER_1"
+data "DisplayName" "83fafe237f6740dea359526646fb6a2100zz1;1"
+data "Icon" "Spell_Abjuration_GiantInsect_Spider"
+data "Boosts" "VoicebarkBlock();BlockSpellCast();UnlockSpell(Shout_WildShape_Dismiss);IF(HasPassive('WildShape_Combat',context.Source)):UnlockSpell(Shout_WildShape_Combat_Heal,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989);StatusImmunity(WEB);StatusImmunity(DIFFICULT_TERRAIN_WEB);AttackSpellOverride(Target_Bite_PhaseSpider_Broodmare, Target_MainHandAttack);AttackSpellOverride(Target_Bite_PhaseSpider_Broodmare, Projectile_MainHandAttack)"
+data "OnRemoveFunctors" "ApplyStatus(SELF,WILDSHAPE_SPIDER_GIANT_REMOVE_VFX,100,1);ApplyStatus(SELF, WILDSHAPE_TECHNICAL,100,1)"
+data "TemplateID" "614a564f-73db-433e-0011-000000000001"
+data "Rules" "9c580a1d-dab9-4b17-b0da-b16c7d7360e0"
+data "Passives" "Wildshape_Swap;Wildshape_Swap_Applicator;Wildshape_Removal;SpiderWalk;Wildshape_Spider_Arachnid;CreaturePassive_Aware"
+data "StatusGroups" "SG_Polymorph_BeastShape;SG_DropForNonMutingDialog;SG_RemoveOnRespec"
+data "ApplyEffect" "f515b011-9b9d-462c-85e1-a79bc9055962"
+data "OnApplyFunctors" "RemoveStatus(LIGHTSENSITIVITY_BUFF);IF(not Player()):UseActionResource(BonusActionPoint,1,0);IF(not Player()):UseActionResource(WildShape,1,0);IF(not HasStatus('WILDSHAPE_SWAP', context.Source)):ApplyStatus(WILDSHAPE_SWAP,100,10);IF(Tagged('REALLY_KARLACH')):ApplyStatus(FIRE_VFX,100,-1)"
+data "StackId" "WILDSHAPE"
+data "StackType" "Ignore"
+
+new entry "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_2"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_1"
+data "TemplateID" "614a564f-73db-433e-0011-000000000002"
+
+new entry "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_3"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_1"
+data "TemplateID" "614a564f-73db-433e-0011-000000000003"
+
+new entry "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_4"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_1"
+data "TemplateID" "614a564f-73db-433e-0011-000000000004"
+
+new entry "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_5"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_1"
+data "TemplateID" "614a564f-73db-433e-0011-000000000005"
+
+new entry "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_6"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_1"
+data "TemplateID" "614a564f-73db-433e-0011-000000000006"
+
+new entry "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_7"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_1"
+data "TemplateID" "614a564f-73db-433e-0011-000000000007"
+
+new entry "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_8"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_1"
+data "TemplateID" "614a564f-73db-433e-0011-000000000008"
+
+new entry "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_9"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_1"
+data "TemplateID" "614a564f-73db-433e-0011-000000000009"
+
+new entry "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_10"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_1"
+data "TemplateID" "614a564f-73db-433e-0011-000000000010"
+
+new entry "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_11"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_1"
+data "TemplateID" "614a564f-73db-433e-0011-000000000011"
+
+new entry "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_12"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+using "CWILDSHAPE_BROODMARE_PHASE_SPIDER_PLAYER_1"
+data "TemplateID" "614a564f-73db-433e-0011-000000000012"
 
 <!--CIRCLE OF THE STARS-->
 

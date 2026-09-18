@@ -225,6 +225,13 @@ data "Description" "hbc1502e2fa1a4e339f1b9a733a2248c3a9f3;1"
 data "Icon" "Spell_Divination_Identify"
 data "Properties" "Highlighted;ForceShowInCC"
 
+new entry "ClassProgression_CircleoftheVenom"
+type "PassiveData"
+data "DisplayName" "h9cad9ed6fb554bbd87c6e512bd5522spider;1"
+data "Description" "hbc1502e2fa1a4e339f1b9a733a224spiderz;1"
+data "Icon" "Spell_Divination_Identify"
+data "Properties" "Highlighted;ForceShowInCC"
+
 <!--FIGHTER-->
 
 new entry "ClassProgression_ArcaneArcher"
@@ -465,6 +472,13 @@ new entry "ClassProgression_DraconicBloodline"
 type "PassiveData"
 data "DisplayName" "55ce1b701c9642a4a3dbf59a6810157f00101;1"
 data "Description" "55ce1b701c9642a4a3dbf59a6810157f0010a;1"
+data "Icon" "Spell_Divination_Identify"
+data "Properties" "Highlighted;ForceShowInCC"
+
+new entry "ClassProgression_HematicMonarch"
+type "PassiveData"
+data "DisplayName" "ec1b3d593aba4e20abc695282f20a1a1progr;1"
+data "Description" "ec1b3d593aba4e20abc695282f20a1a1prode;1"
 data "Icon" "Spell_Divination_Identify"
 data "Properties" "Highlighted;ForceShowInCC"
 
@@ -818,6 +832,13 @@ data "DisplayName" "55ce1b701c9642a4a3dbf59a681015totemic;1"
 data "Description" "55ce1b701c9642a4a3dbf59a68alsototemic;1"
 data "Icon" "Spell_Divination_Identify"
 
+new entry "StatusClassProgression_CircleoftheVenom"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "55ce1b701c9642a4a3dbf59a681015spiders;1"
+data "Description" "55ce1b701c9642a4a3dbf59a68alsospiderz;1"
+data "Icon" "Spell_Divination_Identify"
+
 <!--FIGHTER-->
 
 new entry "StatusClassProgression_ArcaneArcher"
@@ -1052,6 +1073,13 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "55ce1b701c9642a4a3dbf59a6810157fzz101;1"
 data "Description" "55ce1b701c9642a4a3dbf59a6810157fzz10a;1"
+data "Icon" "Spell_Divination_Identify"
+
+new entry "StatusClassProgression_HematicMonarch"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "ec1b3d593aba4e20abc695282f20a1a1pyoke;1"
+data "Description" "ec1b3d593aba4e20abc695282f20a1a12yoke;1"
 data "Icon" "Spell_Divination_Identify"
 
 new entry "StatusClassProgression_RadiantBloom"

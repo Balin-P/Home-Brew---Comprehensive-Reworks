@@ -123,6 +123,13 @@
                     <attribute id="UUID" type="guid" value="b88064e1-91bd-432a-b41c-be353ea1c394"/>
 					</node>
                 <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Shout_WildShape_Bear_Polar"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="Druid - Wildshape"/>
+                    <attribute id="TableUUID" type="guid" value="83fafe23-7f67-40de-a359-526646fb6a21"/>
+                    <attribute id="UUID" type="guid" value="16375eb2-2c82-4aef-844b-00b9b6721ef1"/>
+					</node>
+                <node id="DefaultValue">
                     <attribute id="Add" type="LSString" value="Target_GreenFlameBlade;Rush_PsionicCharge;Zone_SoulReaver"/>
                     <attribute id="Level" type="int32" value="1"/>
                     <attribute id="SelectorId" type="LSString" value="Fighter - Eldritch Knight"/>

@@ -469,6 +469,12 @@
                     <attribute id="Selectors" type="LSString" value="AddSpells(6b8d483d-9e5f-40ea-9bea-48f8da3ac9a8);AddSpells(937cf32f-5c3b-4e36-83c1-8e9737767988)" />
                     <attribute id="UUID" type="guid" value="51b7587d-966a-4f3b-b7c4-4e9fe8cf86f0"/> 
                 </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="DruidCircleoftheVenom"/>
+                    <attribute id="PassivesAdded" type="LSString" value="BroodmareApotheosis;FriendlyNeighborhood"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Druids&apos;)"/>
+                    <attribute id="UUID" type="guid" value="07845122-15ec-4c3a-8724-ef9c8fb72f48"/> 
+                </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="FighterArcaneArcher"/>
                     <attribute id="PassivesAdded" type="LSString" value="FocusedWeave;ElementalFletching;ArcaneFinesse"/>
@@ -674,6 +680,12 @@
 					<attribute id="Selectors" type="LSString" value="SelectPassives(c69c33a2-671c-46e1-a92c-656fe64ed447,1,DraconicAncestry)" />
                     <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Sorcerer&apos;)"/>
                     <attribute id="UUID" type="guid" value="ba1c505b-a3a8-483a-a061-a8b120c45c00"/>
+                </node>
+				<node id="Feat">
+                    <attribute id="Name" type="FixedString" value="SorcererHematicMonarch"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ThereWillBeBlood;ASymphonyofRed"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementProficiency(&apos;HB_Sorcerer&apos;)"/>
+                    <attribute id="UUID" type="guid" value="335d2999-28e5-4bfa-a107-534f5824748f"/>
                 </node>
 				<node id="Feat">
                     <attribute id="Name" type="FixedString" value="SorcererRadiantBloom"/>

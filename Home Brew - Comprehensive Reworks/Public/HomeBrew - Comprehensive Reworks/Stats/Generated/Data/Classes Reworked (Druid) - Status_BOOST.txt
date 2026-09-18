@@ -1234,6 +1234,29 @@ type "StatusData"
 data "StatusType" "BOOST"
 using "TOTEMIST_SUPERCHARGE_ELEMENTAL_BEAM"
 
+<!--CIRCLE OF THE VENOM-->
+
+new entry "FRIENDLYNEIGHBORHOOD_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Boosts" "StatusImmunity(WEB);StatusImmunity(DIFFICULT_TERRAIN_WEB)"
+data "StackId" "FRIENDLYNEIGHBORHOOD_AURA"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "AuraRadius" "18"
+data "AuraStatuses" "IF(not HasStatus('SITOUT_ONCOMBATSTART_APPLIER_TECHNICAL',context.Source) and not HasStatus('SITOUT_ONCOMBATSTART_DOONCE_TECHNICAL',context.Source) and not HasStatus('BANISHED',context.Source) and not HasStatus('BANISHED_FINALSTAND',context.Source) and Ally() and not Self()):ApplyStatus(FRIENDLYNEIGHBORHOOD,100,-1)"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "RemoveEvents" "OnCombatEnded"
+
+new entry "FRIENDLYNEIGHBORHOOD"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Boosts" "StatusImmunity(WEB);StatusImmunity(DIFFICULT_TERRAIN_WEB)"
+data "StackId" "FRIENDLYNEIGHBORHOOD"
+data "StackType" "Ignore"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "RemoveEvents" "OnCombatEnded"
+
 <!--WILDSHAPE FORMS-->
 
 new entry "BEAR_WILDSHAPE_PROTECTION"

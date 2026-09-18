@@ -1614,7 +1614,7 @@ data "AnimationEnd" "c6596d70-68b6-4174-8303-d7fa398d8f7a(STAT_Snare_Combat_01_E
 data "StillAnimationPriority" "Snared"
 data "StackId" "ENTOMBED"
 data "FreezeTime" ""
-data "Boosts" "Resistance(Piercing,Resistant);Resistance(Bludgeoning,Resistant);Resistance(Slashing,Resistant);Resistance(Acid,Resistant);Resistance(Cold,Resistant);Resistance(Fire,Resistant);Resistance(Force,Resistant);Resistance(Lightning,Resistant);Resistance(Necrotic,Resistant);Resistance(Poison,Resistant);Resistance(Psychic,Resistant);Resistance(Radiant,Resistant);Resistance(Thunder,Resistant);Attribute(Grounded);StatusImmunity(SG_Poisoned);Advantage(AttackTarget);Disadvantage(SavingThrow,Strength);AbilityFailedSavingThrow(Dexterity);DetectDisturbancesBlock(true);"
+data "Boosts" "Attribute(Grounded);Advantage(AttackTarget);Disadvantage(SavingThrow,Strength);AbilityFailedSavingThrow(Dexterity);DetectDisturbancesBlock(true);"
 data "TooltipSave" "Strength"
 data "StatusPropertyFlags" "InitiateCombat"
 data "RemoveEvents" "OnDamage"

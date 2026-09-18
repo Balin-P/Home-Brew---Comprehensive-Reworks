@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids" />
+	<region id="EffectBank">
+		<node id="EffectBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="83272ea3-464d-1ba2-f901-8c0f6323cb3e" />
+					<attribute id="Name" type="LSString" value="VFX_Totemist_LandspoutAura_GroundEffect_3m_NoDelay" />
+					<attribute id="SourceFile" type="LSString" value="Public/HomeBrew - Comprehensive Reworks/Assets/Effects/Effects_Banks/Status/VFX_Totemist_LandspoutAura_GroundEffect_3m_NoDelay.lsfx" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Totemist_LandspoutAura_GroundEffect_3m_NoDelay" />
+					<attribute id="BoundsMin" type="fvec3" value="-6.8 -6.8 -6.8" />
+					<attribute id="BoundsMax" type="fvec3" value="6.8 6.8 6.8" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3.00195" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="65a98115-3c63-1682-b753-92e790e5e8e7" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="84ac9aa3-9b44-94d8-b945-0875a9898d53" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="76a031fc-e5ad-0d72-421f-c6f4192b9a0f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="79d3616d-254a-3073-c114-c6e0cc992b38" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9e65715f-43d3-2c0b-d6b6-938bdbb9b290" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="970df91b-ce6e-db7d-ea26-b9c4eb206954" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="74539fe8-5b4b-484b-981c-7d92c4bffaff" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="25c790de-e82f-c3bc-dfd2-a20247033e46" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

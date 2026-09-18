@@ -673,7 +673,7 @@
 
 <content contentuid="0000000000000000000000000000000000000" version="1">RING OF MENTAL INHIBITION</content>
 	<content contentuid="hb1cae7aegdaffg42b5ga34fga86269ccecd6" version="2">Mental Inhibition</content>
-	<content contentuid="he9c2b878g2038g4923gb111g1d0ba0fae3d5" version="3">When a foe fails a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; against one of your Spells or Actions, they gain &lt;LSTag Type="Status" Tooltip="MAG_PSYCHIC_MENTAL_FATIGUE"&gt;Mental Fatigue&lt;/LSTag&gt; for three turns.</content>
+	<content contentuid="he9c2b878g2038g4923gb111g1d0ba0fae3d5" version="3">When a foe fails a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; against one of your Spells or Actions, they gain &lt;LSTag Type="Status" Tooltip="MAG_PSYCHIC_MENTAL_FATIGUE"&gt;Mental Fatigue&lt;/LSTag&gt; for three turns if they do not already have the condition.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">BOOTS OF AID AND COMFORT</content>
 	<content contentuid="hc3445688g4705g46bag8f69gd8247819f48f" version="2">The Comeback</content>

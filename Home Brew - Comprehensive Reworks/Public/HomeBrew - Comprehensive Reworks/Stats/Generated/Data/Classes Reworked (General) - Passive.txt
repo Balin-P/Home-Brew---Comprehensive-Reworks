@@ -934,7 +934,7 @@ new entry "DamagingSpell_Limit"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCast"
-data "Conditions" "Combat(context.Source) and IsSpell() and not IsCantrip() and (HasUseCosts('SpellSlot') or HasUseCosts('WarlockSpellSlot')) and not HasStatus('CT_LONEWOLF_1', context.Source)"
+data "Conditions" "CheckRulesetModifier('b843263f-869c-4a21-960d-867091e8bd04', true) and Combat(context.Source) and IsSpell() and not IsCantrip() and not IsReactionAttack() and (HasUseCosts('SpellSlot') or HasUseCosts('WarlockSpellSlot')) and not HasStatus('CT_LONEWOLF_1', context.Source)"
 data "StatsFunctors" "ApplyStatus(SELF,ARCANE_BLOWBACK,100,1)"
 
 <!--MULTI HIT BLOCKER-->
@@ -943,7 +943,7 @@ new entry "Multihit_Blocker_Applicator"
 type "PassiveData"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnDamage"
-data "Conditions" "Enemy() and IsSpell() and not AreaRadiusGreaterThan(1)"
+data "Conditions" "Enemy() and IsSpell() and not AreaRadiusGreaterThan(1) and not (SpellTypeIs(SpellType.Shout) or SpellTypeIs(SpellType.Wall) or SpellTypeIs(SpellType.Zone))"
 data "StatsFunctors" "ApplyStatus(SELF,MULTIHIT_BLOCKER,100,1)"
 
 new entry "Multihit_Blocker_Remover"

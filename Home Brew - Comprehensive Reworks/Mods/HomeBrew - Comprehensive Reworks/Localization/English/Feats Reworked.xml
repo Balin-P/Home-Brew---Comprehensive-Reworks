@@ -247,7 +247,7 @@
 <content contentuid="0000000000000000000000000000000000000" version="1">SHARPSHOOTER</content>
 
 	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa00036" version="3">Sharpshooter</content>
-	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000j0" version="3">Your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; do not receive penalties from &lt;LSTag Tooltip="HighGroundRules"&gt;High Ground Rules&lt;/LSTag&gt;, and your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; is added twice when rolling for damage. In addition, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
+	<content contentuid="8a87461fd8dd4f5b9098ded714f6c8aa000j0" version="3">Your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;Ranged Weapon Attacks&lt;/LSTag&gt; and ranged Spells do not receive penalties from &lt;LSTag Tooltip="HighGroundRules"&gt;High Ground Rules&lt;/LSTag&gt;, and your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; is added twice when rolling for damage. In addition, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; when dealing damage to an enemy or item.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">SHIELDBEARER</content>
 
@@ -487,6 +487,9 @@
 	<content contentuid="97d0cd5c-578a-4801-8d05-b8abd2eb0370" version="1">Yokebreaker: Circle of the Totemic</content>
 	<content contentuid="2bd59821-d7c4-4b9f-8073-1ae1d22aeac1" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_Totemist"&gt;Circle of the Totemic Druid&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
+	<content contentuid="46742ca9-a65f-4c00-8055-bc30221b3c6e" version="1">Yokebreaker: Circle of the Venom</content>
+	<content contentuid="7d7ed5ef-7e97-4729-8fe6-4b58262fbf5e" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_CircleoftheVenom"&gt;Circle of the Venom Druid&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
 
 
 	<content contentuid="f1fb71a7-7f9a-4afd-8fcc-71dda4bd71d1" version="1">Yokebreaker: Arcane Archer</content>
@@ -596,6 +599,9 @@
 
 	<content contentuid="e4c32443-a174-4fd1-93d8-9f91148ffe30" version="1">Yokebreaker: Draconic Bloodline</content>
 	<content contentuid="47709b48-6124-44dc-8792-5sd6f545df37" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_DraconicBloodline"&gt;Draconic Bloodline Sorcerer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
+
+	<content contentuid="05a2aeca-12db-4811-a3d9-f308ee20c5f9" version="1">Yokebreaker: Hematic Monarch</content>
+	<content contentuid="50577c05-aac4-43c0-b40c-55ad524ccbeb" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_HematicMonarch"&gt;Hematic Monarch Sorcerer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>
 
 	<content contentuid="e032fd36-033e-4e44-b45b-e8cd5676ab0d" version="1">Yokebreaker: Radiant Bloom</content>
 	<content contentuid="f8eb5743-ea2a-4249-8f16-846545c86cb4" version="1">Gain the unlocks associated with levels 1 through 3 of a &lt;LSTag Type="Status" Tooltip="StatusClassProgression_RadiantBloom"&gt;Radiant Bloom Sorcerer&lt;/LSTag&gt;.&lt;Br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt;Selecting a subclass you already have levels in will typically provide no benefit. Spells gained via Yokebreaker cannot be upcast.</content>

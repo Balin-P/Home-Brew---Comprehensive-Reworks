@@ -421,7 +421,7 @@
 	<content contentuid="h53277800gd3a4g4984gbff6g0af5966932d1" version="1">Teleport a short distance to an area that you can see.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">TOOLTIPS</content>
-	<content contentuid="h53277800gd3a4g4984gbff6g0af5dd222569" version="3">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Only one Eldritch Boon may affect your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; at a time.</content>
+	<content contentuid="h53277800gd3a4g4984gbff6g0af5dd222569" version="3">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Only one Eldritch Boon may which displaces your target may be active at a time.</content>
 	<content contentuid="h53277800gd3a4g4984gbff6g0af5dd222005" version="3">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Your &lt;LSTag Type="Spell" Tooltip="Projectile_EldritchBlast"&gt;Eldritch Blast&lt;/LSTag&gt; may not be divided into multiple beams while &lt;LSTag Type="Passive" Tooltip="PactOfTheTome"&gt;Pact of the Tome&lt;/LSTag&gt; is active.</content>
 
 </contentList>

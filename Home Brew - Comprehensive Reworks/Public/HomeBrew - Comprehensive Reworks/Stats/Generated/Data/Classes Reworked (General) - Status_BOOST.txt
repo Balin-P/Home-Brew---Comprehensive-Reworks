@@ -87,6 +87,18 @@ data "RemoveConditions" "not IsConcentrating(context.Source)"
 data "RemoveEvents" "OnTurn"
 data "StackType" "Ignore"
 
+new entry "SIF_NEVER_SHARE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "ALWAYS_USE_OWN_INITIATIVE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+<!--PROFICIENCIES-->
+
 new entry "PROFICIENCY_PASSIVES_ATHLETICS"
 type "StatusData"
 data "StatusType" "BOOST"

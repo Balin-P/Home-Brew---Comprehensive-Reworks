@@ -577,6 +577,20 @@
                     <attribute id="UUID" type="guid" value="8a220e31-1ea0-424d-b825-d247bf1469ed" /> 
 					</node>
         <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+                    <attribute id="Description" type="TranslatedString" handle="83fafe237f6740dea359526646fb6a21zzzzz" version="2" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="83fafe237f6740dea359526646fb6a2100000" version="2" />
+                    <attribute id="LearningStrategy" type="uint8" value="1" />
+                    <attribute id="MustPrepareSpells" type="bool" value="false" />
+                    <attribute id="Name" type="FixedString" value="CircleoftheVenom" />
+                    <attribute id="ParentGuid" type="guid" value="457d0a6e-9da8-4f95-a225-18382f0e94b5" />
+                    <attribute id="PrimaryAbility" type="uint8" value="5" />
+                    <attribute id="ProgressionTableUUID" type="guid" value="83fafe23-7f67-40de-a359-526646fb6a21" /> 
+                    <attribute id="SoundClassType" type="FixedString" value="Druid" />
+                    <attribute id="SpellCastingAbility" type="uint8" value="5" />
+                    <attribute id="UUID" type="guid" value="60968b92-a822-40d5-8569-00c37d5e08a8" /> 
+					</node>
+        <node id="ClassDescription">
                     <attribute id="BaseHp" type="int32" value="34" />
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
                     <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Fighter" />
@@ -1238,6 +1252,20 @@
                             <attribute id="Object" type="guid" value="f6d0e042-5b90-41d8-ab4a-a2239e27a13e" />
                         </node>
                     </children>
+					</node>
+        <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+                    <attribute id="Description" type="TranslatedString" handle="ec1b3d593aba4e20abc695282f20a1a1zzzzz" version="2" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="ec1b3d593aba4e20abc695282f20a1a100000" version="1" />
+                    <attribute id="LearningStrategy" type="uint8" value="1" />
+                    <attribute id="MustPrepareSpells" type="bool" value="false" />
+                    <attribute id="Name" type="FixedString" value="HematicMonarch" />
+                    <attribute id="ParentGuid" type="guid" value="784001e2-c96d-4153-beb6-2adbef5abc92" />
+                    <attribute id="PrimaryAbility" type="uint8" value="6" />
+                    <attribute id="ProgressionTableUUID" type="guid" value="ffd6d5a6-2dcb-4878-b497-47e9a884a5f1" />
+                    <attribute id="SoundClassType" type="FixedString" value="Sorcerer" />
+                    <attribute id="SpellCastingAbility" type="uint8" value="6" />
+                    <attribute id="UUID" type="guid" value="ec1b3d59-3aba-4e20-abc6-95282f20a1a1" />
 					</node>
 		<node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>

@@ -698,6 +698,17 @@ data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndi
 data "StackType" "Ignore"
 data "Boosts" "UnlockSpell(Shout_BladeWard);UnlockSpell(Shout_Shillelagh);UnlockSpell(Shout_DestructiveWave,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_FlameBlade,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Projectile_IceKnife,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Shout_MirrorImage,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_ThunderStep,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_VitriolicTouch,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
 
+new entry "CASTER_UNLOCK_HEMATICMONARCH"
+type "StatusData"
+data "StatusType" "BOOST"
+data "HitAnimationType" "None"
+data "StackId" "CASTER_UNLOCK"
+data "RemoveConditions" "Party(context.Source) and not HasPassive('NPCConcentration_End', context.Source)"
+data "RemoveEvents" "OnApply;OnTurn;OnMove"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
+data "StackType" "Ignore"
+data "Boosts" "UnlockSpell(Shout_BladeWard);UnlockSpell(Projectile_Warpstone);UnlockSpell(Target_CauseFear,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Zone_Fear,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Target_HoldMonster,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Shout_MirrorImage,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Shout_ShadowBlade,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf);UnlockSpell(Shout_Sleep,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
+
 new entry "CASTER_UNLOCK_RADINATBLOOM"
 type "StatusData"
 data "StatusType" "BOOST"

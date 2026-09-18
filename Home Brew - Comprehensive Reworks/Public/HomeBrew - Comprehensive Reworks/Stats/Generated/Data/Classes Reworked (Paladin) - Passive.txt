@@ -666,7 +666,7 @@ data "Icon" "Icon_MFL_ArcaneGlory"
 data "DisplayName" "h74f108b4bca44432817e2073c11abc4ff1c7;1"
 data "Description" "hde1e219dfff942a580ec7668847a32bdfd18;1"
 data "Properties" "Highlighted;ForceShowInCC"
-data "Boosts" "UnlockSpellVariant(KarsusAvatarCheck(),ModifyNumberOfTargets(Override,3,false))"
+data "Boosts" "UnlockSpellVariant(SingleTargetSpellCheck(),ModifyNumberOfTargets(Override,3,false))"
 
 <!--TYRANT-->
 

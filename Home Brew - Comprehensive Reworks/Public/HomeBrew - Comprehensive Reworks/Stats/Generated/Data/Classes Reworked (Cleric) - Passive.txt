@@ -315,6 +315,9 @@ data "DisplayName" "1532e50122e94186bab1a621b059dbed00006;2"
 data "Description" "1532e50122e94186bab1a621b059dbed0000f;2"
 data "Icon" "Spell_2e_ColorSpray"
 data "Properties" "Highlighted;ForceShowInCC"
+data "StatsFunctorContext" "OnStatusApply"
+data "Conditions" "StatusId('SURPRISED')"
+data "StatsFunctors" "ApplyStatus(SURPRISED_VULNERABLE,100,1)"
 
 <!--LIFE DOMAIN-->
 

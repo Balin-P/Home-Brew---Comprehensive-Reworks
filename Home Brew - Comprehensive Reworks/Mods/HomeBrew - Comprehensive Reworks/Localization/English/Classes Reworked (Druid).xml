@@ -57,9 +57,9 @@
 	<content contentuid="hc14fc8efge9b7g4609gb276g44dd5f8d55ff" version="1">Return to Form</content>
 	<content contentuid="hfa6d8951gc8eag4be9g846bgffffgtg556d9" version="1">At the end of combat, immediately return to your natural form and refund one &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape&lt;/LSTag&gt; charge. This can be toggled at any time.</content>
 
-<content contentuid="0000000000000000000000000000000000000" version="1">CIRCLE OF ELEMENTS</content>
+<content contentuid="0000000000000000000000000000000000000" version="1">CIRCLE OF THE ELEMENTS</content>
 
-	<content contentuid="ha585d015g08f6g4c52s1d6f54s6d54ff0000" version="2">Circle of Elements</content>
+	<content contentuid="ha585d015g08f6g4c52s1d6f54s6d54ff0000" version="2">Circle of the Elements</content>
 	<content contentuid="ha585d015g08f6g4c52s1d6f54s6d54ffzzzz" version="2">You attune yourself to nature through four distinct elements - air, earth, fire, and water. Through their balance, you draw strength and fortitude.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Damage</content>
 
 	<content contentuid="ha585d015g08f6g4c52s1d6f54s6d54ff0001" version="2">Cycle of Balance</content>
@@ -197,9 +197,9 @@
 	<content contentuid="h580791fcg0d77g485bg8f6eg4a9w6a5sdf85" version="2">Lunar Shift - Wildbound</content>
 	<content contentuid="hab01f6f3gbe5ag482ag9399g6asdf4sd5e97" version="1">Affected creature may assume the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt; without expending a &lt;LSTag Type="ActionResource" Tooltip="WildShape"&gt;Wildshape Charge&lt;/LSTag&gt;.</content>
 
-<content contentuid="0000000000000000000000000000000000000" version="1">CIRCLE OF SHADOWS</content>
+<content contentuid="0000000000000000000000000000000000000" version="1">CIRCLE OF THE SHADOWS</content>
 
-	<content contentuid="5126c10823d3434e8286ee66c19e569800000" version="2">Circle of Shadows</content>
+	<content contentuid="5126c10823d3434e8286ee66c19e569800000" version="2">Circle of the Shadows</content>
 	<content contentuid="5126c10823d3434e8286ee66c19e5698zzzzz" version="2">Death is the most natural occurance within nature. From within the shadows, you observe this fact in the truest of form, and guide others to a more intimate understanding.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Damage</content>
 
 	<content contentuid="5126c10823d3434e8286ee66c19e569800001" version="2">Displaced Nature</content>
@@ -461,6 +461,45 @@
 	<content contentuid="h26763452a01e4dfe8d964f016dac90caa1a4" version="1">&lt;LSTag Type="Spell" Tooltip="Target_Totemist_ElementalBeamTotem"&gt;Elemental Totem&lt;/LSTag&gt;: Gains an additional &lt;LSTag Tooltip="Action"&gt;Action&lt;/LSTag&gt; and has its required number to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; reduced by 5.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Target_Totemist_ElementalSurgeTotem"&gt;Surge Totem&lt;/LSTag&gt;: &lt;LSTag Type="Spell" Tooltip="Projectile_Totemist_ElementalSurgeTotem_Effect"&gt;Elemental Surge&lt;/LSTag&gt; can no longer be &lt;LSTag Tooltip="SavingThrow"&gt;Saved&lt;/LSTag&gt; against and will always roll the maximum amount of damage possible.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Target_Totemist_SnareTotem"&gt;Grasping Totem&lt;/LSTag&gt;: Instead of attempting to &lt;LSTag Type="Status" Tooltip="TAUNTED"&gt;Goad&lt;/LSTag&gt; nearby enemies, the totem now forcibly &lt;LSTag Type="Status" Tooltip="ENSNARED_VINES_DRUID"&gt;Entangles&lt;/LSTag&gt; all nearby enemies for 1 turn. This effect cannot be saved against.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Target_Totemist_FortressTotem"&gt;Bulwark Totem&lt;/LSTag&gt;: The amount of &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary Hit Points&lt;/LSTag&gt; granted by the totem is doubled, and affected allies also receive &lt;LSTag Type="Status" Tooltip="STONESKIN"&gt;Stoneskin&lt;/LSTag&gt; for 3 turns.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Target_Totemist_ChaosTotem"&gt;Chaos Totem&lt;/LSTag&gt;: The chance of a &lt;LSTag Type="Passive" Tooltip="WildMagic"&gt;Wild Magic Surges&lt;/LSTag&gt; occurring is guaranteed.</content>
 	<content contentuid="hb1910dc66b98470ea502a99d4d408b4ca1a6" version="1">Supercharged</content>
 	<content contentuid="h1f32015753c044fe8399511d6ec795763663" version="1">Affected totem has been greatly enhanced. When this condition ends, the totem will be destroyed.</content>
+
+
+<content contentuid="0000000000000000000000000000000000000" version="1">CIRCLE OF THE VENOM</content>
+
+
+	<content contentuid="83fafe237f6740dea359526646fb6a2100000" version="1">Circle of the Venom</content>
+	<content contentuid="83fafe237f6740dea359526646fb6a21zzzzz" version="1">You wield poison and silk to trap and dismantle your prey. Within you grows something monstrous and metamorphic, waiting to be unleashed.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Image" Info="TutorialLearnSpell"/&gt; Intended Role(s): Control/Damage</content>
+
+	<content contentuid="83fafe237f6740dea359526646fb6a2brood1" version="1">Bite</content>
+	<content contentuid="83fafe237f6740dea359526646fb6a2brooda" version="1">Bite a creature and potentially &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; them.</content>
+	<content contentuid="83fafe237f6740dea359526646fb6a2brood2" version="1">Venomous Discharge</content>
+	<content contentuid="83fafe237f6740dea359526646fb6a2broodb" version="1">Fire a venomous substance which potentially &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisons&lt;/LSTag&gt; your target from a distance.</content>
+	<content contentuid="83fafe237f6740dea359526646fb6a2brood3" version="1">Ethereal Jaunt</content>
+	<content contentuid="83fafe237f6740dea359526646fb6a2broodc" version="1">Teleport to an unoccupied space you can see.</content>
+	<content contentuid="83fafe237f6740dea359526646fb6a2brood4" version="1">Broodmare's Call</content>
+	<content contentuid="83fafe237f6740dea359526646fb6a2broodd" version="1">Target a corpse, conjuring three phase spiderlings inside which claw their way free from it's body.</content>
+
+	<content contentuid="83fafe237f6740dea359526646fb6a2100001" version="1">Broodmare Apotheosis</content>
+	<content contentuid="83fafe237f6740dea359526646fb6a210000a" version="1">Gain the ability to shift into a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape_BroodmarePhaseSpider"&gt;Broodmare Phase Spider&lt;/LSTag&gt; at will. In addition, when dealing damage, you potentially &lt;LSTag Type="Status" Tooltip="WEB"&gt;Enweb&lt;/LSTag&gt; your enemies.</content>
+	<content contentuid="83fafe237f6740dea359526646fb6a21000z1" version="1">Wildshape: Broodmare Phase Spider</content>
+	<content contentuid="83fafe237f6740dea359526646fb6a21000za" version="8">Assume the shape of a Broodmare Phase Spider, capable of both driving your targets to &lt;LSTag Type="Status" Tooltip="MADNESS"&gt;Madness&lt;/LSTag&gt; and creating &lt;LSTag Type="Spell" Tooltip="Target_CreateIllusion_DisplacerBeast"&gt;Illusory Copies&lt;/LSTag&gt; of yourself.</content>
+	<content contentuid="83fafe237f6740dea359526646fb6a2100zz1" version="1">Broodmare Phase Spider</content>
+	<content contentuid="83fafe237f6740dea359526646fb6a210zzz1" version="1">Wildshape: Broodmare Phase Spider</content>
+	<content contentuid="83fafe237f6740dea359526646fb6a2100zza" version="7">Assume the shape of a broodmare phase spider that can &lt;LSTag Type="Status" Tooltip="ENTOMBED"&gt;Cocoon&lt;/LSTag&gt; enemies.</content>
+
+	<content contentuid="83fafe237f6740dea359526646fb6a2100002" version="1">Friendly Neighborhood</content>
+	<content contentuid="83fafe237f6740dea359526646fb6a210000b" version="1">While in combat, both yourself and allies within [1] of you gain status immunity to being &lt;LSTag Type="Status" Tooltip="WEB"&gt;Enwebbed&lt;/LSTag&gt;.</content>
+
+	<content contentuid="83fafe237f6740dea359526646fb6a2100003" version="1">Charlotte's Kiss</content>
+	<content contentuid="83fafe237f6740dea359526646fb6a210000c" version="1">When dealing damage to an enemy or item, you ignore all forms of &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt; to Poison damage.</content>
+
+	<content contentuid="83fafe237f6740dea359526646fb6a2100004" version="1">Deepnest Penetration</content>
+	<content contentuid="83fafe237f6740dea359526646fb6a210000d" version="1">While assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, the number you need in order to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against an &lt;LSTag Type="Status" Tooltip="WEB"&gt;Enwebbed&lt;/LSTag&gt; enemy is reduced by 2. If not assuming the form of a Wildshape, you instead reduce the number needed to roll a Critical Hit against Enwebbed enemies by 1.</content>
+
+	<content contentuid="83fafe237f6740dea359526646fb6a2100005" version="1">Cocoon Tomb Lullaby</content>
+	<content contentuid="83fafe237f6740dea359526646fb6a210000e" version="1">While assuming the form of a &lt;LSTag Type="Spell" Tooltip="Shout_WildShape"&gt;Wildshape&lt;/LSTag&gt;, you deal the maximum damage possible to &lt;LSTag Type="Status" Tooltip="ENTOMBED"&gt;Cocooned&lt;/LSTag&gt; enemies. If not assuming the form of a Wildshape, you instead roll your damage against Cocooned enemies with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+
+	<content contentuid="83fafe237f6740dea359526646fb6a2100006" version="1">A Surge of Silk and Venom</content>
+	<content contentuid="83fafe237f6740dea359526646fb6a210000f" version="1">Upon starting your turn on or walking over a webbed surface, you immediately become &lt;LSTag Type="Status" Tooltip="HASTE"&gt;Hastened&lt;/LSTag&gt; for one turn.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">WILDSHAPE FORMS</content>
 

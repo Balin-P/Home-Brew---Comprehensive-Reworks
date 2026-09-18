@@ -593,6 +593,13 @@
                     <attribute id="UUID" type="guid" value="2d199ea1-ccd1-44cc-9cf7-cac65187c2b1"/>
                 </node>
                 <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="7d7ed5ef-7e97-4729-8fe6-4b58262fbf5e" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="46742ca9-a65f-4c00-8055-bc30221b3c6e" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="DruidCircleoftheVenom"/>
+                    <attribute id="FeatId" type="guid" value="07845122-15ec-4c3a-8724-ef9c8fb72f48"/>
+                    <attribute id="UUID" type="guid" value="9b75fd46-cb4e-4866-a7e3-c000dcc66bf2"/>
+                </node>
+                <node id="FeatDescription">
                     <attribute id="Description" type="TranslatedString" handle="47709b48-6124-44dc-8792-5sd6f545df17" version="4"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="f1fb71a7-7f9a-4afd-8fcc-71dda4bd71d1" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="FighterArcaneArcher"/>
@@ -822,6 +829,13 @@
                     <attribute id="ExactMatch" type="FixedString" value="SorcererDraconicBloodline"/>
                     <attribute id="FeatId" type="guid" value="ba1c505b-a3a8-483a-a061-a8b120c45c00"/>
                     <attribute id="UUID" type="guid" value="df3e08b8-0e50-4cc3-b5fa-7331af3f5ec4"/>
+                </node>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="50577c05-aac4-43c0-b40c-55ad524ccbeb" version="4"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="05a2aeca-12db-4811-a3d9-f308ee20c5f9" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="SorcererHematicMonarch"/>
+                    <attribute id="FeatId" type="guid" value="335d2999-28e5-4bfa-a107-534f5824748f"/>
+                    <attribute id="UUID" type="guid" value="b115dfd5-a69d-4469-aa9a-a76ff57a742e"/>
                 </node>
                 <node id="FeatDescription">
                     <attribute id="Description" type="TranslatedString" handle="f8eb5743-ea2a-4249-8f16-846545c86cb4" version="4"/>

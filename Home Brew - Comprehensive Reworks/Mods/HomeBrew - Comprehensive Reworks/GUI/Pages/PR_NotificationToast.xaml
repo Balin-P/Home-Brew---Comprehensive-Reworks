@@ -1,0 +1,39 @@
+<ls:UIWidget x:Name="PR_NotificationToast"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ls="clr-namespace:ls;assembly=Code"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="2160" d:DesignWidth="3840"
+             ls:UIWidget.UseCustomDC="True"
+             ls:UIWidget.ContextName="PR_NotificationToast"
+             d:DataContext="{d:DesignInstance {x:Type ls:Widget}, IsDesignTimeCreatable=True}">
+
+    <ls:UIWidget.Template>
+        <ControlTemplate TargetType="ls:UIWidget">
+            <Grid IsHitTestVisible="False">
+                <Grid Visibility="{Binding PR_ToastVisible, Converter={StaticResource BoolToVisibleConverter}, FallbackValue=Collapsed}"
+                      HorizontalAlignment="Left"
+                      VerticalAlignment="Top"
+                      Margin="120,120,0,0">
+                    <ls:LSNineSliceImage Style="{StaticResource GenericNotification9Slice}"
+                                         MinWidth="736">
+                        <StackPanel MaxWidth="640">
+                            <TextBlock ls:TextBlockFormatter.SourceText="{Binding Source='hd1efcd1dg3ed5g41f2g8773g45d3361b1289', Converter={StaticResource TranslatedStringConverter}, FallbackValue='Partial Respec Complete'}"
+                                       Style="{StaticResource NotificationTitleTextStyle}"
+                                       HorizontalAlignment="Center"
+                                       TextAlignment="Center"/>
+                            <TextBlock ls:TextBlockFormatter.SourceText="{Binding PR_ToastMarkup}"
+                                       Style="{StaticResource NotificationContentTextStyle}"
+                                       HorizontalAlignment="Center"
+                                       TextAlignment="Center"
+                                       TextWrapping="Wrap"
+                                       Margin="0,8,0,0"/>
+                        </StackPanel>
+                    </ls:LSNineSliceImage>
+                </Grid>
+            </Grid>
+        </ControlTemplate>
+    </ls:UIWidget.Template>
+</ls:UIWidget>

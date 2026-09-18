@@ -35,6 +35,11 @@ data "PersonalStatusImmunities" "SG_Blinded;SG_Disease;SG_Poisoned;SG_Charmed;SG
 data "Progressions" "44bdbc5e-a003-4d61-87f0-5ced20d3804e;47c4579c-ea2c-474d-9667-62edec24e8eb"
 data "PoisonResistance" "Resistant"
 
+new entry "LEGENDARY_ACTION_ILYN"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead"
+
 new entry "Drow_raider"
 type "Character"
 data "Strength" "16"
