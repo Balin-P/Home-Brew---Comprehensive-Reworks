@@ -41,10 +41,6 @@
                     <attribute id="UUID" type="guid" value="2e8c5dba-f49c-4f24-a850-05e61aefb4ef" />
 					</node>
         <node id="PassiveList">
-                    <attribute id="Passives" type="LSString" value="Steelforged_Melee,Steelforged_Ranged" />
-                    <attribute id="UUID" type="guid" value="9355b0df-9229-4a33-8d4b-30d1918388cf" />
-					</node>
-        <node id="PassiveList">
                     <attribute id="Passives" type="LSString" value="Aegis,Blessed_Resolve,BloodforBlood,Consecrative_Sacrifice,Divine_Resiliance,Divine_Restoration,Ethereal_Intuition,Flames_of_Repentance,Holy_Fortitude,Guided_Strikes,Holy_Retribution,Immaculate_Ward,Martyrdom,Paradisiacal_Gift,Sacral_Bulwark,Sanctified_Presence,Sanctifying_Aura,Stalwart,Stout_Believer,Venerational_Strikes" />
                     <attribute id="UUID" type="guid" value="137c5bd5-c5a9-4185-aec9-70a583191f17" />
 					</node>
@@ -98,7 +94,7 @@
 					</node>
         <node id="PassiveList">
                     <attribute id="Comment" type="LSString" value="Metamagic" />
-                    <attribute id="Passives" type="LSString" value="Metamagic_Transmuted,Metamagic_Bloodied,Metamagic_Careful,Metamagic_Expanded,Metamagic_Distant,Metamagic_Dreadful,Metamagic_Empowered,Metamagic_Extended,Metamagic_Favored,Metamagic_Heightened,Metamagic_Maximized,Metamagic_Piercing,Metamagic_Quickened,Metamagic_Regenerative,Metamagic_Restorative,Metamagic_Seeking,Metamagic_Subtle,Metamagic_Tempestuous,Metamagic_Tripled,Metamagic_Twinned" />
+                    <attribute id="Passives" type="LSString" value="Metamagic_Maximized,Metamagic_Quickened,Metamagic_Tripled,Metamagic_Tuned,Metamagic_Absorbing,Metamagic_Bloodied,Metamagic_Careful,Metamagic_Defensive,Metamagic_Distant,Metamagic_Dreadful,Metamagic_Empowered,Metamagic_Extended,Metamagic_Favored,Metamagic_Heightened,Metamagic_Piercing,Metamagic_Regenerative,Metamagic_Restorative,Metamagic_Seeking,Metamagic_Subtle,Metamagic_Tempestuous" />
                     <attribute id="UUID" type="guid" value="49704931-e47b-4ce6-abc6-dfa7ba640752" />
 					</node>
         <node id="PassiveList">
@@ -111,7 +107,7 @@
                     <attribute id="UUID" type="guid" value="c69c33a2-671c-46e1-a92c-656fe64ed447" />
 					</node>
         <node id="PassiveList">
-                    <attribute id="Passives" type="LSString" value="BaneofthePact,BindingTransposition,BoundElements,BoundCompulsion,CurseofHellfire,DarkRetaliation,CDevilsSight,EldritchEnervation,EldritchLance,EldritchStrike,HellishRebuttal,HellboundVision,LuckoftheDevil,MasterofChaos,OneWithShadows,PactProtection,PactStricken,RepellingBlast,ResiliantServitude,ShadeWalker" />
+                    <attribute id="Passives" type="LSString" value="BaneofthePact,BindingTransposition,BoundElements,BoundCompulsion,CurseofHellfire,DarkRetaliation,CDevilsSight,EldritchEnervation,EldritchLethargy,EldritchPull,HellishRebuttal,HellboundVision,LuckoftheDevil,MasterofChaos,OneWithShadows,PactProtection,PactStricken,RepellingBlast,ResiliantServitude,ShadeWalker" />
                     <attribute id="UUID" type="guid" value="fd7736fa-5c64-475e-a4c9-f4061690d8c4" />
 					</node>
         <node id="PassiveList">

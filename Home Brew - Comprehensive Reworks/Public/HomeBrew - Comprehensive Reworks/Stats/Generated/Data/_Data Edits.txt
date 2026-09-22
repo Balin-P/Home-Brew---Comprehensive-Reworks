@@ -1,6 +1,6 @@
 key "FallDamageBaseDamage","0.01"
 
-key "FallDamageMinimumDistance","3"
+key "FallDamageMinimumDistance","4.5"
 
 key "FallDamageMaximumDistance","18"
 
@@ -8,9 +8,9 @@ key "FallDamageDamageType","3"
 
 key "FallDamagePronePercent","0.25"
 
-key "FallDamageMultiplierHugeGargantuan","2"
+key "FallDamageMultiplierHugeGargantuan","1"
 
-key "FallImpactPushDistance","2"
+key "FallImpactPushDistance","3"
 
 key "FallImpactConstant","0.000005"
 

@@ -4,3 +4,6 @@ local function OnSessionLoaded()
 end
 
 Ext.Events.SessionLoaded:Subscribe(OnSessionLoaded)
+
+Ext.Require("Shared/_Init.lua")
+Ext.Require("Client/_Init.lua")

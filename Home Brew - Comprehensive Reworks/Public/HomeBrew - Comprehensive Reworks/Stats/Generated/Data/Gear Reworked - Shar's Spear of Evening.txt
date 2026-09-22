@@ -44,7 +44,7 @@ data "Description" "h8da2b13dg87c4g4edeg971bg7fc446d76298;1"
 data "DescriptionParams" "DealDamage(1d8, Necrotic)"
 data "Icon" "GenericIcon_Intent_Buff"
 data "StackId" "MAG_SHA_SHAR_BLESSING_SAVING_THROW_ADVANTAGE"
-data "Boosts" "Advantage(SavingThrow,Strength);Advantage(SavingThrow,Dexterity);Advantage(SavingThrow,Constitution);Advantage(SavingThrow,Intelligence);Advantage(SavingThrow,Wisdom);Advantage(SavingThrow,Charisma);CharacterWeaponDamage(1d8, Necrotic)"
+data "Boosts" "Advantage(SavingThrow,Strength);Advantage(SavingThrow,Dexterity);Advantage(SavingThrow,Constitution);Advantage(SavingThrow,Intelligence);Advantage(SavingThrow,Wisdom);Advantage(SavingThrow,Charisma);IF(Enemy() and not IsOffHandAttack()):CharacterWeaponDamage(1d8, Necrotic)"
 data "StatusPropertyFlags" "DisableCombatlog;IgnoreResting;ApplyToDead"
 
 new entry "Shar_Darkvision"

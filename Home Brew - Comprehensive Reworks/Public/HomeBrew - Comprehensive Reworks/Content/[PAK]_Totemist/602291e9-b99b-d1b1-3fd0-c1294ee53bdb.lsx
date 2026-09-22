@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids" />
+	<region id="EffectBank">
+		<node id="EffectBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="602291e9-b99b-d1b1-3fd0-c1294ee53bdb" />
+					<attribute id="Name" type="LSString" value="VFX_Totemist_Totem_Fortress_Animated" />
+					<attribute id="SourceFile" type="LSString" value="Public/HomeBrew - Comprehensive Reworks/Assets/Effects/Effects_Banks/Status/VFX_Totemist_Totem_Fortress_Animated.lsfx" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Totemist_Totem_Fortress_Animated" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -1 -2" />
+					<attribute id="BoundsMax" type="fvec3" value="2 3 2" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="1.5600001" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2418e7f6-a167-afc2-2d98-fb7f3587ceae" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="382d2bf5-d5ab-a1c9-959a-d330f7223a9c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="99807c2b-3a92-c604-65ec-e7148ebb34c3" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

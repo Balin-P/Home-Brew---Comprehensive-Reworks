@@ -18,7 +18,7 @@ data "Icon" "PassiveFeature_Generic_Tactical"
 using "MAG_Githborn_Mindcrusher_Greatsword_Passive"
 data "DescriptionParams" "DealDamage(1d8,Psychic)"
 data "TooltipConditionalDamage" "DealDamage(1d8,Psychic)"
-data "Boosts" "IF(IsMeleeAttack()):CharacterWeaponDamage(1d8, Psychic)"
+data "Boosts" "IF(IsMeleeAttack() and Enemy() and not IsOffHandAttack()):CharacterWeaponDamage(1d8, Psychic)"
 
 new entry "MAG_Legendary_PsionicResistance_Passive"
 type "PassiveData"

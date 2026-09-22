@@ -25,7 +25,7 @@ type "PassiveData"
 data "Properties" "IsHidden"
 data "BoostContext" "OnAttack"
 data "BoostConditions" "HasStatus('SG_Polymorph_BeastShape',context.Source)"
-data "Boosts" "DamageBonus(1d8, Force)"
+data "Boosts" "IF(Enemy() and not HasStatus('MULTIHIT_BLOCKER', context.Source)):DamageBonus(1d8, Force)"
 
 new entry "MAG_PHB_SoulCatching_ExtraEffect_Passive"
 type "PassiveData"

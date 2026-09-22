@@ -1,0 +1,108 @@
+<ls:UIWidget x:Name="PR_RespecChoice_c"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ls="clr-namespace:ls;assembly=Code"
+             xmlns:System="clr-namespace:System;assembly=mscorlib"
+             xmlns:noesis="clr-namespace:NoesisGUIExtensions;assembly=Noesis.GUI.Extensions"
+             xmlns:b="http://schemas.microsoft.com/xaml/behaviors"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="2160" d:DesignWidth="3840"
+             ls:UIWidget.UseCustomDC="True"
+             ls:UIWidget.ContextName="PR_RespecChoice"
+             d:DataContext="{d:DesignInstance {x:Type ls:Widget}, IsDesignTimeCreatable=True}">
+
+    <ls:UIWidget.Template>
+        <ControlTemplate TargetType="ls:UIWidget">
+            <Grid Background="{StaticResource LS_PanelBackground}"
+                  Visibility="{Binding PR_PopupVisible, Converter={StaticResource BoolToVisibleConverter}, FallbackValue=Collapsed}"
+                  IsHitTestVisible="True">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <b:Interaction.Triggers>
+                    <b:EventTrigger EventName="Loaded">
+                        <ls:SetMoveFocusAction TargetName="PR_RespecChoice_c"
+                                               FocusElement="PR_LevelSlider"
+                                               DeferFocusAction="True"/>
+                    </b:EventTrigger>
+                    <b:DataTrigger Binding="{Binding PR_PopupVisible}" Value="True">
+                        <ls:SetMoveFocusAction TargetName="PR_RespecChoice_c"
+                                               FocusElement="PR_LevelSlider"
+                                               DeferFocusAction="True"/>
+                    </b:DataTrigger>
+                </b:Interaction.Triggers>
+
+                <Grid Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,40">
+                    <ls:LSNineSliceImage x:Name="PR_ControllerDialog"
+                                         Style="{StaticResource GenericControllerPanelBackground}"
+                                         HorizontalAlignment="Center">
+                        <StackPanel Width="1300" HorizontalAlignment="Center">
+                            <TextBlock ls:TextBlockFormatter.SourceText="{Binding Source='hceda4f95ge6c1g4134g8fedg30704e3a533d', Converter={StaticResource TranslatedStringConverter}, FallbackValue='Partial Respec'}"
+                                       HorizontalAlignment="Center"
+                                       TextAlignment="Center"
+                                       Margin="0,0,0,22"
+                                       FontSize="{StaticResource ScaledHugeFontSize}"
+                                       Foreground="{StaticResource LS_extraspecialTxtColor}"
+                                       TextWrapping="Wrap"/>
+
+                            <TextBlock ls:TextBlockFormatter.SourceText="{Binding Source='h8730f71cg2996g4d93ga849g99897df1703a', Converter={StaticResource TranslatedStringConverter}, FallbackValue='Choose the last level to keep from your current build.'}"
+                                       HorizontalAlignment="Center"
+                                       MaxWidth="1200"
+                                       TextAlignment="Center"
+                                       TextWrapping="Wrap"
+                                       Margin="0,0,0,24"
+                                       FontSize="{StaticResource ScaledDefaultFontSize}"
+                                       Foreground="{StaticResource LS_accent100TxtColor}"/>
+
+                            <ls:LSSlider x:Name="PR_LevelSlider"
+                                         Minimum="1"
+                                         Maximum="{Binding PR_MaxLevel}"
+                                         Value="{Binding PR_SelectedLevel, Mode=TwoWay}"
+                                         SmallChange="1" LargeChange="1"
+                                         IsSnapToTickEnabled="True" TickFrequency="1"
+                                         Focusable="True" ls:MoveFocus.Focusable="True"
+                                         Width="1104" HorizontalAlignment="Center" Margin="0,0,0,24"
+                                         Style="{StaticResource Slider.StyleDisplayValue}">
+                                <b:Interaction.Triggers>
+                                    <b:EventTrigger EventName="ValueChanged">
+                                        <b:InvokeCommandAction Command="{Binding PR_LevelChangedCommand}"/>
+                                    </b:EventTrigger>
+                                </b:Interaction.Triggers>
+                            </ls:LSSlider>
+
+                            <TextBlock ls:TextBlockFormatter.SourceText="{Binding PR_Summary}"
+                                       HorizontalAlignment="Center"
+                                       MaxWidth="1200"
+                                       TextAlignment="Center"
+                                       TextWrapping="Wrap"
+                                       Margin="0,0,0,24"
+                                       FontSize="{StaticResource ScaledDefaultFontSize}"
+                                       Foreground="{StaticResource LS_tint100}"/>
+                        </StackPanel>
+                    </ls:LSNineSliceImage>
+                </Grid>
+
+                <StackPanel Grid.Row="1" Style="{StaticResource ButtonHint.Container.Center}">
+                    <ls:LSButton Style="{StaticResource ControllerButton}"
+                                 DataContext="{Binding PR_CurrentPlayer.UIData.InputEvents, Converter={StaticResource FindInputEventConverter}, ConverterParameter='UIAccept'}"
+                                 Content="{Binding Source='h5e41976eg3042g4a83g936egbf3422228144', Converter={StaticResource TranslatedStringConverter}}"
+                                 Command="{Binding DataContext.PR_ConfirmCommand, RelativeSource={RelativeSource AncestorType={x:Type ls:UIWidget}}}"
+                                 SoundID="UI_Shared_Accept"/>
+                    <ls:LSButton Style="{StaticResource ControllerHoldButtonStyle}"
+                                 Content="{Binding PR_CurrentPlayer.UIData.InputEvents, Converter={StaticResource FindInputEventConverter}, ConverterParameter='UIDelete'}"
+                                 Tag="{Binding Source='h6f1869a4g06a4g45c9gb27fga6c1819eeb2e', Converter={StaticResource TranslatedStringConverter}}"
+                                 Command="{Binding DataContext.PR_ConfirmCommand, RelativeSource={RelativeSource AncestorType={x:Type ls:UIWidget}}}"/>
+                    <ls:LSButton Style="{StaticResource ControllerButton}"
+                                 DataContext="{Binding PR_CurrentPlayer.UIData.InputEvents, Converter={StaticResource FindInputEventConverter}, ConverterParameter='UICancel'}"
+                                 Content="{Binding Source='h60c59b13gd01fg443aga97egcd80ad888951', Converter={StaticResource TranslatedStringConverter}}"
+                                 Command="{Binding DataContext.PR_FullRespecCommand, RelativeSource={RelativeSource AncestorType={x:Type ls:UIWidget}}}"
+                                 SoundID="UI_Shared_Cancel"/>
+                </StackPanel>
+            </Grid>
+        </ControlTemplate>
+    </ls:UIWidget.Template>
+</ls:UIWidget>

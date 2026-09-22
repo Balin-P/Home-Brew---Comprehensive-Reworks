@@ -3,7 +3,7 @@ function TadpolePowersAtLeast(value)
     return ConditionResult(result)
 end
 
-function HasLessHPThanTadpolePowersX2(target, source)
+function HasLessHPThanTadpolePowersX4(target, source)
     target = target or context.Target
     source = source or context.Source
 
@@ -15,7 +15,7 @@ function HasLessHPThanTadpolePowersX2(target, source)
         value = 25
     end
 
-    value = value * 2
+    value = value * 4
 
     return ConditionResult(target.HP <= value)
 end

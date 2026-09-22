@@ -428,7 +428,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="5" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="9436dbcb-a497-77bf-75cc-5f4835a19869" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="7feec7cd-3547-d5a7-d37c-7e6f5856a289" />
 					<children>
 						<node id="Bounds">
 							<children>
@@ -558,7 +558,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="6" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="9436dbcb-a497-77bf-75cc-5f4835a19869" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="7feec7cd-3547-d5a7-d37c-7e6f5856a289" />
 					<children>
 						<node id="Bounds">
 							<children>
@@ -688,7 +688,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="7" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="9436dbcb-a497-77bf-75cc-5f4835a19869" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="7feec7cd-3547-d5a7-d37c-7e6f5856a289" />
 					<children>
 						<node id="Bounds">
 							<children>
@@ -818,7 +818,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="8" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="9436dbcb-a497-77bf-75cc-5f4835a19869" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="7feec7cd-3547-d5a7-d37c-7e6f5856a289" />
 					<children>
 						<node id="Bounds">
 							<children>
@@ -948,7 +948,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="9" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="9436dbcb-a497-77bf-75cc-5f4835a19869" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="3afc6ad9-d32d-acc0-0ea5-62059f605fd4" />
 					<children>
 						<node id="Bounds">
 							<children>
@@ -1105,7 +1105,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="10" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="9436dbcb-a497-77bf-75cc-5f4835a19869" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="3afc6ad9-d32d-acc0-0ea5-62059f605fd4" />
 					<children>
 						<node id="Bounds">
 							<children>
@@ -1262,7 +1262,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="11" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="9436dbcb-a497-77bf-75cc-5f4835a19869" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="3afc6ad9-d32d-acc0-0ea5-62059f605fd4" />
 					<children>
 						<node id="Bounds">
 							<children>
@@ -1419,7 +1419,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="12" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="9436dbcb-a497-77bf-75cc-5f4835a19869" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="3afc6ad9-d32d-acc0-0ea5-62059f605fd4" />
 					<children>
 						<node id="Bounds">
 							<children>
@@ -2040,7 +2040,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="5" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="2d1dbe6f-53ce-ce7d-5864-83bd881520f6" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="71ccfb91-4097-4bc3-5dd8-5091cc0fccfe" />
 					<children>
 						<node id="Tags">
 							<children>
@@ -2183,7 +2183,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="6" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="2d1dbe6f-53ce-ce7d-5864-83bd881520f6" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="71ccfb91-4097-4bc3-5dd8-5091cc0fccfe" />
 					<children>
 						<node id="Tags">
 							<children>
@@ -2326,7 +2326,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="7" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="2d1dbe6f-53ce-ce7d-5864-83bd881520f6" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="71ccfb91-4097-4bc3-5dd8-5091cc0fccfe" />
 					<children>
 						<node id="Tags">
 							<children>
@@ -2469,7 +2469,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="8" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="2d1dbe6f-53ce-ce7d-5864-83bd881520f6" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="71ccfb91-4097-4bc3-5dd8-5091cc0fccfe" />
 					<children>
 						<node id="Tags">
 							<children>
@@ -2612,7 +2612,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="9" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="2d1dbe6f-53ce-ce7d-5864-83bd881520f6" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="39cc10ee-a7dc-4efe-32d1-ebaa6e9c8a1e" />
 					<children>
 						<node id="Tags">
 							<children>
@@ -2782,7 +2782,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="10" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="2d1dbe6f-53ce-ce7d-5864-83bd881520f6" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="39cc10ee-a7dc-4efe-32d1-ebaa6e9c8a1e" />
 					<children>
 						<node id="Tags">
 							<children>
@@ -2952,7 +2952,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="11" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="2d1dbe6f-53ce-ce7d-5864-83bd881520f6" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="39cc10ee-a7dc-4efe-32d1-ebaa6e9c8a1e" />
 					<children>
 						<node id="Tags">
 							<children>
@@ -3122,7 +3122,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="12" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="2d1dbe6f-53ce-ce7d-5864-83bd881520f6" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="39cc10ee-a7dc-4efe-32d1-ebaa6e9c8a1e" />
 					<children>
 						<node id="Tags">
 							<children>
@@ -3592,7 +3592,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions_Flying" />
 					<attribute id="LevelOverride" type="int32" value="5" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="95b44077-da5c-3893-af28-831092b2e328" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="f115187c-b182-3486-25cd-c23be4f7189b" />
 					<children>
 						<node id="SkillList">
 							<children>
@@ -3694,7 +3694,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions_Flying" />
 					<attribute id="LevelOverride" type="int32" value="6" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="95b44077-da5c-3893-af28-831092b2e328" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="f115187c-b182-3486-25cd-c23be4f7189b" />
 					<children>
 						<node id="SkillList">
 							<children>
@@ -3796,7 +3796,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions_Flying" />
 					<attribute id="LevelOverride" type="int32" value="7" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="95b44077-da5c-3893-af28-831092b2e328" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="f115187c-b182-3486-25cd-c23be4f7189b" />
 					<children>
 						<node id="SkillList">
 							<children>
@@ -3898,7 +3898,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions_Flying" />
 					<attribute id="LevelOverride" type="int32" value="8" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="95b44077-da5c-3893-af28-831092b2e328" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="f115187c-b182-3486-25cd-c23be4f7189b" />
 					<children>
 						<node id="SkillList">
 							<children>
@@ -4000,7 +4000,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions_Flying" />
 					<attribute id="LevelOverride" type="int32" value="9" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="95b44077-da5c-3893-af28-831092b2e328" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="7a13ed06-6ac4-f0d8-8d34-eb4b282d3e69" />
 					<children>
 						<node id="SkillList">
 							<children>
@@ -4129,7 +4129,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions_Flying" />
 					<attribute id="LevelOverride" type="int32" value="10" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="95b44077-da5c-3893-af28-831092b2e328" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="7a13ed06-6ac4-f0d8-8d34-eb4b282d3e69" />
 					<children>
 						<node id="SkillList">
 							<children>
@@ -4258,7 +4258,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions_Flying" />
 					<attribute id="LevelOverride" type="int32" value="11" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="95b44077-da5c-3893-af28-831092b2e328" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="7a13ed06-6ac4-f0d8-8d34-eb4b282d3e69" />
 					<children>
 						<node id="SkillList">
 							<children>
@@ -4387,7 +4387,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions_Flying" />
 					<attribute id="LevelOverride" type="int32" value="12" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="95b44077-da5c-3893-af28-831092b2e328" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="7a13ed06-6ac4-f0d8-8d34-eb4b282d3e69" />
 					<children>
 						<node id="SkillList">
 							<children>
@@ -4968,7 +4968,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="5" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="16be928b-c546-78fa-e825-b4c9d688d165" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="75ab3738-3a01-4900-e0fb-be039451e8f6" />
 					<children>
 						<node id="Bounds">
 							<children>
@@ -5108,7 +5108,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="6" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="16be928b-c546-78fa-e825-b4c9d688d165" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="75ab3738-3a01-4900-e0fb-be039451e8f6" />
 					<children>
 						<node id="Bounds">
 							<children>
@@ -5248,7 +5248,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="7" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="16be928b-c546-78fa-e825-b4c9d688d165" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="75ab3738-3a01-4900-e0fb-be039451e8f6" />
 					<children>
 						<node id="Bounds">
 							<children>
@@ -5388,7 +5388,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="8" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="16be928b-c546-78fa-e825-b4c9d688d165" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="75ab3738-3a01-4900-e0fb-be039451e8f6" />
 					<children>
 						<node id="Bounds">
 							<children>
@@ -5528,7 +5528,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="9" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="16be928b-c546-78fa-e825-b4c9d688d165" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="4acf176c-efe5-da2d-f0e9-0047fbbd75b5" />
 					<children>
 						<node id="Bounds">
 							<children>
@@ -5695,7 +5695,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="10" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="16be928b-c546-78fa-e825-b4c9d688d165" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="4acf176c-efe5-da2d-f0e9-0047fbbd75b5" />
 					<children>
 						<node id="Bounds">
 							<children>
@@ -5862,7 +5862,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="11" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="16be928b-c546-78fa-e825-b4c9d688d165" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="4acf176c-efe5-da2d-f0e9-0047fbbd75b5" />
 					<children>
 						<node id="Bounds">
 							<children>
@@ -6029,7 +6029,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="12" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="16be928b-c546-78fa-e825-b4c9d688d165" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="4acf176c-efe5-da2d-f0e9-0047fbbd75b5" />
 					<children>
 						<node id="Bounds">
 							<children>
@@ -6196,7 +6196,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="9" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="16be928b-c546-78fa-e825-b4c9d688d165" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="4acf176c-efe5-da2d-f0e9-0047fbbd75b5" />
 					<children>
 						<node id="Bounds">
 							<children>
@@ -6336,7 +6336,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="10" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="16be928b-c546-78fa-e825-b4c9d688d165" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="4acf176c-efe5-da2d-f0e9-0047fbbd75b5" />
 					<children>
 						<node id="Bounds">
 							<children>
@@ -6476,7 +6476,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="11" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="16be928b-c546-78fa-e825-b4c9d688d165" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="4acf176c-efe5-da2d-f0e9-0047fbbd75b5" />
 					<children>
 						<node id="Bounds">
 							<children>
@@ -6616,7 +6616,7 @@
 					<attribute id="DeathEffect" type="guid" value="f56585cd-1df0-47c2-95a2-74ba2fd46662" />
 					<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
 					<attribute id="LevelOverride" type="int32" value="12" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="16be928b-c546-78fa-e825-b4c9d688d165" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="4acf176c-efe5-da2d-f0e9-0047fbbd75b5" />
 					<children>
 						<node id="Bounds">
 							<children>
@@ -7093,6 +7093,7 @@
 					<attribute id="Stats" type="FixedString" value="CDilophosaurus_Companion_5" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="c103448b-452e-0677-c311-5e64ed80ab54" />
 					<children>
 						<node id="LocomotionParams">
 							<attribute id="WorldClimbingRadius" type="float" value="1.6" />
@@ -7202,6 +7203,7 @@
 					<attribute id="Stats" type="FixedString" value="CDilophosaurus_Companion_6" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="c103448b-452e-0677-c311-5e64ed80ab54" />
 					<children>
 						<node id="LocomotionParams">
 							<attribute id="WorldClimbingRadius" type="float" value="1.6" />
@@ -7311,6 +7313,7 @@
 					<attribute id="Stats" type="FixedString" value="CDilophosaurus_Companion_7" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="c103448b-452e-0677-c311-5e64ed80ab54" />
 					<children>
 						<node id="LocomotionParams">
 							<attribute id="WorldClimbingRadius" type="float" value="1.6" />
@@ -7420,6 +7423,7 @@
 					<attribute id="Stats" type="FixedString" value="CDilophosaurus_Companion_8" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="c103448b-452e-0677-c311-5e64ed80ab54" />
 					<children>
 						<node id="LocomotionParams">
 							<attribute id="WorldClimbingRadius" type="float" value="1.6" />
@@ -7529,6 +7533,7 @@
 					<attribute id="Stats" type="FixedString" value="CDilophosaurus_Companion_9" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="d0174eb1-fbb3-c7c6-fd87-213fef8e09c3" />
 					<children>
 						<node id="LocomotionParams">
 							<attribute id="WorldClimbingRadius" type="float" value="1.6" />
@@ -7665,6 +7670,7 @@
 					<attribute id="Stats" type="FixedString" value="CDilophosaurus_Companion_10" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="d0174eb1-fbb3-c7c6-fd87-213fef8e09c3" />
 					<children>
 						<node id="LocomotionParams">
 							<attribute id="WorldClimbingRadius" type="float" value="1.6" />
@@ -7801,6 +7807,7 @@
 					<attribute id="Stats" type="FixedString" value="CDilophosaurus_Companion_11" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="d0174eb1-fbb3-c7c6-fd87-213fef8e09c3" />
 					<children>
 						<node id="LocomotionParams">
 							<attribute id="WorldClimbingRadius" type="float" value="1.6" />
@@ -7937,6 +7944,7 @@
 					<attribute id="Stats" type="FixedString" value="CDilophosaurus_Companion_12" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="d0174eb1-fbb3-c7c6-fd87-213fef8e09c3" />
 					<children>
 						<node id="LocomotionParams">
 							<attribute id="WorldClimbingRadius" type="float" value="1.6" />

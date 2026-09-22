@@ -1,6 +1,6 @@
 new entry "WYR_Circus_TeleportBoots"
 type "Armor"
-using "ARM_Shoes"
+using "ARM_Magic_Shoes"
 data "RootTemplate" "480a8519-e375-4ce0-ae0a-513bc9d39820"
 data "DefaultBoosts" "Tag(ORI_GALE_CONSUMABLEARTEFACT)"
 data "ValueUUID" "9b6a4ab2-323b-4030-89ab-030252bb6214"

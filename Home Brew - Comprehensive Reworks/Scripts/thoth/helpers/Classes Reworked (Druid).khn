@@ -15,3 +15,205 @@ end
 function SpellSlotCheck_Season_Winter()
     return (HasUseCosts('SpellSlot') | HasUseCosts('WarlockSpellSlot') | HasUseCosts('SpellSlotsGroup')) & ~HasCantripSpellLevel() & (SpellDamageTypeIs(DamageType.Cold) | SpellDamageTypeIs(DamageType.Force))
 end
+
+
+function IsTotemistTotem(entity)
+    entity = entity or context.Target
+    local result = HasAnyStatus(
+        {
+            'TOTEMIST_ELEMENTAL_BEAM_TOTEM',
+            'TOTEMIST_SNARE_TOTEM',
+            'TOTEMIST_FORTRESS_TOTEM',
+            'TOTEMIST_CHAOS_TOTEM',
+            'TOTEMIST_ELEMENTAL_SURGE_TOTEM',
+        },
+        {},
+        {},
+        entity
+    )
+    return ConditionResult(result.Result)
+end
+
+function TotemistTotemLifetimeAlreadyApplied(entity)
+    entity = entity or context.Target
+    local result = HasAnyStatus(
+        {
+            'TOTEMIST_ELEMENTAL_BEAM_TOTEM_LIFETIME',
+            'TOTEMIST_SNARE_TOTEM_LIFETIME',
+            'TOTEMIST_FORTRESS_TOTEM_LIFETIME',
+            'TOTEMIST_CHAOS_TOTEM_LIFETIME',
+            'TOTEMIST_ELEMENTAL_SURGE_TOTEM_LIFETIME',
+        },
+        {},
+        {},
+        entity
+    )
+    return ConditionResult(result.Result)
+end
+
+function TotemistBondCheck(entity)
+    entity = entity or context.Source
+    local result = HasAnyStatus(
+        {
+            'TOTEMIST_ELEMENTAL_COMMUNION_FIRE',
+            'TOTEMIST_ELEMENTAL_COMMUNION_ACID',
+            'TOTEMIST_ELEMENTAL_COMMUNION_COLD',
+            'TOTEMIST_ELEMENTAL_COMMUNION_THUNDER',
+            'TOTEMIST_ELEMENTAL_COMMUNION_LIGHTNING',
+        },
+        {},
+        {},
+        entity
+    )
+
+    return ConditionResult(result.Result, {ConditionError("TotemistBondCheck_False")})
+end
+
+function IsTotemistSupercharged(entity)
+    entity = entity or context.Source
+    local result = HasAnyStatus(
+        {
+            'TOTEMIST_SUPERCHARGE_ELEMENTAL_BEAM',
+            'TOTEMIST_SUPERCHARGE_ELEMENTAL_SURGE',
+            'TOTEMIST_SUPERCHARGE_SNARE',
+            'TOTEMIST_SUPERCHARGE_CHAOS',
+            'TOTEMIST_SUPERCHARGE_FORTRESS',
+        },
+        {},
+        {},
+        entity
+    )
+    return ConditionResult(result.Result)
+end
+
+function TotemistNotFlying(entity)
+    entity = entity or context.Target
+
+    local flyingStatus = HasAnyStatus(
+        {
+            'FLY',
+            'ALCH_POTION_FLYING',
+        },
+        {},
+        {},
+        entity
+    )
+
+    local result = ~flyingStatus & ~HasAttribute('Floating', entity)
+
+    return ConditionResult(result.Result)
+end
+
+function IsTotemSummonSpell()
+    local result =
+        SpellId("Target_Totemist_ElementalSurgeTotem")
+        | SpellId("Target_Totemist_SnareTotem")
+        | SpellId("Target_Totemist_FortressTotem")
+        | SpellId("Target_Totemist_ChaosTotem")
+    return ConditionResult(result.Result)
+end
+
+function IsTotemistCommunionSpell()
+    local result =
+        SpellId("Shout_Totemist_ElementalCommunion")
+        | SpellId("Shout_Totemist_ElementalCommunion_Fire")
+        | SpellId("Shout_Totemist_ElementalCommunion_Cold")
+        | SpellId("Shout_Totemist_ElementalCommunion_Lightning")
+        | SpellId("Shout_Totemist_ElementalCommunion_Thunder")
+        | SpellId("Shout_Totemist_ElementalCommunion_Acid")
+    return ConditionResult(result.Result)
+end
+
+function IsTotemistElementalBeam()
+    local result =
+        SpellId("Target_Totemist_ElementalBeam_Acid")
+        | SpellId("Target_Totemist_ElementalBeam_Cold")
+        | SpellId("Target_Totemist_ElementalBeam_Fire")
+        | SpellId("Target_Totemist_ElementalBeam_Lightning")
+        | SpellId("Target_Totemist_ElementalBeam_Thunder")
+    return ConditionResult(result.Result)
+end
+
+
+
+function TotemistAttuneCheck_ElementalBeamTotem()
+    result =
+        (HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_ACID', context.Source)
+            & ~HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_ACID_ELEMENTAL_BEAM_TOTEM', context.Target))
+        |
+        (HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_COLD', context.Source)
+            & ~HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_COLD_ELEMENTAL_BEAM_TOTEM', context.Target))
+        |
+        (HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_FIRE', context.Source)
+            & ~HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_FIRE_ELEMENTAL_BEAM_TOTEM', context.Target))
+        |
+        (HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_THUNDER', context.Source)
+            & ~HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_THUNDER_ELEMENTAL_BEAM_TOTEM', context.Target))
+        |
+        (HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_LIGHTNING', context.Source)
+            & ~HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_LIGHTNING_ELEMENTAL_BEAM_TOTEM', context.Target))
+
+    return ConditionResult(result.Result)
+end
+
+function Totemist_AttuneCheckElementalBeam()
+    result =
+        HasStatus('TOTEMIST_ELEMENTAL_BEAM_TOTEM', context.Target)
+        & SummonOwner(context.Target, context.Source)
+        & (
+            (HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_ACID', context.Source)
+                & ~HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_ACID_ELEMENTAL_BEAM_TOTEM', context.Target))
+            |
+            (HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_COLD', context.Source)
+                & ~HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_COLD_ELEMENTAL_BEAM_TOTEM', context.Target))
+            |
+            (HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_FIRE', context.Source)
+                & ~HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_FIRE_ELEMENTAL_BEAM_TOTEM', context.Target))
+            |
+            (HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_THUNDER', context.Source)
+                & ~HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_THUNDER_ELEMENTAL_BEAM_TOTEM', context.Target))
+            |
+            (HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_LIGHTNING', context.Source)
+                & ~HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_LIGHTNING_ELEMENTAL_BEAM_TOTEM', context.Target))
+        )
+
+    return ConditionResult(result.Result)
+end
+
+function Totemist_AttuneCheckElementalSurge()
+    result =
+        HasStatus('TOTEMIST_ELEMENTAL_SURGE_TOTEM', context.Target)
+        & SummonOwner(context.Target, context.Source)
+        & (
+            (HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_ACID', context.Source)
+                & ~HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_ACID_ELEMENTAL_SURGE_TOTEM', context.Target))
+            |
+            (HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_COLD', context.Source)
+                & ~HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_COLD_ELEMENTAL_SURGE_TOTEM', context.Target))
+            |
+            (HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_FIRE', context.Source)
+                & ~HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_FIRE_ELEMENTAL_SURGE_TOTEM', context.Target))
+            |
+            (HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_THUNDER', context.Source)
+                & ~HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_THUNDER_ELEMENTAL_SURGE_TOTEM', context.Target))
+            |
+            (HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_LIGHTNING', context.Source)
+                & ~HasStatus('TOTEMIST_ELEMENTAL_COMMUNION_LIGHTNING_ELEMENTAL_SURGE_TOTEM', context.Target))
+        )
+
+    return ConditionResult(result.Result)
+end
+
+function TotemistTotemCounterCheck()
+    local counterCheck = StatusGroupDurationEqualOrMoreThan(
+        context.Source,
+        'TOTEMIST_ELEMENTAL_BEAM_TOTEM_COUNTER',
+        3
+    )
+
+    if counterCheck.Result then
+        return ConditionResult(false, {ConditionError("TotemistTotemCounterMaximum")})
+    end
+
+    return ConditionResult(true)
+end

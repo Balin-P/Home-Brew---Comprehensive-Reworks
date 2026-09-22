@@ -85,7 +85,7 @@ data "Icon" "Action_DivineStrike_Fire_Ranged"
 data "StackId" "JWL_Status_ElementalArrow"
 data "StackType" "Overwrite"
 data "StatusPropertyFlags" "IgnoreResting"
-data "Boosts" "IF(IsRangedWeaponAttack()):CharacterWeaponDamage(LevelMapValue(StandardProficiencyBonusScale), Fire)"
+data "Boosts" "IF(IsRangedWeaponAttack() and Enemy()):CharacterWeaponDamage(LevelMapValue(StandardProficiencyBonusScale), Fire)"
 
 new entry "JWL_Status_ElementalArrow_Frost"
 type "StatusData"
@@ -96,7 +96,7 @@ data "DescriptionParams" "DealDamage(LevelMapValue(StandardProficiencyBonusScale
 data "Icon" "Action_DivineStrike_Cold_Ranged"
 data "StackId" "JWL_Status_ElementalArrow"
 data "StackType" "Overwrite"
-data "Boosts" "IF(IsRangedWeaponAttack()):CharacterWeaponDamage(LevelMapValue(StandardProficiencyBonusScale), Cold)"
+data "Boosts" "IF(IsRangedWeaponAttack() and Enemy()):CharacterWeaponDamage(LevelMapValue(StandardProficiencyBonusScale), Cold)"
 
 new entry "JWL_Status_ElementalArrow_Lightning"
 type "StatusData"
@@ -107,7 +107,7 @@ data "DescriptionParams" "DealDamage(LevelMapValue(StandardProficiencyBonusScale
 data "Icon" "Action_DivineStrike_Lightning_Ranged"
 data "StackId" "JWL_Status_ElementalArrow"
 data "StackType" "Overwrite"
-data "Boosts" "IF(IsRangedWeaponAttack()):CharacterWeaponDamage(LevelMapValue(StandardProficiencyBonusScale), Lightning)"
+data "Boosts" "IF(IsRangedWeaponAttack() and Enemy()):CharacterWeaponDamage(LevelMapValue(StandardProficiencyBonusScale), Lightning)"
 
 new entry "JWL_Status_ElementalArrow_Poison"
 type "StatusData"

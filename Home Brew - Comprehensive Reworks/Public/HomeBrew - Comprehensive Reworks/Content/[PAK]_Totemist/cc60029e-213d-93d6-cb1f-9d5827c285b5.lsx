@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids" />
+	<region id="EffectBank">
+		<node id="EffectBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="cc60029e-213d-93d6-cb1f-9d5827c285b5" />
+					<attribute id="Name" type="LSString" value="Totemist_Thunder_ChromaticOrb_Impact_01_NoDecal" />
+					<attribute id="SourceFile" type="LSString" value="Public/HomeBrew - Comprehensive Reworks/Assets/Effects/Effects_Banks/Projectiles/Totemist_Thunder_ChromaticOrb_Impact_01_NoDecal.lsfx" />
+					<attribute id="EffectName" type="FixedString" value="Totemist_Thunder_ChromaticOrb_Impact_01_NoDecal" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -5" />
+					<attribute id="BoundsMax" type="fvec3" value="5 5 5" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="7" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="022413d7-0e40-43f8-ba85-6aeeacb2a13a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="43c7417a-d000-f06d-acc0-a48824ac7735" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="29c0aa1f-7de3-8dbd-be47-2aa7d4a88447" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="972b996e-282d-711a-72e5-cc2f0fc6e811" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="707add78-20c6-ec43-477d-bf2d0fa51d67" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7e596320-9d50-68ab-0bb7-8e978d539450" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c0ee5929-fe44-6966-1e55-d933620fa661" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

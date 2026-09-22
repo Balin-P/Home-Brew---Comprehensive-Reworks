@@ -8,7 +8,7 @@ MULTIPLIER_ENEMY_HEIGHT_DIFFERENCE			0.0500
 WEAPON_PICKUP_PREFER_RANGED_ENABLED			1
 
 //Smart creatures will attempt to remove Concentration and finish off downed players
-MODIFIER_CONCENTRATION_REMOVE_TARGET			2.0
+MODIFIER_CONCENTRATION_REMOVE_TARGET			1.25
 MULTIPLIER_TARGET_ENEMY_DOWNED 					4.0
 
 //This archetype is intended mages who are also traders

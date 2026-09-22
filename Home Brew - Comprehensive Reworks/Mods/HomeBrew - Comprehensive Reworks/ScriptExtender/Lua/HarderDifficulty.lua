@@ -280,36 +280,36 @@ local isApplyingPreset = false
 -- Any setting omitted from a preset is reset to its neutral value.
 -- Custom intentionally changes nothing.
 local DIFFICULTY_PRESETS = {
-    Explorer = {
-        npcHP = "Very Easy",
+    Default = {
+        npcHP = "Standard",
     },
-    Balanced = {
-        npcHP = "Easy",
+    Hard = {
+        npcHP = "Formidable",
     },
-    Tactician = {
-        npcHP = "Normal",
+    ["Very Hard"] = {
+        npcHP = "Extreme",
     },
-    Honour = {
-        npcHP = "Normal",
+    ["Ultra Hard"] = {
+        npcHP = "Extreme",
         npcProficiency = true,
     },
-    Mythic = {
-        npcHP = "Normal",
+    HellBrew = {
+        npcHP = "Extreme",
         npcProficiency = true,
         npcResources = {
             dangerous = 1,
             fatal = 2,
         },
     },
-    ["Expanded Party Size (Easy)"] = {
-        npcHP = "Nightmare",
-    },
-    ["Expanded Party Size (Normal)"] = {
-        npcHP = "Nightmare",
-        npcProficiency = true,
+    ["Expanded Party Size (Default)"] = {
+        npcHP = "Infernal",
     },
     ["Expanded Party Size (Hard)"] = {
-        npcHP = "Nightmare",
+        npcHP = "Infernal",
+        npcProficiency = true,
+    },
+    ["Expanded Party Size (Raid)"] = {
+        npcHP = "Infernal",
         npcProficiency = true,
         npcResources = {
             dangerous = 1,
@@ -326,7 +326,7 @@ local DIFFICULTY_PRESETS = {
         npcStats = 10,
     },
     Endurance = {
-        npcHP = "Very Hard",
+        npcHP = "Nightmare",
         playerHP = "Quintupled",
         npcProficiency = true,
         playerProficiency = true,
@@ -496,25 +496,25 @@ local function Clamp(value, minimum, maximum)
 end
 
 local function NormalizeNPCMode(value)
-    local mode = tostring(value or "Normal")
+    local mode = tostring(value or "Extreme")
     mode = mode:gsub("^%s+", ""):gsub("%s+$", ""):lower()
     mode = mode:gsub("%s+", "")
 
-    local valid = {
-        veryeasy = true,
-        easy = true,
-        normal = true,
-        hard = true,
-        veryhard = true,
-        nightmare = true,
-        infernal = true,
-        legendary = true,
-        ascendant = true,
-        impossible = true,
+    local modeToStatusKey = {
+        standard = "veryeasy",
+        formidable = "easy",
+        extreme = "normal",
+        overwhelming = "hard",
+        nightmare = "veryhard",
+        infernal = "nightmare",
+        titanic = "infernal",
+        legendary = "legendary",
+        ascendant = "ascendant",
+        impossible = "impossible",
     }
 
-    if valid[mode] then
-        return mode
+    if modeToStatusKey[mode] then
+        return modeToStatusKey[mode]
     end
 
     return "normal"
@@ -557,7 +557,7 @@ local function ApplyNPCHP(guid, force)
     end
 
     local encounter = EncounterType(guid)
-    local mode = NormalizeNPCMode(GetString(NPC_HP_MODE[encounter], "Normal"))
+    local mode = NormalizeNPCMode(GetString(NPC_HP_MODE[encounter], "Extreme"))
     local status = NPC_HP_STATUS[encounter][mode]
 
     RemoveStatuses(guid, ALL_NPC_HP_STATUSES)
@@ -811,7 +811,7 @@ local function ApplyDifficultyPreset(presetName)
 
     -- Reset every configurable difficulty setting to neutral values first.
     for _, settingId in pairs(NPC_HP_MODE) do
-        MCM.Set(settingId, "Normal")
+        MCM.Set(settingId, "Extreme")
     end
 
     for _, encounterSettings in pairs(NPC_STATS) do
@@ -847,7 +847,7 @@ local function ApplyDifficultyPreset(presetName)
     end
 
     -- NPC Hit Points
-    local npcHPMode = preset.npcHP or "Normal"
+    local npcHPMode = preset.npcHP or "Extreme"
     for _, settingId in pairs(NPC_HP_MODE) do
         MCM.Set(settingId, npcHPMode)
     end
@@ -1021,7 +1021,7 @@ Ext.ModEvents.BG3MCM["MCM_Setting_Saved"]:Subscribe(function(payload)
     end
 
     if payload.settingId == DIFFICULTY_PRESET then
-        ApplyDifficultyPreset(GetString(DIFFICULTY_PRESET, "Balanced"))
+        ApplyDifficultyPreset(GetString(DIFFICULTY_PRESET, "Default"))
         return
     end
 
