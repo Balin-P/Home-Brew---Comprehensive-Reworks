@@ -195,26 +195,45 @@ local function CaptureChoice(collection,selected,identity,label)
     for i=1,M.Count(collection) do
         local candidate=M.Read(collection,i)
         if SameIdentity(candidate,identity) then
-            matches[#matches+1]={Index=i,Item=candidate}
+            matches[#matches+1]={Index=i,Item=candidate,Identity=M.Identity(candidate) or identity}
         end
     end
-    if #matches==0 then error('An appearance option is still loading. Try saving again.') end
-    if #matches==1 or EquivalentRepeatedIdentity(identity) then return nil end
+
+    -- Some selected VM objects expose extra/transient properties that the same
+    -- entry inside the available-options list does not expose. If strict
+    -- identity finds nothing, fall back to proving which catalogue entry is the
+    -- current selection by exact object identity/equality, then canonicalize the
+    -- saved identity from that catalogue entry.
+    if #matches==0 then
+        local raw,byEquality={},{ }
+        for i=1,M.Count(collection) do
+            local candidate=M.Read(collection,i)
+            if rawequal(candidate,selected) then raw[#raw+1]={Index=i,Item=candidate,Identity=M.Identity(candidate) or identity} end
+            if SameObject(candidate,selected) then byEquality[#byEquality+1]={Index=i,Item=candidate,Identity=M.Identity(candidate) or identity} end
+        end
+        matches=#raw==1 and raw or byEquality
+        if #matches~=1 then error('An appearance option is still loading. Try saving again.') end
+        local resolved=matches[1]
+        return resolved.Identity, {Index=resolved.Index,Catalogue=Catalogue(collection)}
+    end
+
+    if #matches==1 then return matches[1].Identity, nil end
+    if EquivalentRepeatedIdentity(identity) then return matches[1].Identity, nil end
 
     -- Prefer raw Lua object identity. Some SE bridges produce distinct proxies
     -- for the same C++ instance; equality is accepted only when exactly one
     -- matching option equals the currently selected game-owned object.
     local raw,byEquality={},{ }
     for _,candidate in ipairs(matches) do
-        if rawequal(candidate.Item,selected) then raw[#raw+1]=candidate.Index end
-        if SameObject(candidate.Item,selected) then byEquality[#byEquality+1]=candidate.Index end
+        if rawequal(candidate.Item,selected) then raw[#raw+1]=candidate end
+        if SameObject(candidate.Item,selected) then byEquality[#byEquality+1]=candidate end
     end
-    local indexes=#raw==1 and raw or byEquality
-    if #indexes~=1 then
+    local resolved=(#raw==1 and raw[1]) or (#byEquality==1 and byEquality[1]) or nil
+    if not resolved then
         error('More than one appearance option matches this preset ('..tostring(label)
             ..'; '..#matches..' entries; selected native option cannot be identified uniquely).')
     end
-    return {Index=indexes[1],Catalogue=Catalogue(collection)}
+    return resolved.Identity, {Index=resolved.Index,Catalogue=Catalogue(collection)}
 end
 
 function M.Find(collection, identity, label, choice)
@@ -304,7 +323,7 @@ function M.Capture(context)
             result.Selections.SelectedChin={Source=pair[2],None=true}
         elseif selected and (pair[1]~='SelectedHeterochromiaEyeColour' or heterochromia) then
             local identity=Descriptor(selected,pair[1])
-            local choice=CaptureChoice(source,selected,identity,pair[1])
+            identity,choice=CaptureChoice(source,selected,identity,pair[1])
             result.Selections[pair[1]]={Source=pair[2],Identity=identity,Choice=choice}
             if pair[1]=='SelectedHead' or pair[1]=='SelectedGenitals' then
                 result.BodyOptions[#result.BodyOptions+1]={Source=pair[2],Identity=identity,Choice=choice}

@@ -1763,6 +1763,15 @@ data "Weight" "0"
 data "ObjectCategory" "FoodCooked"
 data "SupplyValue" "25"
 
+<!--CHESTS-->
+
+new entry "OBJ_Chest_Wood"
+type "Object"
+using "OBJ_Chest"
+data "RootTemplate" "5f089bb9-1816-43b8-8e44-f2d58804ea23"
+data "Weight" "24"
+data "Vitality" "12"
+
 <!--COATINGS-->
 
 new entry "ALCH_Solution_Oil_RemoveResistanceFire"

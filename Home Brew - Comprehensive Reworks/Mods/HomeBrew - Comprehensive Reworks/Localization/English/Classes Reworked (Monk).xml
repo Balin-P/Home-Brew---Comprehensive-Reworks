@@ -7,7 +7,7 @@
 	<content contentuid="hfe6be642g5ae0g4e79gaccag91689d25420c" version="3">You gain one Ki Point per level, which are restored upon taking a &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;. Ki Points fuel various techniques as a Monk, allowing you to be more effective and versatile in combat.</content>
 
 	<content contentuid="d03f845e0df8463295a0cc3b6d86442c6a942" version="6">Martial Arts</content>
-	<content contentuid="d03f845e0df8463295a0cc3b6d86442c6a921" version="6">Your weapons and unarmed damage may scale using your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;, rather than your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;. This can be toggled at any time.&lt;br&gt;&lt;br&gt;Additionally, you are able to benefit from &lt;LSTag Type="Status" Tooltip="Tooltip_FreeHandling"&gt;Free Handling&lt;/LSTag&gt; while you are unarmed.</content>
+	<content contentuid="d03f845e0df8463295a0cc3b6d86442c6a921" version="6">Your weapons and unarmed damage may scale using your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;, rather than your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt;. This can be toggled at any time.&lt;br&gt;&lt;br&gt;Additionally, you are able to benefit from &lt;LSTag Type="Status" Tooltip="Tooltip_FreeHandling"&gt;Free Handling&lt;/LSTag&gt; while you are unarmed, and you regain &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Points&lt;/LSTag&gt; each turn equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; minus one.</content>
 
 	<content contentuid="h69adc5a5ge60ag4affg84a0gd14490176db0" version="1">Unarmed Strike</content>
 	<content contentuid="hefec7f3fg7e34g4a1ag97a4gc4223e9e32b4" version="2">Swiftly strike an enemy.</content>
@@ -16,10 +16,10 @@
 	<content contentuid="h8ed549a4ga454g49b4gb319g7335ccf73b3a" version="6">Punch twice in rapid succession.</content>
 
 	<content contentuid="d03f845e0df8463295a0cc3b6d86442c4a452" version="6">Martial Flux</content>
-	<content contentuid="d03f845e0df8463295a0cc3b6d86442c2a354" version="6">Upon starting your turn, you regain one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt;.</content>
+	<content contentuid="d03f845e0df8463295a0cc3b6d86442c2a354" version="6">When expending &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Points&lt;/LSTag&gt; in order to make an &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, the number needed to roll a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; is reduced by one.</content>
 
 	<content contentuid="d03f845e0df8463295a0cc3b6d86442c6a9ed" version="6">Ki Resonance</content>
-	<content contentuid="d03f845e0df8463295a0cc3b6d86442c1a345" version="6">When expending &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Points&lt;/LSTag&gt; in order to deal damage, the lowest number you are capable of rolling is an 8.</content>
+	<content contentuid="d03f845e0df8463295a0cc3b6d86442c1a345" version="6">When expending &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Points&lt;/LSTag&gt; in order to deal damage, the lowest number you are capable of rolling is a 8.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">WAY OF THE ARCANE</content>
 
@@ -295,7 +295,7 @@
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae76505000za" version="5">Deliver a focused blow with your main-hand weapon, dealing twice as much base damage as a normal strike.</content>
 
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500004" version="1">Unanswered Angle</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000d" version="1">When dealing damage to an enemy or item with a weapon, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt;.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000d" version="1">When dealing damage to an enemy or item, you ignore all physical &lt;LSTag Tooltip="Resistant"&gt;Resistances&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunities&lt;/LSTag&gt;.</content>
 
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500003" version="1">Macabre Patience</content>
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000c" version="1">&lt;LSTag Type="Spell" Tooltip="Target_JudgementCut"&gt;Judgement Cut&lt;/LSTag&gt; now targets creatures within [1] of your original target. In addition, &lt;LSTag Type="Spell" Tooltip="Target_MirageBlade"&gt;Mirage Blade&lt;/LSTag&gt; is now capable of targeting two separate creatures, rather than one. Finally, when dealing damage to an enemy with &lt;LSTag Type="Spell" Tooltip="Target_TemperedStrike"&gt;Tempered Strike&lt;/LSTag&gt;, you roll your damage with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
@@ -307,7 +307,7 @@
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000e" version="1">At the start of each turn, you regain one &lt;LSTag Type="ActionResource" Tooltip="KiPoint"&gt;Ki Point&lt;/LSTag&gt;. In addition, ending your turn without moving will restore an additional Ki Point.</content>
 
 	<content contentuid="a19b576b3c4541089f1d4b0e4ae7650500006" version="1">Strike of the Yamato</content>
-	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000f" version="1">When targeting a creature with all of their &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_JudgementCut"&gt;Judgement Cut&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_MirageBlade"&gt;Mirage Blade&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_TemperedStrike"&gt;Tempered Strike&lt;/LSTag&gt; will always trigger a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+	<content contentuid="a19b576b3c4541089f1d4b0e4ae765050000f" version="1">When targeting a creature with all of their &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_JudgementCut"&gt;Judgement Cut&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_MirageBlade"&gt;Mirage Blade&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_TemperedStrike"&gt;Tempered Strike&lt;/LSTag&gt; will always trigger a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, and will deal the maximum damage possible.</content>
 
 <content contentuid="0000000000000000000000000000000000000" version="1">PASSIVES</content>
 
