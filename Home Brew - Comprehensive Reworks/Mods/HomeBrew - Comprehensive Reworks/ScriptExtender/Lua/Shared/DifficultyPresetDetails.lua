@@ -12,10 +12,18 @@ local DIFFICULTY_PRESETS = {
     ["Ultra Hard"] = {
         npcHP = "Extreme",
         npcProficiency = true,
+        npcProficiencyExcluded = {
+            Damage = true,
+            DamageResistance = true,
+        },
     },
     HellBrew = {
         npcHP = "Extreme",
         npcProficiency = true,
+        npcProficiencyExcluded = {
+            Damage = true,
+            DamageResistance = true,
+        },
         npcResources = {
             dangerous = 1,
             fatal = 2,
@@ -74,7 +82,9 @@ local function ValuesFor(presetName, catalog)
             elseif id=="hb_player_hp_mode" then
                 value=preset.playerHP or "Normal"
             elseif id:match("^hb_stats_prof_") then
+                local statKey=id:match("_([^_]+)$")
                 value=preset.npcProficiency==true
+                    and not (preset.npcProficiencyExcluded and preset.npcProficiencyExcluded[statKey]==true)
             elseif id:match("^hb_player_stats_prof_") then
                 value=preset.playerProficiency==true
             elseif id:match("^hb_stats_") then

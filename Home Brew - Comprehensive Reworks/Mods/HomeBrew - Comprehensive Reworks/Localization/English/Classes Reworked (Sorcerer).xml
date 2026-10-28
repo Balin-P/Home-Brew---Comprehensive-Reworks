@@ -196,9 +196,9 @@
 	<content contentuid="ffd6d5a62dcb4878b49747e9a884a5f10zzza" version="1">Compress and condense your blood to the edge of your fingertips in order to fire a viciously fast beam of blood which leaves your targets with &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt;.</content>
 
 	<content contentuid="ffd6d5a62dcb4878b49747e9a884a5f100002" version="1">A Symphony of Red</content>
-	<content contentuid="ffd6d5a62dcb4878b49747e9a884a5f10000b" version="1">Dealing damage forces your target to become an &lt;LSTag Type="Status" Tooltip="BLEEDING_EFFIGY"&gt;Effigy of Blood&lt;/LSTag&gt;. Only one creature may become an Effigy of Blood at a time.</content>
+	<content contentuid="ffd6d5a62dcb4878b49747e9a884a5f10000b" version="1">Dealing damage forces your target to become an &lt;LSTag Type="Status" Tooltip="BLEEDING_EFFIGY"&gt;Effigy of Blood&lt;/LSTag&gt;.</content>
 	<content contentuid="ffd6d5a62dcb4878b49747e9a884a5f1000z2" version="1">Effigy of Blood</content>
-	<content contentuid="ffd6d5a62dcb4878b49747e9a884a5f1000zb" version="1">Affected creature loses 10% of their total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of each turn and has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Constitution based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	<content contentuid="ffd6d5a62dcb4878b49747e9a884a5f1000zb" version="1">Affected creature loses 5% of their total &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; at the start of each turn and has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Constitution based &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 
 	<content contentuid="ffd6d5a62dcb4878b49747e9a884a5f100003" version="1">Bleed It Out</content>
 	<content contentuid="ffd6d5a62dcb4878b49747e9a884a5f10000c" version="1">When casting Spells, you may expend your own &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; in place of &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt;, expending 5% of your total Hit Points per level of Spell Slot spent. This can be toggled at any time.</content>

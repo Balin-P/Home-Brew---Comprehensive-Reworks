@@ -41,7 +41,9 @@ function ChainDamage()
     | SpellId('Projectile_EldritchBlast_Penumbral_Necrotic') | SpellId('Projectile_EldritchBlast_Penumbral_Radiant') | SpellId('Projectile_EldritchBlast_Penumbral_Necrotic_Enemy')
     | SpellId('Projectile_EldritchBlast_Penumbral_Necrotic_Enemy2') | SpellId('Projectile_EldritchBlast_Penumbral_Radiant_Enemy') | SpellId('Projectile_EldritchBlast_Penumbral_Radiant_Enemy2')
     | SpellId('Projectile_EldritchBlast_Penumbral_Necrotic_Corpse') | SpellId('Projectile_EldritchBlast_Penumbral_Necrotic_Corpse2') | SpellId('Projectile_EldritchBlast_Penumbral_Radiant_Ally')
-    | SpellId('Projectile_EldritchBlast_Penumbral_Radiant_Ally2') | SpellId('Projectile_PyrrhicFlare_Chain')
+    | SpellId('Projectile_EldritchBlast_Penumbral_Radiant_Ally2') | SpellId('Projectile_PyrrhicFlare_Chain') | SpellId('Projectile_SteelWindStrike')
+    | SpellId('Projectile_SteelWindStrike_2') | SpellId('Projectile_SteelWindStrike_3') | SpellId('Projectile_SteelWindStrike_4')
+    | SpellId('Projectile_SteelWindStrike_5') | SpellId('Projectile_SteelWindStrike_6')
 end
 
 function ConcealedCarryCheck()

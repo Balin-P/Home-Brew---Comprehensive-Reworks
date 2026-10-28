@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="AnubisConfigName" type="FixedString" value="Patroller" />
+					<attribute id="Archetype" type="FixedString" value="deathShepherd" />
+					<attribute id="CombatGroupID" type="FixedString" value="d874601f-7d85-4bdd-8e70-3b89d6a5d05b" />
+					<attribute id="Faction" type="guid" value="60749034-59cb-4551-b5ea-07d1edd617a9" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CRE_Main_A" />
+					<attribute id="LevelOverride" type="int32" value="5" />
+					<attribute id="MapKey" type="FixedString" value="09f52656-f262-48a2-bdbb-949264077dc4" />
+					<attribute id="Name" type="LSString" value="S_CRE_CultistsUndead_GiantSkeleton_000" />
+					<attribute id="TemplateName" type="FixedString" value="f05367f6-78f2-4631-996e-7e21912bbb78" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209026" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CRE_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="0cdf52f2-9453-df63-13c3-cfad8fbdbd2a" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="20d3c549-daa8-9458-c745-3903c69c6a77" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="c382ac08-fda5-da35-960f-188e29b9b1c3" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+						<node id="ScriptConfigGlobalParameters">
+							<children>
+								<node id="ScriptConfigParameter">
+									<attribute id="Name" type="LSString" value="patrolSpline" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="S_CRE_CultistUndead_SkeletonPatrol00_e57fccd8-e14f-4d8e-9525-b70e36438468" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-95.441635 65.72496 -119.225685" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.46985003 0 0.8827463" />
+							<attribute id="Scale" type="float" value="1.5" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="AnubisConfigName" type="FixedString" value="Patroller" />
+					<attribute id="Archetype" type="FixedString" value="deathShepherd" />
+					<attribute id="CombatGroupID" type="FixedString" value="d874601f-7d85-4bdd-8e70-3b89d6a5d05b" />
+					<attribute id="Faction" type="guid" value="60749034-59cb-4551-b5ea-07d1edd617a9" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CRE_Main_A" />
+					<attribute id="LevelOverride" type="int32" value="5" />
+					<attribute id="MapKey" type="FixedString" value="d5aec90b-aa86-4c8a-b27d-53002d0f659e" />
+					<attribute id="Name" type="LSString" value="S_CRE_CultistsUndead_GiantSkeleton_001" />
+					<attribute id="TemplateName" type="FixedString" value="f05367f6-78f2-4631-996e-7e21912bbb78" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209026" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CRE_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="0cdf52f2-9453-df63-13c3-cfad8fbdbd2a" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="20d3c549-daa8-9458-c745-3903c69c6a77" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="c382ac08-fda5-da35-960f-188e29b9b1c3" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+						<node id="ScriptConfigGlobalParameters">
+							<children>
+								<node id="ScriptConfigParameter">
+									<attribute id="Name" type="LSString" value="patrolSpline" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="S_CRE_CultistUndead_SkeletonPatrol01_fd23130a-c947-42ff-9c04-bf239904dbb0" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="GEN_Skeleton_Generic" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-93.99257 67.59186 -105.7208" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.034654714 0 0.9993994" />
+							<attribute id="Scale" type="float" value="1.5" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
