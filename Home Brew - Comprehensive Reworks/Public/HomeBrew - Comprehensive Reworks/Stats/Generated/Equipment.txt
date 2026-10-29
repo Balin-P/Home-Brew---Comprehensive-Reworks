@@ -347,9 +347,7 @@ add equipmentgroup
 add equipment entry "OBJ_Backpack_StartingGear"
 
 new equipment "EQP_CC_Ranger"
-add initialweaponset "Ranged"
-add equipmentgroup
-add equipment entry "WPN_Longbow"
+add initialweaponset "Melee"
 add equipmentgroup
 add equipment entry "WPN_Shortsword"
 add equipmentgroup
@@ -886,9 +884,7 @@ add equipmentgroup
 add equipment entry "OBJ_Backpack_StartingGear"
 
 new equipment "EQP_Minsc"
-add initialweaponset "Ranged"
-add equipmentgroup
-add equipment entry "WPN_Longbow"
+add initialweaponset "Melee"
 add equipmentgroup
 add equipment entry "WPN_Shortsword"
 add equipmentgroup

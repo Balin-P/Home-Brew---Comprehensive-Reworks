@@ -4,12 +4,12 @@
 -- NPCs:
 --   * Hit Points: Normal / Dangerous / Fatal encounter dropdowns
 --   * Resources: Actions / Bonus Actions / Reactions
---   * Stats: AC / Attack / Damage / Damage Resistance / Saves / Spell Save DC
+--   * Stats: AC / Attack / Damage / Damage Reduction / Saves / Spell Save DC
 --
 -- Players:
 --   * Hit Points: Normal / Doubled / Tripled / Quadrupled / Quintupled
 --   * Resources: Actions / Bonus Actions / Reactions
---   * Stats: AC / Attack / Damage / Damage Resistance / Saves / Spell Save DC
+--   * Stats: AC / Attack / Damage / Damage Reduction / Saves / Spell Save DC
 
 local MOD_UUID = "486d1526-3505-4b09-9790-0f6a60f5ac0f"
 
@@ -1181,8 +1181,10 @@ local function ApplyDifficultyPreset(presetName)
     -- NPC proficiency scaling
     if preset.npcProficiency == true then
         for _, encounterSettings in pairs(NPC_PROFICIENCY) do
-            for _, settingId in pairs(encounterSettings) do
-                MCM.Set(settingId, true)
+            for statKey, settingId in pairs(encounterSettings) do
+                if not (preset.npcProficiencyExcluded and preset.npcProficiencyExcluded[statKey] == true) then
+                    MCM.Set(settingId, true)
+                end
             end
         end
     end

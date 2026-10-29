@@ -412,19 +412,19 @@
             },
             {
               "Id": "hb_stats_prof_DamageResistance",
-              "Name": "Use Proficiency Bonus for Damage Resistance",
+              "Name": "Use Proficiency Bonus for Damage Reduction",
               "Type": "checkbox",
               "Default": false,
-              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Damage Resistance bonus.",
-              "Description": "When enabled, Normal NPCs gain a bonus to their Damage Resistance equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Damage Reduction bonus.",
+              "Description": "When enabled, Normal NPCs gain a bonus to their Damage Reduction equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
             },
             {
               "Id": "hb_stats_DamageResistance",
-              "Name": "Damage Resistance",
+              "Name": "Damage Reduction",
               "Type": "slider_int",
               "Default": 0,
-              "Tooltip": "Set the Normal Encounter Damage Resistance bonus.",
-              "Description": "Normal NPCs gain a +1 bonus to their Damage Resistance per point.",
+              "Tooltip": "Set the Normal Encounter Damage Reduction bonus.",
+              "Description": "Normal NPCs gain a +1 bonus to their Damage Reduction per point.",
               "Options": {
                 "Min": 0,
                 "Max": 10
@@ -541,19 +541,19 @@
             },
             {
               "Id": "hb_stats_prof_dangerous_DamageResistance",
-              "Name": "Use Proficiency Bonus for Damage Resistance",
+              "Name": "Use Proficiency Bonus for Damage Reduction",
               "Type": "checkbox",
               "Default": false,
-              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Damage Resistance bonus.",
-              "Description": "When enabled, Dangerous NPCs gain a bonus to their Damage Resistance equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Damage Reduction bonus.",
+              "Description": "When enabled, Dangerous NPCs gain a bonus to their Damage Reduction equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
             },
             {
               "Id": "hb_stats_dangerous_DamageResistance",
-              "Name": "Damage Resistance",
+              "Name": "Damage Reduction",
               "Type": "slider_int",
               "Default": 0,
-              "Tooltip": "Set the Dangerous Encounter Damage Resistance bonus.",
-              "Description": "Dangerous NPCs gain a +1 bonus to their Damage Resistance per point.",
+              "Tooltip": "Set the Dangerous Encounter Damage Reduction bonus.",
+              "Description": "Dangerous NPCs gain a +1 bonus to their Damage Reduction per point.",
               "Options": {
                 "Min": 0,
                 "Max": 10
@@ -670,19 +670,19 @@
             },
             {
               "Id": "hb_stats_prof_fatal_DamageResistance",
-              "Name": "Use Proficiency Bonus for Damage Resistance",
+              "Name": "Use Proficiency Bonus for Damage Reduction",
               "Type": "checkbox",
               "Default": false,
-              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Damage Resistance bonus.",
-              "Description": "When enabled, Fatal NPCs gain a bonus to their Damage Resistance equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Damage Reduction bonus.",
+              "Description": "When enabled, Fatal NPCs gain a bonus to their Damage Reduction equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
             },
             {
               "Id": "hb_stats_fatal_DamageResistance",
-              "Name": "Damage Resistance",
+              "Name": "Damage Reduction",
               "Type": "slider_int",
               "Default": 0,
-              "Tooltip": "Set the Fatal Encounter Damage Resistance bonus.",
-              "Description": "Fatal NPCs gain a +1 bonus to their Damage Resistance per point.",
+              "Tooltip": "Set the Fatal Encounter Damage Reduction bonus.",
+              "Description": "Fatal NPCs gain a +1 bonus to their Damage Reduction per point.",
               "Options": {
                 "Min": 0,
                 "Max": 10
@@ -924,19 +924,19 @@
             },
             {
               "Id": "hb_player_stats_prof_DamageResistance",
-              "Name": "Use Proficiency Bonus for Damage Resistance",
+              "Name": "Use Proficiency Bonus for Damage Reduction",
               "Type": "checkbox",
               "Default": false,
-              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Damage Resistance bonus.",
-              "Description": "When enabled, players gain a bonus to their Damage Resistance equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
+              "Tooltip": "Use the creature's Proficiency Bonus instead of a fixed Damage Reduction bonus.",
+              "Description": "When enabled, players gain a bonus to their Damage Reduction equal to their own Proficiency Bonus. This overrides the fixed-value slider below."
             },
             {
               "Id": "hb_player_stats_DamageResistance",
-              "Name": "Damage Resistance",
+              "Name": "Damage Reduction",
               "Type": "slider_int",
               "Default": 0,
-              "Tooltip": "Set the Player Damage Resistance bonus.",
-              "Description": "Players gain a +1 bonus to their Damage Resistance per point.",
+              "Tooltip": "Set the Player Damage Reduction bonus.",
+              "Description": "Players gain a +1 bonus to their Damage Reduction per point.",
               "Options": {
                 "Min": 0,
                 "Max": 10
